@@ -1,0 +1,14 @@
+{
+  "provider": "azurerm",
+  "repo": "hashicorp/terraform-provider-azurerm",
+  "roots": [
+    "website/docs/r",
+    "website/docs/d",
+    "website/docs/resources",
+    "website/docs/data-sources"
+  ],
+  "count": 0,
+  "generated_at": "2025-10-18T17:00:01.146264Z",
+  "items": [],
+  "ref": "main"
+}

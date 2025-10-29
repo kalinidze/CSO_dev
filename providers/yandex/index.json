@@ -1,0 +1,2495 @@
+{
+  "provider": "yandex",
+  "repo": "yandex-cloud/terraform-provider-yandex",
+  "roots": [
+    "docs",
+    "docs/resources",
+    "docs/data-sources",
+    "docs/datasources"
+  ],
+  "count": 310,
+  "generated_at": "2025-10-18T17:00:01.889963Z",
+  "items": [
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "airflow_cluster",
+      "path": "docs/data-sources/airflow_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/airflow_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/airflow_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "alb_backend_group",
+      "path": "docs/data-sources/alb_backend_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/alb_backend_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/alb_backend_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "alb_http_router",
+      "path": "docs/data-sources/alb_http_router.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/alb_http_router.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/alb_http_router.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "alb_load_balancer",
+      "path": "docs/data-sources/alb_load_balancer.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/alb_load_balancer.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/alb_load_balancer.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "alb_target_group",
+      "path": "docs/data-sources/alb_target_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/alb_target_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/alb_target_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "alb_virtual_host",
+      "path": "docs/data-sources/alb_virtual_host.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/alb_virtual_host.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/alb_virtual_host.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "api_gateway",
+      "path": "docs/data-sources/api_gateway.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/api_gateway.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/api_gateway.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "audit_trails_trail",
+      "path": "docs/data-sources/audit_trails_trail.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/audit_trails_trail.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/audit_trails_trail.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "backup_policy",
+      "path": "docs/data-sources/backup_policy.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/backup_policy.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/backup_policy.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "billing_cloud_binding",
+      "path": "docs/data-sources/billing_cloud_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/billing_cloud_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/billing_cloud_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "cdn_origin_group",
+      "path": "docs/data-sources/cdn_origin_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/cdn_origin_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/cdn_origin_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "cdn_resource",
+      "path": "docs/data-sources/cdn_resource.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/cdn_resource.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/cdn_resource.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "client_config",
+      "path": "docs/data-sources/client_config.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/client_config.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/client_config.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "cloudregistry_registry",
+      "path": "docs/data-sources/cloudregistry_registry.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/cloudregistry_registry.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/cloudregistry_registry.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "cloudregistry_registry_ip_permission",
+      "path": "docs/data-sources/cloudregistry_registry_ip_permission.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/cloudregistry_registry_ip_permission.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/cloudregistry_registry_ip_permission.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "cm_certificate",
+      "path": "docs/data-sources/cm_certificate.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/cm_certificate.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/cm_certificate.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "cm_certificate_content",
+      "path": "docs/data-sources/cm_certificate_content.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/cm_certificate_content.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/cm_certificate_content.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "compute_disk",
+      "path": "docs/data-sources/compute_disk.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/compute_disk.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/compute_disk.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "compute_disk_placement_group",
+      "path": "docs/data-sources/compute_disk_placement_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/compute_disk_placement_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/compute_disk_placement_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "compute_filesystem",
+      "path": "docs/data-sources/compute_filesystem.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/compute_filesystem.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/compute_filesystem.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "compute_gpu_cluster",
+      "path": "docs/data-sources/compute_gpu_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/compute_gpu_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/compute_gpu_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "compute_image",
+      "path": "docs/data-sources/compute_image.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/compute_image.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/compute_image.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "compute_instance",
+      "path": "docs/data-sources/compute_instance.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/compute_instance.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/compute_instance.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "compute_instance_group",
+      "path": "docs/data-sources/compute_instance_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/compute_instance_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/compute_instance_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "compute_placement_group",
+      "path": "docs/data-sources/compute_placement_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/compute_placement_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/compute_placement_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "compute_snapshot",
+      "path": "docs/data-sources/compute_snapshot.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/compute_snapshot.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/compute_snapshot.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "compute_snapshot_schedule",
+      "path": "docs/data-sources/compute_snapshot_schedule.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/compute_snapshot_schedule.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/compute_snapshot_schedule.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "connectionmanager_connection",
+      "path": "docs/data-sources/connectionmanager_connection.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/connectionmanager_connection.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/connectionmanager_connection.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "container_registry",
+      "path": "docs/data-sources/container_registry.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/container_registry.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/container_registry.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "container_registry_ip_permission",
+      "path": "docs/data-sources/container_registry_ip_permission.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/container_registry_ip_permission.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/container_registry_ip_permission.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "container_repository",
+      "path": "docs/data-sources/container_repository.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/container_repository.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/container_repository.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "container_repository_lifecycle_policy",
+      "path": "docs/data-sources/container_repository_lifecycle_policy.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/container_repository_lifecycle_policy.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/container_repository_lifecycle_policy.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "dataproc_cluster",
+      "path": "docs/data-sources/dataproc_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/dataproc_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/dataproc_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "datasphere_community",
+      "path": "docs/data-sources/datasphere_community.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/datasphere_community.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/datasphere_community.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "datasphere_project",
+      "path": "docs/data-sources/datasphere_project.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/datasphere_project.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/datasphere_project.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "dns_zone",
+      "path": "docs/data-sources/dns_zone.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/dns_zone.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/dns_zone.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "function",
+      "path": "docs/data-sources/function.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/function.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/function.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "function_scaling_policy",
+      "path": "docs/data-sources/function_scaling_policy.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/function_scaling_policy.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/function_scaling_policy.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "function_trigger",
+      "path": "docs/data-sources/function_trigger.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/function_trigger.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/function_trigger.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "gitlab_instance",
+      "path": "docs/data-sources/gitlab_instance.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/gitlab_instance.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/gitlab_instance.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "iam_oauth_client",
+      "path": "docs/data-sources/iam_oauth_client.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/iam_oauth_client.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/iam_oauth_client.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "iam_policy",
+      "path": "docs/data-sources/iam_policy.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/iam_policy.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/iam_policy.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "iam_role",
+      "path": "docs/data-sources/iam_role.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/iam_role.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/iam_role.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "iam_service_account",
+      "path": "docs/data-sources/iam_service_account.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/iam_service_account.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/iam_service_account.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "iam_service_agent",
+      "path": "docs/data-sources/iam_service_agent.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/iam_service_agent.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/iam_service_agent.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "iam_user",
+      "path": "docs/data-sources/iam_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/iam_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/iam_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "iam_workload_identity_federated_credential",
+      "path": "docs/data-sources/iam_workload_identity_federated_credential.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/iam_workload_identity_federated_credential.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/iam_workload_identity_federated_credential.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "iam_workload_identity_oidc_federation",
+      "path": "docs/data-sources/iam_workload_identity_oidc_federation.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/iam_workload_identity_oidc_federation.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/iam_workload_identity_oidc_federation.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "iot_core_broker",
+      "path": "docs/data-sources/iot_core_broker.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/iot_core_broker.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/iot_core_broker.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "iot_core_device",
+      "path": "docs/data-sources/iot_core_device.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/iot_core_device.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/iot_core_device.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "iot_core_registry",
+      "path": "docs/data-sources/iot_core_registry.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/iot_core_registry.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/iot_core_registry.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "kms_asymmetric_encryption_key",
+      "path": "docs/data-sources/kms_asymmetric_encryption_key.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/kms_asymmetric_encryption_key.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/kms_asymmetric_encryption_key.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "kms_asymmetric_signature_key",
+      "path": "docs/data-sources/kms_asymmetric_signature_key.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/kms_asymmetric_signature_key.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/kms_asymmetric_signature_key.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "kms_symmetric_key",
+      "path": "docs/data-sources/kms_symmetric_key.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/kms_symmetric_key.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/kms_symmetric_key.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "kubernetes_cluster",
+      "path": "docs/data-sources/kubernetes_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/kubernetes_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/kubernetes_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "kubernetes_node_group",
+      "path": "docs/data-sources/kubernetes_node_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/kubernetes_node_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/kubernetes_node_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "lb_network_load_balancer",
+      "path": "docs/data-sources/lb_network_load_balancer.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/lb_network_load_balancer.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/lb_network_load_balancer.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "lb_target_group",
+      "path": "docs/data-sources/lb_target_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/lb_target_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/lb_target_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "loadtesting_agent",
+      "path": "docs/data-sources/loadtesting_agent.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/loadtesting_agent.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/loadtesting_agent.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "lockbox_secret",
+      "path": "docs/data-sources/lockbox_secret.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/lockbox_secret.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/lockbox_secret.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "lockbox_secret_version",
+      "path": "docs/data-sources/lockbox_secret_version.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/lockbox_secret_version.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/lockbox_secret_version.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "logging_group",
+      "path": "docs/data-sources/logging_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/logging_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/logging_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_clickhouse_cluster",
+      "path": "docs/data-sources/mdb_clickhouse_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_clickhouse_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_clickhouse_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_clickhouse_database",
+      "path": "docs/data-sources/mdb_clickhouse_database.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_clickhouse_database.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_clickhouse_database.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_clickhouse_user",
+      "path": "docs/data-sources/mdb_clickhouse_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_clickhouse_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_clickhouse_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_greenplum_cluster",
+      "path": "docs/data-sources/mdb_greenplum_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_greenplum_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_greenplum_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_greenplum_resource_group",
+      "path": "docs/data-sources/mdb_greenplum_resource_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_greenplum_resource_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_greenplum_resource_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_greenplum_user",
+      "path": "docs/data-sources/mdb_greenplum_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_greenplum_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_greenplum_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_kafka_cluster",
+      "path": "docs/data-sources/mdb_kafka_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_kafka_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_kafka_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_kafka_connector",
+      "path": "docs/data-sources/mdb_kafka_connector.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_kafka_connector.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_kafka_connector.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_kafka_topic",
+      "path": "docs/data-sources/mdb_kafka_topic.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_kafka_topic.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_kafka_topic.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_kafka_user",
+      "path": "docs/data-sources/mdb_kafka_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_kafka_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_kafka_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_mongodb_cluster",
+      "path": "docs/data-sources/mdb_mongodb_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_mongodb_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_mongodb_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_mongodb_database",
+      "path": "docs/data-sources/mdb_mongodb_database.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_mongodb_database.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_mongodb_database.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_mongodb_user",
+      "path": "docs/data-sources/mdb_mongodb_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_mongodb_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_mongodb_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_mysql_cluster",
+      "path": "docs/data-sources/mdb_mysql_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_mysql_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_mysql_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_mysql_database",
+      "path": "docs/data-sources/mdb_mysql_database.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_mysql_database.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_mysql_database.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_mysql_user",
+      "path": "docs/data-sources/mdb_mysql_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_mysql_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_mysql_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_opensearch_cluster",
+      "path": "docs/data-sources/mdb_opensearch_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_opensearch_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_opensearch_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_postgresql_cluster",
+      "path": "docs/data-sources/mdb_postgresql_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_postgresql_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_postgresql_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_postgresql_database",
+      "path": "docs/data-sources/mdb_postgresql_database.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_postgresql_database.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_postgresql_database.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_postgresql_user",
+      "path": "docs/data-sources/mdb_postgresql_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_postgresql_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_postgresql_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_redis_cluster",
+      "path": "docs/data-sources/mdb_redis_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_redis_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_redis_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_redis_cluster_v2",
+      "path": "docs/data-sources/mdb_redis_cluster_v2.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_redis_cluster_v2.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_redis_cluster_v2.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_redis_user",
+      "path": "docs/data-sources/mdb_redis_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_redis_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_redis_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "mdb_sqlserver_cluster",
+      "path": "docs/data-sources/mdb_sqlserver_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/mdb_sqlserver_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/mdb_sqlserver_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "message_queue",
+      "path": "docs/data-sources/message_queue.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/message_queue.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/message_queue.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "metastore_cluster",
+      "path": "docs/data-sources/metastore_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/metastore_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/metastore_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "monitoring_dashboard",
+      "path": "docs/data-sources/monitoring_dashboard.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/monitoring_dashboard.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/monitoring_dashboard.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "organizationmanager_group",
+      "path": "docs/data-sources/organizationmanager_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/organizationmanager_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/organizationmanager_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "organizationmanager_os_login_settings",
+      "path": "docs/data-sources/organizationmanager_os_login_settings.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/organizationmanager_os_login_settings.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/organizationmanager_os_login_settings.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "organizationmanager_saml_federation",
+      "path": "docs/data-sources/organizationmanager_saml_federation.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/organizationmanager_saml_federation.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/organizationmanager_saml_federation.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "organizationmanager_saml_federation_user_account",
+      "path": "docs/data-sources/organizationmanager_saml_federation_user_account.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/organizationmanager_saml_federation_user_account.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/organizationmanager_saml_federation_user_account.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "organizationmanager_user_ssh_key",
+      "path": "docs/data-sources/organizationmanager_user_ssh_key.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/organizationmanager_user_ssh_key.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/organizationmanager_user_ssh_key.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "resourcemanager_cloud",
+      "path": "docs/data-sources/resourcemanager_cloud.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/resourcemanager_cloud.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/resourcemanager_cloud.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "resourcemanager_folder",
+      "path": "docs/data-sources/resourcemanager_folder.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/resourcemanager_folder.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/resourcemanager_folder.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "serverless_container",
+      "path": "docs/data-sources/serverless_container.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/serverless_container.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/serverless_container.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "serverless_eventrouter_bus",
+      "path": "docs/data-sources/serverless_eventrouter_bus.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/serverless_eventrouter_bus.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/serverless_eventrouter_bus.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "serverless_eventrouter_connector",
+      "path": "docs/data-sources/serverless_eventrouter_connector.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/serverless_eventrouter_connector.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/serverless_eventrouter_connector.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "serverless_eventrouter_rule",
+      "path": "docs/data-sources/serverless_eventrouter_rule.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/serverless_eventrouter_rule.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/serverless_eventrouter_rule.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "smartcaptcha_captcha",
+      "path": "docs/data-sources/smartcaptcha_captcha.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/smartcaptcha_captcha.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/smartcaptcha_captcha.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "spark_cluster",
+      "path": "docs/data-sources/spark_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/spark_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/spark_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "sws_advanced_rate_limiter_profile",
+      "path": "docs/data-sources/sws_advanced_rate_limiter_profile.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/sws_advanced_rate_limiter_profile.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/sws_advanced_rate_limiter_profile.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "sws_security_profile",
+      "path": "docs/data-sources/sws_security_profile.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/sws_security_profile.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/sws_security_profile.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "sws_waf_profile",
+      "path": "docs/data-sources/sws_waf_profile.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/sws_waf_profile.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/sws_waf_profile.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "sws_waf_rule_set_descriptor",
+      "path": "docs/data-sources/sws_waf_rule_set_descriptor.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/sws_waf_rule_set_descriptor.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/sws_waf_rule_set_descriptor.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "trino_access_control",
+      "path": "docs/data-sources/trino_access_control.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/trino_access_control.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/trino_access_control.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "trino_catalog",
+      "path": "docs/data-sources/trino_catalog.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/trino_catalog.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/trino_catalog.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "trino_cluster",
+      "path": "docs/data-sources/trino_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/trino_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/trino_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "vpc_address",
+      "path": "docs/data-sources/vpc_address.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/vpc_address.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/vpc_address.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "vpc_gateway",
+      "path": "docs/data-sources/vpc_gateway.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/vpc_gateway.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/vpc_gateway.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "vpc_network",
+      "path": "docs/data-sources/vpc_network.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/vpc_network.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/vpc_network.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "vpc_private_endpoint",
+      "path": "docs/data-sources/vpc_private_endpoint.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/vpc_private_endpoint.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/vpc_private_endpoint.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "vpc_route_table",
+      "path": "docs/data-sources/vpc_route_table.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/vpc_route_table.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/vpc_route_table.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "vpc_security_group",
+      "path": "docs/data-sources/vpc_security_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/vpc_security_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/vpc_security_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "vpc_security_group_rule",
+      "path": "docs/data-sources/vpc_security_group_rule.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/vpc_security_group_rule.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/vpc_security_group_rule.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "vpc_subnet",
+      "path": "docs/data-sources/vpc_subnet.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/vpc_subnet.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/vpc_subnet.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "ydb_database_dedicated",
+      "path": "docs/data-sources/ydb_database_dedicated.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/ydb_database_dedicated.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/ydb_database_dedicated.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "ydb_database_serverless",
+      "path": "docs/data-sources/ydb_database_serverless.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/ydb_database_serverless.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/ydb_database_serverless.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "data_source",
+      "slug": "ytsaurus_cluster",
+      "path": "docs/data-sources/ytsaurus_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/data-sources/ytsaurus_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/data-sources/ytsaurus_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "airflow_cluster",
+      "path": "docs/resources/airflow_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/airflow_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/airflow_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "alb_backend_group",
+      "path": "docs/resources/alb_backend_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/alb_backend_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/alb_backend_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "alb_http_router",
+      "path": "docs/resources/alb_http_router.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/alb_http_router.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/alb_http_router.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "alb_load_balancer",
+      "path": "docs/resources/alb_load_balancer.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/alb_load_balancer.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/alb_load_balancer.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "alb_target_group",
+      "path": "docs/resources/alb_target_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/alb_target_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/alb_target_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "alb_virtual_host",
+      "path": "docs/resources/alb_virtual_host.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/alb_virtual_host.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/alb_virtual_host.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "api_gateway",
+      "path": "docs/resources/api_gateway.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/api_gateway.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/api_gateway.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "audit_trails_trail",
+      "path": "docs/resources/audit_trails_trail.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/audit_trails_trail.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/audit_trails_trail.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "backup_policy",
+      "path": "docs/resources/backup_policy.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/backup_policy.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/backup_policy.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "backup_policy_bindings",
+      "path": "docs/resources/backup_policy_bindings.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/backup_policy_bindings.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/backup_policy_bindings.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "billing_cloud_binding",
+      "path": "docs/resources/billing_cloud_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/billing_cloud_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/billing_cloud_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "cdn_origin_group",
+      "path": "docs/resources/cdn_origin_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/cdn_origin_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/cdn_origin_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "cdn_resource",
+      "path": "docs/resources/cdn_resource.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/cdn_resource.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/cdn_resource.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "cloudregistry_registry",
+      "path": "docs/resources/cloudregistry_registry.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/cloudregistry_registry.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/cloudregistry_registry.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "cloudregistry_registry_iam_binding",
+      "path": "docs/resources/cloudregistry_registry_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/cloudregistry_registry_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/cloudregistry_registry_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "cloudregistry_registry_ip_permission",
+      "path": "docs/resources/cloudregistry_registry_ip_permission.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/cloudregistry_registry_ip_permission.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/cloudregistry_registry_ip_permission.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "cm_certificate",
+      "path": "docs/resources/cm_certificate.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/cm_certificate.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/cm_certificate.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "cm_certificate_iam_binding",
+      "path": "docs/resources/cm_certificate_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/cm_certificate_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/cm_certificate_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "cm_certificate_iam_member",
+      "path": "docs/resources/cm_certificate_iam_member.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/cm_certificate_iam_member.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/cm_certificate_iam_member.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_disk",
+      "path": "docs/resources/compute_disk.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_disk.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_disk.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_disk_iam_binding",
+      "path": "docs/resources/compute_disk_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_disk_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_disk_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_disk_placement_group",
+      "path": "docs/resources/compute_disk_placement_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_disk_placement_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_disk_placement_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_disk_placement_group_iam_binding",
+      "path": "docs/resources/compute_disk_placement_group_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_disk_placement_group_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_disk_placement_group_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_filesystem",
+      "path": "docs/resources/compute_filesystem.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_filesystem.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_filesystem.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_filesystem_iam_binding",
+      "path": "docs/resources/compute_filesystem_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_filesystem_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_filesystem_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_gpu_cluster",
+      "path": "docs/resources/compute_gpu_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_gpu_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_gpu_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_gpu_cluster_iam_binding",
+      "path": "docs/resources/compute_gpu_cluster_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_gpu_cluster_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_gpu_cluster_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_image",
+      "path": "docs/resources/compute_image.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_image.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_image.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_image_iam_binding",
+      "path": "docs/resources/compute_image_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_image_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_image_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_instance",
+      "path": "docs/resources/compute_instance.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_instance.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_instance.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_instance_group",
+      "path": "docs/resources/compute_instance_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_instance_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_instance_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_instance_iam_binding",
+      "path": "docs/resources/compute_instance_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_instance_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_instance_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_placement_group",
+      "path": "docs/resources/compute_placement_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_placement_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_placement_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_placement_group_iam_binding",
+      "path": "docs/resources/compute_placement_group_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_placement_group_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_placement_group_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_snapshot",
+      "path": "docs/resources/compute_snapshot.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_snapshot.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_snapshot.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_snapshot_iam_binding",
+      "path": "docs/resources/compute_snapshot_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_snapshot_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_snapshot_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_snapshot_schedule",
+      "path": "docs/resources/compute_snapshot_schedule.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_snapshot_schedule.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_snapshot_schedule.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "compute_snapshot_schedule_iam_binding",
+      "path": "docs/resources/compute_snapshot_schedule_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/compute_snapshot_schedule_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/compute_snapshot_schedule_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "connectionmanager_connection",
+      "path": "docs/resources/connectionmanager_connection.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/connectionmanager_connection.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/connectionmanager_connection.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "container_registry",
+      "path": "docs/resources/container_registry.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/container_registry.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/container_registry.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "container_registry_iam_binding",
+      "path": "docs/resources/container_registry_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/container_registry_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/container_registry_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "container_registry_ip_permission",
+      "path": "docs/resources/container_registry_ip_permission.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/container_registry_ip_permission.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/container_registry_ip_permission.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "container_repository",
+      "path": "docs/resources/container_repository.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/container_repository.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/container_repository.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "container_repository_iam_binding",
+      "path": "docs/resources/container_repository_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/container_repository_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/container_repository_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "container_repository_lifecycle_policy",
+      "path": "docs/resources/container_repository_lifecycle_policy.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/container_repository_lifecycle_policy.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/container_repository_lifecycle_policy.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "dataproc_cluster",
+      "path": "docs/resources/dataproc_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/dataproc_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/dataproc_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "datasphere_community",
+      "path": "docs/resources/datasphere_community.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/datasphere_community.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/datasphere_community.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "datasphere_community_iam_binding",
+      "path": "docs/resources/datasphere_community_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/datasphere_community_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/datasphere_community_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "datasphere_project",
+      "path": "docs/resources/datasphere_project.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/datasphere_project.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/datasphere_project.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "datasphere_project_iam_binding",
+      "path": "docs/resources/datasphere_project_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/datasphere_project_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/datasphere_project_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "datatransfer_endpoint",
+      "path": "docs/resources/datatransfer_endpoint.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/datatransfer_endpoint.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/datatransfer_endpoint.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "datatransfer_transfer",
+      "path": "docs/resources/datatransfer_transfer.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/datatransfer_transfer.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/datatransfer_transfer.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "dns_recordset",
+      "path": "docs/resources/dns_recordset.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/dns_recordset.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/dns_recordset.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "dns_zone",
+      "path": "docs/resources/dns_zone.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/dns_zone.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/dns_zone.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "dns_zone_iam_binding",
+      "path": "docs/resources/dns_zone_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/dns_zone_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/dns_zone_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "function",
+      "path": "docs/resources/function.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/function.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/function.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "function_iam_binding",
+      "path": "docs/resources/function_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/function_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/function_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "function_scaling_policy",
+      "path": "docs/resources/function_scaling_policy.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/function_scaling_policy.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/function_scaling_policy.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "function_trigger",
+      "path": "docs/resources/function_trigger.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/function_trigger.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/function_trigger.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "gitlab_instance",
+      "path": "docs/resources/gitlab_instance.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/gitlab_instance.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/gitlab_instance.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "iam_oauth_client",
+      "path": "docs/resources/iam_oauth_client.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/iam_oauth_client.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/iam_oauth_client.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "iam_service_account",
+      "path": "docs/resources/iam_service_account.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/iam_service_account.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/iam_service_account.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "iam_service_account_api_key",
+      "path": "docs/resources/iam_service_account_api_key.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/iam_service_account_api_key.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/iam_service_account_api_key.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "iam_service_account_iam_binding",
+      "path": "docs/resources/iam_service_account_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/iam_service_account_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/iam_service_account_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "iam_service_account_iam_member",
+      "path": "docs/resources/iam_service_account_iam_member.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/iam_service_account_iam_member.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/iam_service_account_iam_member.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "iam_service_account_iam_policy",
+      "path": "docs/resources/iam_service_account_iam_policy.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/iam_service_account_iam_policy.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/iam_service_account_iam_policy.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "iam_service_account_key",
+      "path": "docs/resources/iam_service_account_key.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/iam_service_account_key.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/iam_service_account_key.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "iam_service_account_static_access_key",
+      "path": "docs/resources/iam_service_account_static_access_key.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/iam_service_account_static_access_key.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/iam_service_account_static_access_key.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "iam_workload_identity_federated_credential",
+      "path": "docs/resources/iam_workload_identity_federated_credential.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/iam_workload_identity_federated_credential.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/iam_workload_identity_federated_credential.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "iam_workload_identity_oidc_federation",
+      "path": "docs/resources/iam_workload_identity_oidc_federation.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/iam_workload_identity_oidc_federation.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/iam_workload_identity_oidc_federation.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "iam_workload_identity_oidc_federation_iam_binding",
+      "path": "docs/resources/iam_workload_identity_oidc_federation_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/iam_workload_identity_oidc_federation_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/iam_workload_identity_oidc_federation_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "iot_core_broker",
+      "path": "docs/resources/iot_core_broker.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/iot_core_broker.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/iot_core_broker.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "iot_core_device",
+      "path": "docs/resources/iot_core_device.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/iot_core_device.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/iot_core_device.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "iot_core_registry",
+      "path": "docs/resources/iot_core_registry.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/iot_core_registry.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/iot_core_registry.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "kms_asymmetric_encryption_key",
+      "path": "docs/resources/kms_asymmetric_encryption_key.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/kms_asymmetric_encryption_key.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/kms_asymmetric_encryption_key.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "kms_asymmetric_encryption_key_iam_binding",
+      "path": "docs/resources/kms_asymmetric_encryption_key_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/kms_asymmetric_encryption_key_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/kms_asymmetric_encryption_key_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "kms_asymmetric_encryption_key_iam_member",
+      "path": "docs/resources/kms_asymmetric_encryption_key_iam_member.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/kms_asymmetric_encryption_key_iam_member.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/kms_asymmetric_encryption_key_iam_member.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "kms_asymmetric_signature_key",
+      "path": "docs/resources/kms_asymmetric_signature_key.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/kms_asymmetric_signature_key.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/kms_asymmetric_signature_key.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "kms_asymmetric_signature_key_iam_binding",
+      "path": "docs/resources/kms_asymmetric_signature_key_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/kms_asymmetric_signature_key_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/kms_asymmetric_signature_key_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "kms_asymmetric_signature_key_iam_member",
+      "path": "docs/resources/kms_asymmetric_signature_key_iam_member.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/kms_asymmetric_signature_key_iam_member.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/kms_asymmetric_signature_key_iam_member.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "kms_secret_ciphertext",
+      "path": "docs/resources/kms_secret_ciphertext.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/kms_secret_ciphertext.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/kms_secret_ciphertext.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "kms_symmetric_key",
+      "path": "docs/resources/kms_symmetric_key.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/kms_symmetric_key.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/kms_symmetric_key.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "kms_symmetric_key_iam_binding",
+      "path": "docs/resources/kms_symmetric_key_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/kms_symmetric_key_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/kms_symmetric_key_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "kms_symmetric_key_iam_member",
+      "path": "docs/resources/kms_symmetric_key_iam_member.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/kms_symmetric_key_iam_member.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/kms_symmetric_key_iam_member.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "kubernetes_cluster",
+      "path": "docs/resources/kubernetes_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/kubernetes_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/kubernetes_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "kubernetes_cluster_iam_binding",
+      "path": "docs/resources/kubernetes_cluster_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/kubernetes_cluster_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/kubernetes_cluster_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "kubernetes_cluster_iam_member",
+      "path": "docs/resources/kubernetes_cluster_iam_member.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/kubernetes_cluster_iam_member.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/kubernetes_cluster_iam_member.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "kubernetes_marketplace_helm_release",
+      "path": "docs/resources/kubernetes_marketplace_helm_release.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/kubernetes_marketplace_helm_release.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/kubernetes_marketplace_helm_release.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "kubernetes_node_group",
+      "path": "docs/resources/kubernetes_node_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/kubernetes_node_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/kubernetes_node_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "lb_network_load_balancer",
+      "path": "docs/resources/lb_network_load_balancer.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/lb_network_load_balancer.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/lb_network_load_balancer.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "lb_target_group",
+      "path": "docs/resources/lb_target_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/lb_target_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/lb_target_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "loadtesting_agent",
+      "path": "docs/resources/loadtesting_agent.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/loadtesting_agent.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/loadtesting_agent.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "lockbox_secret",
+      "path": "docs/resources/lockbox_secret.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/lockbox_secret.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/lockbox_secret.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "lockbox_secret_iam_binding",
+      "path": "docs/resources/lockbox_secret_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/lockbox_secret_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/lockbox_secret_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "lockbox_secret_iam_member",
+      "path": "docs/resources/lockbox_secret_iam_member.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/lockbox_secret_iam_member.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/lockbox_secret_iam_member.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "lockbox_secret_version",
+      "path": "docs/resources/lockbox_secret_version.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/lockbox_secret_version.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/lockbox_secret_version.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "lockbox_secret_version_hashed",
+      "path": "docs/resources/lockbox_secret_version_hashed.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/lockbox_secret_version_hashed.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/lockbox_secret_version_hashed.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "logging_group",
+      "path": "docs/resources/logging_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/logging_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/logging_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_clickhouse_cluster",
+      "path": "docs/resources/mdb_clickhouse_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_clickhouse_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_clickhouse_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_clickhouse_database",
+      "path": "docs/resources/mdb_clickhouse_database.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_clickhouse_database.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_clickhouse_database.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_clickhouse_user",
+      "path": "docs/resources/mdb_clickhouse_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_clickhouse_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_clickhouse_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_greenplum_cluster",
+      "path": "docs/resources/mdb_greenplum_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_greenplum_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_greenplum_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_greenplum_resource_group",
+      "path": "docs/resources/mdb_greenplum_resource_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_greenplum_resource_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_greenplum_resource_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_greenplum_user",
+      "path": "docs/resources/mdb_greenplum_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_greenplum_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_greenplum_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_kafka_cluster",
+      "path": "docs/resources/mdb_kafka_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_kafka_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_kafka_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_kafka_connector",
+      "path": "docs/resources/mdb_kafka_connector.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_kafka_connector.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_kafka_connector.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_kafka_topic",
+      "path": "docs/resources/mdb_kafka_topic.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_kafka_topic.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_kafka_topic.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_kafka_user",
+      "path": "docs/resources/mdb_kafka_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_kafka_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_kafka_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_mongodb_cluster",
+      "path": "docs/resources/mdb_mongodb_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_mongodb_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_mongodb_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_mongodb_database",
+      "path": "docs/resources/mdb_mongodb_database.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_mongodb_database.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_mongodb_database.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_mongodb_user",
+      "path": "docs/resources/mdb_mongodb_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_mongodb_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_mongodb_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_mysql_cluster",
+      "path": "docs/resources/mdb_mysql_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_mysql_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_mysql_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_mysql_cluster_v2",
+      "path": "docs/resources/mdb_mysql_cluster_v2.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_mysql_cluster_v2.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_mysql_cluster_v2.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_mysql_database",
+      "path": "docs/resources/mdb_mysql_database.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_mysql_database.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_mysql_database.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_mysql_user",
+      "path": "docs/resources/mdb_mysql_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_mysql_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_mysql_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_opensearch_cluster",
+      "path": "docs/resources/mdb_opensearch_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_opensearch_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_opensearch_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_postgresql_cluster",
+      "path": "docs/resources/mdb_postgresql_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_postgresql_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_postgresql_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_postgresql_cluster_v2",
+      "path": "docs/resources/mdb_postgresql_cluster_v2.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_postgresql_cluster_v2.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_postgresql_cluster_v2.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_postgresql_database",
+      "path": "docs/resources/mdb_postgresql_database.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_postgresql_database.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_postgresql_database.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_postgresql_user",
+      "path": "docs/resources/mdb_postgresql_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_postgresql_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_postgresql_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_redis_cluster",
+      "path": "docs/resources/mdb_redis_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_redis_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_redis_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_redis_cluster_v2",
+      "path": "docs/resources/mdb_redis_cluster_v2.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_redis_cluster_v2.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_redis_cluster_v2.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_redis_user",
+      "path": "docs/resources/mdb_redis_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_redis_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_redis_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_sharded_postgresql_cluster",
+      "path": "docs/resources/mdb_sharded_postgresql_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_sharded_postgresql_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_sharded_postgresql_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_sharded_postgresql_database",
+      "path": "docs/resources/mdb_sharded_postgresql_database.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_sharded_postgresql_database.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_sharded_postgresql_database.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_sharded_postgresql_shard",
+      "path": "docs/resources/mdb_sharded_postgresql_shard.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_sharded_postgresql_shard.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_sharded_postgresql_shard.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_sharded_postgresql_user",
+      "path": "docs/resources/mdb_sharded_postgresql_user.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_sharded_postgresql_user.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_sharded_postgresql_user.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "mdb_sqlserver_cluster",
+      "path": "docs/resources/mdb_sqlserver_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/mdb_sqlserver_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/mdb_sqlserver_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "message_queue",
+      "path": "docs/resources/message_queue.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/message_queue.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/message_queue.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "metastore_cluster",
+      "path": "docs/resources/metastore_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/metastore_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/metastore_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "monitoring_dashboard",
+      "path": "docs/resources/monitoring_dashboard.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/monitoring_dashboard.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/monitoring_dashboard.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "organizationmanager_group",
+      "path": "docs/resources/organizationmanager_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/organizationmanager_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/organizationmanager_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "organizationmanager_group_iam_member",
+      "path": "docs/resources/organizationmanager_group_iam_member.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/organizationmanager_group_iam_member.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/organizationmanager_group_iam_member.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "organizationmanager_group_mapping",
+      "path": "docs/resources/organizationmanager_group_mapping.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/organizationmanager_group_mapping.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/organizationmanager_group_mapping.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "organizationmanager_group_mapping_item",
+      "path": "docs/resources/organizationmanager_group_mapping_item.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/organizationmanager_group_mapping_item.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/organizationmanager_group_mapping_item.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "organizationmanager_group_membership",
+      "path": "docs/resources/organizationmanager_group_membership.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/organizationmanager_group_membership.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/organizationmanager_group_membership.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "organizationmanager_organization_iam_binding",
+      "path": "docs/resources/organizationmanager_organization_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/organizationmanager_organization_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/organizationmanager_organization_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "organizationmanager_organization_iam_member",
+      "path": "docs/resources/organizationmanager_organization_iam_member.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/organizationmanager_organization_iam_member.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/organizationmanager_organization_iam_member.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "organizationmanager_os_login_settings",
+      "path": "docs/resources/organizationmanager_os_login_settings.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/organizationmanager_os_login_settings.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/organizationmanager_os_login_settings.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "organizationmanager_saml_federation",
+      "path": "docs/resources/organizationmanager_saml_federation.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/organizationmanager_saml_federation.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/organizationmanager_saml_federation.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "organizationmanager_saml_federation_user_account",
+      "path": "docs/resources/organizationmanager_saml_federation_user_account.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/organizationmanager_saml_federation_user_account.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/organizationmanager_saml_federation_user_account.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "organizationmanager_user_ssh_key",
+      "path": "docs/resources/organizationmanager_user_ssh_key.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/organizationmanager_user_ssh_key.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/organizationmanager_user_ssh_key.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "resourcemanager_cloud",
+      "path": "docs/resources/resourcemanager_cloud.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/resourcemanager_cloud.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/resourcemanager_cloud.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "resourcemanager_cloud_iam_binding",
+      "path": "docs/resources/resourcemanager_cloud_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/resourcemanager_cloud_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/resourcemanager_cloud_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "resourcemanager_cloud_iam_member",
+      "path": "docs/resources/resourcemanager_cloud_iam_member.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/resourcemanager_cloud_iam_member.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/resourcemanager_cloud_iam_member.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "resourcemanager_folder",
+      "path": "docs/resources/resourcemanager_folder.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/resourcemanager_folder.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/resourcemanager_folder.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "resourcemanager_folder_iam_binding",
+      "path": "docs/resources/resourcemanager_folder_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/resourcemanager_folder_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/resourcemanager_folder_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "resourcemanager_folder_iam_member",
+      "path": "docs/resources/resourcemanager_folder_iam_member.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/resourcemanager_folder_iam_member.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/resourcemanager_folder_iam_member.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "resourcemanager_folder_iam_policy",
+      "path": "docs/resources/resourcemanager_folder_iam_policy.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/resourcemanager_folder_iam_policy.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/resourcemanager_folder_iam_policy.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "serverless_container",
+      "path": "docs/resources/serverless_container.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/serverless_container.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/serverless_container.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "serverless_container_iam_binding",
+      "path": "docs/resources/serverless_container_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/serverless_container_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/serverless_container_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "serverless_eventrouter_bus",
+      "path": "docs/resources/serverless_eventrouter_bus.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/serverless_eventrouter_bus.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/serverless_eventrouter_bus.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "serverless_eventrouter_connector",
+      "path": "docs/resources/serverless_eventrouter_connector.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/serverless_eventrouter_connector.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/serverless_eventrouter_connector.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "serverless_eventrouter_rule",
+      "path": "docs/resources/serverless_eventrouter_rule.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/serverless_eventrouter_rule.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/serverless_eventrouter_rule.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "smartcaptcha_captcha",
+      "path": "docs/resources/smartcaptcha_captcha.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/smartcaptcha_captcha.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/smartcaptcha_captcha.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "spark_cluster",
+      "path": "docs/resources/spark_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/spark_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/spark_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "storage_bucket",
+      "path": "docs/resources/storage_bucket.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/storage_bucket.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/storage_bucket.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "storage_bucket_grant",
+      "path": "docs/resources/storage_bucket_grant.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/storage_bucket_grant.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/storage_bucket_grant.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "storage_bucket_iam_binding",
+      "path": "docs/resources/storage_bucket_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/storage_bucket_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/storage_bucket_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "storage_bucket_policy",
+      "path": "docs/resources/storage_bucket_policy.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/storage_bucket_policy.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/storage_bucket_policy.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "storage_object",
+      "path": "docs/resources/storage_object.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/storage_object.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/storage_object.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "sws_advanced_rate_limiter_profile",
+      "path": "docs/resources/sws_advanced_rate_limiter_profile.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/sws_advanced_rate_limiter_profile.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/sws_advanced_rate_limiter_profile.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "sws_security_profile",
+      "path": "docs/resources/sws_security_profile.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/sws_security_profile.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/sws_security_profile.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "sws_waf_profile",
+      "path": "docs/resources/sws_waf_profile.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/sws_waf_profile.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/sws_waf_profile.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "trino_access_control",
+      "path": "docs/resources/trino_access_control.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/trino_access_control.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/trino_access_control.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "trino_catalog",
+      "path": "docs/resources/trino_catalog.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/trino_catalog.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/trino_catalog.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "trino_cluster",
+      "path": "docs/resources/trino_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/trino_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/trino_cluster.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "vpc_address",
+      "path": "docs/resources/vpc_address.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/vpc_address.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/vpc_address.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "vpc_default_security_group",
+      "path": "docs/resources/vpc_default_security_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/vpc_default_security_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/vpc_default_security_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "vpc_gateway",
+      "path": "docs/resources/vpc_gateway.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/vpc_gateway.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/vpc_gateway.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "vpc_network",
+      "path": "docs/resources/vpc_network.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/vpc_network.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/vpc_network.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "vpc_private_endpoint",
+      "path": "docs/resources/vpc_private_endpoint.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/vpc_private_endpoint.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/vpc_private_endpoint.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "vpc_route_table",
+      "path": "docs/resources/vpc_route_table.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/vpc_route_table.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/vpc_route_table.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "vpc_security_group",
+      "path": "docs/resources/vpc_security_group.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/vpc_security_group.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/vpc_security_group.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "vpc_security_group_rule",
+      "path": "docs/resources/vpc_security_group_rule.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/vpc_security_group_rule.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/vpc_security_group_rule.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "vpc_subnet",
+      "path": "docs/resources/vpc_subnet.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/vpc_subnet.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/vpc_subnet.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "ydb_database_dedicated",
+      "path": "docs/resources/ydb_database_dedicated.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/ydb_database_dedicated.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/ydb_database_dedicated.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "ydb_database_iam_binding",
+      "path": "docs/resources/ydb_database_iam_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/ydb_database_iam_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/ydb_database_iam_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "ydb_database_serverless",
+      "path": "docs/resources/ydb_database_serverless.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/ydb_database_serverless.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/ydb_database_serverless.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "ydb_table",
+      "path": "docs/resources/ydb_table.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/ydb_table.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/ydb_table.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "ydb_table_changefeed",
+      "path": "docs/resources/ydb_table_changefeed.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/ydb_table_changefeed.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/ydb_table_changefeed.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "ydb_table_index",
+      "path": "docs/resources/ydb_table_index.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/ydb_table_index.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/ydb_table_index.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "ydb_topic",
+      "path": "docs/resources/ydb_topic.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/ydb_topic.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/ydb_topic.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "yq_monitoring_connection",
+      "path": "docs/resources/yq_monitoring_connection.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/yq_monitoring_connection.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/yq_monitoring_connection.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "yq_object_storage_binding",
+      "path": "docs/resources/yq_object_storage_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/yq_object_storage_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/yq_object_storage_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "yq_object_storage_connection",
+      "path": "docs/resources/yq_object_storage_connection.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/yq_object_storage_connection.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/yq_object_storage_connection.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "yq_ydb_connection",
+      "path": "docs/resources/yq_ydb_connection.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/yq_ydb_connection.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/yq_ydb_connection.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "yq_yds_binding",
+      "path": "docs/resources/yq_yds_binding.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/yq_yds_binding.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/yq_yds_binding.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "yq_yds_connection",
+      "path": "docs/resources/yq_yds_connection.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/yq_yds_connection.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/yq_yds_connection.md"
+    },
+    {
+      "provider": "yandex",
+      "kind": "resource",
+      "slug": "ytsaurus_cluster",
+      "path": "docs/resources/ytsaurus_cluster.md",
+      "html_url": "https://github.com/yandex-cloud/terraform-provider-yandex/blob/master/docs/resources/ytsaurus_cluster.md",
+      "download_url": "https://raw.githubusercontent.com/yandex-cloud/terraform-provider-yandex/master/docs/resources/ytsaurus_cluster.md"
+    }
+  ],
+  "ref": "master"
+}
