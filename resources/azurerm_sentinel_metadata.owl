@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_sentinel_metadata">
+    <rdfs:label>azurerm_sentinel_metadata</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_content_id">
+    <rdfs:label>content_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_content_schema_version">
+    <rdfs:label>content_schema_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_custom_version">
+    <rdfs:label>custom_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_dependency">
+    <rdfs:label>dependency</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_first_publish_date">
+    <rdfs:label>first_publish_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_icon_id">
+    <rdfs:label>icon_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_kind">
+    <rdfs:label>kind</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_last_publish_date">
+    <rdfs:label>last_publish_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_parent_id">
+    <rdfs:label>parent_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_preview_images">
+    <rdfs:label>preview_images</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_preview_images_dark">
+    <rdfs:label>preview_images_dark</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_providers">
+    <rdfs:label>providers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_threat_analysis_tactics">
+    <rdfs:label>threat_analysis_tactics</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_threat_analysis_techniques">
+    <rdfs:label>threat_analysis_techniques</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_workspace_id">
+    <rdfs:label>workspace_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_email">
+    <rdfs:label>email</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_link">
+    <rdfs:label>link</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_domains">
+    <rdfs:label>domains</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_verticals">
+    <rdfs:label>verticals</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_kind">
+    <rdfs:label>kind</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_email">
+    <rdfs:label>email</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_link">
+    <rdfs:label>link</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_tier">
+    <rdfs:label>tier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_sentinel_metadata_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_sentinel_metadata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

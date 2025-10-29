@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_stack_hci_logical_network">
+    <rdfs:label>azurerm_stack_hci_logical_network</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_custom_location_id">
+    <rdfs:label>custom_location_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_dns_servers">
+    <rdfs:label>dns_servers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_virtual_switch_name">
+    <rdfs:label>virtual_switch_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_address_prefix">
+    <rdfs:label>address_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_ip_allocation_method">
+    <rdfs:label>ip_allocation_method</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_vlan_id">
+    <rdfs:label>vlan_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_end">
+    <rdfs:label>end</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_start">
+    <rdfs:label>start</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_address_prefix">
+    <rdfs:label>address_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_next_hop_ip_address">
+    <rdfs:label>next_hop_ip_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stack_hci_logical_network_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stack_hci_logical_network"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_sagemaker_flow_definition">
+    <rdfs:label>aws_sagemaker_flow_definition</rdfs:label>
+    <rdfs:comment>Provides a SageMaker AI Flow Definition resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_flow_definition_name">
+    <rdfs:label>flow_definition_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_role_arn">
+    <rdfs:label>role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_human_loop_activation_conditions">
+    <rdfs:label>human_loop_activation_conditions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_human_task_ui_arn">
+    <rdfs:label>human_task_ui_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_task_availability_lifetime_in_seconds">
+    <rdfs:label>task_availability_lifetime_in_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_task_count">
+    <rdfs:label>task_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_task_description">
+    <rdfs:label>task_description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_task_keywords">
+    <rdfs:label>task_keywords</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_task_time_limit_in_seconds">
+    <rdfs:label>task_time_limit_in_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_task_title">
+    <rdfs:label>task_title</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_workteam_arn">
+    <rdfs:label>workteam_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_cents">
+    <rdfs:label>cents</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_dollars">
+    <rdfs:label>dollars</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_tenth_fractions_of_a_cent">
+    <rdfs:label>tenth_fractions_of_a_cent</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_aws_managed_human_loop_request_source">
+    <rdfs:label>aws_managed_human_loop_request_source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_kms_key_id">
+    <rdfs:label>kms_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_flow_definition_s3_output_path">
+    <rdfs:label>s3_output_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_flow_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

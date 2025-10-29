@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_iot_domain_configuration">
+    <rdfs:label>aws_iot_domain_configuration</rdfs:label>
+    <rdfs:comment>Creates and manages an AWS IoT domain configuration.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_application_protocol">
+    <rdfs:label>application_protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_authentication_type">
+    <rdfs:label>authentication_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_domain_name">
+    <rdfs:label>domain_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_domain_type">
+    <rdfs:label>domain_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_server_certificate_arns">
+    <rdfs:label>server_certificate_arns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_service_type">
+    <rdfs:label>service_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_validation_certificate_arn">
+    <rdfs:label>validation_certificate_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_allow_authorizer_override">
+    <rdfs:label>allow_authorizer_override</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_default_authorizer_name">
+    <rdfs:label>default_authorizer_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iot_domain_configuration_security_policy">
+    <rdfs:label>security_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iot_domain_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

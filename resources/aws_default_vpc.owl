@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_default_vpc">
+    <rdfs:label>aws_default_vpc</rdfs:label>
+    <rdfs:comment>Provides a resource to manage the [default AWS VPC](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/default-vpc.html)
+in the current AWS Region.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_assign_generated_ipv6_cidr_block">
+    <rdfs:label>assign_generated_ipv6_cidr_block</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_cidr_block">
+    <rdfs:label>cidr_block</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_default_network_acl_id">
+    <rdfs:label>default_network_acl_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_default_route_table_id">
+    <rdfs:label>default_route_table_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_default_security_group_id">
+    <rdfs:label>default_security_group_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_dhcp_options_id">
+    <rdfs:label>dhcp_options_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_enable_dns_hostnames">
+    <rdfs:label>enable_dns_hostnames</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_enable_dns_support">
+    <rdfs:label>enable_dns_support</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_enable_network_address_usage_metrics">
+    <rdfs:label>enable_network_address_usage_metrics</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_existing_default_vpc">
+    <rdfs:label>existing_default_vpc</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_force_destroy">
+    <rdfs:label>force_destroy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_instance_tenancy">
+    <rdfs:label>instance_tenancy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_ipv6_association_id">
+    <rdfs:label>ipv6_association_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_ipv6_cidr_block">
+    <rdfs:label>ipv6_cidr_block</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_ipv6_cidr_block_network_border_group">
+    <rdfs:label>ipv6_cidr_block_network_border_group</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_ipv6_ipam_pool_id">
+    <rdfs:label>ipv6_ipam_pool_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_ipv6_netmask_length">
+    <rdfs:label>ipv6_netmask_length</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_main_route_table_id">
+    <rdfs:label>main_route_table_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_owner_id">
+    <rdfs:label>owner_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_default_vpc_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_default_vpc"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

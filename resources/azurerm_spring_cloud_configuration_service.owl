@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_spring_cloud_configuration_service">
+    <rdfs:label>azurerm_spring_cloud_configuration_service</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_generation">
+    <rdfs:label>generation</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_refresh_interval_in_seconds">
+    <rdfs:label>refresh_interval_in_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_spring_cloud_service_id">
+    <rdfs:label>spring_cloud_service_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_ca_certificate_id">
+    <rdfs:label>ca_certificate_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_host_key">
+    <rdfs:label>host_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_host_key_algorithm">
+    <rdfs:label>host_key_algorithm</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_label">
+    <rdfs:label>label</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_patterns">
+    <rdfs:label>patterns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_private_key">
+    <rdfs:label>private_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_search_paths">
+    <rdfs:label>search_paths</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_strict_host_key_checking">
+    <rdfs:label>strict_host_key_checking</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_uri">
+    <rdfs:label>uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_spring_cloud_configuration_service_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_spring_cloud_configuration_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

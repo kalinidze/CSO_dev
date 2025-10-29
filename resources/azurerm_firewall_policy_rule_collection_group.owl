@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group">
+    <rdfs:label>azurerm_firewall_policy_rule_collection_group</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_firewall_policy_id">
+    <rdfs:label>firewall_policy_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_priority">
+    <rdfs:label>priority</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_action">
+    <rdfs:label>action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_priority">
+    <rdfs:label>priority</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_destination_addresses">
+    <rdfs:label>destination_addresses</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_destination_fqdn_tags">
+    <rdfs:label>destination_fqdn_tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_destination_fqdns">
+    <rdfs:label>destination_fqdns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_destination_urls">
+    <rdfs:label>destination_urls</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_source_addresses">
+    <rdfs:label>source_addresses</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_source_ip_groups">
+    <rdfs:label>source_ip_groups</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_terminate_tls">
+    <rdfs:label>terminate_tls</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_web_categories">
+    <rdfs:label>web_categories</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_action">
+    <rdfs:label>action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_priority">
+    <rdfs:label>priority</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_destination_address">
+    <rdfs:label>destination_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_destination_ports">
+    <rdfs:label>destination_ports</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_protocols">
+    <rdfs:label>protocols</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_source_addresses">
+    <rdfs:label>source_addresses</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_source_ip_groups">
+    <rdfs:label>source_ip_groups</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_translated_address">
+    <rdfs:label>translated_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_translated_fqdn">
+    <rdfs:label>translated_fqdn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_translated_port">
+    <rdfs:label>translated_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_action">
+    <rdfs:label>action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_priority">
+    <rdfs:label>priority</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_destination_addresses">
+    <rdfs:label>destination_addresses</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_destination_fqdns">
+    <rdfs:label>destination_fqdns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_destination_ip_groups">
+    <rdfs:label>destination_ip_groups</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_destination_ports">
+    <rdfs:label>destination_ports</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_protocols">
+    <rdfs:label>protocols</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_source_addresses">
+    <rdfs:label>source_addresses</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_source_ip_groups">
+    <rdfs:label>source_ip_groups</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_firewall_policy_rule_collection_group_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_firewall_policy_rule_collection_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

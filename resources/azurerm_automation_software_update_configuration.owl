@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_automation_software_update_configuration">
+    <rdfs:label>azurerm_automation_software_update_configuration</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_automation_account_id">
+    <rdfs:label>automation_account_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_duration">
+    <rdfs:label>duration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_error_code">
+    <rdfs:label>error_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_error_message">
+    <rdfs:label>error_message</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_non_azure_computer_names">
+    <rdfs:label>non_azure_computer_names</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_virtual_machine_ids">
+    <rdfs:label>virtual_machine_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_classifications_included">
+    <rdfs:label>classifications_included</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_excluded_packages">
+    <rdfs:label>excluded_packages</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_included_packages">
+    <rdfs:label>included_packages</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_reboot">
+    <rdfs:label>reboot</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_parameters">
+    <rdfs:label>parameters</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_source">
+    <rdfs:label>source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_parameters">
+    <rdfs:label>parameters</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_source">
+    <rdfs:label>source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_advanced_month_days">
+    <rdfs:label>advanced_month_days</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_advanced_week_days">
+    <rdfs:label>advanced_week_days</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_creation_time">
+    <rdfs:label>creation_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_expiry_time">
+    <rdfs:label>expiry_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_expiry_time_offset_minutes">
+    <rdfs:label>expiry_time_offset_minutes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_frequency">
+    <rdfs:label>frequency</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_interval">
+    <rdfs:label>interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_is_enabled">
+    <rdfs:label>is_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_last_modified_time">
+    <rdfs:label>last_modified_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_next_run">
+    <rdfs:label>next_run</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_next_run_offset_minutes">
+    <rdfs:label>next_run_offset_minutes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_start_time">
+    <rdfs:label>start_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_start_time_offset_minutes">
+    <rdfs:label>start_time_offset_minutes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_time_zone">
+    <rdfs:label>time_zone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_day">
+    <rdfs:label>day</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_occurrence">
+    <rdfs:label>occurrence</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_locations">
+    <rdfs:label>locations</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_scope">
+    <rdfs:label>scope</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_tag_filter">
+    <rdfs:label>tag_filter</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_tag">
+    <rdfs:label>tag</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_values">
+    <rdfs:label>values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_function_alias">
+    <rdfs:label>function_alias</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_workspace_id">
+    <rdfs:label>workspace_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_classifications_included">
+    <rdfs:label>classifications_included</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_excluded_knowledge_base_numbers">
+    <rdfs:label>excluded_knowledge_base_numbers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_included_knowledge_base_numbers">
+    <rdfs:label>included_knowledge_base_numbers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_automation_software_update_configuration_reboot">
+    <rdfs:label>reboot</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_automation_software_update_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

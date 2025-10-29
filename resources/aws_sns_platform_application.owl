@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_sns_platform_application">
+    <rdfs:label>aws_sns_platform_application</rdfs:label>
+    <rdfs:comment>Provides an SNS platform application resource</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_apple_platform_bundle_id">
+    <rdfs:label>apple_platform_bundle_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_apple_platform_team_id">
+    <rdfs:label>apple_platform_team_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_event_delivery_failure_topic_arn">
+    <rdfs:label>event_delivery_failure_topic_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_event_endpoint_created_topic_arn">
+    <rdfs:label>event_endpoint_created_topic_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_event_endpoint_deleted_topic_arn">
+    <rdfs:label>event_endpoint_deleted_topic_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_event_endpoint_updated_topic_arn">
+    <rdfs:label>event_endpoint_updated_topic_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_failure_feedback_role_arn">
+    <rdfs:label>failure_feedback_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_platform">
+    <rdfs:label>platform</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_platform_credential">
+    <rdfs:label>platform_credential</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_platform_principal">
+    <rdfs:label>platform_principal</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_success_feedback_role_arn">
+    <rdfs:label>success_feedback_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_platform_application_success_feedback_sample_rate">
+    <rdfs:label>success_feedback_sample_rate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_platform_application"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

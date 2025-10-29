@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_elastic_beanstalk_configuration_template">
+    <rdfs:label>aws_elastic_beanstalk_configuration_template</rdfs:label>
+    <rdfs:comment>Provides an Elastic Beanstalk Configuration Template, which are associated with
+a specific application and are used to deploy different versions of the
+application with the same configuration settings.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elastic_beanstalk_configuration_template_application">
+    <rdfs:label>application</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elastic_beanstalk_configuration_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elastic_beanstalk_configuration_template_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elastic_beanstalk_configuration_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elastic_beanstalk_configuration_template_environment_id">
+    <rdfs:label>environment_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elastic_beanstalk_configuration_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elastic_beanstalk_configuration_template_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elastic_beanstalk_configuration_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elastic_beanstalk_configuration_template_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elastic_beanstalk_configuration_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elastic_beanstalk_configuration_template_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elastic_beanstalk_configuration_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elastic_beanstalk_configuration_template_solution_stack_name">
+    <rdfs:label>solution_stack_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elastic_beanstalk_configuration_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elastic_beanstalk_configuration_template_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elastic_beanstalk_configuration_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elastic_beanstalk_configuration_template_namespace">
+    <rdfs:label>namespace</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elastic_beanstalk_configuration_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elastic_beanstalk_configuration_template_resource">
+    <rdfs:label>resource</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elastic_beanstalk_configuration_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elastic_beanstalk_configuration_template_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elastic_beanstalk_configuration_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

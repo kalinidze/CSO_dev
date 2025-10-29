@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_cloudwatch_metric_alarm">
+    <rdfs:label>aws_cloudwatch_metric_alarm</rdfs:label>
+    <rdfs:comment>Provides a CloudWatch Metric Alarm resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_actions_enabled">
+    <rdfs:label>actions_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_alarm_actions">
+    <rdfs:label>alarm_actions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_alarm_description">
+    <rdfs:label>alarm_description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_alarm_name">
+    <rdfs:label>alarm_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_comparison_operator">
+    <rdfs:label>comparison_operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_datapoints_to_alarm">
+    <rdfs:label>datapoints_to_alarm</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_dimensions">
+    <rdfs:label>dimensions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_evaluate_low_sample_count_percentiles">
+    <rdfs:label>evaluate_low_sample_count_percentiles</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_evaluation_periods">
+    <rdfs:label>evaluation_periods</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_extended_statistic">
+    <rdfs:label>extended_statistic</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_insufficient_data_actions">
+    <rdfs:label>insufficient_data_actions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_metric_name">
+    <rdfs:label>metric_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_namespace">
+    <rdfs:label>namespace</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_ok_actions">
+    <rdfs:label>ok_actions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_period">
+    <rdfs:label>period</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_statistic">
+    <rdfs:label>statistic</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_threshold">
+    <rdfs:label>threshold</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_threshold_metric_id">
+    <rdfs:label>threshold_metric_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_treat_missing_data">
+    <rdfs:label>treat_missing_data</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_account_id">
+    <rdfs:label>account_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_expression">
+    <rdfs:label>expression</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_label">
+    <rdfs:label>label</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_period">
+    <rdfs:label>period</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_return_data">
+    <rdfs:label>return_data</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_dimensions">
+    <rdfs:label>dimensions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_metric_name">
+    <rdfs:label>metric_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_namespace">
+    <rdfs:label>namespace</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_period">
+    <rdfs:label>period</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_stat">
+    <rdfs:label>stat</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_metric_alarm_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_metric_alarm"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

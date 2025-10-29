@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_api_gateway_stage">
+    <rdfs:label>aws_api_gateway_stage</rdfs:label>
+    <rdfs:comment>Manages an API Gateway Stage. A stage is a named reference to a deployment, which can be done via the [`aws_api_gateway_deployment` resource](api_gateway_deployment.html). Stages can be optionally managed further with the [`aws_api_gateway_base_path_mapping` resource](api_gateway_base_path_mapping.html), [`aws_api_gateway_domain_name` resource](api_gateway_domain_name.html), and [`aws_api_method_settings` resource](api_gateway_method_settings.html). For more information, see the [API Gateway Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-stages.html).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_cache_cluster_enabled">
+    <rdfs:label>cache_cluster_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_cache_cluster_size">
+    <rdfs:label>cache_cluster_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_client_certificate_id">
+    <rdfs:label>client_certificate_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_deployment_id">
+    <rdfs:label>deployment_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_documentation_version">
+    <rdfs:label>documentation_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_execution_arn">
+    <rdfs:label>execution_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_invoke_url">
+    <rdfs:label>invoke_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_rest_api_id">
+    <rdfs:label>rest_api_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_stage_name">
+    <rdfs:label>stage_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_variables">
+    <rdfs:label>variables</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_web_acl_arn">
+    <rdfs:label>web_acl_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_xray_tracing_enabled">
+    <rdfs:label>xray_tracing_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_destination_arn">
+    <rdfs:label>destination_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_format">
+    <rdfs:label>format</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_deployment_id">
+    <rdfs:label>deployment_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_percent_traffic">
+    <rdfs:label>percent_traffic</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_stage_variable_overrides">
+    <rdfs:label>stage_variable_overrides</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_stage_use_stage_cache">
+    <rdfs:label>use_stage_cache</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_stage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

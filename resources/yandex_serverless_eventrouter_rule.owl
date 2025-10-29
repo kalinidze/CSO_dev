@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_serverless_eventrouter_rule">
+    <rdfs:label>yandex_serverless_eventrouter_rule</rdfs:label>
+    <rdfs:comment>Allows management of a Yandex Cloud Serverless Event Router Rule.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_bus_id">
+    <rdfs:label>bus_id</rdfs:label>
+    <rdfs:comment>ID of the bus that the rule belongs to</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_cloud_id">
+    <rdfs:label>cloud_id</rdfs:label>
+    <rdfs:comment>ID of the cloud that the rule resides in</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>Creation timestamp</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_deletion_protection">
+    <rdfs:label>deletion_protection</rdfs:label>
+    <rdfs:comment>Deletion protection</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>Description of the rule</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>ID of the folder that the rule resides in</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_jq_filter">
+    <rdfs:label>jq_filter</rdfs:label>
+    <rdfs:comment>JQ filter for matching events</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>Rule labels</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name of the rule</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_container_id">
+    <rdfs:label>container_id</rdfs:label>
+    <rdfs:comment>Container ID</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_container_revision_id">
+    <rdfs:label>container_revision_id</rdfs:label>
+    <rdfs:comment>Container revision ID</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:comment>Endpoint HTTP path to invoke</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service account which should be used to call a container</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_cutoff">
+    <rdfs:label>cutoff</rdfs:label>
+    <rdfs:comment>Maximum batch size: rule will send a batch if its lifetime exceeds this value</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_max_bytes">
+    <rdfs:label>max_bytes</rdfs:label>
+    <rdfs:comment>Maximum batch size: rule will send a batch if total size of events exceeds this value</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_max_count">
+    <rdfs:label>max_count</rdfs:label>
+    <rdfs:comment>Maximum batch size: rule will send a batch if number of events exceeds this value</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_function_id">
+    <rdfs:label>function_id</rdfs:label>
+    <rdfs:comment>Function ID</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_function_tag">
+    <rdfs:label>function_tag</rdfs:label>
+    <rdfs:comment>Function tag</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service account which has call permission on the function</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_cutoff">
+    <rdfs:label>cutoff</rdfs:label>
+    <rdfs:comment>Maximum batch size: rule will send a batch if its lifetime exceeds this value</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_max_bytes">
+    <rdfs:label>max_bytes</rdfs:label>
+    <rdfs:comment>Maximum batch size: rule will send a batch if total size of events exceeds this value</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_max_count">
+    <rdfs:label>max_count</rdfs:label>
+    <rdfs:comment>Maximum batch size: rule will send a batch if number of events exceeds this value</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_gateway_id">
+    <rdfs:label>gateway_id</rdfs:label>
+    <rdfs:comment>Gateway ID</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:comment>Path</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service account which has permission for writing to websockets</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_cutoff">
+    <rdfs:label>cutoff</rdfs:label>
+    <rdfs:comment>Maximum batch size: rule will send a batch if its lifetime exceeds this value</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_max_bytes">
+    <rdfs:label>max_bytes</rdfs:label>
+    <rdfs:comment>Maximum batch size: rule will send a batch if total size of events exceeds this value</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_max_count">
+    <rdfs:label>max_count</rdfs:label>
+    <rdfs:comment>Maximum batch size: rule will send a batch if number of events exceeds this value</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>Folder ID</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_log_group_id">
+    <rdfs:label>log_group_id</rdfs:label>
+    <rdfs:comment>Log group ID</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service account which has permission for writing logs</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service account which should be used to start workflow</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_workflow_id">
+    <rdfs:label>workflow_id</rdfs:label>
+    <rdfs:comment>Workflow ID</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_cutoff">
+    <rdfs:label>cutoff</rdfs:label>
+    <rdfs:comment>Maximum batch size: rule will send a batch if its lifetime exceeds this value</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_max_bytes">
+    <rdfs:label>max_bytes</rdfs:label>
+    <rdfs:comment>Maximum batch size: rule will send a batch if total size of events exceeds this value</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_max_count">
+    <rdfs:label>max_count</rdfs:label>
+    <rdfs:comment>Maximum batch size: rule will send a batch if number of events exceeds this value</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_database">
+    <rdfs:label>database</rdfs:label>
+    <rdfs:comment>Stream database</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service account, which has write permission on the stream</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_stream_name">
+    <rdfs:label>stream_name</rdfs:label>
+    <rdfs:comment>Full stream name, like /ru-central1/aoegtvhtp8ob********/cc8004q4lbo6********/test</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_queue_arn">
+    <rdfs:label>queue_arn</rdfs:label>
+    <rdfs:comment>Queue ARN. Example: yrn:yc:ymq:ru-central1:aoe***:test</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_serverless_eventrouter_rule_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service account which has write access to the queue</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_serverless_eventrouter_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_bot_service_azure_bot">
+    <rdfs:label>azurerm_bot_service_azure_bot</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_cmk_key_vault_key_url">
+    <rdfs:label>cmk_key_vault_key_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_developer_app_insights_api_key">
+    <rdfs:label>developer_app_insights_api_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_developer_app_insights_application_id">
+    <rdfs:label>developer_app_insights_application_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_developer_app_insights_key">
+    <rdfs:label>developer_app_insights_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_display_name">
+    <rdfs:label>display_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_endpoint">
+    <rdfs:label>endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_icon_url">
+    <rdfs:label>icon_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_local_authentication_enabled">
+    <rdfs:label>local_authentication_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_luis_app_ids">
+    <rdfs:label>luis_app_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_luis_key">
+    <rdfs:label>luis_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_microsoft_app_id">
+    <rdfs:label>microsoft_app_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_microsoft_app_msi_id">
+    <rdfs:label>microsoft_app_msi_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_microsoft_app_tenant_id">
+    <rdfs:label>microsoft_app_tenant_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_microsoft_app_type">
+    <rdfs:label>microsoft_app_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_public_network_access_enabled">
+    <rdfs:label>public_network_access_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_sku">
+    <rdfs:label>sku</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_streaming_endpoint_enabled">
+    <rdfs:label>streaming_endpoint_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_bot_service_azure_bot_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_bot_service_azure_bot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

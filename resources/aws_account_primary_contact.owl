@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_account_primary_contact">
+    <rdfs:label>aws_account_primary_contact</rdfs:label>
+    <rdfs:comment>Manages the specified primary contact information associated with an AWS Account.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_account_primary_contact_account_id">
+    <rdfs:label>account_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_account_primary_contact"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_account_primary_contact_address_line_1">
+    <rdfs:label>address_line_1</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_account_primary_contact"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_account_primary_contact_address_line_2">
+    <rdfs:label>address_line_2</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_account_primary_contact"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_account_primary_contact_address_line_3">
+    <rdfs:label>address_line_3</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_account_primary_contact"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_account_primary_contact_city">
+    <rdfs:label>city</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_account_primary_contact"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_account_primary_contact_company_name">
+    <rdfs:label>company_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_account_primary_contact"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_account_primary_contact_country_code">
+    <rdfs:label>country_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_account_primary_contact"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_account_primary_contact_district_or_county">
+    <rdfs:label>district_or_county</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_account_primary_contact"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_account_primary_contact_full_name">
+    <rdfs:label>full_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_account_primary_contact"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_account_primary_contact_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_account_primary_contact"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_account_primary_contact_phone_number">
+    <rdfs:label>phone_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_account_primary_contact"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_account_primary_contact_postal_code">
+    <rdfs:label>postal_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_account_primary_contact"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_account_primary_contact_state_or_region">
+    <rdfs:label>state_or_region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_account_primary_contact"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_account_primary_contact_website_url">
+    <rdfs:label>website_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_account_primary_contact"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_dms_endpoint">
+    <rdfs:label>aws_dms_endpoint</rdfs:label>
+    <rdfs:comment>Provides a DMS (Data Migration Service) endpoint resource. DMS endpoints can be created, updated, deleted, and imported.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_certificate_arn">
+    <rdfs:label>certificate_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_database_name">
+    <rdfs:label>database_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_endpoint_arn">
+    <rdfs:label>endpoint_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_endpoint_id">
+    <rdfs:label>endpoint_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_endpoint_type">
+    <rdfs:label>endpoint_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_engine_name">
+    <rdfs:label>engine_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_extra_connection_attributes">
+    <rdfs:label>extra_connection_attributes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_kms_key_arn">
+    <rdfs:label>kms_key_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_pause_replication_tasks">
+    <rdfs:label>pause_replication_tasks</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_secrets_manager_access_role_arn">
+    <rdfs:label>secrets_manager_access_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_secrets_manager_arn">
+    <rdfs:label>secrets_manager_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_server_name">
+    <rdfs:label>server_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_service_access_role">
+    <rdfs:label>service_access_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_ssl_mode">
+    <rdfs:label>ssl_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_endpoint_uri">
+    <rdfs:label>endpoint_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_error_retry_duration">
+    <rdfs:label>error_retry_duration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_full_load_error_percentage">
+    <rdfs:label>full_load_error_percentage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_service_access_role_arn">
+    <rdfs:label>service_access_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_use_new_mapping_type">
+    <rdfs:label>use_new_mapping_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_broker">
+    <rdfs:label>broker</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_include_control_details">
+    <rdfs:label>include_control_details</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_include_null_and_empty">
+    <rdfs:label>include_null_and_empty</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_include_partition_value">
+    <rdfs:label>include_partition_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_include_table_alter_operations">
+    <rdfs:label>include_table_alter_operations</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_include_transaction_details">
+    <rdfs:label>include_transaction_details</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_message_format">
+    <rdfs:label>message_format</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_message_max_bytes">
+    <rdfs:label>message_max_bytes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_no_hex_prefix">
+    <rdfs:label>no_hex_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_partition_include_schema_table">
+    <rdfs:label>partition_include_schema_table</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_sasl_mechanism">
+    <rdfs:label>sasl_mechanism</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_sasl_password">
+    <rdfs:label>sasl_password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_sasl_username">
+    <rdfs:label>sasl_username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_security_protocol">
+    <rdfs:label>security_protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_ssl_ca_certificate_arn">
+    <rdfs:label>ssl_ca_certificate_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_ssl_client_certificate_arn">
+    <rdfs:label>ssl_client_certificate_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_ssl_client_key_arn">
+    <rdfs:label>ssl_client_key_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_ssl_client_key_password">
+    <rdfs:label>ssl_client_key_password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_topic">
+    <rdfs:label>topic</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_include_control_details">
+    <rdfs:label>include_control_details</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_include_null_and_empty">
+    <rdfs:label>include_null_and_empty</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_include_partition_value">
+    <rdfs:label>include_partition_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_include_table_alter_operations">
+    <rdfs:label>include_table_alter_operations</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_include_transaction_details">
+    <rdfs:label>include_transaction_details</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_message_format">
+    <rdfs:label>message_format</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_partition_include_schema_table">
+    <rdfs:label>partition_include_schema_table</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_service_access_role_arn">
+    <rdfs:label>service_access_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_stream_arn">
+    <rdfs:label>stream_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_use_large_integer_value">
+    <rdfs:label>use_large_integer_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_auth_mechanism">
+    <rdfs:label>auth_mechanism</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_auth_source">
+    <rdfs:label>auth_source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_auth_type">
+    <rdfs:label>auth_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_docs_to_investigate">
+    <rdfs:label>docs_to_investigate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_extract_doc_id">
+    <rdfs:label>extract_doc_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_nesting_level">
+    <rdfs:label>nesting_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_after_connect_script">
+    <rdfs:label>after_connect_script</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_authentication_method">
+    <rdfs:label>authentication_method</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_clean_source_metadata_on_mismatch">
+    <rdfs:label>clean_source_metadata_on_mismatch</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_events_poll_interval">
+    <rdfs:label>events_poll_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_execute_timeout">
+    <rdfs:label>execute_timeout</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_max_file_size">
+    <rdfs:label>max_file_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_parallel_load_threads">
+    <rdfs:label>parallel_load_threads</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_server_timezone">
+    <rdfs:label>server_timezone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_service_access_role_arn">
+    <rdfs:label>service_access_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_target_db_type">
+    <rdfs:label>target_db_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_authentication_method">
+    <rdfs:label>authentication_method</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_after_connect_script">
+    <rdfs:label>after_connect_script</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_authentication_method">
+    <rdfs:label>authentication_method</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_babelfish_database_name">
+    <rdfs:label>babelfish_database_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_capture_ddls">
+    <rdfs:label>capture_ddls</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_database_mode">
+    <rdfs:label>database_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_ddl_artifacts_schema">
+    <rdfs:label>ddl_artifacts_schema</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_execute_timeout">
+    <rdfs:label>execute_timeout</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_fail_tasks_on_lob_truncation">
+    <rdfs:label>fail_tasks_on_lob_truncation</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_heartbeat_enable">
+    <rdfs:label>heartbeat_enable</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_heartbeat_frequency">
+    <rdfs:label>heartbeat_frequency</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_heartbeat_schema">
+    <rdfs:label>heartbeat_schema</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_map_boolean_as_boolean">
+    <rdfs:label>map_boolean_as_boolean</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_map_jsonb_as_clob">
+    <rdfs:label>map_jsonb_as_clob</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_map_long_varchar_as">
+    <rdfs:label>map_long_varchar_as</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_max_file_size">
+    <rdfs:label>max_file_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_plugin_name">
+    <rdfs:label>plugin_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_service_access_role_arn">
+    <rdfs:label>service_access_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_slot_name">
+    <rdfs:label>slot_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_auth_password">
+    <rdfs:label>auth_password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_auth_type">
+    <rdfs:label>auth_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_auth_user_name">
+    <rdfs:label>auth_user_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_server_name">
+    <rdfs:label>server_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_ssl_ca_certificate_arn">
+    <rdfs:label>ssl_ca_certificate_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_ssl_security_protocol">
+    <rdfs:label>ssl_security_protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_bucket_folder">
+    <rdfs:label>bucket_folder</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_encryption_mode">
+    <rdfs:label>encryption_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_server_side_encryption_kms_key_id">
+    <rdfs:label>server_side_encryption_kms_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_service_access_role_arn">
+    <rdfs:label>service_access_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dms_endpoint_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dms_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

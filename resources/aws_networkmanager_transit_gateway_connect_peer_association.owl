@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_networkmanager_transit_gateway_connect_peer_association">
+    <rdfs:label>aws_networkmanager_transit_gateway_connect_peer_association</rdfs:label>
+    <rdfs:comment>Manages a Network Manager transit gateway Connect peer association. Associates a transit gateway Connect peer with a device, and optionally, with a link. If you specify a link, it must be associated with the specified device.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkmanager_transit_gateway_connect_peer_association_device_id">
+    <rdfs:label>device_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkmanager_transit_gateway_connect_peer_association"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkmanager_transit_gateway_connect_peer_association_global_network_id">
+    <rdfs:label>global_network_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkmanager_transit_gateway_connect_peer_association"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkmanager_transit_gateway_connect_peer_association_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkmanager_transit_gateway_connect_peer_association"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkmanager_transit_gateway_connect_peer_association_link_id">
+    <rdfs:label>link_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkmanager_transit_gateway_connect_peer_association"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkmanager_transit_gateway_connect_peer_association_transit_gateway_connect_peer_arn">
+    <rdfs:label>transit_gateway_connect_peer_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkmanager_transit_gateway_connect_peer_association"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkmanager_transit_gateway_connect_peer_association_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkmanager_transit_gateway_connect_peer_association"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkmanager_transit_gateway_connect_peer_association_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkmanager_transit_gateway_connect_peer_association"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_ydb_table_changefeed">
+    <rdfs:label>yandex_ydb_table_changefeed</rdfs:label>
+    <rdfs:comment>Yandex Database [table changefeed](https://ydb.tech/en/docs/concepts/cdc), or Change Data Capture (CDC) resource, keeps you informed about changes in a given table. When you add, update, or delete a table row, the CDC mechanism generates a change record where it specifies the primary key of the row and writes it to the topic partition corresponding to this key. A [topic](https://ydb.tech/en/docs/concepts/topic) is an entity for storing unstructured messages and delivering them to multiple subscribers. Basically, a topic is a named set of messages.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_connection_string">
+    <rdfs:label>connection_string</rdfs:label>
+    <rdfs:comment>Connection string, conflicts with `table_id`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_format">
+    <rdfs:label>format</rdfs:label>
+    <rdfs:comment>Changefeed format.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_mode">
+    <rdfs:label>mode</rdfs:label>
+    <rdfs:comment>[Changefeed mode](https://ydb.tech/en/docs/yql/reference/syntax/alter_table#changefeed-options).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Changefeed name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_retention_period">
+    <rdfs:label>retention_period</rdfs:label>
+    <rdfs:comment>Time of data retention in the topic, [ISO 8601](https://ru.wikipedia.org/wiki/ISO_8601) format.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_table_id">
+    <rdfs:label>table_id</rdfs:label>
+    <rdfs:comment>Terraform resource ID of the table.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_table_path">
+    <rdfs:label>table_path</rdfs:label>
+    <rdfs:comment>Table path.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_virtual_timestamps">
+    <rdfs:label>virtual_timestamps</rdfs:label>
+    <rdfs:comment>Use [virtual timestamps](https://ydb.tech/en/docs/concepts/cdc#virtual-timestamps).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_important">
+    <rdfs:label>important</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Consumer name. It is used in the SDK or CLI to [read data](https://ydb.tech/en/docs/best_practices/cdc#read) from the topic.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_starting_message_timestamp_ms">
+    <rdfs:label>starting_message_timestamp_ms</rdfs:label>
+    <rdfs:comment>Timestamp in the UNIX timestamp format, from which the consumer will start reading data.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_supported_codecs">
+    <rdfs:label>supported_codecs</rdfs:label>
+    <rdfs:comment>Supported data encodings.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_default">
+    <rdfs:label>default</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_table_changefeed_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_table_changefeed"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

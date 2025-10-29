@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_mdb_mysql_cluster">
+    <rdfs:label>yandex_mdb_mysql_cluster</rdfs:label>
+    <rdfs:comment>Manages a MySQL cluster within the Yandex Cloud. For more information, see [the official documentation](https://yandex.cloud/docs/managed-mysql/).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_allow_regeneration_host">
+    <rdfs:label>allow_regeneration_host</rdfs:label>
+    <rdfs:comment>Deprecated field. You can safely remove this option. There is no need to recreate host if assign_public_ip is changed.
+Regenerate hosts after changing the assign_public_ip parameter.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_backup_retain_period_days">
+    <rdfs:label>backup_retain_period_days</rdfs:label>
+    <rdfs:comment>The period in days during which backups are stored.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The creation timestamp of the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_deletion_protection">
+    <rdfs:label>deletion_protection</rdfs:label>
+    <rdfs:comment>The `true` value means that resource is protected from accidental deletion.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>The resource description.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_disk_encryption_key_id">
+    <rdfs:label>disk_encryption_key_id</rdfs:label>
+    <rdfs:comment>ID of the KMS key for cluster disk encryption. Restoring without an encryption key will disable encryption if any exists.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_environment">
+    <rdfs:label>environment</rdfs:label>
+    <rdfs:comment>Deployment environment of the MySQL cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_health">
+    <rdfs:label>health</rdfs:label>
+    <rdfs:comment>Aggregated health of the cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_host_group_ids">
+    <rdfs:label>host_group_ids</rdfs:label>
+    <rdfs:comment>A list of host group IDs to place VMs of the cluster on.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>A set of key/value label pairs which assigned to resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_mysql_config">
+    <rdfs:label>mysql_config</rdfs:label>
+    <rdfs:comment>MySQL cluster config block.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_network_id">
+    <rdfs:label>network_id</rdfs:label>
+    <rdfs:comment>The `VPC Network ID` of subnets which resource attached to.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_security_group_ids">
+    <rdfs:label>security_group_ids</rdfs:label>
+    <rdfs:comment>The list of security groups applied to resource or their components.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:comment>Status of the cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:comment>Version of the MySQL cluster. (allowed versions are: 5.7, 8.0).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_data_lens">
+    <rdfs:label>data_lens</rdfs:label>
+    <rdfs:comment>Allow access for [Yandex DataLens](https://yandex.cloud/services/datalens).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_data_transfer">
+    <rdfs:label>data_transfer</rdfs:label>
+    <rdfs:comment>Allow access for [DataTransfer](https://yandex.cloud/services/data-transfer).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_web_sql">
+    <rdfs:label>web_sql</rdfs:label>
+    <rdfs:comment>Allows access for [SQL queries in the management console](https://yandex.cloud/docs/managed-mysql/operations/web-sql-query).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_hours">
+    <rdfs:label>hours</rdfs:label>
+    <rdfs:comment>The hour at which backup will be started (UTC).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_minutes">
+    <rdfs:label>minutes</rdfs:label>
+    <rdfs:comment>The minute at which backup will be started (UTC).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The name of the database.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_disk_size_limit">
+    <rdfs:label>disk_size_limit</rdfs:label>
+    <rdfs:comment>Limit of disk size after autoscaling (GiB).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_emergency_usage_threshold">
+    <rdfs:label>emergency_usage_threshold</rdfs:label>
+    <rdfs:comment>Immediate autoscaling disk usage (percent).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_planned_usage_threshold">
+    <rdfs:label>planned_usage_threshold</rdfs:label>
+    <rdfs:comment>Maintenance window autoscaling disk usage (percent).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_assign_public_ip">
+    <rdfs:label>assign_public_ip</rdfs:label>
+    <rdfs:comment>Sets whether the host should get a public IP address. It can be changed on the fly only when `name` is set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_backup_priority">
+    <rdfs:label>backup_priority</rdfs:label>
+    <rdfs:comment>Host backup priority. Value is between 0 and 100, default is 0.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_fqdn">
+    <rdfs:label>fqdn</rdfs:label>
+    <rdfs:comment>The fully qualified domain name of the host.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Host state name. It should be set for all hosts or unset for all hosts. This field can be used by another host, to select which host will be its replication source. Please refer to `replication_source_name` parameter.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_priority">
+    <rdfs:label>priority</rdfs:label>
+    <rdfs:comment>Host master promotion priority. Value is between 0 and 100, default is 0.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_replication_source">
+    <rdfs:label>replication_source</rdfs:label>
+    <rdfs:comment>Host replication source (fqdn), when replication_source is empty then host is in HA group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_replication_source_name">
+    <rdfs:label>replication_source_name</rdfs:label>
+    <rdfs:comment>Host replication source name points to host's `name` from which this host should replicate. When not set then host in HA group. It works only when `name` is set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>The ID of the subnet, to which the host belongs. The subnet must be a part of the network to which the cluster belongs.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_zone">
+    <rdfs:label>zone</rdfs:label>
+    <rdfs:comment>The [availability zone](https://yandex.cloud/docs/overview/concepts/geo-scope) where resource is located. If it is not provided, the default provider zone will be used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_day">
+    <rdfs:label>day</rdfs:label>
+    <rdfs:comment>Day of the week (in `DDD` format). Allowed values: `MON`, `TUE`, `WED`, `THU`, `FRI`, `SAT`, `SUN`</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_hour">
+    <rdfs:label>hour</rdfs:label>
+    <rdfs:comment>Hour of the day in UTC (in `HH` format). Allowed value is between 1 and 24.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Type of maintenance window. Can be either `ANYTIME` or `WEEKLY`. A day and hour of window need to be specified with weekly window.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_enabled">
+    <rdfs:label>enabled</rdfs:label>
+    <rdfs:comment>Enable performance diagnostics.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_sessions_sampling_interval">
+    <rdfs:label>sessions_sampling_interval</rdfs:label>
+    <rdfs:comment>Interval (in seconds) for my_stat_activity sampling Acceptable values are 1 to 86400, inclusive.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_statements_sampling_interval">
+    <rdfs:label>statements_sampling_interval</rdfs:label>
+    <rdfs:comment>Interval (in seconds) for my_stat_statements sampling Acceptable values are 1 to 86400, inclusive.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_disk_size">
+    <rdfs:label>disk_size</rdfs:label>
+    <rdfs:comment>Volume of the storage available to a MySQL host, in gigabytes.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_disk_type_id">
+    <rdfs:label>disk_type_id</rdfs:label>
+    <rdfs:comment>Type of the storage of MySQL hosts.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_resource_preset_id">
+    <rdfs:label>resource_preset_id</rdfs:label>
+    <rdfs:comment>The ID of the preset for computational resources available to a MySQL host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-mysql/concepts/instance-types).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_backup_id">
+    <rdfs:label>backup_id</rdfs:label>
+    <rdfs:comment>Backup ID. The cluster will be created from the specified backup. [How to get a list of MySQL backups](https://yandex.cloud/docs/managed-mysql/operations/cluster-backups).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_time">
+    <rdfs:label>time</rdfs:label>
+    <rdfs:comment>Timestamp of the moment to which the MySQL cluster should be restored. (Format: `2006-01-02T15:04:05` - UTC). When not set, current time is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_authentication_plugin">
+    <rdfs:label>authentication_plugin</rdfs:label>
+    <rdfs:comment>Authentication plugin. Allowed values: `MYSQL_NATIVE_PASSWORD`, `CACHING_SHA2_PASSWORD`, `SHA256_PASSWORD`, `MYSQL_NO_LOGIN`, `MDB_IAMPROXY_AUTH` (for version 5.7 `MYSQL_NATIVE_PASSWORD`, `SHA256_PASSWORD`, `MYSQL_NO_LOGIN`, `MDB_IAMPROXY_AUTH`).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_global_permissions">
+    <rdfs:label>global_permissions</rdfs:label>
+    <rdfs:comment>List user's global permissions. Allowed permissions: `REPLICATION_CLIENT`, `REPLICATION_SLAVE`, `PROCESS`, `FLUSH_OPTIMIZER_COSTS`, `SHOW_ROUTINE`, `MDB_ADMIN` for clear list use empty list. If the attribute is not specified there will be no changes.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The name of the user.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:comment>The password of the user.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_max_connections_per_hour">
+    <rdfs:label>max_connections_per_hour</rdfs:label>
+    <rdfs:comment>Max connections per hour.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_max_questions_per_hour">
+    <rdfs:label>max_questions_per_hour</rdfs:label>
+    <rdfs:comment>Max questions per hour.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_max_updates_per_hour">
+    <rdfs:label>max_updates_per_hour</rdfs:label>
+    <rdfs:comment>Max updates per hour.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_max_user_connections">
+    <rdfs:label>max_user_connections</rdfs:label>
+    <rdfs:comment>Max user connections.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_database_name">
+    <rdfs:label>database_name</rdfs:label>
+    <rdfs:comment>The name of the database that the permission grants access to.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_cluster_roles">
+    <rdfs:label>roles</rdfs:label>
+    <rdfs:comment>List user's roles in the database. Allowed roles: `ALL`,`ALTER`,`ALTER_ROUTINE`,`CREATE`,`CREATE_ROUTINE`,`CREATE_TEMPORARY_TABLES`, `CREATE_VIEW`,`DELETE`,`DROP`,`EVENT`,`EXECUTE`,`INDEX`,`INSERT`,`LOCK_TABLES`,`SELECT`,`SHOW_VIEW`,`TRIGGER`,`UPDATE`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

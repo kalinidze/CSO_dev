@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c">
+    <rdfs:label>azurerm_api_management_identity_provider_aadb2c</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_allowed_tenant">
+    <rdfs:label>allowed_tenant</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_api_management_name">
+    <rdfs:label>api_management_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_authority">
+    <rdfs:label>authority</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_client_id">
+    <rdfs:label>client_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_client_library">
+    <rdfs:label>client_library</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_client_secret">
+    <rdfs:label>client_secret</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_password_reset_policy">
+    <rdfs:label>password_reset_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_profile_editing_policy">
+    <rdfs:label>profile_editing_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_signin_policy">
+    <rdfs:label>signin_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_signin_tenant">
+    <rdfs:label>signin_tenant</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_signup_policy">
+    <rdfs:label>signup_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_api_management_identity_provider_aadb2c_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_api_management_identity_provider_aadb2c"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

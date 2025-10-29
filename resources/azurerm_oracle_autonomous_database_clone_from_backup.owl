@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup">
+    <rdfs:label>azurerm_oracle_autonomous_database_clone_from_backup</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_admin_password">
+    <rdfs:label>admin_password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_allowed_ip_addresses">
+    <rdfs:label>allowed_ip_addresses</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_auto_scaling_enabled">
+    <rdfs:label>auto_scaling_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_auto_scaling_for_storage_enabled">
+    <rdfs:label>auto_scaling_for_storage_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_backup_retention_period_in_days">
+    <rdfs:label>backup_retention_period_in_days</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_backup_timestamp">
+    <rdfs:label>backup_timestamp</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_character_set">
+    <rdfs:label>character_set</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_clone_type">
+    <rdfs:label>clone_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_compute_count">
+    <rdfs:label>compute_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_compute_model">
+    <rdfs:label>compute_model</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_customer_contacts">
+    <rdfs:label>customer_contacts</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_data_storage_size_in_tb">
+    <rdfs:label>data_storage_size_in_tb</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_database_version">
+    <rdfs:label>database_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_database_workload">
+    <rdfs:label>database_workload</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_display_name">
+    <rdfs:label>display_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_license_model">
+    <rdfs:label>license_model</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_mtls_connection_required">
+    <rdfs:label>mtls_connection_required</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_national_character_set">
+    <rdfs:label>national_character_set</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_source_autonomous_database_id">
+    <rdfs:label>source_autonomous_database_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_virtual_network_id">
+    <rdfs:label>virtual_network_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_autonomous_database_clone_from_backup_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_autonomous_database_clone_from_backup"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

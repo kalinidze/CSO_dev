@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_compute_snapshot">
+    <rdfs:label>yandex_compute_snapshot</rdfs:label>
+    <rdfs:comment>Creates a new snapshot of a disk. For more information, see [the official documentation](https://yandex.cloud/docs/compute/concepts/snapshot).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_snapshot_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The creation timestamp of the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_snapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_snapshot_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>The resource description.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_snapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_snapshot_disk_size">
+    <rdfs:label>disk_size</rdfs:label>
+    <rdfs:comment>Size of the disk when the snapshot was created, specified in GB.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_snapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_snapshot_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_snapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_snapshot_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_snapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_snapshot_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>A set of key/value label pairs which assigned to resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_snapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_snapshot_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_snapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_snapshot_source_disk_id">
+    <rdfs:label>source_disk_id</rdfs:label>
+    <rdfs:comment>ID of the disk to create a snapshot from.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_snapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_snapshot_storage_size">
+    <rdfs:label>storage_size</rdfs:label>
+    <rdfs:comment>Size of the snapshot, specified in GB.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_snapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_snapshot_pci_topology">
+    <rdfs:label>pci_topology</rdfs:label>
+    <rdfs:comment>A variant of PCI topology, one of `PCI_TOPOLOGY_V1` or `PCI_TOPOLOGY_V2`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_snapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_snapshot_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_snapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_snapshot_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_snapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_snapshot_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_snapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

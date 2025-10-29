@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_log_analytics_datasource_windows_performance_counter">
+    <rdfs:label>azurerm_log_analytics_datasource_windows_performance_counter</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_log_analytics_datasource_windows_performance_counter_counter_name">
+    <rdfs:label>counter_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_log_analytics_datasource_windows_performance_counter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_log_analytics_datasource_windows_performance_counter_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_log_analytics_datasource_windows_performance_counter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_log_analytics_datasource_windows_performance_counter_instance_name">
+    <rdfs:label>instance_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_log_analytics_datasource_windows_performance_counter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_log_analytics_datasource_windows_performance_counter_interval_seconds">
+    <rdfs:label>interval_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_log_analytics_datasource_windows_performance_counter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_log_analytics_datasource_windows_performance_counter_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_log_analytics_datasource_windows_performance_counter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_log_analytics_datasource_windows_performance_counter_object_name">
+    <rdfs:label>object_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_log_analytics_datasource_windows_performance_counter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_log_analytics_datasource_windows_performance_counter_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_log_analytics_datasource_windows_performance_counter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_log_analytics_datasource_windows_performance_counter_workspace_name">
+    <rdfs:label>workspace_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_log_analytics_datasource_windows_performance_counter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_log_analytics_datasource_windows_performance_counter_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_log_analytics_datasource_windows_performance_counter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_log_analytics_datasource_windows_performance_counter_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_log_analytics_datasource_windows_performance_counter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_log_analytics_datasource_windows_performance_counter_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_log_analytics_datasource_windows_performance_counter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_log_analytics_datasource_windows_performance_counter_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_log_analytics_datasource_windows_performance_counter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

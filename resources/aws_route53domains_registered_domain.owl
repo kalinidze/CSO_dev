@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_route53domains_registered_domain">
+    <rdfs:label>aws_route53domains_registered_domain</rdfs:label>
+    <rdfs:comment>Provides a resource to manage a domain that has been [registered](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/registrar-tld-list.html) and associated with the current AWS account. To register, renew and deregister a domain use the [`aws_route53domains_domain` resource](route53domains_domain.html) instead.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_abuse_contact_email">
+    <rdfs:label>abuse_contact_email</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_abuse_contact_phone">
+    <rdfs:label>abuse_contact_phone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_admin_privacy">
+    <rdfs:label>admin_privacy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_auto_renew">
+    <rdfs:label>auto_renew</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_billing_privacy">
+    <rdfs:label>billing_privacy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_creation_date">
+    <rdfs:label>creation_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_domain_name">
+    <rdfs:label>domain_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_expiration_date">
+    <rdfs:label>expiration_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_registrant_privacy">
+    <rdfs:label>registrant_privacy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_registrar_name">
+    <rdfs:label>registrar_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_registrar_url">
+    <rdfs:label>registrar_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_reseller">
+    <rdfs:label>reseller</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_status_list">
+    <rdfs:label>status_list</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_tech_privacy">
+    <rdfs:label>tech_privacy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_transfer_lock">
+    <rdfs:label>transfer_lock</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_updated_date">
+    <rdfs:label>updated_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_whois_server">
+    <rdfs:label>whois_server</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_address_line_1">
+    <rdfs:label>address_line_1</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_address_line_2">
+    <rdfs:label>address_line_2</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_city">
+    <rdfs:label>city</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_contact_type">
+    <rdfs:label>contact_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_country_code">
+    <rdfs:label>country_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_email">
+    <rdfs:label>email</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_extra_params">
+    <rdfs:label>extra_params</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_fax">
+    <rdfs:label>fax</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_first_name">
+    <rdfs:label>first_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_last_name">
+    <rdfs:label>last_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_organization_name">
+    <rdfs:label>organization_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_phone_number">
+    <rdfs:label>phone_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_state">
+    <rdfs:label>state</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_zip_code">
+    <rdfs:label>zip_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_address_line_1">
+    <rdfs:label>address_line_1</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_address_line_2">
+    <rdfs:label>address_line_2</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_city">
+    <rdfs:label>city</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_contact_type">
+    <rdfs:label>contact_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_country_code">
+    <rdfs:label>country_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_email">
+    <rdfs:label>email</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_extra_params">
+    <rdfs:label>extra_params</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_fax">
+    <rdfs:label>fax</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_first_name">
+    <rdfs:label>first_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_last_name">
+    <rdfs:label>last_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_organization_name">
+    <rdfs:label>organization_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_phone_number">
+    <rdfs:label>phone_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_state">
+    <rdfs:label>state</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_zip_code">
+    <rdfs:label>zip_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_glue_ips">
+    <rdfs:label>glue_ips</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_address_line_1">
+    <rdfs:label>address_line_1</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_address_line_2">
+    <rdfs:label>address_line_2</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_city">
+    <rdfs:label>city</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_contact_type">
+    <rdfs:label>contact_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_country_code">
+    <rdfs:label>country_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_email">
+    <rdfs:label>email</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_extra_params">
+    <rdfs:label>extra_params</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_fax">
+    <rdfs:label>fax</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_first_name">
+    <rdfs:label>first_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_last_name">
+    <rdfs:label>last_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_organization_name">
+    <rdfs:label>organization_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_phone_number">
+    <rdfs:label>phone_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_state">
+    <rdfs:label>state</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_zip_code">
+    <rdfs:label>zip_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_address_line_1">
+    <rdfs:label>address_line_1</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_address_line_2">
+    <rdfs:label>address_line_2</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_city">
+    <rdfs:label>city</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_contact_type">
+    <rdfs:label>contact_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_country_code">
+    <rdfs:label>country_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_email">
+    <rdfs:label>email</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_extra_params">
+    <rdfs:label>extra_params</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_fax">
+    <rdfs:label>fax</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_first_name">
+    <rdfs:label>first_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_last_name">
+    <rdfs:label>last_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_organization_name">
+    <rdfs:label>organization_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_phone_number">
+    <rdfs:label>phone_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_state">
+    <rdfs:label>state</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_zip_code">
+    <rdfs:label>zip_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53domains_registered_domain_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53domains_registered_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

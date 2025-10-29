@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_fis_experiment_template">
+    <rdfs:label>aws_fis_experiment_template</rdfs:label>
+    <rdfs:comment>Provides an FIS Experiment Template, which can be used to run an experiment.
+An experiment template contains one or more actions to run on specified targets during an experiment.
+It also contains the stop conditions that prevent the experiment from going out of bounds.
+See [Amazon Fault Injection Simulator](https://docs.aws.amazon.com/fis/index.html)
+for more information.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_role_arn">
+    <rdfs:label>role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_action_id">
+    <rdfs:label>action_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_start_after">
+    <rdfs:label>start_after</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_account_targeting">
+    <rdfs:label>account_targeting</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_empty_target_resolution_mode">
+    <rdfs:label>empty_target_resolution_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_post_experiment_duration">
+    <rdfs:label>post_experiment_duration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_pre_experiment_duration">
+    <rdfs:label>pre_experiment_duration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_dashboard_arn">
+    <rdfs:label>dashboard_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_prefix">
+    <rdfs:label>prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_log_schema_version">
+    <rdfs:label>log_schema_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_log_group_arn">
+    <rdfs:label>log_group_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_prefix">
+    <rdfs:label>prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_source">
+    <rdfs:label>source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_parameters">
+    <rdfs:label>parameters</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_resource_arns">
+    <rdfs:label>resource_arns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_resource_type">
+    <rdfs:label>resource_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_selection_mode">
+    <rdfs:label>selection_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_values">
+    <rdfs:label>values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fis_experiment_template_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fis_experiment_template"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

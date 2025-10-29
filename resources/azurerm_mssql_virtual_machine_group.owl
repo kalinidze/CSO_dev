@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_mssql_virtual_machine_group">
+    <rdfs:label>azurerm_mssql_virtual_machine_group</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_sql_image_offer">
+    <rdfs:label>sql_image_offer</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_sql_image_sku">
+    <rdfs:label>sql_image_sku</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_cluster_bootstrap_account_name">
+    <rdfs:label>cluster_bootstrap_account_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_cluster_operator_account_name">
+    <rdfs:label>cluster_operator_account_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_cluster_subnet_type">
+    <rdfs:label>cluster_subnet_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_fqdn">
+    <rdfs:label>fqdn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_organizational_unit_path">
+    <rdfs:label>organizational_unit_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_sql_service_account_name">
+    <rdfs:label>sql_service_account_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_storage_account_primary_key">
+    <rdfs:label>storage_account_primary_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mssql_virtual_machine_group_storage_account_url">
+    <rdfs:label>storage_account_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mssql_virtual_machine_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_storagegateway_nfs_file_share">
+    <rdfs:label>aws_storagegateway_nfs_file_share</rdfs:label>
+    <rdfs:comment>Manages an AWS Storage Gateway NFS File Share.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_audit_destination_arn">
+    <rdfs:label>audit_destination_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_bucket_region">
+    <rdfs:label>bucket_region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_client_list">
+    <rdfs:label>client_list</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_default_storage_class">
+    <rdfs:label>default_storage_class</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_file_share_name">
+    <rdfs:label>file_share_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_fileshare_id">
+    <rdfs:label>fileshare_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_gateway_arn">
+    <rdfs:label>gateway_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_guess_mime_type_enabled">
+    <rdfs:label>guess_mime_type_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_kms_encrypted">
+    <rdfs:label>kms_encrypted</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_kms_key_arn">
+    <rdfs:label>kms_key_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_location_arn">
+    <rdfs:label>location_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_notification_policy">
+    <rdfs:label>notification_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_object_acl">
+    <rdfs:label>object_acl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_read_only">
+    <rdfs:label>read_only</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_requester_pays">
+    <rdfs:label>requester_pays</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_role_arn">
+    <rdfs:label>role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_squash">
+    <rdfs:label>squash</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_vpc_endpoint_dns_name">
+    <rdfs:label>vpc_endpoint_dns_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_cache_stale_timeout_in_seconds">
+    <rdfs:label>cache_stale_timeout_in_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_directory_mode">
+    <rdfs:label>directory_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_file_mode">
+    <rdfs:label>file_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_group_id">
+    <rdfs:label>group_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_owner_id">
+    <rdfs:label>owner_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_storagegateway_nfs_file_share_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_storagegateway_nfs_file_share"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

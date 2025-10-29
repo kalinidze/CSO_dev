@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/google_container_azure_cluster">
+    <rdfs:label>google_container_azure_cluster</rdfs:label>
+    <rdfs:comment>#
+#     ***     AUTO GENERATED CODE    ***    Type: DCL     ***
+#
+# ----------------------------------------------------------------------------
+#
+#     This file is managed by Magic Modules (https:#github.com/GoogleCloudPlatform/magic-modules)
+#     and is based on the DCL (https:#github.com/GoogleCloudPlatform/declarative-resource-client-library).
+#     Changes will need to be made to the DCL or Magic Modules instead of here.
+#
+#     We are not currently able to accept contributions to this file. If changes
+#     are required, please file an issue at https:#github.com/hashicorp/terraform-provider-google/issues/new/choose
+#
+# ----------------------------------------------------------------------------
+subcategory: "ContainerAzure"
+description: |-
+  An Anthos cluster running on Azure.
+---</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_annotations">
+    <rdfs:label>annotations</rdfs:label>
+    <rdfs:comment>Optional. Annotations on the cluster. This field has the same restrictions as Kubernetes annotations. The total size of all keys and values combined is limited to 256k. Keys can have 2 segments: prefix (optional) and name (required), separated by a slash (/). Prefix must be a DNS subdomain. Name must be 63 characters or less, begin and end with alphanumerics, with dashes (-), underscores (_), dots (.), and alphanumerics between.
+
+**Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
+Please refer to the field `effective_annotations` for all of the annotations present on the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_azure_region">
+    <rdfs:label>azure_region</rdfs:label>
+    <rdfs:comment>The Azure region where the cluster runs. Each Google Cloud region supports a subset of nearby Azure regions. You can call to list all supported Azure regions within a given Google Cloud region.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_client">
+    <rdfs:label>client</rdfs:label>
+    <rdfs:comment>Name of the AzureClient. The `AzureClient` resource must reside on the same GCP project and region as the `AzureCluster`. `AzureClient` names are formatted as `projects/<project-number>/locations/<region>/azureClients/<client-id>`. See Resource Names (https:cloud.google.com/apis/design/resource_names) for more details on Google Cloud resource names.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_create_time">
+    <rdfs:label>create_time</rdfs:label>
+    <rdfs:comment>Output only. The time at which this cluster was created.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>Optional. A human readable description of this cluster. Cannot be longer than 255 UTF-8 encoded bytes.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_effective_annotations">
+    <rdfs:label>effective_annotations</rdfs:label>
+    <rdfs:comment>All of annotations (key/value pairs) present on the resource in GCP, including the annotations configured through Terraform, other clients and services.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_endpoint">
+    <rdfs:label>endpoint</rdfs:label>
+    <rdfs:comment>Output only. The endpoint of the cluster's API server.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_etag">
+    <rdfs:label>etag</rdfs:label>
+    <rdfs:comment>Allows clients to perform consistent read-modify-writes through optimistic concurrency control. May be sent on update and delete requests to ensure the client has an up-to-date value before proceeding.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:comment>The location for the resource</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The name of this resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_project">
+    <rdfs:label>project</rdfs:label>
+    <rdfs:comment>The project for the resource</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_reconciling">
+    <rdfs:label>reconciling</rdfs:label>
+    <rdfs:comment>Output only. If set, there are currently changes in flight to the cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_resource_group_id">
+    <rdfs:label>resource_group_id</rdfs:label>
+    <rdfs:comment>The ARM ID of the resource group where the cluster resources are deployed. For example: `/subscriptions/*/resourceGroups/*`</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_state">
+    <rdfs:label>state</rdfs:label>
+    <rdfs:comment>Output only. The current state of the cluster. Possible values: STATE_UNSPECIFIED, PROVISIONING, RUNNING, RECONCILING, STOPPING, ERROR, DEGRADED</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_uid">
+    <rdfs:label>uid</rdfs:label>
+    <rdfs:comment>Output only. A globally unique identifier for the cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_update_time">
+    <rdfs:label>update_time</rdfs:label>
+    <rdfs:comment>Output only. The time at which this cluster was last updated.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_workload_identity_config">
+    <rdfs:label>workload_identity_config</rdfs:label>
+    <rdfs:comment>Output only. Workload Identity settings.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_group">
+    <rdfs:label>group</rdfs:label>
+    <rdfs:comment>The name of the group, e.g. `my-group@domain.com`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:comment>The name of the user, e.g. `my-gcp-id@gmail.com`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_application_id">
+    <rdfs:label>application_id</rdfs:label>
+    <rdfs:comment>The Azure Active Directory Application ID for Authentication configuration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_tenant_id">
+    <rdfs:label>tenant_id</rdfs:label>
+    <rdfs:comment>The Azure Active Directory Tenant ID for Authentication configuration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>The ARM ID of the subnet where the control plane VMs are deployed. Example: `/subscriptions//resourceGroups//providers/Microsoft.Network/virtualNetworks//subnets/default`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:comment>Optional. A set of tags to apply to all underlying control plane Azure resources.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:comment>The Kubernetes version to run on control plane replicas (e.g. `1.19.10-gke.1000`). You can list all supported versions on a given Google Cloud region by calling GetAzureServerConfig.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_vm_size">
+    <rdfs:label>vm_size</rdfs:label>
+    <rdfs:comment>Optional. The Azure VM size name. Example: `Standard_DS2_v2`. For available VM sizes, see https://docs.microsoft.com/en-us/azure/virtual-machines/vm-naming-conventions. When unspecified, it defaults to `Standard_DS2_v2`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_key_id">
+    <rdfs:label>key_id</rdfs:label>
+    <rdfs:comment>The ARM ID of the Azure Key Vault key to encrypt / decrypt data. For example: `/subscriptions/<subscription-id>/resourceGroups/<resource-group-id>/providers/Microsoft.KeyVault/vaults/<key-vault-id>/keys/<key-name>` Encryption will always take the latest version of the key and hence specific version is not supported.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_size_gib">
+    <rdfs:label>size_gib</rdfs:label>
+    <rdfs:comment>Optional. The size of the disk, in GiBs. When unspecified, a default value is provided. See the specific reference in the parent resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_resource_group_id">
+    <rdfs:label>resource_group_id</rdfs:label>
+    <rdfs:comment>The ARM ID the of the resource group containing proxy keyvault. Resource group ids are formatted as `/subscriptions/<subscription-id>/resourceGroups/<resource-group-name>`</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_secret_id">
+    <rdfs:label>secret_id</rdfs:label>
+    <rdfs:comment>The URL the of the proxy setting secret with its version. Secret ids are formatted as `https:<key-vault-name>.vault.azure.net/secrets/<secret-name>/<secret-version>`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_azure_availability_zone">
+    <rdfs:label>azure_availability_zone</rdfs:label>
+    <rdfs:comment>For a given replica, the Azure availability zone where to provision the control plane VM and the ETCD disk.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>For a given replica, the ARM ID of the subnet where the control plane VM is deployed. Make sure it's a subnet under the virtual network in the cluster configuration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_size_gib">
+    <rdfs:label>size_gib</rdfs:label>
+    <rdfs:comment>Optional. The size of the disk, in GiBs. When unspecified, a default value is provided. See the specific reference in the parent resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_authorized_key">
+    <rdfs:label>authorized_key</rdfs:label>
+    <rdfs:comment>The SSH public key data for VMs managed by Anthos. This accepts the authorized_keys file format used in OpenSSH according to the sshd(8) manual page.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_membership">
+    <rdfs:label>membership</rdfs:label>
+    <rdfs:comment>The name of the managed Hub Membership resource associated to this cluster. Membership names are formatted as projects/<project-number>/locations/global/membership/<cluster-id>.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_project">
+    <rdfs:label>project</rdfs:label>
+    <rdfs:comment>The number of the Fleet host project where this cluster will be registered.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_pod_address_cidr_blocks">
+    <rdfs:label>pod_address_cidr_blocks</rdfs:label>
+    <rdfs:comment>The IP address range of the pods in this cluster, in CIDR notation (e.g. `10.96.0.0/14`). All pods in the cluster get assigned a unique RFC1918 IPv4 address from these ranges. Only a single range is supported. This field cannot be changed after creation.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_service_address_cidr_blocks">
+    <rdfs:label>service_address_cidr_blocks</rdfs:label>
+    <rdfs:comment>The IP address range for services in this cluster, in CIDR notation (e.g. `10.96.0.0/14`). All services in the cluster get assigned a unique RFC1918 IPv4 address from these ranges. Only a single range is supported. This field cannot be changed after creating a cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_virtual_network_id">
+    <rdfs:label>virtual_network_id</rdfs:label>
+    <rdfs:comment>The Azure Resource Manager (ARM) ID of the VNet associated with your cluster. All components in the cluster (i.e. control plane and node pools) run on a single VNet. Example: `/subscriptions/*/resourceGroups/*/providers/Microsoft.Network/virtualNetworks/*` This field cannot be changed after creation.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_azure_cluster_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_azure_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

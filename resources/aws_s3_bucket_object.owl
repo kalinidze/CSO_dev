@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_s3_bucket_object">
+    <rdfs:label>aws_s3_bucket_object</rdfs:label>
+    <rdfs:comment>~> **NOTE:** The `aws_s3_bucket_object` resource is DEPRECATED and will be removed in a future version! Use `aws_s3_object` instead, where new features and fixes will be added. When replacing `aws_s3_bucket_object` with `aws_s3_object` in your configuration, on the next apply, Terraform will recreate the object. If you prefer to not have Terraform recreate the object, import the object using `aws_s3_object`.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_acl">
+    <rdfs:label>acl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_bucket">
+    <rdfs:label>bucket</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_bucket_key_enabled">
+    <rdfs:label>bucket_key_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_cache_control">
+    <rdfs:label>cache_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_content">
+    <rdfs:label>content</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_content_base64">
+    <rdfs:label>content_base64</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_content_disposition">
+    <rdfs:label>content_disposition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_content_encoding">
+    <rdfs:label>content_encoding</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_content_language">
+    <rdfs:label>content_language</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_content_type">
+    <rdfs:label>content_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_etag">
+    <rdfs:label>etag</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_force_destroy">
+    <rdfs:label>force_destroy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_kms_key_id">
+    <rdfs:label>kms_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_metadata">
+    <rdfs:label>metadata</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_object_lock_legal_hold_status">
+    <rdfs:label>object_lock_legal_hold_status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_object_lock_mode">
+    <rdfs:label>object_lock_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_object_lock_retain_until_date">
+    <rdfs:label>object_lock_retain_until_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_server_side_encryption">
+    <rdfs:label>server_side_encryption</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_source">
+    <rdfs:label>source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_source_hash">
+    <rdfs:label>source_hash</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_storage_class">
+    <rdfs:label>storage_class</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_version_id">
+    <rdfs:label>version_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_object_website_redirect">
+    <rdfs:label>website_redirect</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

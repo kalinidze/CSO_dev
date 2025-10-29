@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_backup_policy">
+    <rdfs:label>yandex_backup_policy</rdfs:label>
+    <rdfs:comment>Allows management of [Yandex Cloud Backup Policy](https://yandex.cloud/docs/backup/concepts/policy).
+
+~> Cloud Backup Provider must be activated in order to manipulate with policies. Active it either by UI Console or by `yc` command.
+
+## Defined types
+
+### interval_type
+
+ A string type, that accepts values in the format of: `number` + `time type`, where `time type` might be:
+* `s` — seconds
+* `m` — minutes
+* `h` — hours
+* `d` — days
+* `w` — weekdays
+* `M` — months
+
+Example of interval value: `5m`, `10d`, `2M`, `5w`
+
+### day_type
+
+A string type, that accepts the following values: `ALWAYS_INCREMENTAL`, `ALWAYS_FULL`, `WEEKLY_FULL_DAILY_INCREMENTAL`, `WEEKLY_INCREMENTAL`.
+
+### backup_set_type
+
+`TYPE_AUTO`, `TYPE_FULL`, `TYPE_INCREMENTAL`, `TYPE_DIFFERENTIAL`.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_archive_name">
+    <rdfs:label>archive_name</rdfs:label>
+    <rdfs:comment>The name of generated archives. Default `[Machine Name]-[Plan ID]-[Unique ID]a`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_cbt">
+    <rdfs:label>cbt</rdfs:label>
+    <rdfs:comment>Configuration of Changed Block Tracking. Available values are: `USE_IF_ENABLED`, `ENABLED_AND_USE`, `DO_NOT_USE`. Default `DO_NOT_USE`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_compression">
+    <rdfs:label>compression</rdfs:label>
+    <rdfs:comment>Archive compression level. Affects CPU. Available values: `NORMAL`, `HIGH`, `MAX`, `OFF`. Default: `NORMAL`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The creation timestamp of the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_enabled">
+    <rdfs:label>enabled</rdfs:label>
+    <rdfs:comment>If this field is true, it means that the policy is enabled.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_fast_backup_enabled">
+    <rdfs:label>fast_backup_enabled</rdfs:label>
+    <rdfs:comment>If true, determines whether a file has changed by the file size and timestamp. Otherwise, the entire file contents are compared to those stored in the backup.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_format">
+    <rdfs:label>format</rdfs:label>
+    <rdfs:comment>Format of the backup. It's strongly recommend to leave this option empty or `AUTO`. Available values: `AUTO`, `VERSION_11`, `VERSION_12`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_lvm_snapshotting_enabled">
+    <rdfs:label>lvm_snapshotting_enabled</rdfs:label>
+    <rdfs:comment>LVM will be used to create the volume snapshot. If LVM fails to create a snapshot (for example, because there is not enough free space), the software will create the snapshot itself.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_multi_volume_snapshotting_enabled">
+    <rdfs:label>multi_volume_snapshotting_enabled</rdfs:label>
+    <rdfs:comment>If true, snapshots of multiple volumes will be taken simultaneously. Default `true`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_performance_window_enabled">
+    <rdfs:label>performance_window_enabled</rdfs:label>
+    <rdfs:comment>Time windows for performance limitations of backup. Default `false`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_preserve_file_security_settings">
+    <rdfs:label>preserve_file_security_settings</rdfs:label>
+    <rdfs:comment>If true, a quiesced snapshot of the virtual machine will be taken. Default `true`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_quiesce_snapshotting_enabled">
+    <rdfs:label>quiesce_snapshotting_enabled</rdfs:label>
+    <rdfs:comment>If true, a quiesced snapshot of the virtual machine will be taken. Default `true`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_sector_by_sector">
+    <rdfs:label>sector_by_sector</rdfs:label>
+    <rdfs:comment>A sector-by-sector backup of a disk or volume creates a backup copy of all sectors of the disk or volume, including those that do not contain data. Therefore, the size of such a backup copy will be equal to the size of the original disk or volume.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_silent_mode_enabled">
+    <rdfs:label>silent_mode_enabled</rdfs:label>
+    <rdfs:comment>If true, a user interaction will be avoided when possible. Default `true`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_splitting_bytes">
+    <rdfs:label>splitting_bytes</rdfs:label>
+    <rdfs:comment>Determines the size to split backups. It's better to leave this option unchanged. Default `9223372036854775807`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_updated_at">
+    <rdfs:label>updated_at</rdfs:label>
+    <rdfs:comment>The update timestamp of the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_validation_enabled">
+    <rdfs:label>validation_enabled</rdfs:label>
+    <rdfs:comment>Validation is a time-consuming process, even with incremental or differential backups of small amounts of data. This is because not only the data physically contained in the backup copy is verified, but all data restored when it is selected. This option requires access to previously created backup copies.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_vss_provider">
+    <rdfs:label>vss_provider</rdfs:label>
+    <rdfs:comment>Settings for the volume shadow copy service. Available values are: `NATIVE`, `TARGET_SYSTEM_DEFINED`. Default `NATIVE`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_exclusion_masks">
+    <rdfs:label>exclusion_masks</rdfs:label>
+    <rdfs:comment>Do not backup files that match the following criteria.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_inclusion_masks">
+    <rdfs:label>inclusion_masks</rdfs:label>
+    <rdfs:comment>Backup only files that match the following criteria.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_enabled">
+    <rdfs:label>enabled</rdfs:label>
+    <rdfs:comment>Enable flag. Default `true`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_interval">
+    <rdfs:label>interval</rdfs:label>
+    <rdfs:comment>Retry interval. See `interval_type` for available values. Default: `5m`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_max_attempts">
+    <rdfs:label>max_attempts</rdfs:label>
+    <rdfs:comment>Maximum number of attempts before throwing an error. Default `5`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_after_backup">
+    <rdfs:label>after_backup</rdfs:label>
+    <rdfs:comment>Defines whether retention rule applies after creating backup or before.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_max_age">
+    <rdfs:label>max_age</rdfs:label>
+    <rdfs:comment>Deletes backups that older than `max_age`. Exactly one of `max_count` or `max_age` should be set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_max_count">
+    <rdfs:label>max_count</rdfs:label>
+    <rdfs:comment>Deletes backups if it's count exceeds `max_count`. Exactly one of `max_count` or `max_age` should be set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_repeat_period">
+    <rdfs:label>repeat_period</rdfs:label>
+    <rdfs:comment>Possible types: `REPEATE_PERIOD_UNSPECIFIED`, `HOURLY`, `DAILY`, `WEEKLY`, `MONTHLY`. Specifies repeat period of the backupset.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_enabled">
+    <rdfs:label>enabled</rdfs:label>
+    <rdfs:comment>Enables or disables scheduling. Default `true`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_execute_by_interval">
+    <rdfs:label>execute_by_interval</rdfs:label>
+    <rdfs:comment>Perform backup by interval, since last backup of the host. Maximum value is: 9999 days. See `interval_type` for available values. Exactly on of options should be set: `execute_by_interval` or `execute_by_time`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_max_parallel_backups">
+    <rdfs:label>max_parallel_backups</rdfs:label>
+    <rdfs:comment>Maximum number of backup processes allowed to run in parallel. 0 for unlimited. Default `0`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_random_max_delay">
+    <rdfs:label>random_max_delay</rdfs:label>
+    <rdfs:comment>Configuration of the random delay between the execution of parallel tasks. See `interval_type` for available values. Default `30m`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_scheme">
+    <rdfs:label>scheme</rdfs:label>
+    <rdfs:comment>Scheme of the backups. Available values are: `ALWAYS_INCREMENTAL`, `ALWAYS_FULL`, `WEEKLY_FULL_DAILY_INCREMENTAL`, `WEEKLY_INCREMENTAL`. Default `ALWAYS_INCREMENTAL`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_weekly_backup_day">
+    <rdfs:label>weekly_backup_day</rdfs:label>
+    <rdfs:comment>A day of week to start weekly backups. See `day_type` for available values. Default `MONDAY`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_execute_by_interval">
+    <rdfs:label>execute_by_interval</rdfs:label>
+    <rdfs:comment>Perform backup by interval, since last backup of the host. Maximum value is: 9999 days. See `interval_type` for available values. Exactly on of options should be set: `execute_by_interval` or `execute_by_time`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>BackupSet type. See `backup_set_type` for available values. Default `TYPE_AUTO`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_include_last_day_of_month">
+    <rdfs:label>include_last_day_of_month</rdfs:label>
+    <rdfs:comment>If true, schedule will be applied on the last day of month. See `day_type` for available values. Default `false`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_monthdays">
+    <rdfs:label>monthdays</rdfs:label>
+    <rdfs:comment>List of days when schedule applies. Used in `MONTHLY` type.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_months">
+    <rdfs:label>months</rdfs:label>
+    <rdfs:comment>Set of values. Allowed values form 1 to 12.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_repeat_at">
+    <rdfs:label>repeat_at</rdfs:label>
+    <rdfs:comment>List of time in format `HH:MM` (24-hours format), when the schedule applies.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_repeat_every">
+    <rdfs:label>repeat_every</rdfs:label>
+    <rdfs:comment>Frequency of backup repetition. See `interval_type` for available values.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_run_later">
+    <rdfs:label>run_later</rdfs:label>
+    <rdfs:comment>If true and if the machine is off, launch missed tasks on boot up. Default `false`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Type of the scheduling. Available values are: `HOURLY`, `DAILY`, `WEEKLY`, `MONTHLY`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_weekdays">
+    <rdfs:label>weekdays</rdfs:label>
+    <rdfs:comment>List of weekdays when the backup will be applied. Used in `WEEKLY` type.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_include_last_day_of_month">
+    <rdfs:label>include_last_day_of_month</rdfs:label>
+    <rdfs:comment>If true, schedule will be applied on the last day of month. See `day_type` for available values. Default `false`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_monthdays">
+    <rdfs:label>monthdays</rdfs:label>
+    <rdfs:comment>List of days when schedule applies. Used in `MONTHLY` type.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_months">
+    <rdfs:label>months</rdfs:label>
+    <rdfs:comment>Set of values. Allowed values form 1 to 12.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_repeat_at">
+    <rdfs:label>repeat_at</rdfs:label>
+    <rdfs:comment>List of time in format `HH:MM` (24-hours format), when the schedule applies.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_repeat_every">
+    <rdfs:label>repeat_every</rdfs:label>
+    <rdfs:comment>Frequency of backup repetition. See `interval_type` for available values.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_run_later">
+    <rdfs:label>run_later</rdfs:label>
+    <rdfs:comment>If true and if the machine is off, launch missed tasks on boot up. Default `false`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Type of the scheduling. Available values are: `HOURLY`, `DAILY`, `WEEKLY`, `MONTHLY`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_weekdays">
+    <rdfs:label>weekdays</rdfs:label>
+    <rdfs:comment>List of weekdays when the backup will be applied. Used in `WEEKLY` type.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_enabled">
+    <rdfs:label>enabled</rdfs:label>
+    <rdfs:comment>Enable flag. Default `true`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_interval">
+    <rdfs:label>interval</rdfs:label>
+    <rdfs:comment>Retry interval. See `interval_type` for available values. Default: `5m`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_backup_policy_max_attempts">
+    <rdfs:label>max_attempts</rdfs:label>
+    <rdfs:comment>Maximum number of attempts before throwing an error. Default `5`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_backup_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

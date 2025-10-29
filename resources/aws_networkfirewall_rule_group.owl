@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_networkfirewall_rule_group">
+    <rdfs:label>aws_networkfirewall_rule_group</rdfs:label>
+    <rdfs:comment>Provides an AWS Network Firewall Rule Group Resource</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_capacity">
+    <rdfs:label>capacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_rules">
+    <rdfs:label>rules</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_update_token">
+    <rdfs:label>update_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_key_id">
+    <rdfs:label>key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_reference_arn">
+    <rdfs:label>reference_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_definition">
+    <rdfs:label>definition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_definition">
+    <rdfs:label>definition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_rules_string">
+    <rdfs:label>rules_string</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_generated_rules_type">
+    <rdfs:label>generated_rules_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_target_types">
+    <rdfs:label>target_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_targets">
+    <rdfs:label>targets</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_action">
+    <rdfs:label>action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_destination">
+    <rdfs:label>destination</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_destination_port">
+    <rdfs:label>destination_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_direction">
+    <rdfs:label>direction</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_protocol">
+    <rdfs:label>protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_source">
+    <rdfs:label>source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_source_port">
+    <rdfs:label>source_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_keyword">
+    <rdfs:label>keyword</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_settings">
+    <rdfs:label>settings</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_action_name">
+    <rdfs:label>action_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_priority">
+    <rdfs:label>priority</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_actions">
+    <rdfs:label>actions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_protocols">
+    <rdfs:label>protocols</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_address_definition">
+    <rdfs:label>address_definition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_from_port">
+    <rdfs:label>from_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_to_port">
+    <rdfs:label>to_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_address_definition">
+    <rdfs:label>address_definition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_from_port">
+    <rdfs:label>from_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_to_port">
+    <rdfs:label>to_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_flags">
+    <rdfs:label>flags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_masks">
+    <rdfs:label>masks</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_networkfirewall_rule_group_rule_order">
+    <rdfs:label>rule_order</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_networkfirewall_rule_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

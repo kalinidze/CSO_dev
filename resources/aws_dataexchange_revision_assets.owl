@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_dataexchange_revision_assets">
+    <rdfs:label>aws_dataexchange_revision_assets</rdfs:label>
+    <rdfs:comment>Terraform resource for managing AWS Data Exchange Revision Assets.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_comment">
+    <rdfs:label>comment</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_data_set_id">
+    <rdfs:label>data_set_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_finalized">
+    <rdfs:label>finalized</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_force_destroy">
+    <rdfs:label>force_destroy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_updated_at">
+    <rdfs:label>updated_at</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_updated_at">
+    <rdfs:label>updated_at</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_access_point_alias">
+    <rdfs:label>access_point_alias</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_access_point_arn">
+    <rdfs:label>access_point_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_bucket">
+    <rdfs:label>bucket</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_key_prefixes">
+    <rdfs:label>key_prefixes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_keys">
+    <rdfs:label>keys</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_kms_key_arn">
+    <rdfs:label>kms_key_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_bucket">
+    <rdfs:label>bucket</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_filename">
+    <rdfs:label>filename</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dataexchange_revision_assets_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dataexchange_revision_assets"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

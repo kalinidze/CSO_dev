@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_batch_compute_environment">
+    <rdfs:label>aws_batch_compute_environment</rdfs:label>
+    <rdfs:comment>Creates a AWS Batch compute environment. Compute environments contain the Amazon ECS container instances that are used to run containerized batch jobs.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_ecs_cluster_arn">
+    <rdfs:label>ecs_cluster_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_name_prefix">
+    <rdfs:label>name_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_service_role">
+    <rdfs:label>service_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_state">
+    <rdfs:label>state</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_status_reason">
+    <rdfs:label>status_reason</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_allocation_strategy">
+    <rdfs:label>allocation_strategy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_bid_percentage">
+    <rdfs:label>bid_percentage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_desired_vcpus">
+    <rdfs:label>desired_vcpus</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_ec2_key_pair">
+    <rdfs:label>ec2_key_pair</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_image_id">
+    <rdfs:label>image_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_instance_role">
+    <rdfs:label>instance_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_instance_type">
+    <rdfs:label>instance_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_max_vcpus">
+    <rdfs:label>max_vcpus</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_min_vcpus">
+    <rdfs:label>min_vcpus</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_placement_group">
+    <rdfs:label>placement_group</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_security_group_ids">
+    <rdfs:label>security_group_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_spot_iam_fleet_role">
+    <rdfs:label>spot_iam_fleet_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_subnets">
+    <rdfs:label>subnets</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_image_id_override">
+    <rdfs:label>image_id_override</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_image_kubernetes_version">
+    <rdfs:label>image_kubernetes_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_image_type">
+    <rdfs:label>image_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_launch_template_id">
+    <rdfs:label>launch_template_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_launch_template_name">
+    <rdfs:label>launch_template_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_eks_cluster_arn">
+    <rdfs:label>eks_cluster_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_kubernetes_namespace">
+    <rdfs:label>kubernetes_namespace</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_job_execution_timeout_minutes">
+    <rdfs:label>job_execution_timeout_minutes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_batch_compute_environment_terminate_jobs_on_update">
+    <rdfs:label>terminate_jobs_on_update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_batch_compute_environment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_verifiedaccess_trust_provider">
+    <rdfs:label>aws_verifiedaccess_trust_provider</rdfs:label>
+    <rdfs:comment>Terraform resource for managing a Verified Access Trust Provider.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_device_trust_provider_type">
+    <rdfs:label>device_trust_provider_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_policy_reference_name">
+    <rdfs:label>policy_reference_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_trust_provider_type">
+    <rdfs:label>trust_provider_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_user_trust_provider_type">
+    <rdfs:label>user_trust_provider_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_tenant_id">
+    <rdfs:label>tenant_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_authorization_endpoint">
+    <rdfs:label>authorization_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_client_id">
+    <rdfs:label>client_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_client_secret">
+    <rdfs:label>client_secret</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_issuer">
+    <rdfs:label>issuer</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_public_signing_key_endpoint">
+    <rdfs:label>public_signing_key_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_scope">
+    <rdfs:label>scope</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_token_endpoint">
+    <rdfs:label>token_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_user_info_endpoint">
+    <rdfs:label>user_info_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_authorization_endpoint">
+    <rdfs:label>authorization_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_client_id">
+    <rdfs:label>client_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_client_secret">
+    <rdfs:label>client_secret</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_issuer">
+    <rdfs:label>issuer</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_scope">
+    <rdfs:label>scope</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_token_endpoint">
+    <rdfs:label>token_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_user_info_endpoint">
+    <rdfs:label>user_info_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_customer_managed_key_enabled">
+    <rdfs:label>customer_managed_key_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_kms_key_arn">
+    <rdfs:label>kms_key_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_verifiedaccess_trust_provider_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_verifiedaccess_trust_provider"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

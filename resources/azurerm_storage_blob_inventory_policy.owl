@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_storage_blob_inventory_policy">
+    <rdfs:label>azurerm_storage_blob_inventory_policy</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_storage_account_id">
+    <rdfs:label>storage_account_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_format">
+    <rdfs:label>format</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_schedule">
+    <rdfs:label>schedule</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_schema_fields">
+    <rdfs:label>schema_fields</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_scope">
+    <rdfs:label>scope</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_storage_container_name">
+    <rdfs:label>storage_container_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_blob_types">
+    <rdfs:label>blob_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_exclude_prefixes">
+    <rdfs:label>exclude_prefixes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_include_blob_versions">
+    <rdfs:label>include_blob_versions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_include_deleted">
+    <rdfs:label>include_deleted</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_include_snapshots">
+    <rdfs:label>include_snapshots</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_prefix_match">
+    <rdfs:label>prefix_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_storage_blob_inventory_policy_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_storage_blob_inventory_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

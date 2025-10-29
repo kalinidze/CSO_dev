@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster">
+    <rdfs:label>aws_timestreaminfluxdb_db_cluster</rdfs:label>
+    <rdfs:comment>Terraform resource for managing an Amazon Timestream for InfluxDB read-replica cluster.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_allocated_storage">
+    <rdfs:label>allocated_storage</rdfs:label>
+    <rdfs:comment>The amount of storage to allocate for your DB storage type in GiB (gibibytes).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_bucket">
+    <rdfs:label>bucket</rdfs:label>
+    <rdfs:comment>The name of the initial InfluxDB bucket. All InfluxDB data is stored in a bucket. 
+					A bucket combines the concept of a database and a retention period (the duration of time 
+					that each data point persists). A bucket belongs to an organization.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_db_instance_type">
+    <rdfs:label>db_instance_type</rdfs:label>
+    <rdfs:comment>The Timestream for InfluxDB DB instance type to run InfluxDB on.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_db_parameter_group_identifier">
+    <rdfs:label>db_parameter_group_identifier</rdfs:label>
+    <rdfs:comment>The ID of the DB parameter group to assign to your DB cluster. 
+					DB parameter groups specify how the database is configured. For example, DB parameter groups 
+					can specify the limit for query concurrency.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_db_storage_type">
+    <rdfs:label>db_storage_type</rdfs:label>
+    <rdfs:comment>The Timestream for InfluxDB DB storage type to read and write InfluxDB data. 
+					You can choose between 3 different types of provisioned Influx IOPS included storage according 
+					to your workloads requirements: Influx IO Included 3000 IOPS, Influx IO Included 12000 IOPS, 
+					Influx IO Included 16000 IOPS.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_deployment_type">
+    <rdfs:label>deployment_type</rdfs:label>
+    <rdfs:comment>Specifies the type of cluster to create.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_endpoint">
+    <rdfs:label>endpoint</rdfs:label>
+    <rdfs:comment>The endpoint used to connect to InfluxDB. The default InfluxDB port is 8086.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_failover_mode">
+    <rdfs:label>failover_mode</rdfs:label>
+    <rdfs:comment>Specifies the behavior of failure recovery when the primary node of the cluster
+					fails.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_influx_auth_parameters_secret_arn">
+    <rdfs:label>influx_auth_parameters_secret_arn</rdfs:label>
+    <rdfs:comment>The Amazon Resource Name (ARN) of the AWS Secrets Manager secret containing the 
+					initial InfluxDB authorization parameters. The secret value is a JSON formatted 
+					key-value pair holding InfluxDB authorization values: organization, bucket, 
+					username, and password.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The name that uniquely identifies the DB cluster when interacting with the 
+					Amazon Timestream for InfluxDB API and CLI commands. This name will also be a 
+					prefix included in the endpoint. DB cluster names must be unique per customer 
+					and per region.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_network_type">
+    <rdfs:label>network_type</rdfs:label>
+    <rdfs:comment>Specifies whether the networkType of the Timestream for InfluxDB cluster is 
+					IPV4, which can communicate over IPv4 protocol only, or DUAL, which can communicate 
+					over both IPv4 and IPv6 protocols.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_organization">
+    <rdfs:label>organization</rdfs:label>
+    <rdfs:comment>The name of the initial organization for the initial admin user in InfluxDB. An 
+					InfluxDB organization is a workspace for a group of users.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:comment>The password of the initial admin user created in InfluxDB. This password will 
+					allow you to access the InfluxDB UI to perform various administrative tasks and 
+					also use the InfluxDB CLI to create an operator token. These attributes will be 
+					stored in a Secret created in AWS SecretManager in your account.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:comment>The port number on which InfluxDB accepts connections.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_publicly_accessible">
+    <rdfs:label>publicly_accessible</rdfs:label>
+    <rdfs:comment>Configures the Timestream for InfluxDB cluster with a public IP to facilitate access.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_reader_endpoint">
+    <rdfs:label>reader_endpoint</rdfs:label>
+    <rdfs:comment>The endpoint used to connect to the Timestream for InfluxDB cluster for 
+					read-only operations.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:comment>The username of the initial admin user created in InfluxDB. 
+					Must start with a letter and can't end with a hyphen or contain two 
+					consecutive hyphens. For example, my-user1. This username will allow 
+					you to access the InfluxDB UI to perform various administrative tasks 
+					and also use the InfluxDB CLI to create an operator token. These 
+					attributes will be stored in a Secret created in Amazon Secrets 
+					Manager in your account.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_vpc_security_group_ids">
+    <rdfs:label>vpc_security_group_ids</rdfs:label>
+    <rdfs:comment>A list of VPC security group IDs to associate with the Timestream for InfluxDB cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_vpc_subnet_ids">
+    <rdfs:label>vpc_subnet_ids</rdfs:label>
+    <rdfs:comment>A list of VPC subnet IDs to associate with the DB cluster. Provide at least 
+					two VPC subnet IDs in different availability zones when deploying with a Multi-AZ standby.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:comment>The name of the S3 bucket to deliver logs to.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_enabled">
+    <rdfs:label>enabled</rdfs:label>
+    <rdfs:comment>Indicates whether log delivery to the S3 bucket is enabled.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_timestreaminfluxdb_db_cluster_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_timestreaminfluxdb_db_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

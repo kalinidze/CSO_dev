@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_memorydb_cluster">
+    <rdfs:label>aws_memorydb_cluster</rdfs:label>
+    <rdfs:comment>Provides a MemoryDB Cluster.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_acl_name">
+    <rdfs:label>acl_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_auto_minor_version_upgrade">
+    <rdfs:label>auto_minor_version_upgrade</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_cluster_endpoint">
+    <rdfs:label>cluster_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_data_tiering">
+    <rdfs:label>data_tiering</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_engine">
+    <rdfs:label>engine</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_engine_patch_version">
+    <rdfs:label>engine_patch_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_engine_version">
+    <rdfs:label>engine_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_final_snapshot_name">
+    <rdfs:label>final_snapshot_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_kms_key_arn">
+    <rdfs:label>kms_key_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_maintenance_window">
+    <rdfs:label>maintenance_window</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_multi_region_cluster_name">
+    <rdfs:label>multi_region_cluster_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_name_prefix">
+    <rdfs:label>name_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_node_type">
+    <rdfs:label>node_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_num_replicas_per_shard">
+    <rdfs:label>num_replicas_per_shard</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_num_shards">
+    <rdfs:label>num_shards</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_parameter_group_name">
+    <rdfs:label>parameter_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_security_group_ids">
+    <rdfs:label>security_group_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_shards">
+    <rdfs:label>shards</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_snapshot_arns">
+    <rdfs:label>snapshot_arns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_snapshot_name">
+    <rdfs:label>snapshot_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_snapshot_retention_limit">
+    <rdfs:label>snapshot_retention_limit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_snapshot_window">
+    <rdfs:label>snapshot_window</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_sns_topic_arn">
+    <rdfs:label>sns_topic_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_subnet_group_name">
+    <rdfs:label>subnet_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_tls_enabled">
+    <rdfs:label>tls_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_memorydb_cluster_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_memorydb_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,2863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_medialive_channel">
+    <rdfs:label>aws_medialive_channel</rdfs:label>
+    <rdfs:comment>Terraform resource for managing an AWS MediaLive Channel.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_channel_class">
+    <rdfs:label>channel_class</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_channel_id">
+    <rdfs:label>channel_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_log_level">
+    <rdfs:label>log_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_role_arn">
+    <rdfs:label>role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_start_channel">
+    <rdfs:label>start_channel</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_resolution">
+    <rdfs:label>resolution</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_channel_id">
+    <rdfs:label>channel_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_multiplex_id">
+    <rdfs:label>multiplex_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_program_name">
+    <rdfs:label>program_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_password_param">
+    <rdfs:label>password_param</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_stream_name">
+    <rdfs:label>stream_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_url">
+    <rdfs:label>url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_selector_name">
+    <rdfs:label>audio_selector_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_type">
+    <rdfs:label>audio_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_type_control">
+    <rdfs:label>audio_type_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_language_code">
+    <rdfs:label>language_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_language_code_control">
+    <rdfs:label>language_code_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_stream_name">
+    <rdfs:label>stream_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_algorithm">
+    <rdfs:label>algorithm</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_algorithm_control">
+    <rdfs:label>algorithm_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_target_lkfs">
+    <rdfs:label>target_lkfs</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_nielsen_distribution_type">
+    <rdfs:label>nielsen_distribution_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_cbet_check_digit_string">
+    <rdfs:label>cbet_check_digit_string</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_cbet_stepaside">
+    <rdfs:label>cbet_stepaside</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_csid">
+    <rdfs:label>csid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_check_digit_string">
+    <rdfs:label>check_digit_string</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_sid">
+    <rdfs:label>sid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_bitrate">
+    <rdfs:label>bitrate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_coding_mode">
+    <rdfs:label>coding_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_input_type">
+    <rdfs:label>input_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_profile">
+    <rdfs:label>profile</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_rate_control_mode">
+    <rdfs:label>rate_control_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_raw_format">
+    <rdfs:label>raw_format</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_sample_rate">
+    <rdfs:label>sample_rate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_spec">
+    <rdfs:label>spec</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_vbr_quality">
+    <rdfs:label>vbr_quality</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_bitrate">
+    <rdfs:label>bitrate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_bitstream_mode">
+    <rdfs:label>bitstream_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_coding_mode">
+    <rdfs:label>coding_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_dialnorm">
+    <rdfs:label>dialnorm</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_drc_profile">
+    <rdfs:label>drc_profile</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_lfe_filter">
+    <rdfs:label>lfe_filter</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_metadata_control">
+    <rdfs:label>metadata_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_bitrate">
+    <rdfs:label>bitrate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_coding_mode">
+    <rdfs:label>coding_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_dialnorm">
+    <rdfs:label>dialnorm</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_drc_line">
+    <rdfs:label>drc_line</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_drc_rf">
+    <rdfs:label>drc_rf</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_height_trim">
+    <rdfs:label>height_trim</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_surround_trim">
+    <rdfs:label>surround_trim</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_attenuation_control">
+    <rdfs:label>attenuation_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_bitrate">
+    <rdfs:label>bitrate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_bitstream_mode">
+    <rdfs:label>bitstream_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_coding_mode">
+    <rdfs:label>coding_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_dc_filter">
+    <rdfs:label>dc_filter</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_dialnorm">
+    <rdfs:label>dialnorm</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_drc_line">
+    <rdfs:label>drc_line</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_drc_rf">
+    <rdfs:label>drc_rf</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_lfe_control">
+    <rdfs:label>lfe_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_lfe_filter">
+    <rdfs:label>lfe_filter</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_lo_ro_center_mix_level">
+    <rdfs:label>lo_ro_center_mix_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_lo_ro_surround_mix_level">
+    <rdfs:label>lo_ro_surround_mix_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_lt_rt_center_mix_level">
+    <rdfs:label>lt_rt_center_mix_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_lt_rt_surround_mix_level">
+    <rdfs:label>lt_rt_surround_mix_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_metadata_control">
+    <rdfs:label>metadata_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_passthrough_control">
+    <rdfs:label>passthrough_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_phase_control">
+    <rdfs:label>phase_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_stereo_downmix">
+    <rdfs:label>stereo_downmix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_surround_ex_mode">
+    <rdfs:label>surround_ex_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_surround_mode">
+    <rdfs:label>surround_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_bitrate">
+    <rdfs:label>bitrate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_coding_mode">
+    <rdfs:label>coding_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_sample_rate">
+    <rdfs:label>sample_rate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_bit_depth">
+    <rdfs:label>bit_depth</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_coding_mode">
+    <rdfs:label>coding_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_sample_rate">
+    <rdfs:label>sample_rate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_channels_in">
+    <rdfs:label>channels_in</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_channels_out">
+    <rdfs:label>channels_out</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_output_channel">
+    <rdfs:label>output_channel</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_gain">
+    <rdfs:label>gain</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_input_channel">
+    <rdfs:label>input_channel</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_state">
+    <rdfs:label>state</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_password_param">
+    <rdfs:label>password_param</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_uri">
+    <rdfs:label>uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_accessibility">
+    <rdfs:label>accessibility</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_caption_selector_name">
+    <rdfs:label>caption_selector_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_language_code">
+    <rdfs:label>language_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_language_description">
+    <rdfs:label>language_description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_alignment">
+    <rdfs:label>alignment</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_background_color">
+    <rdfs:label>background_color</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_background_opacity">
+    <rdfs:label>background_opacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_font_color">
+    <rdfs:label>font_color</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_font_opacity">
+    <rdfs:label>font_opacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_font_resolution">
+    <rdfs:label>font_resolution</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_font_size">
+    <rdfs:label>font_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_outline_color">
+    <rdfs:label>outline_color</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_outline_size">
+    <rdfs:label>outline_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_shadow_color">
+    <rdfs:label>shadow_color</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_shadow_opacity">
+    <rdfs:label>shadow_opacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_shadow_x_offset">
+    <rdfs:label>shadow_x_offset</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_shadow_y_offset">
+    <rdfs:label>shadow_y_offset</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_teletext_grid_control">
+    <rdfs:label>teletext_grid_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_x_position">
+    <rdfs:label>x_position</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_y_position">
+    <rdfs:label>y_position</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_password_param">
+    <rdfs:label>password_param</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_uri">
+    <rdfs:label>uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_alignment">
+    <rdfs:label>alignment</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_background_color">
+    <rdfs:label>background_color</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_background_opacity">
+    <rdfs:label>background_opacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_font_color">
+    <rdfs:label>font_color</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_font_opacity">
+    <rdfs:label>font_opacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_font_resolution">
+    <rdfs:label>font_resolution</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_font_size">
+    <rdfs:label>font_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_outline_color">
+    <rdfs:label>outline_color</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_outline_size">
+    <rdfs:label>outline_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_shadow_color">
+    <rdfs:label>shadow_color</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_shadow_opacity">
+    <rdfs:label>shadow_opacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_shadow_x_offset">
+    <rdfs:label>shadow_x_offset</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_shadow_y_offset">
+    <rdfs:label>shadow_y_offset</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_teletext_grid_control">
+    <rdfs:label>teletext_grid_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_x_position">
+    <rdfs:label>x_position</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_y_position">
+    <rdfs:label>y_position</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_password_param">
+    <rdfs:label>password_param</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_uri">
+    <rdfs:label>uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_copyright_holder">
+    <rdfs:label>copyright_holder</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_fill_line_gap">
+    <rdfs:label>fill_line_gap</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_font_family">
+    <rdfs:label>font_family</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_style_control">
+    <rdfs:label>style_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_style_control">
+    <rdfs:label>style_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_style_control">
+    <rdfs:label>style_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_initial_audio_gain">
+    <rdfs:label>initial_audio_gain</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_input_end_action">
+    <rdfs:label>input_end_action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_output_locking_mode">
+    <rdfs:label>output_locking_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_output_timing_source">
+    <rdfs:label>output_timing_source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_support_low_framerate_inputs">
+    <rdfs:label>support_low_framerate_inputs</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_black_frame_msec">
+    <rdfs:label>black_frame_msec</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_input_loss_image_color">
+    <rdfs:label>input_loss_image_color</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_input_loss_image_type">
+    <rdfs:label>input_loss_image_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_repeat_frame_msec">
+    <rdfs:label>repeat_frame_msec</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_password_param">
+    <rdfs:label>password_param</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_uri">
+    <rdfs:label>uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_motion_graphics_insertion">
+    <rdfs:label>motion_graphics_insertion</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_distributor_id">
+    <rdfs:label>distributor_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_nielsen_pcm_to_id3_tagging">
+    <rdfs:label>nielsen_pcm_to_id3_tagging</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_rollover_interval">
+    <rdfs:label>rollover_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_canned_acl">
+    <rdfs:label>canned_acl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_destination_ref_id">
+    <rdfs:label>destination_ref_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_destination_ref_id">
+    <rdfs:label>destination_ref_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_canned_acl">
+    <rdfs:label>canned_acl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ad_markers">
+    <rdfs:label>ad_markers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_base_url_content">
+    <rdfs:label>base_url_content</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_base_url_content1">
+    <rdfs:label>base_url_content1</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_base_url_manifest">
+    <rdfs:label>base_url_manifest</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_base_url_manifest1">
+    <rdfs:label>base_url_manifest1</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_caption_language_setting">
+    <rdfs:label>caption_language_setting</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_client_cache">
+    <rdfs:label>client_cache</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_codec_specification">
+    <rdfs:label>codec_specification</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_constant_iv">
+    <rdfs:label>constant_iv</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_directory_structure">
+    <rdfs:label>directory_structure</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_discontinuity_tags">
+    <rdfs:label>discontinuity_tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_encryption_type">
+    <rdfs:label>encryption_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_hls_id3_segment_tagging">
+    <rdfs:label>hls_id3_segment_tagging</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_iframe_only_playlists">
+    <rdfs:label>iframe_only_playlists</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_incomplete_segment_behavior">
+    <rdfs:label>incomplete_segment_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_index_n_segments">
+    <rdfs:label>index_n_segments</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_input_loss_action">
+    <rdfs:label>input_loss_action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_iv_in_manifest">
+    <rdfs:label>iv_in_manifest</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_iv_source">
+    <rdfs:label>iv_source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_keep_segments">
+    <rdfs:label>keep_segments</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_key_format">
+    <rdfs:label>key_format</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_key_format_versions">
+    <rdfs:label>key_format_versions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_manifest_compression">
+    <rdfs:label>manifest_compression</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_manifest_duration_format">
+    <rdfs:label>manifest_duration_format</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_min_segment_length">
+    <rdfs:label>min_segment_length</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_mode">
+    <rdfs:label>mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_output_selection">
+    <rdfs:label>output_selection</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_program_date_time">
+    <rdfs:label>program_date_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_program_date_time_clock">
+    <rdfs:label>program_date_time_clock</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_program_date_time_period">
+    <rdfs:label>program_date_time_period</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_redundant_manifest">
+    <rdfs:label>redundant_manifest</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_segment_length">
+    <rdfs:label>segment_length</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_segments_per_subdirectory">
+    <rdfs:label>segments_per_subdirectory</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_stream_inf_resolution">
+    <rdfs:label>stream_inf_resolution</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timed_metadata_id3_frame">
+    <rdfs:label>timed_metadata_id3_frame</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timed_metadata_id3_period">
+    <rdfs:label>timed_metadata_id3_period</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timestamp_delta_milliseconds">
+    <rdfs:label>timestamp_delta_milliseconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ts_file_mode">
+    <rdfs:label>ts_file_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_caption_channel">
+    <rdfs:label>caption_channel</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_language_code">
+    <rdfs:label>language_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_language_description">
+    <rdfs:label>language_description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_destination_ref_id">
+    <rdfs:label>destination_ref_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_connection_retry_interval">
+    <rdfs:label>connection_retry_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_filecache_duration">
+    <rdfs:label>filecache_duration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_http_transfer_mode">
+    <rdfs:label>http_transfer_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_num_retries">
+    <rdfs:label>num_retries</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_restart_delay">
+    <rdfs:label>restart_delay</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_salt">
+    <rdfs:label>salt</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_token">
+    <rdfs:label>token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_connection_retry_interval">
+    <rdfs:label>connection_retry_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_filecache_duration">
+    <rdfs:label>filecache_duration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_num_retries">
+    <rdfs:label>num_retries</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_restart_delay">
+    <rdfs:label>restart_delay</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_connection_retry_interval">
+    <rdfs:label>connection_retry_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_filecache_duration">
+    <rdfs:label>filecache_duration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_media_store_storage_class">
+    <rdfs:label>media_store_storage_class</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_num_retries">
+    <rdfs:label>num_retries</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_restart_delay">
+    <rdfs:label>restart_delay</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_canned_acl">
+    <rdfs:label>canned_acl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_connection_retry_interval">
+    <rdfs:label>connection_retry_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_filecache_duration">
+    <rdfs:label>filecache_duration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_http_transfer_mode">
+    <rdfs:label>http_transfer_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_num_retries">
+    <rdfs:label>num_retries</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_restart_delay">
+    <rdfs:label>restart_delay</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_static_key_value">
+    <rdfs:label>static_key_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_password_param">
+    <rdfs:label>password_param</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_uri">
+    <rdfs:label>uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_destination_ref_id">
+    <rdfs:label>destination_ref_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_acquisition_point_id">
+    <rdfs:label>acquisition_point_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_only_timecode_control">
+    <rdfs:label>audio_only_timecode_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_certificate_mode">
+    <rdfs:label>certificate_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_connection_retry_interval">
+    <rdfs:label>connection_retry_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_event_id">
+    <rdfs:label>event_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_event_id_mode">
+    <rdfs:label>event_id_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_event_stop_behavior">
+    <rdfs:label>event_stop_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_filecache_duration">
+    <rdfs:label>filecache_duration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_fragment_length">
+    <rdfs:label>fragment_length</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_input_loss_action">
+    <rdfs:label>input_loss_action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_num_retries">
+    <rdfs:label>num_retries</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_restart_delay">
+    <rdfs:label>restart_delay</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_segmentation_mode">
+    <rdfs:label>segmentation_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_send_delay_ms">
+    <rdfs:label>send_delay_ms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_sparse_track_type">
+    <rdfs:label>sparse_track_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_stream_manifest_behavior">
+    <rdfs:label>stream_manifest_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timestamp_offset">
+    <rdfs:label>timestamp_offset</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timestamp_offset_mode">
+    <rdfs:label>timestamp_offset_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_destination_ref_id">
+    <rdfs:label>destination_ref_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ad_markers">
+    <rdfs:label>ad_markers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_authentication_scheme">
+    <rdfs:label>authentication_scheme</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_cache_full_behavior">
+    <rdfs:label>cache_full_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_cache_length">
+    <rdfs:label>cache_length</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_caption_data">
+    <rdfs:label>caption_data</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_input_loss_action">
+    <rdfs:label>input_loss_action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_restart_delay">
+    <rdfs:label>restart_delay</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_input_loss_action">
+    <rdfs:label>input_loss_action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timed_metadata_id3_frame">
+    <rdfs:label>timed_metadata_id3_frame</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timed_metadata_id3_period">
+    <rdfs:label>timed_metadata_id3_period</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_description_names">
+    <rdfs:label>audio_description_names</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_caption_description_names">
+    <rdfs:label>caption_description_names</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_output_name">
+    <rdfs:label>output_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_video_description_name">
+    <rdfs:label>video_description_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_extension">
+    <rdfs:label>extension</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_name_modifier">
+    <rdfs:label>name_modifier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_absent_input_audio_behavior">
+    <rdfs:label>absent_input_audio_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_arib">
+    <rdfs:label>arib</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_arib_captions_pid">
+    <rdfs:label>arib_captions_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_arib_captions_pid_control">
+    <rdfs:label>arib_captions_pid_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_buffer_model">
+    <rdfs:label>audio_buffer_model</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_frames_per_pes">
+    <rdfs:label>audio_frames_per_pes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_pids">
+    <rdfs:label>audio_pids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_stream_type">
+    <rdfs:label>audio_stream_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_bitrate">
+    <rdfs:label>bitrate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_buffer_model">
+    <rdfs:label>buffer_model</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_cc_descriptor">
+    <rdfs:label>cc_descriptor</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_dvb_sub_pids">
+    <rdfs:label>dvb_sub_pids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_dvb_teletext_pid">
+    <rdfs:label>dvb_teletext_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ebif">
+    <rdfs:label>ebif</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ebp_audio_interval">
+    <rdfs:label>ebp_audio_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ebp_lookahead_ms">
+    <rdfs:label>ebp_lookahead_ms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ebp_placement">
+    <rdfs:label>ebp_placement</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ecm_pid">
+    <rdfs:label>ecm_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_es_rate_in_pes">
+    <rdfs:label>es_rate_in_pes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_etv_platform_pid">
+    <rdfs:label>etv_platform_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_etv_signal_pid">
+    <rdfs:label>etv_signal_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_fragment_time">
+    <rdfs:label>fragment_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_klv">
+    <rdfs:label>klv</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_klv_data_pids">
+    <rdfs:label>klv_data_pids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_nielsen_id3_behavior">
+    <rdfs:label>nielsen_id3_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_null_packet_bitrate">
+    <rdfs:label>null_packet_bitrate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pat_interval">
+    <rdfs:label>pat_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pcr_control">
+    <rdfs:label>pcr_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pcr_period">
+    <rdfs:label>pcr_period</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pcr_pid">
+    <rdfs:label>pcr_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pmt_interval">
+    <rdfs:label>pmt_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pmt_pid">
+    <rdfs:label>pmt_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_program_num">
+    <rdfs:label>program_num</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_rate_mode">
+    <rdfs:label>rate_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scte27_pids">
+    <rdfs:label>scte27_pids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scte35_control">
+    <rdfs:label>scte35_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scte35_pid">
+    <rdfs:label>scte35_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_segmentation_markers">
+    <rdfs:label>segmentation_markers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_segmentation_style">
+    <rdfs:label>segmentation_style</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_segmentation_time">
+    <rdfs:label>segmentation_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timed_metadata_behavior">
+    <rdfs:label>timed_metadata_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timed_metadata_pid">
+    <rdfs:label>timed_metadata_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_transport_stream_id">
+    <rdfs:label>transport_stream_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_video_pid">
+    <rdfs:label>video_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_network_id">
+    <rdfs:label>network_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_network_name">
+    <rdfs:label>network_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_rep_interval">
+    <rdfs:label>rep_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_output_sdt">
+    <rdfs:label>output_sdt</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_rep_interval">
+    <rdfs:label>rep_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_service_name">
+    <rdfs:label>service_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_service_provider_name">
+    <rdfs:label>service_provider_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_rep_interval">
+    <rdfs:label>rep_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_name_modifier">
+    <rdfs:label>name_modifier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_h265_packaging_type">
+    <rdfs:label>h265_packaging_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_name_modifier">
+    <rdfs:label>name_modifier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_segment_modifier">
+    <rdfs:label>segment_modifier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_group_id">
+    <rdfs:label>audio_group_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_track_type">
+    <rdfs:label>audio_track_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_segment_type">
+    <rdfs:label>segment_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_password_param">
+    <rdfs:label>password_param</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_uri">
+    <rdfs:label>uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_rendition_sets">
+    <rdfs:label>audio_rendition_sets</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_nielsen_id3_behavior">
+    <rdfs:label>nielsen_id3_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timed_metadata_behavior">
+    <rdfs:label>timed_metadata_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_rendition_sets">
+    <rdfs:label>audio_rendition_sets</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_frames_per_pes">
+    <rdfs:label>audio_frames_per_pes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_pids">
+    <rdfs:label>audio_pids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ecm_pid">
+    <rdfs:label>ecm_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_nielsen_id3_behavior">
+    <rdfs:label>nielsen_id3_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pat_interval">
+    <rdfs:label>pat_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pcr_control">
+    <rdfs:label>pcr_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pcr_period">
+    <rdfs:label>pcr_period</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pcr_pid">
+    <rdfs:label>pcr_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pmt_interval">
+    <rdfs:label>pmt_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pmt_pid">
+    <rdfs:label>pmt_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_program_num">
+    <rdfs:label>program_num</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scte35_behavior">
+    <rdfs:label>scte35_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scte35_pid">
+    <rdfs:label>scte35_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timed_metadata_behavior">
+    <rdfs:label>timed_metadata_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timed_metadata_pid">
+    <rdfs:label>timed_metadata_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_transport_stream_id">
+    <rdfs:label>transport_stream_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_video_pid">
+    <rdfs:label>video_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_h265_packaging_type">
+    <rdfs:label>h265_packaging_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_name_modifier">
+    <rdfs:label>name_modifier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_destination_ref_id">
+    <rdfs:label>destination_ref_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_certificate_mode">
+    <rdfs:label>certificate_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_connection_retry_interval">
+    <rdfs:label>connection_retry_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_num_retries">
+    <rdfs:label>num_retries</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_destination_ref_id">
+    <rdfs:label>destination_ref_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_buffer_msec">
+    <rdfs:label>buffer_msec</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_absent_input_audio_behavior">
+    <rdfs:label>absent_input_audio_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_arib">
+    <rdfs:label>arib</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_arib_captions_pid">
+    <rdfs:label>arib_captions_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_arib_captions_pid_control">
+    <rdfs:label>arib_captions_pid_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_buffer_model">
+    <rdfs:label>audio_buffer_model</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_frames_per_pes">
+    <rdfs:label>audio_frames_per_pes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_pids">
+    <rdfs:label>audio_pids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_stream_type">
+    <rdfs:label>audio_stream_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_bitrate">
+    <rdfs:label>bitrate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_buffer_model">
+    <rdfs:label>buffer_model</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_cc_descriptor">
+    <rdfs:label>cc_descriptor</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_dvb_sub_pids">
+    <rdfs:label>dvb_sub_pids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_dvb_teletext_pid">
+    <rdfs:label>dvb_teletext_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ebif">
+    <rdfs:label>ebif</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ebp_audio_interval">
+    <rdfs:label>ebp_audio_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ebp_lookahead_ms">
+    <rdfs:label>ebp_lookahead_ms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ebp_placement">
+    <rdfs:label>ebp_placement</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ecm_pid">
+    <rdfs:label>ecm_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_es_rate_in_pes">
+    <rdfs:label>es_rate_in_pes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_etv_platform_pid">
+    <rdfs:label>etv_platform_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_etv_signal_pid">
+    <rdfs:label>etv_signal_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_fragment_time">
+    <rdfs:label>fragment_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_klv">
+    <rdfs:label>klv</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_klv_data_pids">
+    <rdfs:label>klv_data_pids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_nielsen_id3_behavior">
+    <rdfs:label>nielsen_id3_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_null_packet_bitrate">
+    <rdfs:label>null_packet_bitrate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pat_interval">
+    <rdfs:label>pat_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pcr_control">
+    <rdfs:label>pcr_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pcr_period">
+    <rdfs:label>pcr_period</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pcr_pid">
+    <rdfs:label>pcr_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pmt_interval">
+    <rdfs:label>pmt_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pmt_pid">
+    <rdfs:label>pmt_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_program_num">
+    <rdfs:label>program_num</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_rate_mode">
+    <rdfs:label>rate_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scte27_pids">
+    <rdfs:label>scte27_pids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scte35_control">
+    <rdfs:label>scte35_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scte35_pid">
+    <rdfs:label>scte35_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_segmentation_markers">
+    <rdfs:label>segmentation_markers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_segmentation_style">
+    <rdfs:label>segmentation_style</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_segmentation_time">
+    <rdfs:label>segmentation_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timed_metadata_behavior">
+    <rdfs:label>timed_metadata_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timed_metadata_pid">
+    <rdfs:label>timed_metadata_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_transport_stream_id">
+    <rdfs:label>transport_stream_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_video_pid">
+    <rdfs:label>video_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_network_id">
+    <rdfs:label>network_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_network_name">
+    <rdfs:label>network_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_rep_interval">
+    <rdfs:label>rep_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_output_sdt">
+    <rdfs:label>output_sdt</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_rep_interval">
+    <rdfs:label>rep_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_service_name">
+    <rdfs:label>service_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_service_provider_name">
+    <rdfs:label>service_provider_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_rep_interval">
+    <rdfs:label>rep_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_destination_ref_id">
+    <rdfs:label>destination_ref_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_column_depth">
+    <rdfs:label>column_depth</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_include_fec">
+    <rdfs:label>include_fec</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_row_length">
+    <rdfs:label>row_length</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_source">
+    <rdfs:label>source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_sync_threshold">
+    <rdfs:label>sync_threshold</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_height">
+    <rdfs:label>height</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_respond_to_afd">
+    <rdfs:label>respond_to_afd</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scaling_behavior">
+    <rdfs:label>scaling_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_sharpness">
+    <rdfs:label>sharpness</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_width">
+    <rdfs:label>width</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_capture_interval">
+    <rdfs:label>capture_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_capture_interval_units">
+    <rdfs:label>capture_interval_units</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_adaptive_quantization">
+    <rdfs:label>adaptive_quantization</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_afd_signaling">
+    <rdfs:label>afd_signaling</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_bitrate">
+    <rdfs:label>bitrate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_buf_fill_pct">
+    <rdfs:label>buf_fill_pct</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_buf_size">
+    <rdfs:label>buf_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_color_metadata">
+    <rdfs:label>color_metadata</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_entropy_encoding">
+    <rdfs:label>entropy_encoding</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_fixed_afd">
+    <rdfs:label>fixed_afd</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_flicker_aq">
+    <rdfs:label>flicker_aq</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_force_field_pictures">
+    <rdfs:label>force_field_pictures</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_framerate_control">
+    <rdfs:label>framerate_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_framerate_denominator">
+    <rdfs:label>framerate_denominator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_framerate_numerator">
+    <rdfs:label>framerate_numerator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_gop_b_reference">
+    <rdfs:label>gop_b_reference</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_gop_closed_cadence">
+    <rdfs:label>gop_closed_cadence</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_gop_num_b_frames">
+    <rdfs:label>gop_num_b_frames</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_gop_size">
+    <rdfs:label>gop_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_gop_size_units">
+    <rdfs:label>gop_size_units</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_level">
+    <rdfs:label>level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_look_ahead_rate_control">
+    <rdfs:label>look_ahead_rate_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_max_bitrate">
+    <rdfs:label>max_bitrate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_min_i_interval">
+    <rdfs:label>min_i_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_num_ref_frames">
+    <rdfs:label>num_ref_frames</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_par_control">
+    <rdfs:label>par_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_par_denominator">
+    <rdfs:label>par_denominator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_par_numerator">
+    <rdfs:label>par_numerator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_profile">
+    <rdfs:label>profile</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_quality_level">
+    <rdfs:label>quality_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_qvbr_quality_level">
+    <rdfs:label>qvbr_quality_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_rate_control_mode">
+    <rdfs:label>rate_control_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scan_type">
+    <rdfs:label>scan_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scene_change_detect">
+    <rdfs:label>scene_change_detect</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_slices">
+    <rdfs:label>slices</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_softness">
+    <rdfs:label>softness</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_spatial_aq">
+    <rdfs:label>spatial_aq</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_subgop_length">
+    <rdfs:label>subgop_length</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_syntax">
+    <rdfs:label>syntax</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_temporal_aq">
+    <rdfs:label>temporal_aq</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timecode_insertion">
+    <rdfs:label>timecode_insertion</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_post_filter_sharpening">
+    <rdfs:label>post_filter_sharpening</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_strength">
+    <rdfs:label>strength</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_adaptive_quantization">
+    <rdfs:label>adaptive_quantization</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_afd_signaling">
+    <rdfs:label>afd_signaling</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_alternative_transfer_function">
+    <rdfs:label>alternative_transfer_function</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_bitrate">
+    <rdfs:label>bitrate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_buf_size">
+    <rdfs:label>buf_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_color_metadata">
+    <rdfs:label>color_metadata</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_fixed_afd">
+    <rdfs:label>fixed_afd</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_flicker_aq">
+    <rdfs:label>flicker_aq</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_framerate_denominator">
+    <rdfs:label>framerate_denominator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_framerate_numerator">
+    <rdfs:label>framerate_numerator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_gop_closed_cadence">
+    <rdfs:label>gop_closed_cadence</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_gop_size">
+    <rdfs:label>gop_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_gop_size_units">
+    <rdfs:label>gop_size_units</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_level">
+    <rdfs:label>level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_look_ahead_rate_control">
+    <rdfs:label>look_ahead_rate_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_max_bitrate">
+    <rdfs:label>max_bitrate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_min_i_interval">
+    <rdfs:label>min_i_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_min_qp">
+    <rdfs:label>min_qp</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_mv_over_picture_boundaries">
+    <rdfs:label>mv_over_picture_boundaries</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_mv_temporal_predictor">
+    <rdfs:label>mv_temporal_predictor</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_par_denominator">
+    <rdfs:label>par_denominator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_par_numerator">
+    <rdfs:label>par_numerator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_profile">
+    <rdfs:label>profile</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_qvbr_quality_level">
+    <rdfs:label>qvbr_quality_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_rate_control_mode">
+    <rdfs:label>rate_control_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scan_type">
+    <rdfs:label>scan_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scene_change_detect">
+    <rdfs:label>scene_change_detect</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_slices">
+    <rdfs:label>slices</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_tier">
+    <rdfs:label>tier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_tile_height">
+    <rdfs:label>tile_height</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_tile_padding">
+    <rdfs:label>tile_padding</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_tile_width">
+    <rdfs:label>tile_width</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timecode_insertion">
+    <rdfs:label>timecode_insertion</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_treeblock_size">
+    <rdfs:label>treeblock_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_max_cll">
+    <rdfs:label>max_cll</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_max_fall">
+    <rdfs:label>max_fall</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_post_filter_sharpening">
+    <rdfs:label>post_filter_sharpening</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_strength">
+    <rdfs:label>strength</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_prefix">
+    <rdfs:label>prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timecode_burnin_font_size">
+    <rdfs:label>timecode_burnin_font_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_timecode_burnin_position">
+    <rdfs:label>timecode_burnin_position</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_input_attachment_name">
+    <rdfs:label>input_attachment_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_input_id">
+    <rdfs:label>input_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_error_clear_time_msec">
+    <rdfs:label>error_clear_time_msec</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_input_preference">
+    <rdfs:label>input_preference</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_secondary_input_id">
+    <rdfs:label>secondary_input_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_selector_name">
+    <rdfs:label>audio_selector_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_audio_silence_threshold_msec">
+    <rdfs:label>audio_silence_threshold_msec</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_input_loss_threshold_msec">
+    <rdfs:label>input_loss_threshold_msec</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_black_detect_threshold">
+    <rdfs:label>black_detect_threshold</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_video_black_threshold_msec">
+    <rdfs:label>video_black_threshold_msec</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_deblock_filter">
+    <rdfs:label>deblock_filter</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_denoise_filter">
+    <rdfs:label>denoise_filter</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_filter_strength">
+    <rdfs:label>filter_strength</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_input_filter">
+    <rdfs:label>input_filter</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scte35_pid">
+    <rdfs:label>scte35_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_smpte2038_data_preference">
+    <rdfs:label>smpte2038_data_preference</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_source_end_behavior">
+    <rdfs:label>source_end_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_group_id">
+    <rdfs:label>group_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_language_code">
+    <rdfs:label>language_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_language_selection_policy">
+    <rdfs:label>language_selection_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pid">
+    <rdfs:label>pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_program_selection">
+    <rdfs:label>program_selection</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_track">
+    <rdfs:label>track</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_language_code">
+    <rdfs:label>language_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_source_ancillary_channel_number">
+    <rdfs:label>source_ancillary_channel_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ocr_language">
+    <rdfs:label>ocr_language</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pid">
+    <rdfs:label>pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_convert_608_to_708">
+    <rdfs:label>convert_608_to_708</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scte20_detection">
+    <rdfs:label>scte20_detection</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_source_608_channel_number">
+    <rdfs:label>source_608_channel_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_convert_608_to_708">
+    <rdfs:label>convert_608_to_708</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_source_608_channel_number">
+    <rdfs:label>source_608_channel_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_ocr_language">
+    <rdfs:label>ocr_language</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_pid">
+    <rdfs:label>pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_page_number">
+    <rdfs:label>page_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_height">
+    <rdfs:label>height</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_left_offset">
+    <rdfs:label>left_offset</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_top_offset">
+    <rdfs:label>top_offset</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_width">
+    <rdfs:label>width</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_server_validation">
+    <rdfs:label>server_validation</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_bandwidth">
+    <rdfs:label>bandwidth</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_buffer_segments">
+    <rdfs:label>buffer_segments</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_retries">
+    <rdfs:label>retries</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_retry_interval">
+    <rdfs:label>retry_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_scte35_source">
+    <rdfs:label>scte35_source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_color_space">
+    <rdfs:label>color_space</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_color_space_usage">
+    <rdfs:label>color_space_usage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_codec">
+    <rdfs:label>codec</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_input_resolution">
+    <rdfs:label>input_resolution</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_maximum_bitrate">
+    <rdfs:label>maximum_bitrate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_maintenance_day">
+    <rdfs:label>maintenance_day</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_maintenance_start_time">
+    <rdfs:label>maintenance_start_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_availability_zones">
+    <rdfs:label>availability_zones</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_network_interface_ids">
+    <rdfs:label>network_interface_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_public_address_allocation_ids">
+    <rdfs:label>public_address_allocation_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_security_group_ids">
+    <rdfs:label>security_group_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_medialive_channel_subnet_ids">
+    <rdfs:label>subnet_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_medialive_channel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

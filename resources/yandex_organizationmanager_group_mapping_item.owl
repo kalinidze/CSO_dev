@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_organizationmanager_group_mapping_item">
+    <rdfs:label>yandex_organizationmanager_group_mapping_item</rdfs:label>
+    <rdfs:comment>Allows management of [Yandex Cloud Organization Manager Group Mapping Items](https://yandex.cloud/docs/organization/concepts/add-federation#group-mapping)
+
+ ~> Group mapping items depends on [group mapping](organizationmanager_group_mapping.html). If you create group mapping via terraform use `depends_on` meta-argument to avoid errors (see example below)
+.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_organizationmanager_group_mapping_item_external_group_id">
+    <rdfs:label>external_group_id</rdfs:label>
+    <rdfs:comment>ID of the external group</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_organizationmanager_group_mapping_item"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_organizationmanager_group_mapping_item_federation_id">
+    <rdfs:label>federation_id</rdfs:label>
+    <rdfs:comment>ID of the SAML Federation</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_organizationmanager_group_mapping_item"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_organizationmanager_group_mapping_item_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_organizationmanager_group_mapping_item"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_organizationmanager_group_mapping_item_internal_group_id">
+    <rdfs:label>internal_group_id</rdfs:label>
+    <rdfs:comment>ID of the internal group</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_organizationmanager_group_mapping_item"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_organizationmanager_group_mapping_item_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_organizationmanager_group_mapping_item"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_organizationmanager_group_mapping_item_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_organizationmanager_group_mapping_item"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_organizationmanager_group_mapping_item_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_organizationmanager_group_mapping_item"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

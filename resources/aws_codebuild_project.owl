@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_codebuild_project">
+    <rdfs:label>aws_codebuild_project</rdfs:label>
+    <rdfs:comment>Provides a CodeBuild Project resource. See also the [
+`aws_codebuild_webhook` resource](/docs/providers/aws/r/codebuild_webhook.html), which manages the webhook to the
+source (e.g., the "rebuild every time a code change is pushed" option in the CodeBuild web console).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_auto_retry_limit">
+    <rdfs:label>auto_retry_limit</rdfs:label>
+    <rdfs:comment>Maximum number of additional automatic retries after a failed build. The default value is 0.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_badge_enabled">
+    <rdfs:label>badge_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_badge_url">
+    <rdfs:label>badge_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_build_timeout">
+    <rdfs:label>build_timeout</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_concurrent_build_limit">
+    <rdfs:label>concurrent_build_limit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_encryption_key">
+    <rdfs:label>encryption_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_project_visibility">
+    <rdfs:label>project_visibility</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_public_project_alias">
+    <rdfs:label>public_project_alias</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_queued_timeout">
+    <rdfs:label>queued_timeout</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_resource_access_role">
+    <rdfs:label>resource_access_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_service_role">
+    <rdfs:label>service_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_source_version">
+    <rdfs:label>source_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_artifact_identifier">
+    <rdfs:label>artifact_identifier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_bucket_owner_access">
+    <rdfs:label>bucket_owner_access</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_encryption_disabled">
+    <rdfs:label>encryption_disabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_namespace_type">
+    <rdfs:label>namespace_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_override_artifact_name">
+    <rdfs:label>override_artifact_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_packaging">
+    <rdfs:label>packaging</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_combine_artifacts">
+    <rdfs:label>combine_artifacts</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_service_role">
+    <rdfs:label>service_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_timeout_in_mins">
+    <rdfs:label>timeout_in_mins</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_compute_types_allowed">
+    <rdfs:label>compute_types_allowed</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_maximum_builds_allowed">
+    <rdfs:label>maximum_builds_allowed</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_modes">
+    <rdfs:label>modes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_certificate">
+    <rdfs:label>certificate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_compute_type">
+    <rdfs:label>compute_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_image">
+    <rdfs:label>image</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_image_pull_credentials_type">
+    <rdfs:label>image_pull_credentials_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_privileged_mode">
+    <rdfs:label>privileged_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_compute_type">
+    <rdfs:label>compute_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_security_group_ids">
+    <rdfs:label>security_group_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_fleet_arn">
+    <rdfs:label>fleet_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_credential">
+    <rdfs:label>credential</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_credential_provider">
+    <rdfs:label>credential_provider</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_identifier">
+    <rdfs:label>identifier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_mount_options">
+    <rdfs:label>mount_options</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_mount_point">
+    <rdfs:label>mount_point</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_group_name">
+    <rdfs:label>group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_stream_name">
+    <rdfs:label>stream_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_bucket_owner_access">
+    <rdfs:label>bucket_owner_access</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_encryption_disabled">
+    <rdfs:label>encryption_disabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_artifact_identifier">
+    <rdfs:label>artifact_identifier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_bucket_owner_access">
+    <rdfs:label>bucket_owner_access</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_encryption_disabled">
+    <rdfs:label>encryption_disabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_namespace_type">
+    <rdfs:label>namespace_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_override_artifact_name">
+    <rdfs:label>override_artifact_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_packaging">
+    <rdfs:label>packaging</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_source_identifier">
+    <rdfs:label>source_identifier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_source_version">
+    <rdfs:label>source_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_buildspec">
+    <rdfs:label>buildspec</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_git_clone_depth">
+    <rdfs:label>git_clone_depth</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_insecure_ssl">
+    <rdfs:label>insecure_ssl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_report_build_status">
+    <rdfs:label>report_build_status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_source_identifier">
+    <rdfs:label>source_identifier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_resource">
+    <rdfs:label>resource</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_context">
+    <rdfs:label>context</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_target_url">
+    <rdfs:label>target_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_fetch_submodules">
+    <rdfs:label>fetch_submodules</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_buildspec">
+    <rdfs:label>buildspec</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_git_clone_depth">
+    <rdfs:label>git_clone_depth</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_insecure_ssl">
+    <rdfs:label>insecure_ssl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_report_build_status">
+    <rdfs:label>report_build_status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_resource">
+    <rdfs:label>resource</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_context">
+    <rdfs:label>context</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_target_url">
+    <rdfs:label>target_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_fetch_submodules">
+    <rdfs:label>fetch_submodules</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_security_group_ids">
+    <rdfs:label>security_group_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_subnets">
+    <rdfs:label>subnets</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_project_vpc_id">
+    <rdfs:label>vpc_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_cdn_frontdoor_rule">
+    <rdfs:label>azurerm_cdn_frontdoor_rule</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_behavior_on_match">
+    <rdfs:label>behavior_on_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_cdn_frontdoor_rule_set_id">
+    <rdfs:label>cdn_frontdoor_rule_set_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_cdn_frontdoor_rule_set_name">
+    <rdfs:label>cdn_frontdoor_rule_set_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_order">
+    <rdfs:label>order</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_header_action">
+    <rdfs:label>header_action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_header_name">
+    <rdfs:label>header_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_header_action">
+    <rdfs:label>header_action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_header_name">
+    <rdfs:label>header_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_cache_behavior">
+    <rdfs:label>cache_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_cache_duration">
+    <rdfs:label>cache_duration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_cdn_frontdoor_origin_group_id">
+    <rdfs:label>cdn_frontdoor_origin_group_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_compression_enabled">
+    <rdfs:label>compression_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_forwarding_protocol">
+    <rdfs:label>forwarding_protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_query_string_caching_behavior">
+    <rdfs:label>query_string_caching_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_query_string_parameters">
+    <rdfs:label>query_string_parameters</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_destination_fragment">
+    <rdfs:label>destination_fragment</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_destination_hostname">
+    <rdfs:label>destination_hostname</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_destination_path">
+    <rdfs:label>destination_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_query_string">
+    <rdfs:label>query_string</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_redirect_protocol">
+    <rdfs:label>redirect_protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_redirect_type">
+    <rdfs:label>redirect_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_destination">
+    <rdfs:label>destination</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_preserve_unmatched_path">
+    <rdfs:label>preserve_unmatched_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_source_pattern">
+    <rdfs:label>source_pattern</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_cookie_name">
+    <rdfs:label>cookie_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_transforms">
+    <rdfs:label>transforms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_transforms">
+    <rdfs:label>transforms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_post_args_name">
+    <rdfs:label>post_args_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_transforms">
+    <rdfs:label>transforms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_transforms">
+    <rdfs:label>transforms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_transforms">
+    <rdfs:label>transforms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_header_name">
+    <rdfs:label>header_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_transforms">
+    <rdfs:label>transforms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_transforms">
+    <rdfs:label>transforms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_transforms">
+    <rdfs:label>transforms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_transforms">
+    <rdfs:label>transforms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_match_values">
+    <rdfs:label>match_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_negate_condition">
+    <rdfs:label>negate_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_transforms">
+    <rdfs:label>transforms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cdn_frontdoor_rule_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cdn_frontdoor_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

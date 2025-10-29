@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_sesv2_email_identity">
+    <rdfs:label>aws_sesv2_email_identity</rdfs:label>
+    <rdfs:comment>Terraform resource for managing an AWS SESv2 (Simple Email V2) Email Identity.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_configuration_set_name">
+    <rdfs:label>configuration_set_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_email_identity">
+    <rdfs:label>email_identity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_identity_type">
+    <rdfs:label>identity_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_verification_status">
+    <rdfs:label>verification_status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_verified_for_sending_status">
+    <rdfs:label>verified_for_sending_status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_current_signing_key_length">
+    <rdfs:label>current_signing_key_length</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_domain_signing_private_key">
+    <rdfs:label>domain_signing_private_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_domain_signing_selector">
+    <rdfs:label>domain_signing_selector</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_last_key_generation_timestamp">
+    <rdfs:label>last_key_generation_timestamp</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_next_signing_key_length">
+    <rdfs:label>next_signing_key_length</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_signing_attributes_origin">
+    <rdfs:label>signing_attributes_origin</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sesv2_email_identity_tokens">
+    <rdfs:label>tokens</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sesv2_email_identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

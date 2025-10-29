@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_api_gateway_domain_name">
+    <rdfs:label>aws_api_gateway_domain_name</rdfs:label>
+    <rdfs:comment>Registers a custom domain name for use with AWS API Gateway. Additional information about this functionality
+can be found in the [API Gateway Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-custom-domains.html).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_certificate_arn">
+    <rdfs:label>certificate_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_certificate_body">
+    <rdfs:label>certificate_body</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_certificate_chain">
+    <rdfs:label>certificate_chain</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_certificate_name">
+    <rdfs:label>certificate_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_certificate_private_key">
+    <rdfs:label>certificate_private_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_certificate_upload_date">
+    <rdfs:label>certificate_upload_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_cloudfront_domain_name">
+    <rdfs:label>cloudfront_domain_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_cloudfront_zone_id">
+    <rdfs:label>cloudfront_zone_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_domain_name">
+    <rdfs:label>domain_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_domain_name_id">
+    <rdfs:label>domain_name_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_ownership_verification_certificate_arn">
+    <rdfs:label>ownership_verification_certificate_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_policy">
+    <rdfs:label>policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_regional_certificate_arn">
+    <rdfs:label>regional_certificate_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_regional_certificate_name">
+    <rdfs:label>regional_certificate_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_regional_domain_name">
+    <rdfs:label>regional_domain_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_regional_zone_id">
+    <rdfs:label>regional_zone_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_security_policy">
+    <rdfs:label>security_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_ip_address_type">
+    <rdfs:label>ip_address_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_types">
+    <rdfs:label>types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_truststore_uri">
+    <rdfs:label>truststore_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_api_gateway_domain_name_truststore_version">
+    <rdfs:label>truststore_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_api_gateway_domain_name"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_container_app_environment_custom_domain">
+    <rdfs:label>azurerm_container_app_environment_custom_domain</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_custom_domain_certificate_blob_base64">
+    <rdfs:label>certificate_blob_base64</rdfs:label>
+    <rdfs:comment>The Custom Domain Certificate Private Key as a base64 encoded PFX or PEM.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_custom_domain_certificate_password">
+    <rdfs:label>certificate_password</rdfs:label>
+    <rdfs:comment>The Custom Domain Certificate password.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_custom_domain_container_app_environment_id">
+    <rdfs:label>container_app_environment_id</rdfs:label>
+    <rdfs:comment>The Container App Managed Environment ID to configure this Custom Domain on.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_custom_domain_dns_suffix">
+    <rdfs:label>dns_suffix</rdfs:label>
+    <rdfs:comment>The Custom Domain DNS suffix for this Container App Environment.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_custom_domain_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_custom_domain_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_custom_domain_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_custom_domain_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_custom_domain_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_mobile_network_sim_policy">
+    <rdfs:label>azurerm_mobile_network_sim_policy</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_default_slice_id">
+    <rdfs:label>default_slice_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_mobile_network_id">
+    <rdfs:label>mobile_network_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_rat_frequency_selection_priority_index">
+    <rdfs:label>rat_frequency_selection_priority_index</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_registration_timer_in_seconds">
+    <rdfs:label>registration_timer_in_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_default_data_network_id">
+    <rdfs:label>default_data_network_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_slice_id">
+    <rdfs:label>slice_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_additional_allowed_session_types">
+    <rdfs:label>additional_allowed_session_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_allocation_and_retention_priority_level">
+    <rdfs:label>allocation_and_retention_priority_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_allowed_services_ids">
+    <rdfs:label>allowed_services_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_data_network_id">
+    <rdfs:label>data_network_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_default_session_type">
+    <rdfs:label>default_session_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_max_buffered_packets">
+    <rdfs:label>max_buffered_packets</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_preemption_capability">
+    <rdfs:label>preemption_capability</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_preemption_vulnerability">
+    <rdfs:label>preemption_vulnerability</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_qos_indicator">
+    <rdfs:label>qos_indicator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_downlink">
+    <rdfs:label>downlink</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_uplink">
+    <rdfs:label>uplink</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_downlink">
+    <rdfs:label>downlink</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mobile_network_sim_policy_uplink">
+    <rdfs:label>uplink</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mobile_network_sim_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_mdb_postgresql_database">
+    <rdfs:label>yandex_mdb_postgresql_database</rdfs:label>
+    <rdfs:comment>Manages a PostgreSQL database within the Yandex Cloud. For more information, see [the official documentation](https://yandex.cloud/docs/managed-postgresql/).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_postgresql_database_cluster_id">
+    <rdfs:label>cluster_id</rdfs:label>
+    <rdfs:comment>The ID of the PostgreSQL cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_postgresql_database"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_postgresql_database_deletion_protection">
+    <rdfs:label>deletion_protection</rdfs:label>
+    <rdfs:comment>The `true` value means that resource is protected from accidental deletion.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_postgresql_database"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_postgresql_database_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_postgresql_database"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_postgresql_database_lc_collate">
+    <rdfs:label>lc_collate</rdfs:label>
+    <rdfs:comment>POSIX locale for string sorting order. Forbidden to change in an existing database.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_postgresql_database"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_postgresql_database_lc_type">
+    <rdfs:label>lc_type</rdfs:label>
+    <rdfs:comment>POSIX locale for character classification. Forbidden to change in an existing database.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_postgresql_database"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_postgresql_database_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_postgresql_database"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_postgresql_database_owner">
+    <rdfs:label>owner</rdfs:label>
+    <rdfs:comment>Name of the user assigned as the owner of the database. Forbidden to change in an existing database.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_postgresql_database"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_postgresql_database_template_db">
+    <rdfs:label>template_db</rdfs:label>
+    <rdfs:comment>Name of the template database.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_postgresql_database"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_postgresql_database_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name of the database extension. For more information on available extensions see [the official documentation](https://yandex.cloud/docs/managed-postgresql/operations/cluster-extensions).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_postgresql_database"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_postgresql_database_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_postgresql_database"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_postgresql_database_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_postgresql_database"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_postgresql_database_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_postgresql_database"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_postgresql_database_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_postgresql_database"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

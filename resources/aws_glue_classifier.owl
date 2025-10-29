@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_glue_classifier">
+    <rdfs:label>aws_glue_classifier</rdfs:label>
+    <rdfs:comment>Provides a Glue Classifier resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_allow_single_column">
+    <rdfs:label>allow_single_column</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_contains_header">
+    <rdfs:label>contains_header</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_custom_datatype_configured">
+    <rdfs:label>custom_datatype_configured</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_custom_datatypes">
+    <rdfs:label>custom_datatypes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_delimiter">
+    <rdfs:label>delimiter</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_disable_value_trimming">
+    <rdfs:label>disable_value_trimming</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_header">
+    <rdfs:label>header</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_quote_symbol">
+    <rdfs:label>quote_symbol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_serde">
+    <rdfs:label>serde</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_classification">
+    <rdfs:label>classification</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_custom_patterns">
+    <rdfs:label>custom_patterns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_grok_pattern">
+    <rdfs:label>grok_pattern</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_json_path">
+    <rdfs:label>json_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_classification">
+    <rdfs:label>classification</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_glue_classifier_row_tag">
+    <rdfs:label>row_tag</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_glue_classifier"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

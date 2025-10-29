@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_container_app_custom_domain">
+    <rdfs:label>azurerm_container_app_custom_domain</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_custom_domain_certificate_binding_type">
+    <rdfs:label>certificate_binding_type</rdfs:label>
+    <rdfs:comment>The Binding type. Possible values include `Disabled` and `SniEnabled`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_custom_domain_container_app_environment_certificate_id">
+    <rdfs:label>container_app_environment_certificate_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_custom_domain_container_app_environment_managed_certificate_id">
+    <rdfs:label>container_app_environment_managed_certificate_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_custom_domain_container_app_id">
+    <rdfs:label>container_app_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_custom_domain_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_custom_domain_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The hostname of the Certificate. Must be the CN or a named SAN in the certificate.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_custom_domain_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_custom_domain_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_custom_domain_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_custom_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

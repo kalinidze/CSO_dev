@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_odb_cloud_vm_cluster">
+    <rdfs:label>aws_odb_cloud_vm_cluster</rdfs:label>
+    <rdfs:comment>Terraform to manage cloud vm cluster resource in AWS for Oracle Database@AWS.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_cloud_exadata_infrastructure_id">
+    <rdfs:label>cloud_exadata_infrastructure_id</rdfs:label>
+    <rdfs:comment>The unique identifier of the Exadata infrastructure for this VM cluster. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_cluster_name">
+    <rdfs:label>cluster_name</rdfs:label>
+    <rdfs:comment>The name of the Grid Infrastructure (GI) cluster. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_compute_model">
+    <rdfs:label>compute_model</rdfs:label>
+    <rdfs:comment>The compute model used when the instance is created or cloned — either ECPU or OCPU. ECPU is a virtualized compute unit; OCPU is a physical processor core with hyper-threading.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_cpu_core_count">
+    <rdfs:label>cpu_core_count</rdfs:label>
+    <rdfs:comment>The number of CPU cores to enable on the VM cluster. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The timestamp when the VM cluster was created.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_data_storage_size_in_tbs">
+    <rdfs:label>data_storage_size_in_tbs</rdfs:label>
+    <rdfs:comment>The size of the data disk group, in terabytes (TBs), to allocate for the VM cluster. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_db_node_storage_size_in_gbs">
+    <rdfs:label>db_node_storage_size_in_gbs</rdfs:label>
+    <rdfs:comment>The amount of local node storage, in gigabytes (GBs), to allocate for the VM cluster. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_db_servers">
+    <rdfs:label>db_servers</rdfs:label>
+    <rdfs:comment>The list of database servers for the VM cluster. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_disk_redundancy">
+    <rdfs:label>disk_redundancy</rdfs:label>
+    <rdfs:comment>The type of redundancy for the VM cluster: NORMAL (2-way) or HIGH (3-way).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_display_name">
+    <rdfs:label>display_name</rdfs:label>
+    <rdfs:comment>A user-friendly name for the VM cluster. This member is required. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_domain">
+    <rdfs:label>domain</rdfs:label>
+    <rdfs:comment>The domain name associated with the VM cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_gi_version">
+    <rdfs:label>gi_version</rdfs:label>
+    <rdfs:comment>A valid software version of Oracle Grid Infrastructure (GI). To get the list of valid values, use the ListGiVersions operation and specify the shape of the Exadata infrastructure. Example: 19.0.0.0 This member is required. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_gi_version_computed">
+    <rdfs:label>gi_version_computed</rdfs:label>
+    <rdfs:comment>A complete software version of Oracle Grid Infrastructure (GI).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_hostname_prefix">
+    <rdfs:label>hostname_prefix</rdfs:label>
+    <rdfs:comment>The host name prefix for the VM cluster. Constraints: - Can't be "localhost" or "hostname". - Can't contain "-version". - The maximum length of the combined hostname and domain is 63 characters. - The hostname must be unique within the subnet. This member is required. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_hostname_prefix_computed">
+    <rdfs:label>hostname_prefix_computed</rdfs:label>
+    <rdfs:comment>The host name for the VM cluster. Constraints: - Can't be "localhost" or "hostname". - Can't contain "-version". - The maximum length of the combined hostname and domain is 63 characters. - The hostname must be unique within the subnet. This member is required. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_iorm_config_cache">
+    <rdfs:label>iorm_config_cache</rdfs:label>
+    <rdfs:comment>The Exadata IORM (I/O Resource Manager) configuration cache details for the VM cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_is_local_backup_enabled">
+    <rdfs:label>is_local_backup_enabled</rdfs:label>
+    <rdfs:comment>Specifies whether to enable database backups to local Exadata storage for the VM cluster. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_is_sparse_diskgroup_enabled">
+    <rdfs:label>is_sparse_diskgroup_enabled</rdfs:label>
+    <rdfs:comment>Specifies whether to create a sparse disk group for the VM cluster. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_last_update_history_entry_id">
+    <rdfs:label>last_update_history_entry_id</rdfs:label>
+    <rdfs:comment>The OCID of the most recent maintenance update history entry.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_license_model">
+    <rdfs:label>license_model</rdfs:label>
+    <rdfs:comment>The Oracle license model to apply to the VM cluster. Default: LICENSE_INCLUDED. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_listener_port">
+    <rdfs:label>listener_port</rdfs:label>
+    <rdfs:comment>The listener port number configured on the VM cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_memory_size_in_gbs">
+    <rdfs:label>memory_size_in_gbs</rdfs:label>
+    <rdfs:comment>The amount of memory, in gigabytes (GBs), to allocate for the VM cluster. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_node_count">
+    <rdfs:label>node_count</rdfs:label>
+    <rdfs:comment>The total number of nodes in the VM cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_oci_resource_anchor_name">
+    <rdfs:label>oci_resource_anchor_name</rdfs:label>
+    <rdfs:comment>The name of the OCI resource anchor associated with the VM cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_oci_url">
+    <rdfs:label>oci_url</rdfs:label>
+    <rdfs:comment>The HTTPS link to the VM cluster resource in OCI.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_ocid">
+    <rdfs:label>ocid</rdfs:label>
+    <rdfs:comment>The OCID (Oracle Cloud Identifier) of the VM cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_odb_network_id">
+    <rdfs:label>odb_network_id</rdfs:label>
+    <rdfs:comment>The unique identifier of the ODB network for the VM cluster. This member is required. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_percent_progress">
+    <rdfs:label>percent_progress</rdfs:label>
+    <rdfs:comment>The percentage of progress made on the current operation for the VM cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_scan_dns_name">
+    <rdfs:label>scan_dns_name</rdfs:label>
+    <rdfs:comment>The fully qualified domain name (FQDN) for the SCAN IP addresses associated with the VM cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_scan_dns_record_id">
+    <rdfs:label>scan_dns_record_id</rdfs:label>
+    <rdfs:comment>The OCID of the DNS record for the SCAN IPs linked to the VM cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_scan_ip_ids">
+    <rdfs:label>scan_ip_ids</rdfs:label>
+    <rdfs:comment>The list of OCIDs for SCAN IP addresses associated with the VM cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_scan_listener_port_tcp">
+    <rdfs:label>scan_listener_port_tcp</rdfs:label>
+    <rdfs:comment>The port number for TCP connections to the single client access name (SCAN) listener. Valid values: 1024–8999 with the following exceptions: 2484 , 6100 , 6200 , 7060, 7070 , 7085 , and 7879Default: 1521. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_shape">
+    <rdfs:label>shape</rdfs:label>
+    <rdfs:comment>The hardware model name of the Exadata infrastructure running the VM cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_ssh_public_keys">
+    <rdfs:label>ssh_public_keys</rdfs:label>
+    <rdfs:comment>The public key portion of one or more key pairs used for SSH access to the VM cluster. This member is required. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:comment>The current lifecycle status of the VM cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_status_reason">
+    <rdfs:label>status_reason</rdfs:label>
+    <rdfs:comment>Additional information regarding the current status of the VM cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_storage_size_in_gbs">
+    <rdfs:label>storage_size_in_gbs</rdfs:label>
+    <rdfs:comment>The local node storage allocated to the VM cluster, in gigabytes (GB).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_system_version">
+    <rdfs:label>system_version</rdfs:label>
+    <rdfs:comment>The operating system version of the image chosen for the VM cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_timezone">
+    <rdfs:label>timezone</rdfs:label>
+    <rdfs:comment>The configured time zone of the VM cluster. Changing this will create a new resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_vip_ids">
+    <rdfs:label>vip_ids</rdfs:label>
+    <rdfs:comment>The virtual IP (VIP) addresses assigned to the VM cluster. CRS assigns one VIP per node for failover support.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_is_diagnostics_events_enabled">
+    <rdfs:label>is_diagnostics_events_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_is_health_monitoring_enabled">
+    <rdfs:label>is_health_monitoring_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_is_incident_logs_enabled">
+    <rdfs:label>is_incident_logs_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_odb_cloud_vm_cluster_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_odb_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/google_bigquery_connection_iam_binding">
+    <rdfs:label>google_bigquery_connection_iam_binding</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_bigquery_connection_iam_binding_connection_id">
+    <rdfs:label>connection_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_bigquery_connection_iam_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_bigquery_connection_iam_binding_etag">
+    <rdfs:label>etag</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_bigquery_connection_iam_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_bigquery_connection_iam_binding_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_bigquery_connection_iam_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_bigquery_connection_iam_binding_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_bigquery_connection_iam_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_bigquery_connection_iam_binding_members">
+    <rdfs:label>members</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_bigquery_connection_iam_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_bigquery_connection_iam_binding_project">
+    <rdfs:label>project</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_bigquery_connection_iam_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_bigquery_connection_iam_binding_role">
+    <rdfs:label>role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_bigquery_connection_iam_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_bigquery_connection_iam_binding_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_bigquery_connection_iam_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_bigquery_connection_iam_binding_expression">
+    <rdfs:label>expression</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_bigquery_connection_iam_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_bigquery_connection_iam_binding_title">
+    <rdfs:label>title</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_bigquery_connection_iam_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

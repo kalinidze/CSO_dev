@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_amplify_app">
+    <rdfs:label>aws_amplify_app</rdfs:label>
+    <rdfs:comment>Provides an Amplify App resource, a fullstack serverless app hosted on the [AWS Amplify Console](https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_access_token">
+    <rdfs:label>access_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_auto_branch_creation_patterns">
+    <rdfs:label>auto_branch_creation_patterns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_basic_auth_credentials">
+    <rdfs:label>basic_auth_credentials</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_build_spec">
+    <rdfs:label>build_spec</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_compute_role_arn">
+    <rdfs:label>compute_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_custom_headers">
+    <rdfs:label>custom_headers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_default_domain">
+    <rdfs:label>default_domain</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_enable_auto_branch_creation">
+    <rdfs:label>enable_auto_branch_creation</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_enable_basic_auth">
+    <rdfs:label>enable_basic_auth</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_enable_branch_auto_build">
+    <rdfs:label>enable_branch_auto_build</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_enable_branch_auto_deletion">
+    <rdfs:label>enable_branch_auto_deletion</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_environment_variables">
+    <rdfs:label>environment_variables</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_iam_service_role_arn">
+    <rdfs:label>iam_service_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_oauth_token">
+    <rdfs:label>oauth_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_platform">
+    <rdfs:label>platform</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_production_branch">
+    <rdfs:label>production_branch</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_repository">
+    <rdfs:label>repository</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_basic_auth_credentials">
+    <rdfs:label>basic_auth_credentials</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_build_spec">
+    <rdfs:label>build_spec</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_enable_auto_build">
+    <rdfs:label>enable_auto_build</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_enable_basic_auth">
+    <rdfs:label>enable_basic_auth</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_enable_performance_mode">
+    <rdfs:label>enable_performance_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_enable_pull_request_preview">
+    <rdfs:label>enable_pull_request_preview</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_environment_variables">
+    <rdfs:label>environment_variables</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_framework">
+    <rdfs:label>framework</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_pull_request_environment_name">
+    <rdfs:label>pull_request_environment_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_stage">
+    <rdfs:label>stage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_condition">
+    <rdfs:label>condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_source">
+    <rdfs:label>source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_target">
+    <rdfs:label>target</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_app_build_compute_type">
+    <rdfs:label>build_compute_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_app"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

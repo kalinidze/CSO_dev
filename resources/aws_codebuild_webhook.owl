@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_codebuild_webhook">
+    <rdfs:label>aws_codebuild_webhook</rdfs:label>
+    <rdfs:comment>Manages a CodeBuild webhook, which is an endpoint accepted by the CodeBuild service to trigger builds from source code repositories. Depending on the source type of the CodeBuild project, the CodeBuild service may also automatically create and delete the actual repository webhook as well.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_branch_filter">
+    <rdfs:label>branch_filter</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_build_type">
+    <rdfs:label>build_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_manual_creation">
+    <rdfs:label>manual_creation</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_payload_url">
+    <rdfs:label>payload_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_project_name">
+    <rdfs:label>project_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_secret">
+    <rdfs:label>secret</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_url">
+    <rdfs:label>url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_exclude_matched_pattern">
+    <rdfs:label>exclude_matched_pattern</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_pattern">
+    <rdfs:label>pattern</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_approver_roles">
+    <rdfs:label>approver_roles</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_requires_comment_approval">
+    <rdfs:label>requires_comment_approval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_domain">
+    <rdfs:label>domain</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_codebuild_webhook_scope">
+    <rdfs:label>scope</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_codebuild_webhook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

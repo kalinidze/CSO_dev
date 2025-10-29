@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_lakeformation_data_lake_settings">
+    <rdfs:label>aws_lakeformation_data_lake_settings</rdfs:label>
+    <rdfs:comment>Manages Lake Formation principals designated as data lake administrators and lists of principal permission entries for default create database and default create table permissions.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lakeformation_data_lake_settings_admins">
+    <rdfs:label>admins</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lakeformation_data_lake_settings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lakeformation_data_lake_settings_allow_external_data_filtering">
+    <rdfs:label>allow_external_data_filtering</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lakeformation_data_lake_settings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lakeformation_data_lake_settings_allow_full_table_external_data_access">
+    <rdfs:label>allow_full_table_external_data_access</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lakeformation_data_lake_settings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lakeformation_data_lake_settings_authorized_session_tag_value_list">
+    <rdfs:label>authorized_session_tag_value_list</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lakeformation_data_lake_settings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lakeformation_data_lake_settings_catalog_id">
+    <rdfs:label>catalog_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lakeformation_data_lake_settings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lakeformation_data_lake_settings_external_data_filtering_allow_list">
+    <rdfs:label>external_data_filtering_allow_list</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lakeformation_data_lake_settings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lakeformation_data_lake_settings_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lakeformation_data_lake_settings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lakeformation_data_lake_settings_parameters">
+    <rdfs:label>parameters</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lakeformation_data_lake_settings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lakeformation_data_lake_settings_read_only_admins">
+    <rdfs:label>read_only_admins</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lakeformation_data_lake_settings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lakeformation_data_lake_settings_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lakeformation_data_lake_settings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lakeformation_data_lake_settings_trusted_resource_owners">
+    <rdfs:label>trusted_resource_owners</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lakeformation_data_lake_settings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lakeformation_data_lake_settings_permissions">
+    <rdfs:label>permissions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lakeformation_data_lake_settings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lakeformation_data_lake_settings_principal">
+    <rdfs:label>principal</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lakeformation_data_lake_settings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lakeformation_data_lake_settings_permissions">
+    <rdfs:label>permissions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lakeformation_data_lake_settings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lakeformation_data_lake_settings_principal">
+    <rdfs:label>principal</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lakeformation_data_lake_settings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

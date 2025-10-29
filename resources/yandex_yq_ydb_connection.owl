@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_yq_ydb_connection">
+    <rdfs:label>yandex_yq_ydb_connection</rdfs:label>
+    <rdfs:comment>Manages YDB connection in Yandex Query service. For more information, see [the official documentation](https://yandex.cloud/docs/query/concepts/glossary#connection).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_ydb_connection_database_id">
+    <rdfs:label>database_id</rdfs:label>
+    <rdfs:comment>The database identifier.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_ydb_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_ydb_connection_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>The resource description.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_ydb_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_ydb_connection_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:comment>The resource identifier.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_ydb_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_ydb_connection_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_ydb_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_ydb_connection_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>The service account ID to access resources on behalf of.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_ydb_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

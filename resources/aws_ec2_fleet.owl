@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_ec2_fleet">
+    <rdfs:label>aws_ec2_fleet</rdfs:label>
+    <rdfs:comment>Provides a resource to manage EC2 Fleets.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_context">
+    <rdfs:label>context</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_excess_capacity_termination_policy">
+    <rdfs:label>excess_capacity_termination_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_fleet_state">
+    <rdfs:label>fleet_state</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_fulfilled_capacity">
+    <rdfs:label>fulfilled_capacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_fulfilled_on_demand_capacity">
+    <rdfs:label>fulfilled_on_demand_capacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_replace_unhealthy_instances">
+    <rdfs:label>replace_unhealthy_instances</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_terminate_instances">
+    <rdfs:label>terminate_instances</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_terminate_instances_with_expiration">
+    <rdfs:label>terminate_instances_with_expiration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_valid_from">
+    <rdfs:label>valid_from</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_valid_until">
+    <rdfs:label>valid_until</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_instance_ids">
+    <rdfs:label>instance_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_instance_type">
+    <rdfs:label>instance_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_lifecycle">
+    <rdfs:label>lifecycle</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_platform">
+    <rdfs:label>platform</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_launch_template_id">
+    <rdfs:label>launch_template_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_launch_template_name">
+    <rdfs:label>launch_template_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_availability_zone">
+    <rdfs:label>availability_zone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_instance_type">
+    <rdfs:label>instance_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_max_price">
+    <rdfs:label>max_price</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_priority">
+    <rdfs:label>priority</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_weighted_capacity">
+    <rdfs:label>weighted_capacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_accelerator_manufacturers">
+    <rdfs:label>accelerator_manufacturers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_accelerator_names">
+    <rdfs:label>accelerator_names</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_accelerator_types">
+    <rdfs:label>accelerator_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_allowed_instance_types">
+    <rdfs:label>allowed_instance_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_bare_metal">
+    <rdfs:label>bare_metal</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_burstable_performance">
+    <rdfs:label>burstable_performance</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_cpu_manufacturers">
+    <rdfs:label>cpu_manufacturers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_excluded_instance_types">
+    <rdfs:label>excluded_instance_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_instance_generations">
+    <rdfs:label>instance_generations</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_local_storage">
+    <rdfs:label>local_storage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_local_storage_types">
+    <rdfs:label>local_storage_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_max_spot_price_as_percentage_of_optimal_on_demand_price">
+    <rdfs:label>max_spot_price_as_percentage_of_optimal_on_demand_price</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_on_demand_max_price_percentage_over_lowest_price">
+    <rdfs:label>on_demand_max_price_percentage_over_lowest_price</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_require_hibernate_support">
+    <rdfs:label>require_hibernate_support</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_spot_max_price_percentage_over_lowest_price">
+    <rdfs:label>spot_max_price_percentage_over_lowest_price</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_max">
+    <rdfs:label>max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_min">
+    <rdfs:label>min</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_max">
+    <rdfs:label>max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_min">
+    <rdfs:label>min</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_max">
+    <rdfs:label>max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_min">
+    <rdfs:label>min</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_max">
+    <rdfs:label>max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_min">
+    <rdfs:label>min</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_max">
+    <rdfs:label>max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_min">
+    <rdfs:label>min</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_max">
+    <rdfs:label>max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_min">
+    <rdfs:label>min</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_max">
+    <rdfs:label>max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_min">
+    <rdfs:label>min</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_max">
+    <rdfs:label>max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_min">
+    <rdfs:label>min</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_max">
+    <rdfs:label>max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_min">
+    <rdfs:label>min</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_allocation_strategy">
+    <rdfs:label>allocation_strategy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_max_total_price">
+    <rdfs:label>max_total_price</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_min_target_capacity">
+    <rdfs:label>min_target_capacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_single_availability_zone">
+    <rdfs:label>single_availability_zone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_single_instance_type">
+    <rdfs:label>single_instance_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_usage_strategy">
+    <rdfs:label>usage_strategy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_allocation_strategy">
+    <rdfs:label>allocation_strategy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_instance_interruption_behavior">
+    <rdfs:label>instance_interruption_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_instance_pools_to_use_count">
+    <rdfs:label>instance_pools_to_use_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_max_total_price">
+    <rdfs:label>max_total_price</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_min_target_capacity">
+    <rdfs:label>min_target_capacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_single_availability_zone">
+    <rdfs:label>single_availability_zone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_single_instance_type">
+    <rdfs:label>single_instance_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_replacement_strategy">
+    <rdfs:label>replacement_strategy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_termination_delay">
+    <rdfs:label>termination_delay</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_default_target_capacity_type">
+    <rdfs:label>default_target_capacity_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_on_demand_target_capacity">
+    <rdfs:label>on_demand_target_capacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_spot_target_capacity">
+    <rdfs:label>spot_target_capacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_target_capacity_unit_type">
+    <rdfs:label>target_capacity_unit_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_total_target_capacity">
+    <rdfs:label>total_target_capacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_fleet_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

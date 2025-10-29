@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_lb_network_load_balancer">
+    <rdfs:label>yandex_lb_network_load_balancer</rdfs:label>
+    <rdfs:comment>Creates a network load balancer in the specified folder using the data specified in the config. For more information, see [the official documentation](https://yandex.cloud/docs/load-balancer/concepts).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_allow_zonal_shift">
+    <rdfs:label>allow_zonal_shift</rdfs:label>
+    <rdfs:comment>Flag that marks the network load balancer as available to zonal shift.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The creation timestamp of the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_deletion_protection">
+    <rdfs:label>deletion_protection</rdfs:label>
+    <rdfs:comment>The `true` value means that resource is protected from accidental deletion.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>The resource description.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>A set of key/value label pairs which assigned to resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_region_id">
+    <rdfs:label>region_id</rdfs:label>
+    <rdfs:comment>ID of the availability zone where the network load balancer resides. If omitted, default region is being used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Type of the network load balancer. Must be one of 'external' or 'internal'. The default is 'external'.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_target_group_id">
+    <rdfs:label>target_group_id</rdfs:label>
+    <rdfs:comment>ID of the target group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_healthy_threshold">
+    <rdfs:label>healthy_threshold</rdfs:label>
+    <rdfs:comment>Number of successful health checks required in order to set the `HEALTHY` status for the target.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_interval">
+    <rdfs:label>interval</rdfs:label>
+    <rdfs:comment>The interval between health checks. The default is 2 seconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name of the health check. The name must be unique for each target group that attached to a single load balancer.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_timeout">
+    <rdfs:label>timeout</rdfs:label>
+    <rdfs:comment>Timeout for a target to return a response for the health check. The default is 1 second.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_unhealthy_threshold">
+    <rdfs:label>unhealthy_threshold</rdfs:label>
+    <rdfs:comment>Number of failed health checks before changing the status to `UNHEALTHY`. The default is 2.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:comment>URL path to set for health checking requests for every target in the target group. For example `/ping`. The default path is `/`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:comment>Port to use for HTTP health checks.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:comment>Port to use for TCP health checks.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name of the listener. The name must be unique for each listener on a single load balancer.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:comment>Port for incoming traffic.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_protocol">
+    <rdfs:label>protocol</rdfs:label>
+    <rdfs:comment>Protocol for incoming traffic. TCP or UDP and the default is TCP.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_target_port">
+    <rdfs:label>target_port</rdfs:label>
+    <rdfs:comment>Port of a target. The default is the same as listener's port.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_address">
+    <rdfs:label>address</rdfs:label>
+    <rdfs:comment>External IP address for a listener. IP address will be allocated if it wasn't been set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_ip_version">
+    <rdfs:label>ip_version</rdfs:label>
+    <rdfs:comment>IP version of the external addresses that the load balancer works with. Must be one of `ipv4` or `ipv6`. The default is `ipv4`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_address">
+    <rdfs:label>address</rdfs:label>
+    <rdfs:comment>Internal IP address for a listener. Must belong to the subnet that is referenced in subnet_id. IP address will be allocated if it wasn't been set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_ip_version">
+    <rdfs:label>ip_version</rdfs:label>
+    <rdfs:comment>IP version of the external addresses that the load balancer works with. Must be one of `ipv4` or `ipv6`. The default is `ipv4`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>ID of the subnet to which the internal IP address belongs.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_lb_network_load_balancer_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_lb_network_load_balancer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_appflow_flow">
+    <rdfs:label>aws_appflow_flow</rdfs:label>
+    <rdfs:comment>Provides an AppFlow flow resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_flow_status">
+    <rdfs:label>flow_status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_kms_arn">
+    <rdfs:label>kms_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_api_version">
+    <rdfs:label>api_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_connector_profile_name">
+    <rdfs:label>connector_profile_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_connector_type">
+    <rdfs:label>connector_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_custom_properties">
+    <rdfs:label>custom_properties</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_entity_name">
+    <rdfs:label>entity_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_id_field_names">
+    <rdfs:label>id_field_names</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_write_operation_type">
+    <rdfs:label>write_operation_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_fail_on_first_destination_error">
+    <rdfs:label>fail_on_first_destination_error</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_domain_name">
+    <rdfs:label>domain_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object_type_name">
+    <rdfs:label>object_type_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_fail_on_first_destination_error">
+    <rdfs:label>fail_on_first_destination_error</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_fail_on_first_destination_error">
+    <rdfs:label>fail_on_first_destination_error</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_fail_on_first_destination_error">
+    <rdfs:label>fail_on_first_destination_error</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_intermediate_bucket_name">
+    <rdfs:label>intermediate_bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_fail_on_first_destination_error">
+    <rdfs:label>fail_on_first_destination_error</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_file_type">
+    <rdfs:label>file_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_preserve_source_data_typing">
+    <rdfs:label>preserve_source_data_typing</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_aggregation_type">
+    <rdfs:label>aggregation_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_target_file_size">
+    <rdfs:label>target_file_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_prefix_format">
+    <rdfs:label>prefix_format</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_prefix_hierarchy">
+    <rdfs:label>prefix_hierarchy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_prefix_type">
+    <rdfs:label>prefix_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_data_transfer_api">
+    <rdfs:label>data_transfer_api</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_id_field_names">
+    <rdfs:label>id_field_names</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_write_operation_type">
+    <rdfs:label>write_operation_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_fail_on_first_destination_error">
+    <rdfs:label>fail_on_first_destination_error</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_id_field_names">
+    <rdfs:label>id_field_names</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object_path">
+    <rdfs:label>object_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_write_operation_type">
+    <rdfs:label>write_operation_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_fail_on_first_destination_error">
+    <rdfs:label>fail_on_first_destination_error</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_intermediate_bucket_name">
+    <rdfs:label>intermediate_bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_fail_on_first_destination_error">
+    <rdfs:label>fail_on_first_destination_error</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_file_type">
+    <rdfs:label>file_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_aggregation_type">
+    <rdfs:label>aggregation_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_prefix_format">
+    <rdfs:label>prefix_format</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_prefix_hierarchy">
+    <rdfs:label>prefix_hierarchy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_prefix_type">
+    <rdfs:label>prefix_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_id_field_names">
+    <rdfs:label>id_field_names</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_write_operation_type">
+    <rdfs:label>write_operation_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_fail_on_first_destination_error">
+    <rdfs:label>fail_on_first_destination_error</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_database_name">
+    <rdfs:label>database_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_role_arn">
+    <rdfs:label>role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_table_prefix">
+    <rdfs:label>table_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_api_version">
+    <rdfs:label>api_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_connector_profile_name">
+    <rdfs:label>connector_profile_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_connector_type">
+    <rdfs:label>connector_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_datetime_type_field_name">
+    <rdfs:label>datetime_type_field_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_custom_properties">
+    <rdfs:label>custom_properties</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_entity_name">
+    <rdfs:label>entity_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_s3_input_file_type">
+    <rdfs:label>s3_input_file_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_data_transfer_api">
+    <rdfs:label>data_transfer_api</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_enable_dynamic_field_update">
+    <rdfs:label>enable_dynamic_field_update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_include_deleted_records">
+    <rdfs:label>include_deleted_records</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object_path">
+    <rdfs:label>object_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_max_page_size">
+    <rdfs:label>max_page_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_max_page_size">
+    <rdfs:label>max_page_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_document_type">
+    <rdfs:label>document_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_include_all_versions">
+    <rdfs:label>include_all_versions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_include_renditions">
+    <rdfs:label>include_renditions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_include_source_files">
+    <rdfs:label>include_source_files</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_object">
+    <rdfs:label>object</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_destination_field">
+    <rdfs:label>destination_field</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_source_fields">
+    <rdfs:label>source_fields</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_task_properties">
+    <rdfs:label>task_properties</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_task_type">
+    <rdfs:label>task_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_amplitude">
+    <rdfs:label>amplitude</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_custom_connector">
+    <rdfs:label>custom_connector</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_datadog">
+    <rdfs:label>datadog</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_dynatrace">
+    <rdfs:label>dynatrace</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_google_analytics">
+    <rdfs:label>google_analytics</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_infor_nexus">
+    <rdfs:label>infor_nexus</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_marketo">
+    <rdfs:label>marketo</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_s3">
+    <rdfs:label>s3</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_salesforce">
+    <rdfs:label>salesforce</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_sapo_data">
+    <rdfs:label>sapo_data</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_service_now">
+    <rdfs:label>service_now</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_singular">
+    <rdfs:label>singular</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_slack">
+    <rdfs:label>slack</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_trendmicro">
+    <rdfs:label>trendmicro</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_veeva">
+    <rdfs:label>veeva</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_zendesk">
+    <rdfs:label>zendesk</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_trigger_type">
+    <rdfs:label>trigger_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_data_pull_mode">
+    <rdfs:label>data_pull_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_first_execution_from">
+    <rdfs:label>first_execution_from</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_schedule_end_time">
+    <rdfs:label>schedule_end_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_schedule_expression">
+    <rdfs:label>schedule_expression</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_schedule_offset">
+    <rdfs:label>schedule_offset</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_schedule_start_time">
+    <rdfs:label>schedule_start_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_flow_timezone">
+    <rdfs:label>timezone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_flow"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

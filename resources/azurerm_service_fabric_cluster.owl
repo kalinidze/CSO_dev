@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_service_fabric_cluster">
+    <rdfs:label>azurerm_service_fabric_cluster</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_add_on_features">
+    <rdfs:label>add_on_features</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_cluster_code_version">
+    <rdfs:label>cluster_code_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_cluster_endpoint">
+    <rdfs:label>cluster_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_management_endpoint">
+    <rdfs:label>management_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_reliability_level">
+    <rdfs:label>reliability_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_service_fabric_zonal_upgrade_mode">
+    <rdfs:label>service_fabric_zonal_upgrade_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_upgrade_mode">
+    <rdfs:label>upgrade_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_vm_image">
+    <rdfs:label>vm_image</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_vmss_zonal_upgrade_mode">
+    <rdfs:label>vmss_zonal_upgrade_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_client_application_id">
+    <rdfs:label>client_application_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_cluster_application_id">
+    <rdfs:label>cluster_application_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_tenant_id">
+    <rdfs:label>tenant_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_thumbprint">
+    <rdfs:label>thumbprint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_thumbprint_secondary">
+    <rdfs:label>thumbprint_secondary</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_x509_store_name">
+    <rdfs:label>x509_store_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_x509_store_name">
+    <rdfs:label>x509_store_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_certificate_common_name">
+    <rdfs:label>certificate_common_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_certificate_issuer_thumbprint">
+    <rdfs:label>certificate_issuer_thumbprint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_common_name">
+    <rdfs:label>common_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_is_admin">
+    <rdfs:label>is_admin</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_issuer_thumbprint">
+    <rdfs:label>issuer_thumbprint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_is_admin">
+    <rdfs:label>is_admin</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_thumbprint">
+    <rdfs:label>thumbprint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_blob_endpoint">
+    <rdfs:label>blob_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_protected_account_key_name">
+    <rdfs:label>protected_account_key_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_queue_endpoint">
+    <rdfs:label>queue_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_storage_account_name">
+    <rdfs:label>storage_account_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_table_endpoint">
+    <rdfs:label>table_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_parameters">
+    <rdfs:label>parameters</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_capacities">
+    <rdfs:label>capacities</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_client_endpoint_port">
+    <rdfs:label>client_endpoint_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_durability_level">
+    <rdfs:label>durability_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_http_endpoint_port">
+    <rdfs:label>http_endpoint_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_instance_count">
+    <rdfs:label>instance_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_is_primary">
+    <rdfs:label>is_primary</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_is_stateless">
+    <rdfs:label>is_stateless</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_multiple_availability_zones">
+    <rdfs:label>multiple_availability_zones</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_placement_properties">
+    <rdfs:label>placement_properties</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_reverse_proxy_endpoint_port">
+    <rdfs:label>reverse_proxy_endpoint_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_end_port">
+    <rdfs:label>end_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_start_port">
+    <rdfs:label>start_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_end_port">
+    <rdfs:label>end_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_start_port">
+    <rdfs:label>start_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_thumbprint">
+    <rdfs:label>thumbprint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_thumbprint_secondary">
+    <rdfs:label>thumbprint_secondary</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_x509_store_name">
+    <rdfs:label>x509_store_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_x509_store_name">
+    <rdfs:label>x509_store_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_certificate_common_name">
+    <rdfs:label>certificate_common_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_certificate_issuer_thumbprint">
+    <rdfs:label>certificate_issuer_thumbprint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_force_restart_enabled">
+    <rdfs:label>force_restart_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_health_check_retry_timeout">
+    <rdfs:label>health_check_retry_timeout</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_health_check_stable_duration">
+    <rdfs:label>health_check_stable_duration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_health_check_wait_duration">
+    <rdfs:label>health_check_wait_duration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_upgrade_domain_timeout">
+    <rdfs:label>upgrade_domain_timeout</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_upgrade_replica_set_check_timeout">
+    <rdfs:label>upgrade_replica_set_check_timeout</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_upgrade_timeout">
+    <rdfs:label>upgrade_timeout</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_max_delta_unhealthy_applications_percent">
+    <rdfs:label>max_delta_unhealthy_applications_percent</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_max_delta_unhealthy_nodes_percent">
+    <rdfs:label>max_delta_unhealthy_nodes_percent</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_max_upgrade_domain_delta_unhealthy_nodes_percent">
+    <rdfs:label>max_upgrade_domain_delta_unhealthy_nodes_percent</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_max_unhealthy_applications_percent">
+    <rdfs:label>max_unhealthy_applications_percent</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_service_fabric_cluster_max_unhealthy_nodes_percent">
+    <rdfs:label>max_unhealthy_nodes_percent</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_service_fabric_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

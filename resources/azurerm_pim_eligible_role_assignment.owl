@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_pim_eligible_role_assignment">
+    <rdfs:label>azurerm_pim_eligible_role_assignment</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_condition">
+    <rdfs:label>condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_condition_version">
+    <rdfs:label>condition_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_justification">
+    <rdfs:label>justification</rdfs:label>
+    <rdfs:comment>The justification for this eligible role assignment</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_principal_id">
+    <rdfs:label>principal_id</rdfs:label>
+    <rdfs:comment>Object ID of the principal for this eligible role assignment</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_principal_type">
+    <rdfs:label>principal_type</rdfs:label>
+    <rdfs:comment>Type of principal to which the role will be assigned</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_role_definition_id">
+    <rdfs:label>role_definition_id</rdfs:label>
+    <rdfs:comment>Role definition ID for this eligible role assignment</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_scope">
+    <rdfs:label>scope</rdfs:label>
+    <rdfs:comment>Scope for this eligible role assignment, should be a valid resource ID</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_start_date_time">
+    <rdfs:label>start_date_time</rdfs:label>
+    <rdfs:comment>The start date/time</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_duration_days">
+    <rdfs:label>duration_days</rdfs:label>
+    <rdfs:comment>The duration of the eligible role assignment in days</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_duration_hours">
+    <rdfs:label>duration_hours</rdfs:label>
+    <rdfs:comment>The duration of the eligible role assignment in hours</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_end_date_time">
+    <rdfs:label>end_date_time</rdfs:label>
+    <rdfs:comment>The end date/time of the eligible role assignment</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_number">
+    <rdfs:label>number</rdfs:label>
+    <rdfs:comment>User-supplied ticket number to be included with the request</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_system">
+    <rdfs:label>system</rdfs:label>
+    <rdfs:comment>User-supplied ticket system name to be included with the request</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_pim_eligible_role_assignment_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_pim_eligible_role_assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

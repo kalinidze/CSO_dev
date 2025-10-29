@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_container_app_environment_storage">
+    <rdfs:label>azurerm_container_app_environment_storage</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_storage_access_key">
+    <rdfs:label>access_key</rdfs:label>
+    <rdfs:comment>The Storage Account Access Key.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_storage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_storage_access_mode">
+    <rdfs:label>access_mode</rdfs:label>
+    <rdfs:comment>The access mode to connect this storage to the Container App. Possible values include `ReadOnly` and `ReadWrite`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_storage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_storage_account_name">
+    <rdfs:label>account_name</rdfs:label>
+    <rdfs:comment>The Azure Storage Account in which the Share to be used is located.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_storage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_storage_container_app_environment_id">
+    <rdfs:label>container_app_environment_id</rdfs:label>
+    <rdfs:comment>The ID of the Container App Environment to which this storage belongs.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_storage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_storage_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_storage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_storage_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The name for this Storage.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_storage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_storage_nfs_server_url">
+    <rdfs:label>nfs_server_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_storage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_storage_share_name">
+    <rdfs:label>share_name</rdfs:label>
+    <rdfs:comment>The name of the Azure Storage Share to use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_storage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_storage_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_storage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_storage_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_storage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_storage_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_storage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_container_app_environment_storage_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_container_app_environment_storage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_metastore_cluster">
+    <rdfs:label>yandex_metastore_cluster</rdfs:label>
+    <rdfs:comment>Managed Metastore cluster.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_cluster_config">
+    <rdfs:label>cluster_config</rdfs:label>
+    <rdfs:comment>Hive Metastore cluster configuration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The creation timestamp of the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_deletion_protection">
+    <rdfs:label>deletion_protection</rdfs:label>
+    <rdfs:comment>The `true` value means that resource is protected from accidental deletion. By default is set to `false`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>The resource description.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_endpoint_ip">
+    <rdfs:label>endpoint_ip</rdfs:label>
+    <rdfs:comment>IP address of Metastore server balancer endpoint.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:comment>The resource identifier.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>A set of key/value label pairs which assigned to resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_logging">
+    <rdfs:label>logging</rdfs:label>
+    <rdfs:comment>Cloud Logging configuration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_maintenance_window">
+    <rdfs:label>maintenance_window</rdfs:label>
+    <rdfs:comment>Configuration of window for maintenance operations.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_network_id">
+    <rdfs:label>network_id</rdfs:label>
+    <rdfs:comment>VPC network identifier which resource is attached.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_security_group_ids">
+    <rdfs:label>security_group_ids</rdfs:label>
+    <rdfs:comment>The list of security groups applied to resource or their components.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>[Service account](https://yandex.cloud/docs/iam/concepts/users/service-accounts) with role `managed-metastore.integrationProvider`. For more information, see [documentation](https://yandex.cloud/docs/metadata-hub/concepts/metastore-impersonation).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:comment>Status of the cluster. Can be either `CREATING`, `STARTING`, `RUNNING`, `UPDATING`, `STOPPING`, `STOPPED`, `ERROR` or `STATUS_UNKNOWN`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_subnet_ids">
+    <rdfs:label>subnet_ids</rdfs:label>
+    <rdfs:comment>The list of VPC subnets identifiers which resource is attached.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:comment>Metastore server version.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_metastore_cluster_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_metastore_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

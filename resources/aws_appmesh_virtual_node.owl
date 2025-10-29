@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_appmesh_virtual_node">
+    <rdfs:label>aws_appmesh_virtual_node</rdfs:label>
+    <rdfs:comment>Provides an AWS App Mesh virtual node resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_created_date">
+    <rdfs:label>created_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_last_updated_date">
+    <rdfs:label>last_updated_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_mesh_name">
+    <rdfs:label>mesh_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_mesh_owner">
+    <rdfs:label>mesh_owner</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_resource_owner">
+    <rdfs:label>resource_owner</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_virtual_service_name">
+    <rdfs:label>virtual_service_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_enforce">
+    <rdfs:label>enforce</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_ports">
+    <rdfs:label>ports</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_certificate_chain">
+    <rdfs:label>certificate_chain</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_private_key">
+    <rdfs:label>private_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_secret_name">
+    <rdfs:label>secret_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_exact">
+    <rdfs:label>exact</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_certificate_authority_arns">
+    <rdfs:label>certificate_authority_arns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_certificate_chain">
+    <rdfs:label>certificate_chain</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_secret_name">
+    <rdfs:label>secret_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_enforce">
+    <rdfs:label>enforce</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_ports">
+    <rdfs:label>ports</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_certificate_chain">
+    <rdfs:label>certificate_chain</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_private_key">
+    <rdfs:label>private_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_secret_name">
+    <rdfs:label>secret_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_exact">
+    <rdfs:label>exact</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_certificate_authority_arns">
+    <rdfs:label>certificate_authority_arns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_certificate_chain">
+    <rdfs:label>certificate_chain</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_secret_name">
+    <rdfs:label>secret_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_max_requests">
+    <rdfs:label>max_requests</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_max_connections">
+    <rdfs:label>max_connections</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_max_pending_requests">
+    <rdfs:label>max_pending_requests</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_max_requests">
+    <rdfs:label>max_requests</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_max_connections">
+    <rdfs:label>max_connections</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_healthy_threshold">
+    <rdfs:label>healthy_threshold</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_interval_millis">
+    <rdfs:label>interval_millis</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_protocol">
+    <rdfs:label>protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_timeout_millis">
+    <rdfs:label>timeout_millis</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_unhealthy_threshold">
+    <rdfs:label>unhealthy_threshold</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_max_ejection_percent">
+    <rdfs:label>max_ejection_percent</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_max_server_errors">
+    <rdfs:label>max_server_errors</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_protocol">
+    <rdfs:label>protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_mode">
+    <rdfs:label>mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_certificate_arn">
+    <rdfs:label>certificate_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_certificate_chain">
+    <rdfs:label>certificate_chain</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_private_key">
+    <rdfs:label>private_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_secret_name">
+    <rdfs:label>secret_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_exact">
+    <rdfs:label>exact</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_certificate_chain">
+    <rdfs:label>certificate_chain</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_secret_name">
+    <rdfs:label>secret_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_text">
+    <rdfs:label>text</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_attributes">
+    <rdfs:label>attributes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_namespace_name">
+    <rdfs:label>namespace_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_service_name">
+    <rdfs:label>service_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_hostname">
+    <rdfs:label>hostname</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_ip_preference">
+    <rdfs:label>ip_preference</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appmesh_virtual_node_response_type">
+    <rdfs:label>response_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appmesh_virtual_node"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

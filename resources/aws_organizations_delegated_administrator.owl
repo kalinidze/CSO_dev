@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_organizations_delegated_administrator">
+    <rdfs:label>aws_organizations_delegated_administrator</rdfs:label>
+    <rdfs:comment>Provides a resource to manage an [AWS Organizations Delegated Administrator](https://docs.aws.amazon.com/organizations/latest/APIReference/API_RegisterDelegatedAdministrator.html).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_organizations_delegated_administrator_account_id">
+    <rdfs:label>account_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_organizations_delegated_administrator"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_organizations_delegated_administrator_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_organizations_delegated_administrator"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_organizations_delegated_administrator_delegation_enabled_date">
+    <rdfs:label>delegation_enabled_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_organizations_delegated_administrator"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_organizations_delegated_administrator_email">
+    <rdfs:label>email</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_organizations_delegated_administrator"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_organizations_delegated_administrator_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_organizations_delegated_administrator"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_organizations_delegated_administrator_joined_method">
+    <rdfs:label>joined_method</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_organizations_delegated_administrator"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_organizations_delegated_administrator_joined_timestamp">
+    <rdfs:label>joined_timestamp</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_organizations_delegated_administrator"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_organizations_delegated_administrator_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_organizations_delegated_administrator"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_organizations_delegated_administrator_service_principal">
+    <rdfs:label>service_principal</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_organizations_delegated_administrator"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_organizations_delegated_administrator_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_organizations_delegated_administrator"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

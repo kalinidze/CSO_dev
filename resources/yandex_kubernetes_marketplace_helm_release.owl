@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_kubernetes_marketplace_helm_release">
+    <rdfs:label>yandex_kubernetes_marketplace_helm_release</rdfs:label>
+    <rdfs:comment>Allows management of Kubernetes product installed from Yandex Cloud Marketplace.
+For more information, see [official documentation](https://yandex.cloud/marketplace?type=K8S).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_marketplace_helm_release_cluster_id">
+    <rdfs:label>cluster_id</rdfs:label>
+    <rdfs:comment>The ID of the Kubernetes cluster where the product will be installed.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_marketplace_helm_release"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_marketplace_helm_release_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The Helm Release creation (first installation) timestamp.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_marketplace_helm_release"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_marketplace_helm_release_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:comment>The resource identifier.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_marketplace_helm_release"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_marketplace_helm_release_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The name of the deployment.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_marketplace_helm_release"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_marketplace_helm_release_namespace">
+    <rdfs:label>namespace</rdfs:label>
+    <rdfs:comment>The Kubernetes namespace where the product will be installed.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_marketplace_helm_release"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_marketplace_helm_release_product_id">
+    <rdfs:label>product_id</rdfs:label>
+    <rdfs:comment>The ID of the Marketplace product.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_marketplace_helm_release"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_marketplace_helm_release_product_name">
+    <rdfs:label>product_name</rdfs:label>
+    <rdfs:comment>The name of the Marketplace product.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_marketplace_helm_release"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_marketplace_helm_release_product_version">
+    <rdfs:label>product_version</rdfs:label>
+    <rdfs:comment>The ID of the product version to be installed.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_marketplace_helm_release"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_marketplace_helm_release_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:comment>Status of the deployment.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_marketplace_helm_release"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_marketplace_helm_release_user_values">
+    <rdfs:label>user_values</rdfs:label>
+    <rdfs:comment>Values to be passed for the installation of the product. The block consists of attributes that accept string values. The exact structure depends on the particular product and may differ for different versions of the same product. Depending on the product, some values may be required, and the installation may fail if they are not provided.
+~> `applicationName` and `namespace`, if provided in this block, override `name` and `namespace` arguments, respectively.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_marketplace_helm_release"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_marketplace_helm_release_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_marketplace_helm_release"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_marketplace_helm_release_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_marketplace_helm_release"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_marketplace_helm_release_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_marketplace_helm_release"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

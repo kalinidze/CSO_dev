@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_iam_oauth_client">
+    <rdfs:label>yandex_iam_oauth_client</rdfs:label>
+    <rdfs:comment>An OauthClient resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_iam_oauth_client_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>ID of the folder oauth client belongs to.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_iam_oauth_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_iam_oauth_client_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:comment>ID of the OAuthClient resource to return.
+ To get the oauth client ID, use a [OAuthClientService.List] request.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_iam_oauth_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_iam_oauth_client_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name for the oauth client.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_iam_oauth_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_iam_oauth_client_oauth_client_id">
+    <rdfs:label>oauth_client_id</rdfs:label>
+    <rdfs:comment>ID of the OAuthClient resource to return.
+ To get the oauth client ID, use a [OAuthClientService.List] request.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_iam_oauth_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_iam_oauth_client_redirect_uris">
+    <rdfs:label>redirect_uris</rdfs:label>
+    <rdfs:comment>List of redirect uries allowed for the oauth client.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_iam_oauth_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_iam_oauth_client_scopes">
+    <rdfs:label>scopes</rdfs:label>
+    <rdfs:comment>List of oauth scopes requested by the oauth client.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_iam_oauth_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_iam_oauth_client_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:comment>Current status of the oauth client.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_iam_oauth_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_iam_oauth_client_timeouts">
+    <rdfs:label>timeouts</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_iam_oauth_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

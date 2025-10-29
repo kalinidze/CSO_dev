@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_mdb_kafka_user">
+    <rdfs:label>yandex_mdb_kafka_user</rdfs:label>
+    <rdfs:comment>Manages a user of a Kafka User within the Yandex Cloud. For more information, see [the official documentation](https://yandex.cloud/docs/managed-kafka/concepts).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_kafka_user_cluster_id">
+    <rdfs:label>cluster_id</rdfs:label>
+    <rdfs:comment>The ID of the Kafka cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_kafka_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_kafka_user_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_kafka_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_kafka_user_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_kafka_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_kafka_user_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:comment>The password of the user.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_kafka_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_kafka_user_allow_hosts">
+    <rdfs:label>allow_hosts</rdfs:label>
+    <rdfs:comment>Set of hosts, to which this permission grants access to. Only ip-addresses allowed as value of single host.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_kafka_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_kafka_user_role">
+    <rdfs:label>role</rdfs:label>
+    <rdfs:comment>The role type to grant to the topic.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_kafka_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_kafka_user_topic_name">
+    <rdfs:label>topic_name</rdfs:label>
+    <rdfs:comment>The name of the topic that the permission grants access to.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_kafka_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_kafka_user_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_kafka_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_kafka_user_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_kafka_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_kafka_user_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_kafka_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_kafka_user_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_kafka_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

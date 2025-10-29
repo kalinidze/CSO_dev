@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration">
+    <rdfs:label>aws_chimesdkmediapipelines_media_insights_pipeline_configuration</rdfs:label>
+    <rdfs:comment>Terraform resource for managing an AWS Chime SDK Media Pipelines Media Insights Pipeline Configuration.
+Consult the [Call analytics developer guide](https://docs.aws.amazon.com/chime-sdk/latest/dg/call-analytics.html) for more detailed information about usage.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_resource_access_role_arn">
+    <rdfs:label>resource_access_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_call_analytics_stream_categories">
+    <rdfs:label>call_analytics_stream_categories</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_content_identification_type">
+    <rdfs:label>content_identification_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_content_redaction_type">
+    <rdfs:label>content_redaction_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_enable_partial_results_stabilization">
+    <rdfs:label>enable_partial_results_stabilization</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_filter_partial_results">
+    <rdfs:label>filter_partial_results</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_language_code">
+    <rdfs:label>language_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_language_model_name">
+    <rdfs:label>language_model_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_partial_results_stability">
+    <rdfs:label>partial_results_stability</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_pii_entity_types">
+    <rdfs:label>pii_entity_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_vocabulary_filter_method">
+    <rdfs:label>vocabulary_filter_method</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_vocabulary_filter_name">
+    <rdfs:label>vocabulary_filter_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_vocabulary_name">
+    <rdfs:label>vocabulary_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_content_redaction_output">
+    <rdfs:label>content_redaction_output</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_data_access_role_arn">
+    <rdfs:label>data_access_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_output_encryption_kms_key_id">
+    <rdfs:label>output_encryption_kms_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_output_location">
+    <rdfs:label>output_location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_content_identification_type">
+    <rdfs:label>content_identification_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_content_redaction_type">
+    <rdfs:label>content_redaction_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_enable_partial_results_stabilization">
+    <rdfs:label>enable_partial_results_stabilization</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_filter_partial_results">
+    <rdfs:label>filter_partial_results</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_language_code">
+    <rdfs:label>language_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_language_model_name">
+    <rdfs:label>language_model_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_partial_results_stability">
+    <rdfs:label>partial_results_stability</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_pii_entity_types">
+    <rdfs:label>pii_entity_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_show_speaker_label">
+    <rdfs:label>show_speaker_label</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_vocabulary_filter_method">
+    <rdfs:label>vocabulary_filter_method</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_vocabulary_filter_name">
+    <rdfs:label>vocabulary_filter_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_vocabulary_name">
+    <rdfs:label>vocabulary_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_insights_target">
+    <rdfs:label>insights_target</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_insights_target">
+    <rdfs:label>insights_target</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_destination">
+    <rdfs:label>destination</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_insights_target">
+    <rdfs:label>insights_target</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_insights_target">
+    <rdfs:label>insights_target</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_speaker_search_status">
+    <rdfs:label>speaker_search_status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_voice_tone_analysis_status">
+    <rdfs:label>voice_tone_analysis_status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_disabled">
+    <rdfs:label>disabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_rule_name">
+    <rdfs:label>rule_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_keywords">
+    <rdfs:label>keywords</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_negate">
+    <rdfs:label>negate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_rule_name">
+    <rdfs:label>rule_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_rule_name">
+    <rdfs:label>rule_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_sentiment_type">
+    <rdfs:label>sentiment_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_time_period">
+    <rdfs:label>time_period</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_chimesdkmediapipelines_media_insights_pipeline_configuration_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_chimesdkmediapipelines_media_insights_pipeline_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

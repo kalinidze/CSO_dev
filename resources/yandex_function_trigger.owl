@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_function_trigger">
+    <rdfs:label>yandex_function_trigger</rdfs:label>
+    <rdfs:comment>Allows management of [Yandex Cloud Functions Trigger](https://yandex.cloud/docs/functions/).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The creation timestamp of the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>The resource description.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>A set of key/value label pairs which assigned to resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:comment>Yandex Cloud Serverless Container ID for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:comment>Path for Yandex Cloud Serverless Container for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_retry_attempts">
+    <rdfs:label>retry_attempts</rdfs:label>
+    <rdfs:comment>Retry attempts for Yandex Cloud Serverless Container for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_retry_interval">
+    <rdfs:label>retry_interval</rdfs:label>
+    <rdfs:comment>Retry interval in seconds for Yandex Cloud Serverless Container for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service account ID for Yandex Cloud Serverless Container for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_cutoff">
+    <rdfs:label>batch_cutoff</rdfs:label>
+    <rdfs:comment>Batch Duration in seconds for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_size">
+    <rdfs:label>batch_size</rdfs:label>
+    <rdfs:comment>Batch Size for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_create_image">
+    <rdfs:label>create_image</rdfs:label>
+    <rdfs:comment>Boolean flag for setting `create image` event for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_create_image_tag">
+    <rdfs:label>create_image_tag</rdfs:label>
+    <rdfs:comment>Boolean flag for setting `create image tag` event for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_delete_image">
+    <rdfs:label>delete_image</rdfs:label>
+    <rdfs:comment>Boolean flag for setting `delete image` event for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_delete_image_tag">
+    <rdfs:label>delete_image_tag</rdfs:label>
+    <rdfs:comment>Boolean flag for setting `delete image tag` event for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_image_name">
+    <rdfs:label>image_name</rdfs:label>
+    <rdfs:comment>Image name filter setting for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_registry_id">
+    <rdfs:label>registry_id</rdfs:label>
+    <rdfs:comment>Container Registry ID for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_tag">
+    <rdfs:label>tag</rdfs:label>
+    <rdfs:comment>Image tag filter setting for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_cutoff">
+    <rdfs:label>batch_cutoff</rdfs:label>
+    <rdfs:comment>Batch Duration in seconds for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_size">
+    <rdfs:label>batch_size</rdfs:label>
+    <rdfs:comment>Batch Size for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_database">
+    <rdfs:label>database</rdfs:label>
+    <rdfs:comment>Stream database for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service account ID to access data stream for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_stream_name">
+    <rdfs:label>stream_name</rdfs:label>
+    <rdfs:comment>Stream name for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_queue_id">
+    <rdfs:label>queue_id</rdfs:label>
+    <rdfs:comment>ID of Dead Letter Queue for Trigger (Queue ARN).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service Account ID for Dead Letter Queue for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:comment>Yandex Cloud Function ID.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_retry_attempts">
+    <rdfs:label>retry_attempts</rdfs:label>
+    <rdfs:comment>Retry attempts for Yandex Cloud Function for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_retry_interval">
+    <rdfs:label>retry_interval</rdfs:label>
+    <rdfs:comment>Retry interval in seconds for Yandex Cloud Function for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service account ID for Yandex Cloud Function.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_tag">
+    <rdfs:label>tag</rdfs:label>
+    <rdfs:comment>Tag for Yandex Cloud Function for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_cutoff">
+    <rdfs:label>batch_cutoff</rdfs:label>
+    <rdfs:comment>Batch Duration in seconds for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_size">
+    <rdfs:label>batch_size</rdfs:label>
+    <rdfs:comment>Batch Size for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_device_id">
+    <rdfs:label>device_id</rdfs:label>
+    <rdfs:comment>IoT Device ID for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_registry_id">
+    <rdfs:label>registry_id</rdfs:label>
+    <rdfs:comment>IoT Registry ID for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_topic">
+    <rdfs:label>topic</rdfs:label>
+    <rdfs:comment>IoT Topic for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_cutoff">
+    <rdfs:label>batch_cutoff</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_size">
+    <rdfs:label>batch_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_log_group_ids">
+    <rdfs:label>log_group_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_cutoff">
+    <rdfs:label>batch_cutoff</rdfs:label>
+    <rdfs:comment>Batch Duration in seconds for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_size">
+    <rdfs:label>batch_size</rdfs:label>
+    <rdfs:comment>Batch Size for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_group_id">
+    <rdfs:label>group_id</rdfs:label>
+    <rdfs:comment>Logging group ID for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_levels">
+    <rdfs:label>levels</rdfs:label>
+    <rdfs:comment>Logging level filter setting for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_resource_ids">
+    <rdfs:label>resource_ids</rdfs:label>
+    <rdfs:comment>Resource ID filter setting for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_resource_types">
+    <rdfs:label>resource_types</rdfs:label>
+    <rdfs:comment>Resource type filter setting for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_stream_names">
+    <rdfs:label>stream_names</rdfs:label>
+    <rdfs:comment>Logging stream name filter setting for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_attachments_bucket_id">
+    <rdfs:label>attachments_bucket_id</rdfs:label>
+    <rdfs:comment>Object Storage Bucket ID for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_cutoff">
+    <rdfs:label>batch_cutoff</rdfs:label>
+    <rdfs:comment>Batch Duration in seconds for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_size">
+    <rdfs:label>batch_size</rdfs:label>
+    <rdfs:comment>Batch Size for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service account ID to access object storage for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_cutoff">
+    <rdfs:label>batch_cutoff</rdfs:label>
+    <rdfs:comment>Batch Duration in seconds for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_size">
+    <rdfs:label>batch_size</rdfs:label>
+    <rdfs:comment>Batch Size for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_queue_id">
+    <rdfs:label>queue_id</rdfs:label>
+    <rdfs:comment>Message Queue ID for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Message Queue Service Account ID for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_visibility_timeout">
+    <rdfs:label>visibility_timeout</rdfs:label>
+    <rdfs:comment>Visibility timeout for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_cutoff">
+    <rdfs:label>batch_cutoff</rdfs:label>
+    <rdfs:comment>Batch Duration in seconds for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_batch_size">
+    <rdfs:label>batch_size</rdfs:label>
+    <rdfs:comment>Batch Size for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_bucket_id">
+    <rdfs:label>bucket_id</rdfs:label>
+    <rdfs:comment>Object Storage Bucket ID for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:comment>Boolean flag for setting `create` event for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:comment>Boolean flag for setting `delete` event for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_prefix">
+    <rdfs:label>prefix</rdfs:label>
+    <rdfs:comment>Prefix for Object Storage for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_suffix">
+    <rdfs:label>suffix</rdfs:label>
+    <rdfs:comment>Suffix for Object Storage for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:comment>Boolean flag for setting `update` event for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_cron_expression">
+    <rdfs:label>cron_expression</rdfs:label>
+    <rdfs:comment>Cron expression for timer for Yandex Cloud Functions Trigger.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_trigger_payload">
+    <rdfs:label>payload</rdfs:label>
+    <rdfs:comment>Payload to be passed to function.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_trigger"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

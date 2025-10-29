@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment">
+    <rdfs:label>aws_ec2_transit_gateway_vpc_attachment</rdfs:label>
+    <rdfs:comment>Manages an EC2 Transit Gateway VPC Attachment. For examples of custom route table association and propagation, see the EC2 Transit Gateway Networking Examples Guide.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_transit_gateway_vpc_attachment_appliance_mode_support">
+    <rdfs:label>appliance_mode_support</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_transit_gateway_vpc_attachment_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_transit_gateway_vpc_attachment_dns_support">
+    <rdfs:label>dns_support</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_transit_gateway_vpc_attachment_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_transit_gateway_vpc_attachment_ipv6_support">
+    <rdfs:label>ipv6_support</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_transit_gateway_vpc_attachment_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_transit_gateway_vpc_attachment_security_group_referencing_support">
+    <rdfs:label>security_group_referencing_support</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_transit_gateway_vpc_attachment_subnet_ids">
+    <rdfs:label>subnet_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_transit_gateway_vpc_attachment_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_transit_gateway_vpc_attachment_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_transit_gateway_vpc_attachment_transit_gateway_default_route_table_association">
+    <rdfs:label>transit_gateway_default_route_table_association</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_transit_gateway_vpc_attachment_transit_gateway_default_route_table_propagation">
+    <rdfs:label>transit_gateway_default_route_table_propagation</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_transit_gateway_vpc_attachment_transit_gateway_id">
+    <rdfs:label>transit_gateway_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_transit_gateway_vpc_attachment_vpc_id">
+    <rdfs:label>vpc_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ec2_transit_gateway_vpc_attachment_vpc_owner_id">
+    <rdfs:label>vpc_owner_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ec2_transit_gateway_vpc_attachment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

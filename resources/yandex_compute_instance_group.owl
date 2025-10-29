@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_compute_instance_group">
+    <rdfs:label>yandex_compute_instance_group</rdfs:label>
+    <rdfs:comment>An Instance group resource. For more information, see [the official documentation](https://yandex.cloud/docs/compute/concepts/instance-groups/).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The creation timestamp of the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_deletion_protection">
+    <rdfs:label>deletion_protection</rdfs:label>
+    <rdfs:comment>The `true` value means that resource is protected from accidental deletion.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>The resource description.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_instances">
+    <rdfs:label>instances</rdfs:label>
+    <rdfs:comment>Instances block.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>A set of key/value label pairs which assigned to resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_max_checking_health_duration">
+    <rdfs:label>max_checking_health_duration</rdfs:label>
+    <rdfs:comment>Timeout for waiting for the VM to become healthy. If the timeout is exceeded, the VM will be turned off based on the deployment policy. Specified in seconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>[Service account](https://yandex.cloud/docs/iam/concepts/users/service-accounts) which linked to the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:comment>The status of the instance.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_variables">
+    <rdfs:label>variables</rdfs:label>
+    <rdfs:comment>A set of key/value variables pairs to assign to the instance group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_zones">
+    <rdfs:label>zones</rdfs:label>
+    <rdfs:comment>A list of [availability zones](https://yandex.cloud/docs/overview/concepts/geo-scope).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:comment>List of tags for instances in zone.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_zone">
+    <rdfs:label>zone</rdfs:label>
+    <rdfs:comment>Availability zone.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_ignore_health_checks">
+    <rdfs:label>ignore_health_checks</rdfs:label>
+    <rdfs:comment>Do not wait load balancer health checks.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_max_opening_traffic_duration">
+    <rdfs:label>max_opening_traffic_duration</rdfs:label>
+    <rdfs:comment>Timeout for waiting for the VM to be checked by the load balancer. If the timeout is exceeded, the VM will be turned off based on the deployment policy. Specified in seconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_status_message">
+    <rdfs:label>status_message</rdfs:label>
+    <rdfs:comment>The status message of the instance.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_target_group_description">
+    <rdfs:label>target_group_description</rdfs:label>
+    <rdfs:comment>A description of the target group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_target_group_id">
+    <rdfs:label>target_group_id</rdfs:label>
+    <rdfs:comment>The ID of the target group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_target_group_labels">
+    <rdfs:label>target_group_labels</rdfs:label>
+    <rdfs:comment>A set of key/value label pairs.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_target_group_name">
+    <rdfs:label>target_group_name</rdfs:label>
+    <rdfs:comment>The name of the target group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_max_creating">
+    <rdfs:label>max_creating</rdfs:label>
+    <rdfs:comment>The maximum number of instances that can be created at the same time.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_max_deleting">
+    <rdfs:label>max_deleting</rdfs:label>
+    <rdfs:comment>The maximum number of instances that can be deleted at the same time.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_max_expansion">
+    <rdfs:label>max_expansion</rdfs:label>
+    <rdfs:comment>The maximum number of instances that can be temporarily allocated above the group's target size during the update process.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_max_unavailable">
+    <rdfs:label>max_unavailable</rdfs:label>
+    <rdfs:comment>The maximum number of running instances that can be taken offline (stopped or deleted) at the same time during the update process.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_startup_duration">
+    <rdfs:label>startup_duration</rdfs:label>
+    <rdfs:comment>The amount of time in seconds to allow for an instance to start. Instance will be considered up and running (and start receiving traffic) only after the startup_duration has elapsed and all health checks are passed.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_strategy">
+    <rdfs:label>strategy</rdfs:label>
+    <rdfs:comment>Affects the lifecycle of the instance during deployment. If set to `proactive` (default), Instance Groups can forcefully stop a running instance. If `opportunistic`, Instance Groups does not stop a running instance. Instead, it will wait until the instance stops itself or becomes unhealthy.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_healthy_threshold">
+    <rdfs:label>healthy_threshold</rdfs:label>
+    <rdfs:comment>The number of successful health checks before the managed instance is declared healthy.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_interval">
+    <rdfs:label>interval</rdfs:label>
+    <rdfs:comment>The interval to wait between health checks in seconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_timeout">
+    <rdfs:label>timeout</rdfs:label>
+    <rdfs:comment>The length of time to wait for a response before the health check times out in seconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_unhealthy_threshold">
+    <rdfs:label>unhealthy_threshold</rdfs:label>
+    <rdfs:comment>The number of failed health checks before the managed instance is declared unhealthy.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:comment>The URL path used for health check requests.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:comment>The port used for HTTP health checks.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:comment>The port used for TCP health checks.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>A description of the instance.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_hostname">
+    <rdfs:label>hostname</rdfs:label>
+    <rdfs:comment>Hostname template for the instance. This field is used to generate the FQDN value of instance. The `hostname` must be unique within the network and region. If not specified, the hostname will be equal to `id` of the instance and FQDN will be `<id>.auto.internal`. Otherwise FQDN will be `<hostname>.<region_id>.internal`.
+In order to be unique it must contain at least on of instance unique placeholders:
+* `{instance.short_id}`
+* {instance.index}
+* combination of `{instance.zone_id}` and `{instance.index_in_zone}`
+Example: `my-instance-{instance.index}`. If hostname is not set, `name` value will be used. It may also contain another placeholders, see `metadata` doc for full list.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>A set of key/value label pairs to assign to the instance.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_metadata">
+    <rdfs:label>metadata</rdfs:label>
+    <rdfs:comment>A set of metadata key/value pairs to make available from within the instance.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name template of the instance.
+In order to be unique it must contain at least one of instance unique placeholders:*`{instance.short_id}`
+* `{instance.index}`
+* combination of `{instance.zone_id}` and`{instance.index_in_zone}`.
+Example: `my-instance-{instance.index}`.
+If not set, default name is used: `{instance_group.id}-{instance.short_id}`. It may also contain another placeholders, see `metadata` doc for full list.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_platform_id">
+    <rdfs:label>platform_id</rdfs:label>
+    <rdfs:comment>The ID of the hardware platform configuration for the instance.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>The ID of the service account authorized for this instance.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_device_name">
+    <rdfs:label>device_name</rdfs:label>
+    <rdfs:comment>This value can be used to reference the device under `/dev/disk/by-id/`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_disk_id">
+    <rdfs:label>disk_id</rdfs:label>
+    <rdfs:comment>The ID of the existing disk (such as those managed by yandex_compute_disk) to attach as a boot disk.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_mode">
+    <rdfs:label>mode</rdfs:label>
+    <rdfs:comment>The access mode to the disk resource. By default a disk is attached in `READ_WRITE` mode.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>When set can be later used to change DiskSpec of actual disk.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>A description of the boot disk.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_image_id">
+    <rdfs:label>image_id</rdfs:label>
+    <rdfs:comment>The disk image to initialize this disk from.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_size">
+    <rdfs:label>size</rdfs:label>
+    <rdfs:comment>The size of the disk in GB.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_snapshot_id">
+    <rdfs:label>snapshot_id</rdfs:label>
+    <rdfs:comment>The snapshot to initialize this disk from.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>The disk type.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_device_name">
+    <rdfs:label>device_name</rdfs:label>
+    <rdfs:comment>Name of the device representing the filesystem on the instance.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_filesystem_id">
+    <rdfs:label>filesystem_id</rdfs:label>
+    <rdfs:comment>ID of the filesystem that should be attached.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_mode">
+    <rdfs:label>mode</rdfs:label>
+    <rdfs:comment>Mode of access to the filesystem that should be attached. By default, filesystem is attached in `READ_WRITE` mode.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_aws_v1_http_endpoint">
+    <rdfs:label>aws_v1_http_endpoint</rdfs:label>
+    <rdfs:comment>Enables access to AWS flavored metadata (IMDSv1). Possible values: `0`, `1` for `enabled` and `2` for `disabled`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_aws_v1_http_token">
+    <rdfs:label>aws_v1_http_token</rdfs:label>
+    <rdfs:comment>Enables access to IAM credentials with AWS flavored metadata (IMDSv1). Possible values: `0`, `1` for `enabled` and `2` for `disabled`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_gce_http_endpoint">
+    <rdfs:label>gce_http_endpoint</rdfs:label>
+    <rdfs:comment>Enables access to GCE flavored metadata. Possible values: `0`, `1` for `enabled` and `2` for `disabled`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_gce_http_token">
+    <rdfs:label>gce_http_token</rdfs:label>
+    <rdfs:comment>Enables access to IAM credentials with GCE flavored metadata. Possible values: `0`, `1` for `enabled` and `2` for `disabled`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_ip_address">
+    <rdfs:label>ip_address</rdfs:label>
+    <rdfs:comment>Manual set static IP address.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_ipv4">
+    <rdfs:label>ipv4</rdfs:label>
+    <rdfs:comment>Allocate an IPv4 address for the interface. The default value is `true`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_ipv6">
+    <rdfs:label>ipv6</rdfs:label>
+    <rdfs:comment>If `true`, allocate an IPv6 address for the interface. The address will be automatically assigned from the specified subnet.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_ipv6_address">
+    <rdfs:label>ipv6_address</rdfs:label>
+    <rdfs:comment>Manual set static IPv6 address.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_nat">
+    <rdfs:label>nat</rdfs:label>
+    <rdfs:comment>Flag for using NAT.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_nat_ip_address">
+    <rdfs:label>nat_ip_address</rdfs:label>
+    <rdfs:comment>A public address that can be used to access the internet over NAT. Use `variables` to set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_network_id">
+    <rdfs:label>network_id</rdfs:label>
+    <rdfs:comment>The ID of the network.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_security_group_ids">
+    <rdfs:label>security_group_ids</rdfs:label>
+    <rdfs:comment>Security group (SG) `IDs` for network interface.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_subnet_ids">
+    <rdfs:label>subnet_ids</rdfs:label>
+    <rdfs:comment>The ID of the subnets to attach this interface to.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_dns_zone_id">
+    <rdfs:label>dns_zone_id</rdfs:label>
+    <rdfs:comment>DNS zone id (if not set, private zone used).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_fqdn">
+    <rdfs:label>fqdn</rdfs:label>
+    <rdfs:comment>DNS record FQDN (must have dot at the end).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_ptr">
+    <rdfs:label>ptr</rdfs:label>
+    <rdfs:comment>When set to `true`, also create PTR DNS record.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_ttl">
+    <rdfs:label>ttl</rdfs:label>
+    <rdfs:comment>DNS record TTL.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_dns_zone_id">
+    <rdfs:label>dns_zone_id</rdfs:label>
+    <rdfs:comment>DNS zone id (if not set, private zone used).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_fqdn">
+    <rdfs:label>fqdn</rdfs:label>
+    <rdfs:comment>DNS record FQDN (must have dot at the end).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_ptr">
+    <rdfs:label>ptr</rdfs:label>
+    <rdfs:comment>When set to `true`, also create PTR DNS record.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_ttl">
+    <rdfs:label>ttl</rdfs:label>
+    <rdfs:comment>DNS record TTL.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_dns_zone_id">
+    <rdfs:label>dns_zone_id</rdfs:label>
+    <rdfs:comment>DNS zone id (if not set, private zone used).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_fqdn">
+    <rdfs:label>fqdn</rdfs:label>
+    <rdfs:comment>DNS record FQDN (must have dot at the end).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_ptr">
+    <rdfs:label>ptr</rdfs:label>
+    <rdfs:comment>When set to `true`, also create PTR DNS record.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_ttl">
+    <rdfs:label>ttl</rdfs:label>
+    <rdfs:comment>DNS record TTL.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Network acceleration type. By default a network is in `STANDARD` mode.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_placement_group_id">
+    <rdfs:label>placement_group_id</rdfs:label>
+    <rdfs:comment>Specifies the id of the Placement Group to assign to the instances.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_core_fraction">
+    <rdfs:label>core_fraction</rdfs:label>
+    <rdfs:comment>If provided, specifies baseline core performance as a percent.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_cores">
+    <rdfs:label>cores</rdfs:label>
+    <rdfs:comment>The number of CPU cores for the instance.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_gpus">
+    <rdfs:label>gpus</rdfs:label>
+    <rdfs:comment>If provided, specifies the number of GPU devices for the instance.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_memory">
+    <rdfs:label>memory</rdfs:label>
+    <rdfs:comment>The memory size in GB.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_preemptible">
+    <rdfs:label>preemptible</rdfs:label>
+    <rdfs:comment>Specifies if the instance is preemptible. Defaults to `false`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_device_name">
+    <rdfs:label>device_name</rdfs:label>
+    <rdfs:comment>This value can be used to reference the device under `/dev/disk/by-id/`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_disk_id">
+    <rdfs:label>disk_id</rdfs:label>
+    <rdfs:comment>ID of the existing disk. To set use variables.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_mode">
+    <rdfs:label>mode</rdfs:label>
+    <rdfs:comment>The access mode to the disk resource. By default a disk is attached in `READ_WRITE` mode.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>When set can be later used to change DiskSpec of actual disk.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>A description of the boot disk.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_image_id">
+    <rdfs:label>image_id</rdfs:label>
+    <rdfs:comment>The disk image to initialize this disk from.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_size">
+    <rdfs:label>size</rdfs:label>
+    <rdfs:comment>The size of the disk in GB.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_snapshot_id">
+    <rdfs:label>snapshot_id</rdfs:label>
+    <rdfs:comment>The snapshot to initialize this disk from.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>The disk type.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_ignore_health_checks">
+    <rdfs:label>ignore_health_checks</rdfs:label>
+    <rdfs:comment>Do not wait load balancer health checks.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_max_opening_traffic_duration">
+    <rdfs:label>max_opening_traffic_duration</rdfs:label>
+    <rdfs:comment>Timeout for waiting for the VM to be checked by the load balancer. If the timeout is exceeded, the VM will be turned off based on the deployment policy. Specified in seconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_status_message">
+    <rdfs:label>status_message</rdfs:label>
+    <rdfs:comment>The status message of the target group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_target_group_description">
+    <rdfs:label>target_group_description</rdfs:label>
+    <rdfs:comment>A description of the target group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_target_group_id">
+    <rdfs:label>target_group_id</rdfs:label>
+    <rdfs:comment>The ID of the target group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_target_group_labels">
+    <rdfs:label>target_group_labels</rdfs:label>
+    <rdfs:comment>A set of key/value label pairs.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_target_group_name">
+    <rdfs:label>target_group_name</rdfs:label>
+    <rdfs:comment>The name of the target group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_auto_scale_type">
+    <rdfs:label>auto_scale_type</rdfs:label>
+    <rdfs:comment>Autoscale type, can be `ZONAL` or `REGIONAL`. By default `ZONAL` type is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_cpu_utilization_target">
+    <rdfs:label>cpu_utilization_target</rdfs:label>
+    <rdfs:comment>Target CPU load level.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_initial_size">
+    <rdfs:label>initial_size</rdfs:label>
+    <rdfs:comment>The initial number of instances in the instance group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_max_size">
+    <rdfs:label>max_size</rdfs:label>
+    <rdfs:comment>The maximum number of virtual machines in the group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_measurement_duration">
+    <rdfs:label>measurement_duration</rdfs:label>
+    <rdfs:comment>The amount of time, in seconds, that metrics are averaged for. If the average value at the end of the interval is higher than the `cpu_utilization_target`, the instance group will increase the number of virtual machines in the group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_min_zone_size">
+    <rdfs:label>min_zone_size</rdfs:label>
+    <rdfs:comment>The minimum number of virtual machines in a single availability zone.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_stabilization_duration">
+    <rdfs:label>stabilization_duration</rdfs:label>
+    <rdfs:comment>The minimum time interval, in seconds, to monitor the load before an instance group can reduce the number of virtual machines in the group. During this time, the group will not decrease even if the average load falls below the value of `cpu_utilization_target`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_warmup_duration">
+    <rdfs:label>warmup_duration</rdfs:label>
+    <rdfs:comment>The warm-up time of the virtual machine, in seconds. During this time, traffic is fed to the virtual machine, but load metrics are not taken into account.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>If specified, sets the folder id to fetch metrics from. By default, it is the ID of the folder the group belongs to.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>Metrics [labels](https://yandex.cloud/en/docs/monitoring/concepts/data-model#label) from Monitoring.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_metric_name">
+    <rdfs:label>metric_name</rdfs:label>
+    <rdfs:comment>Name of the metric in Monitoring.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_metric_type">
+    <rdfs:label>metric_type</rdfs:label>
+    <rdfs:comment>Type of metric, can be `GAUGE` or `COUNTER`. `GAUGE` metric reflects the value at particular time point. `COUNTER` metric exhibits a monotonous growth over time.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_rule_type">
+    <rdfs:label>rule_type</rdfs:label>
+    <rdfs:comment>The metric rule type (UTILIZATION, WORKLOAD). UTILIZATION for metrics describing resource utilization per VM instance. WORKLOAD for metrics describing total workload on all VM instances.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_service">
+    <rdfs:label>service</rdfs:label>
+    <rdfs:comment>If specified, sets the service name to fetch metrics. The default value is `custom`. You can use a label to specify service metrics, e.g., `service` with the `compute` value for Compute Cloud.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_target">
+    <rdfs:label>target</rdfs:label>
+    <rdfs:comment>Target metric value by which Instance Groups calculates the number of required VM instances.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_size">
+    <rdfs:label>size</rdfs:label>
+    <rdfs:comment>The number of instances in the instance group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_auto_scale_type">
+    <rdfs:label>auto_scale_type</rdfs:label>
+    <rdfs:comment>Autoscale type, can be `ZONAL` or `REGIONAL`. By default `ZONAL` type is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_cpu_utilization_target">
+    <rdfs:label>cpu_utilization_target</rdfs:label>
+    <rdfs:comment>Target CPU load level.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_initial_size">
+    <rdfs:label>initial_size</rdfs:label>
+    <rdfs:comment>The initial number of instances in the instance group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_max_size">
+    <rdfs:label>max_size</rdfs:label>
+    <rdfs:comment>The maximum number of virtual machines in the group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_measurement_duration">
+    <rdfs:label>measurement_duration</rdfs:label>
+    <rdfs:comment>The amount of time, in seconds, that metrics are averaged for. If the average value at the end of the interval is higher than the `cpu_utilization_target`, the instance group will increase the number of virtual machines in the group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_min_zone_size">
+    <rdfs:label>min_zone_size</rdfs:label>
+    <rdfs:comment>The minimum number of virtual machines in a single availability zone.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_stabilization_duration">
+    <rdfs:label>stabilization_duration</rdfs:label>
+    <rdfs:comment>The minimum time interval, in seconds, to monitor the load before an instance group can reduce the number of virtual machines in the group. During this time, the group will not decrease even if the average load falls below the value of `cpu_utilization_target`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_warmup_duration">
+    <rdfs:label>warmup_duration</rdfs:label>
+    <rdfs:comment>The warm-up time of the virtual machine, in seconds. During this time, traffic is fed to the virtual machine, but load metrics are not taken into account.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>Folder ID of custom metric in Yandex Monitoring that should be used for scaling.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>A map of labels of metric.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_metric_name">
+    <rdfs:label>metric_name</rdfs:label>
+    <rdfs:comment>The name of metric.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_metric_type">
+    <rdfs:label>metric_type</rdfs:label>
+    <rdfs:comment>Metric type, `GAUGE` or `COUNTER`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_rule_type">
+    <rdfs:label>rule_type</rdfs:label>
+    <rdfs:comment>Rule type: `UTILIZATION` - This type means that the metric applies to one instance. First, Instance Groups calculates the average metric value for each instance, then averages the values for instances in one availability zone. This type of metric must have the `instance_id` label. `WORKLOAD` - This type means that the metric applies to instances in one availability zone. This type of metric must have the `zone_id` label.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_service">
+    <rdfs:label>service</rdfs:label>
+    <rdfs:comment>Service of custom metric in Yandex Monitoring that should be used for scaling.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_target">
+    <rdfs:label>target</rdfs:label>
+    <rdfs:comment>Target metric value level.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_instance_group_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_instance_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

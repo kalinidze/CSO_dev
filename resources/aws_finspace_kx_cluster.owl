@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_finspace_kx_cluster">
+    <rdfs:label>aws_finspace_kx_cluster</rdfs:label>
+    <rdfs:comment>Terraform resource for managing an AWS FinSpace Kx Cluster.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_availability_zone_id">
+    <rdfs:label>availability_zone_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_az_mode">
+    <rdfs:label>az_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_command_line_arguments">
+    <rdfs:label>command_line_arguments</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_created_timestamp">
+    <rdfs:label>created_timestamp</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_environment_id">
+    <rdfs:label>environment_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_execution_role">
+    <rdfs:label>execution_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_initialization_script">
+    <rdfs:label>initialization_script</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_last_modified_timestamp">
+    <rdfs:label>last_modified_timestamp</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_release_label">
+    <rdfs:label>release_label</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_status_reason">
+    <rdfs:label>status_reason</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_auto_scaling_metric">
+    <rdfs:label>auto_scaling_metric</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_max_node_count">
+    <rdfs:label>max_node_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_metric_target">
+    <rdfs:label>metric_target</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_min_node_count">
+    <rdfs:label>min_node_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_scale_in_cooldown_seconds">
+    <rdfs:label>scale_in_cooldown_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_scale_out_cooldown_seconds">
+    <rdfs:label>scale_out_cooldown_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_size">
+    <rdfs:label>size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_node_count">
+    <rdfs:label>node_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_node_type">
+    <rdfs:label>node_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_s3_bucket">
+    <rdfs:label>s3_bucket</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_s3_key">
+    <rdfs:label>s3_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_s3_object_version">
+    <rdfs:label>s3_object_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_changeset_id">
+    <rdfs:label>changeset_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_database_name">
+    <rdfs:label>database_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_dataview_name">
+    <rdfs:label>dataview_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_cache_type">
+    <rdfs:label>cache_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_db_paths">
+    <rdfs:label>db_paths</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_size">
+    <rdfs:label>size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_volume_name">
+    <rdfs:label>volume_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_cpu">
+    <rdfs:label>cpu</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_memory_limit">
+    <rdfs:label>memory_limit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_memory_reservation">
+    <rdfs:label>memory_reservation</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_node_count">
+    <rdfs:label>node_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_scaling_group_name">
+    <rdfs:label>scaling_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_tickerplant_log_volumes">
+    <rdfs:label>tickerplant_log_volumes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_ip_address_type">
+    <rdfs:label>ip_address_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_security_group_ids">
+    <rdfs:label>security_group_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_subnet_ids">
+    <rdfs:label>subnet_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_finspace_kx_cluster_vpc_id">
+    <rdfs:label>vpc_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_finspace_kx_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

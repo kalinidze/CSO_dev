@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_key_vault_key">
+    <rdfs:label>azurerm_key_vault_key</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_curve">
+    <rdfs:label>curve</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_e">
+    <rdfs:label>e</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_expiration_date">
+    <rdfs:label>expiration_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_key_opts">
+    <rdfs:label>key_opts</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_key_size">
+    <rdfs:label>key_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_key_type">
+    <rdfs:label>key_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_key_vault_id">
+    <rdfs:label>key_vault_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_n">
+    <rdfs:label>n</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_not_before_date">
+    <rdfs:label>not_before_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_public_key_openssh">
+    <rdfs:label>public_key_openssh</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_public_key_pem">
+    <rdfs:label>public_key_pem</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_resource_id">
+    <rdfs:label>resource_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_resource_versionless_id">
+    <rdfs:label>resource_versionless_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_versionless_id">
+    <rdfs:label>versionless_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_x">
+    <rdfs:label>x</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_y">
+    <rdfs:label>y</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_expire_after">
+    <rdfs:label>expire_after</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_notify_before_expiry">
+    <rdfs:label>notify_before_expiry</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_time_after_creation">
+    <rdfs:label>time_after_creation</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_time_before_expiry">
+    <rdfs:label>time_before_expiry</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_key_vault_key_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_key_vault_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

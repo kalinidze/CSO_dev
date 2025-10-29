@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_mdb_clickhouse_user">
+    <rdfs:label>yandex_mdb_clickhouse_user</rdfs:label>
+    <rdfs:comment>Manages a ClickHouse user within the Yandex.Cloud. For more information, see [the official documentation](https://cloud.yandex.com/docs/managed-clickhouse/concepts).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_cluster_id">
+    <rdfs:label>cluster_id</rdfs:label>
+    <rdfs:comment>ID of the ClickHouse cluster. Provided by the client when the user is created.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_connection_manager">
+    <rdfs:label>connection_manager</rdfs:label>
+    <rdfs:comment>Connection Manager connection configuration. Filled in by the server automatically.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_generate_password">
+    <rdfs:label>generate_password</rdfs:label>
+    <rdfs:comment>Generate password using Connection Manager. Allowed values: `true` or `false`. It's used only during user creation and is ignored during updating.
+
+~> **Must specify either password or generate_password**.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:comment>The resource identifier.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name of the ClickHouse user. Provided by the client when the user is created.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:comment>Password of the ClickHouse user. Provided by the client when the user is created.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_timeouts">
+    <rdfs:label>timeouts</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_database_name">
+    <rdfs:label>database_name</rdfs:label>
+    <rdfs:comment>Name of the database that the permission grants access to.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_errors">
+    <rdfs:label>errors</rdfs:label>
+    <rdfs:comment>The number of queries that threw exception. 0 - unlimited.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_execution_time">
+    <rdfs:label>execution_time</rdfs:label>
+    <rdfs:comment>The total query execution time, in milliseconds (wall time). 0 - unlimited.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_interval_duration">
+    <rdfs:label>interval_duration</rdfs:label>
+    <rdfs:comment>Duration of interval for quota in milliseconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_queries">
+    <rdfs:label>queries</rdfs:label>
+    <rdfs:comment>The total number of queries. 0 - unlimited.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_read_rows">
+    <rdfs:label>read_rows</rdfs:label>
+    <rdfs:comment>The total number of source rows read from tables for running the query, on all remote servers. 0 - unlimited.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_result_rows">
+    <rdfs:label>result_rows</rdfs:label>
+    <rdfs:comment>The total number of rows given as the result. 0 - unlimited.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_add_http_cors_header">
+    <rdfs:label>add_http_cors_header</rdfs:label>
+    <rdfs:comment>Include CORS headers in HTTP response.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_allow_ddl">
+    <rdfs:label>allow_ddl</rdfs:label>
+    <rdfs:comment>Allows or denies DDL queries.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_allow_introspection_functions">
+    <rdfs:label>allow_introspection_functions</rdfs:label>
+    <rdfs:comment>Enables or disables introspection functions for query profiling.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_allow_suspicious_low_cardinality_types">
+    <rdfs:label>allow_suspicious_low_cardinality_types</rdfs:label>
+    <rdfs:comment>Allows specifying LowCardinality modifier for types of small fixed size (8 or less) in CREATE TABLE statements. Enabling this may increase merge times and memory consumption.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_any_join_distinct_right_table_keys">
+    <rdfs:label>any_join_distinct_right_table_keys</rdfs:label>
+    <rdfs:comment>Enables legacy ClickHouse server behaviour in ANY INNER|LEFT JOIN operations.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_async_insert">
+    <rdfs:label>async_insert</rdfs:label>
+    <rdfs:comment>Enables asynchronous inserts. Disabled by default.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_async_insert_busy_timeout">
+    <rdfs:label>async_insert_busy_timeout</rdfs:label>
+    <rdfs:comment>The maximum timeout in milliseconds since the first INSERT query before inserting collected data. If the parameter is set to 0, the timeout is disabled. Default value: 200.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_async_insert_max_data_size">
+    <rdfs:label>async_insert_max_data_size</rdfs:label>
+    <rdfs:comment>The maximum size of the unparsed data in bytes collected per query before being inserted. If the parameter is set to 0, asynchronous insertions are disabled. Default value: 100000.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_async_insert_stale_timeout">
+    <rdfs:label>async_insert_stale_timeout</rdfs:label>
+    <rdfs:comment>The maximum timeout in milliseconds since the last INSERT query before dumping collected data. If enabled, the settings prolongs the async_insert_busy_timeout with every INSERT query as long as async_insert_max_data_size is not exceeded.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_async_insert_threads">
+    <rdfs:label>async_insert_threads</rdfs:label>
+    <rdfs:comment>The maximum number of threads for background data parsing and insertion. If the parameter is set to 0, asynchronous insertions are disabled. Default value: 16.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_async_insert_use_adaptive_busy_timeout">
+    <rdfs:label>async_insert_use_adaptive_busy_timeout</rdfs:label>
+    <rdfs:comment>If it is set to true, use adaptive busy timeout for asynchronous inserts.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_cancel_http_readonly_queries_on_client_close">
+    <rdfs:label>cancel_http_readonly_queries_on_client_close</rdfs:label>
+    <rdfs:comment>Cancels HTTP read-only queries (e.g. SELECT) when a client closes the connection without waiting for the response. Default value: false.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_compile_expressions">
+    <rdfs:label>compile_expressions</rdfs:label>
+    <rdfs:comment>Enable or disable compilation of some scalar functions and operators to native code.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_connect_timeout">
+    <rdfs:label>connect_timeout</rdfs:label>
+    <rdfs:comment>Connection timeout in milliseconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_connect_timeout_with_failover">
+    <rdfs:label>connect_timeout_with_failover</rdfs:label>
+    <rdfs:comment>The timeout in milliseconds for connecting to a remote server for a Distributed table engine.  Applies only if the cluster uses sharding and replication. If unsuccessful, several attempts are made to connect to various replicas.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_count_distinct_implementation">
+    <rdfs:label>count_distinct_implementation</rdfs:label>
+    <rdfs:comment>Specifies which of the uniq* functions should be used to perform the COUNT(DISTINCT …) construction.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_data_type_default_nullable">
+    <rdfs:label>data_type_default_nullable</rdfs:label>
+    <rdfs:comment>Allows data types without explicit modifiers NULL or NOT NULL in column definition will be Nullable.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_date_time_input_format">
+    <rdfs:label>date_time_input_format</rdfs:label>
+    <rdfs:comment>Allows choosing a parser of the text representation of date and time, one of: `best_effort`, `basic`, `best_effort_us`. Default value: `basic`. Cloud default value: `best_effort`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_date_time_output_format">
+    <rdfs:label>date_time_output_format</rdfs:label>
+    <rdfs:comment>Allows choosing different output formats of the text representation of date and time, one of: `simple`, `iso`, `unix_timestamp`. Default value: `simple`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_deduplicate_blocks_in_dependent_materialized_views">
+    <rdfs:label>deduplicate_blocks_in_dependent_materialized_views</rdfs:label>
+    <rdfs:comment>Enables or disables the deduplication check for materialized views that receive data from Replicated* tables.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_distinct_overflow_mode">
+    <rdfs:label>distinct_overflow_mode</rdfs:label>
+    <rdfs:comment>Sets behaviour on overflow when using DISTINCT.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_distributed_aggregation_memory_efficient">
+    <rdfs:label>distributed_aggregation_memory_efficient</rdfs:label>
+    <rdfs:comment>Enables of disables memory saving mode when doing distributed aggregation.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_distributed_ddl_output_mode">
+    <rdfs:label>distributed_ddl_output_mode</rdfs:label>
+    <rdfs:comment>Determines the format of distributed DDL query result.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_distributed_ddl_task_timeout">
+    <rdfs:label>distributed_ddl_task_timeout</rdfs:label>
+    <rdfs:comment>Timeout for DDL queries, in milliseconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_distributed_product_mode">
+    <rdfs:label>distributed_product_mode</rdfs:label>
+    <rdfs:comment>Determine the behavior of distributed subqueries.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_do_not_merge_across_partitions_select_final">
+    <rdfs:label>do_not_merge_across_partitions_select_final</rdfs:label>
+    <rdfs:comment>Enable or disable independent processing of partitions for **SELECT** queries with **FINAL**.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_empty_result_for_aggregation_by_empty_set">
+    <rdfs:label>empty_result_for_aggregation_by_empty_set</rdfs:label>
+    <rdfs:comment>Allows to retunr empty result.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_enable_analyzer">
+    <rdfs:label>enable_analyzer</rdfs:label>
+    <rdfs:comment>Enable new query analyzer.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_enable_http_compression">
+    <rdfs:label>enable_http_compression</rdfs:label>
+    <rdfs:comment>Enables or disables data compression in the response to an HTTP request.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_enable_reads_from_query_cache">
+    <rdfs:label>enable_reads_from_query_cache</rdfs:label>
+    <rdfs:comment>If turned on, results of SELECT queries are retrieved from the query cache.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_enable_writes_to_query_cache">
+    <rdfs:label>enable_writes_to_query_cache</rdfs:label>
+    <rdfs:comment>If turned on, results of SELECT queries are stored in the query cache.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_fallback_to_stale_replicas_for_distributed_queries">
+    <rdfs:label>fallback_to_stale_replicas_for_distributed_queries</rdfs:label>
+    <rdfs:comment>Enables or disables query forcing to a stale replica in case the actual data is unavailable. If enabled, ClickHouse will choose the most up-to-date replica and force the query to use the data in this replica.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_flatten_nested">
+    <rdfs:label>flatten_nested</rdfs:label>
+    <rdfs:comment>Sets the data format of a nested columns.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_force_index_by_date">
+    <rdfs:label>force_index_by_date</rdfs:label>
+    <rdfs:comment>Disable query execution if the index cannot be used by date.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_force_primary_key">
+    <rdfs:label>force_primary_key</rdfs:label>
+    <rdfs:comment>Disable query execution if indexing by the primary key is not possible.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_format_avro_schema_registry_url">
+    <rdfs:label>format_avro_schema_registry_url</rdfs:label>
+    <rdfs:comment>Avro schema registry URL.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_format_regexp">
+    <rdfs:label>format_regexp</rdfs:label>
+    <rdfs:comment>Regular expression (for Regexp format).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_format_regexp_skip_unmatched">
+    <rdfs:label>format_regexp_skip_unmatched</rdfs:label>
+    <rdfs:comment>Skip lines unmatched by regular expression.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_group_by_overflow_mode">
+    <rdfs:label>group_by_overflow_mode</rdfs:label>
+    <rdfs:comment>Sets behaviour on overflow while GROUP BY operation.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_group_by_two_level_threshold">
+    <rdfs:label>group_by_two_level_threshold</rdfs:label>
+    <rdfs:comment>Sets the threshold of the number of keys, after that the two-level aggregation should be used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_group_by_two_level_threshold_bytes">
+    <rdfs:label>group_by_two_level_threshold_bytes</rdfs:label>
+    <rdfs:comment>Sets the threshold of the number of bytes, after that the two-level aggregation should be used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_hedged_connection_timeout_ms">
+    <rdfs:label>hedged_connection_timeout_ms</rdfs:label>
+    <rdfs:comment>Connection timeout for establishing connection with replica for Hedged requests. Default value: 50 milliseconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_http_connection_timeout">
+    <rdfs:label>http_connection_timeout</rdfs:label>
+    <rdfs:comment>Timeout for HTTP connection in milliseconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_http_headers_progress_interval">
+    <rdfs:label>http_headers_progress_interval</rdfs:label>
+    <rdfs:comment>Sets minimal interval between notifications about request process in HTTP header X-ClickHouse-Progress.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_http_max_field_name_size">
+    <rdfs:label>http_max_field_name_size</rdfs:label>
+    <rdfs:comment>Maximum length of field name in HTTP header.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_http_max_field_value_size">
+    <rdfs:label>http_max_field_value_size</rdfs:label>
+    <rdfs:comment>Maximum length of field value in HTTP header.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_http_receive_timeout">
+    <rdfs:label>http_receive_timeout</rdfs:label>
+    <rdfs:comment>Timeout for HTTP connection in milliseconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_http_send_timeout">
+    <rdfs:label>http_send_timeout</rdfs:label>
+    <rdfs:comment>Timeout for HTTP connection in milliseconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_idle_connection_timeout">
+    <rdfs:label>idle_connection_timeout</rdfs:label>
+    <rdfs:comment>Timeout to close idle TCP connections after specified number of seconds. Default value: 3600 seconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_ignore_materialized_views_with_dropped_target_table">
+    <rdfs:label>ignore_materialized_views_with_dropped_target_table</rdfs:label>
+    <rdfs:comment>Ignore materialized views with dropped target table during pushing to views.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_input_format_defaults_for_omitted_fields">
+    <rdfs:label>input_format_defaults_for_omitted_fields</rdfs:label>
+    <rdfs:comment>When performing INSERT queries, replace omitted input column values with default values of the respective columns.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_input_format_import_nested_json">
+    <rdfs:label>input_format_import_nested_json</rdfs:label>
+    <rdfs:comment>Enables or disables the insertion of JSON data with nested objects.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_input_format_null_as_default">
+    <rdfs:label>input_format_null_as_default</rdfs:label>
+    <rdfs:comment>Enables or disables the initialization of NULL fields with default values, if data type of these fields is not nullable.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_input_format_parallel_parsing">
+    <rdfs:label>input_format_parallel_parsing</rdfs:label>
+    <rdfs:comment>Enables or disables order-preserving parallel parsing of data formats. Supported only for TSV, TKSV, CSV and JSONEachRow formats.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_input_format_values_interpret_expressions">
+    <rdfs:label>input_format_values_interpret_expressions</rdfs:label>
+    <rdfs:comment>Enables or disables the full SQL parser if the fast stream parser can’t parse the data.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_input_format_with_names_use_header">
+    <rdfs:label>input_format_with_names_use_header</rdfs:label>
+    <rdfs:comment>Enables or disables checking the column order when inserting data.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_insert_keeper_max_retries">
+    <rdfs:label>insert_keeper_max_retries</rdfs:label>
+    <rdfs:comment>The setting sets the maximum number of retries for ClickHouse Keeper (or ZooKeeper) requests during insert into replicated MergeTree. Only Keeper requests which failed due to network error, Keeper session timeout, or request timeout are considered for retries.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_insert_null_as_default">
+    <rdfs:label>insert_null_as_default</rdfs:label>
+    <rdfs:comment>Enables the insertion of default values instead of NULL into columns with not nullable data type. Default value: true.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_insert_quorum">
+    <rdfs:label>insert_quorum</rdfs:label>
+    <rdfs:comment>Enables the quorum writes.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_insert_quorum_parallel">
+    <rdfs:label>insert_quorum_parallel</rdfs:label>
+    <rdfs:comment>Enables or disables parallelism for quorum INSERT queries.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_insert_quorum_timeout">
+    <rdfs:label>insert_quorum_timeout</rdfs:label>
+    <rdfs:comment>Quorum write timeout in milliseconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_join_algorithm">
+    <rdfs:label>join_algorithm</rdfs:label>
+    <rdfs:comment>Specifies which JOIN algorithm to use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_join_overflow_mode">
+    <rdfs:label>join_overflow_mode</rdfs:label>
+    <rdfs:comment>Sets behaviour on overflow in JOIN.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_join_use_nulls">
+    <rdfs:label>join_use_nulls</rdfs:label>
+    <rdfs:comment>Sets the type of JOIN behaviour. When merging tables, empty cells may appear. ClickHouse fills them differently based on this setting.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_joined_subquery_requires_alias">
+    <rdfs:label>joined_subquery_requires_alias</rdfs:label>
+    <rdfs:comment>Require aliases for subselects and table functions in FROM that more than one table is present.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_load_balancing">
+    <rdfs:label>load_balancing</rdfs:label>
+    <rdfs:comment>Specifies the algorithm of replicas selection that is used for distributed query processing, one of: random, nearest_hostname, in_order, first_or_random, round_robin. Default value: random.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_local_filesystem_read_method">
+    <rdfs:label>local_filesystem_read_method</rdfs:label>
+    <rdfs:comment>Method of reading data from local filesystem. Possible values: 
+* 'read' - abort query execution, return an error.  
+* 'pread' - abort query execution, return an error.  
+* 'pread_threadpool' - stop query execution, return partial result. 
+If the parameter is set to 0 (default), no hops is allowed.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_log_processors_profiles">
+    <rdfs:label>log_processors_profiles</rdfs:label>
+    <rdfs:comment>Enabled or disable logging of processors level profiling data to the the system.log_processors_profiles table.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_log_queries_probability">
+    <rdfs:label>log_queries_probability</rdfs:label>
+    <rdfs:comment>Log queries with the specified probability.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_log_query_threads">
+    <rdfs:label>log_query_threads</rdfs:label>
+    <rdfs:comment>Setting up query threads logging. Query threads log into the system.query_thread_log table. This setting has effect only when log_queries is true. Queries’ threads run by ClickHouse with this setup are logged according to the rules in the query_thread_log server configuration parameter. Default value: true.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_log_query_views">
+    <rdfs:label>log_query_views</rdfs:label>
+    <rdfs:comment>Enables or disables query views logging to the the system.query_views_log table.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_low_cardinality_allow_in_native_format">
+    <rdfs:label>low_cardinality_allow_in_native_format</rdfs:label>
+    <rdfs:comment>Allows or restricts using the LowCardinality data type with the Native format.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_ast_depth">
+    <rdfs:label>max_ast_depth</rdfs:label>
+    <rdfs:comment>Limits the maximum depth of query syntax tree.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_ast_elements">
+    <rdfs:label>max_ast_elements</rdfs:label>
+    <rdfs:comment>Limits the maximum size of query syntax tree in number of nodes.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_block_size">
+    <rdfs:label>max_block_size</rdfs:label>
+    <rdfs:comment>A recommendation for what size of the block (in a count of rows) to load from tables.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_bytes_before_external_group_by">
+    <rdfs:label>max_bytes_before_external_group_by</rdfs:label>
+    <rdfs:comment>Limit in bytes for using memoru for GROUP BY before using swap on disk.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_bytes_before_external_sort">
+    <rdfs:label>max_bytes_before_external_sort</rdfs:label>
+    <rdfs:comment>This setting is equivalent of the max_bytes_before_external_group_by setting, except for it is for sort operation (ORDER BY), not aggregation.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_bytes_in_distinct">
+    <rdfs:label>max_bytes_in_distinct</rdfs:label>
+    <rdfs:comment>Limits the maximum size of a hash table in bytes (uncompressed data) when using DISTINCT.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_bytes_in_join">
+    <rdfs:label>max_bytes_in_join</rdfs:label>
+    <rdfs:comment>Limit on maximum size of the hash table for JOIN, in bytes.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_bytes_in_set">
+    <rdfs:label>max_bytes_in_set</rdfs:label>
+    <rdfs:comment>Limit on the number of bytes in the set resulting from the execution of the IN section.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_bytes_to_read">
+    <rdfs:label>max_bytes_to_read</rdfs:label>
+    <rdfs:comment>Limits the maximum number of bytes (uncompressed data) that can be read from a table when running a query.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_bytes_to_sort">
+    <rdfs:label>max_bytes_to_sort</rdfs:label>
+    <rdfs:comment>Limits the maximum number of bytes (uncompressed data) that can be read from a table for sorting.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_bytes_to_transfer">
+    <rdfs:label>max_bytes_to_transfer</rdfs:label>
+    <rdfs:comment>Limits the maximum number of bytes (uncompressed data) that can be passed to a remote server or saved in a temporary table when using GLOBAL IN.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_columns_to_read">
+    <rdfs:label>max_columns_to_read</rdfs:label>
+    <rdfs:comment>Limits the maximum number of columns that can be read from a table in a single query.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_concurrent_queries_for_user">
+    <rdfs:label>max_concurrent_queries_for_user</rdfs:label>
+    <rdfs:comment>The maximum number of concurrent requests per user. Default value: 0 (no limit).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_execution_time">
+    <rdfs:label>max_execution_time</rdfs:label>
+    <rdfs:comment>Limits the maximum query execution time in milliseconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_expanded_ast_elements">
+    <rdfs:label>max_expanded_ast_elements</rdfs:label>
+    <rdfs:comment>Limits the maximum size of query syntax tree in number of nodes after expansion of aliases and the asterisk values.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_final_threads">
+    <rdfs:label>max_final_threads</rdfs:label>
+    <rdfs:comment>Sets the maximum number of parallel threads for the SELECT query data read phase with the FINAL modifier.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_http_get_redirects">
+    <rdfs:label>max_http_get_redirects</rdfs:label>
+    <rdfs:comment>Limits the maximum number of HTTP GET redirect hops for URL-engine tables.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_insert_block_size">
+    <rdfs:label>max_insert_block_size</rdfs:label>
+    <rdfs:comment>The size of blocks (in a count of rows) to form for insertion into a table.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_insert_threads">
+    <rdfs:label>max_insert_threads</rdfs:label>
+    <rdfs:comment>The maximum number of threads to execute the INSERT SELECT query. Default value: 0.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_memory_usage">
+    <rdfs:label>max_memory_usage</rdfs:label>
+    <rdfs:comment>Maximum memory usage for processing all concurrently running queries for the user. Zero means unlimited.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_memory_usage_for_user">
+    <rdfs:label>max_memory_usage_for_user</rdfs:label>
+    <rdfs:comment>Maximum memory usage for processing all concurrently running queries for the user. Zero means unlimited.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_network_bandwidth">
+    <rdfs:label>max_network_bandwidth</rdfs:label>
+    <rdfs:comment>Limits the speed of the data exchange over the network in bytes per second.  This setting applies to every query.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_network_bandwidth_for_user">
+    <rdfs:label>max_network_bandwidth_for_user</rdfs:label>
+    <rdfs:comment>Limits the speed of the data exchange over the network in bytes per second. This setting applies to all concurrently running queries performed by a single user.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_parser_depth">
+    <rdfs:label>max_parser_depth</rdfs:label>
+    <rdfs:comment>Limits maximum recursion depth in the recursive descent parser. Allows controlling the stack size.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_partitions_per_insert_block">
+    <rdfs:label>max_partitions_per_insert_block</rdfs:label>
+    <rdfs:comment>Limits the maximum number of partitions in a single inserted block.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_query_size">
+    <rdfs:label>max_query_size</rdfs:label>
+    <rdfs:comment>The maximum part of a query that can be taken to RAM for parsing with the SQL parser.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_read_buffer_size">
+    <rdfs:label>max_read_buffer_size</rdfs:label>
+    <rdfs:comment>The maximum size of the buffer to read from the filesystem.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_replica_delay_for_distributed_queries">
+    <rdfs:label>max_replica_delay_for_distributed_queries</rdfs:label>
+    <rdfs:comment>Max replica delay in milliseconds. If a replica lags more than the set value,this replica is not used and becomes a stale one.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_result_bytes">
+    <rdfs:label>max_result_bytes</rdfs:label>
+    <rdfs:comment>Limits the number of bytes in the result.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_result_rows">
+    <rdfs:label>max_result_rows</rdfs:label>
+    <rdfs:comment>Limits the number of rows in the result.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_rows_in_distinct">
+    <rdfs:label>max_rows_in_distinct</rdfs:label>
+    <rdfs:comment>Limits the maximum number of different rows when using DISTINCT.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_rows_in_join">
+    <rdfs:label>max_rows_in_join</rdfs:label>
+    <rdfs:comment>Limit on maximum size of the hash table for JOIN, in rows.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_rows_in_set">
+    <rdfs:label>max_rows_in_set</rdfs:label>
+    <rdfs:comment>Limit on the number of rows in the set resulting from the execution of the IN section.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_rows_to_group_by">
+    <rdfs:label>max_rows_to_group_by</rdfs:label>
+    <rdfs:comment>Limits the maximum number of unique keys received from aggregation function.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_rows_to_read">
+    <rdfs:label>max_rows_to_read</rdfs:label>
+    <rdfs:comment>Limits the maximum number of rows that can be read from a table when running a query.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_rows_to_sort">
+    <rdfs:label>max_rows_to_sort</rdfs:label>
+    <rdfs:comment>Limits the maximum number of rows that can be read from a table for sorting.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_rows_to_transfer">
+    <rdfs:label>max_rows_to_transfer</rdfs:label>
+    <rdfs:comment>Limits the maximum number of rows that can be passed to a remote server or saved in a temporary table when using GLOBAL IN.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_temporary_columns">
+    <rdfs:label>max_temporary_columns</rdfs:label>
+    <rdfs:comment>Limits the maximum number of temporary columns that must be kept in RAM at the same time when running a query, including constant columns.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_temporary_data_on_disk_size_for_query">
+    <rdfs:label>max_temporary_data_on_disk_size_for_query</rdfs:label>
+    <rdfs:comment>The maximum amount of data consumed by temporary files on disk in bytes for all concurrently running queries. Zero means unlimited.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_temporary_data_on_disk_size_for_user">
+    <rdfs:label>max_temporary_data_on_disk_size_for_user</rdfs:label>
+    <rdfs:comment>The maximum amount of data consumed by temporary files on disk in bytes for all concurrently running user queries. Zero means unlimited.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_temporary_non_const_columns">
+    <rdfs:label>max_temporary_non_const_columns</rdfs:label>
+    <rdfs:comment>Limits the maximum number of temporary columns that must be kept in RAM at the same time when running a query, excluding constant columns.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_max_threads">
+    <rdfs:label>max_threads</rdfs:label>
+    <rdfs:comment>The maximum number of query processing threads, excluding threads for retrieving data from remote servers.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_memory_overcommit_ratio_denominator">
+    <rdfs:label>memory_overcommit_ratio_denominator</rdfs:label>
+    <rdfs:comment>It represents soft memory limit in case when hard limit is reached on user level. This value is used to compute overcommit ratio for the query. Zero means skip the query.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_memory_overcommit_ratio_denominator_for_user">
+    <rdfs:label>memory_overcommit_ratio_denominator_for_user</rdfs:label>
+    <rdfs:comment>It represents soft memory limit in case when hard limit is reached on global level. This value is used to compute overcommit ratio for the query. Zero means skip the query.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_memory_profiler_sample_probability">
+    <rdfs:label>memory_profiler_sample_probability</rdfs:label>
+    <rdfs:comment>Collect random allocations and deallocations and write them into system.trace_log with 'MemorySample' trace_type. The probability is for every alloc/free regardless to the size of the allocation. Possible values: from 0 to 1. Default: 0.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_memory_profiler_step">
+    <rdfs:label>memory_profiler_step</rdfs:label>
+    <rdfs:comment>Memory profiler step (in bytes). If the next query step requires more memory than this parameter specifies, the memory profiler collects the allocating stack trace. Values lower than a few megabytes slow down query processing. Default value: 4194304 (4 MB). Zero means disabled memory profiler.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_memory_usage_overcommit_max_wait_microseconds">
+    <rdfs:label>memory_usage_overcommit_max_wait_microseconds</rdfs:label>
+    <rdfs:comment>Maximum time thread will wait for memory to be freed in the case of memory overcommit on a user level. If the timeout is reached and memory is not freed, an exception is thrown.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_merge_tree_max_bytes_to_use_cache">
+    <rdfs:label>merge_tree_max_bytes_to_use_cache</rdfs:label>
+    <rdfs:comment>If ClickHouse should read more than merge_tree_max_bytes_to_use_cache bytes in one query, it doesn’t use the cache of uncompressed blocks.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_merge_tree_max_rows_to_use_cache">
+    <rdfs:label>merge_tree_max_rows_to_use_cache</rdfs:label>
+    <rdfs:comment>If ClickHouse should read more than merge_tree_max_rows_to_use_cache rows in one query, it doesn’t use the cache of uncompressed blocks.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_merge_tree_min_bytes_for_concurrent_read">
+    <rdfs:label>merge_tree_min_bytes_for_concurrent_read</rdfs:label>
+    <rdfs:comment>If the number of bytes to read from one file of a MergeTree-engine table exceeds merge_tree_min_bytes_for_concurrent_read, then ClickHouse tries to concurrently read from this file in several threads.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_merge_tree_min_rows_for_concurrent_read">
+    <rdfs:label>merge_tree_min_rows_for_concurrent_read</rdfs:label>
+    <rdfs:comment>If the number of rows to be read from a file of a MergeTree table exceeds merge_tree_min_rows_for_concurrent_read then ClickHouse tries to perform a concurrent reading from this file on several threads.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_min_bytes_to_use_direct_io">
+    <rdfs:label>min_bytes_to_use_direct_io</rdfs:label>
+    <rdfs:comment>The minimum data volume required for using direct I/O access to the storage disk.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_min_count_to_compile_expression">
+    <rdfs:label>min_count_to_compile_expression</rdfs:label>
+    <rdfs:comment>Minimum count of executing same expression before it is get compiled.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_min_execution_speed">
+    <rdfs:label>min_execution_speed</rdfs:label>
+    <rdfs:comment>Minimal execution speed in rows per second.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_min_execution_speed_bytes">
+    <rdfs:label>min_execution_speed_bytes</rdfs:label>
+    <rdfs:comment>Minimal execution speed in bytes per second.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_min_insert_block_size_bytes">
+    <rdfs:label>min_insert_block_size_bytes</rdfs:label>
+    <rdfs:comment>Sets the minimum number of bytes in the block which can be inserted into a table by an INSERT query.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_min_insert_block_size_rows">
+    <rdfs:label>min_insert_block_size_rows</rdfs:label>
+    <rdfs:comment>Sets the minimum number of rows in the block which can be inserted into a table by an INSERT query.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_output_format_json_quote_64bit_integers">
+    <rdfs:label>output_format_json_quote_64bit_integers</rdfs:label>
+    <rdfs:comment>If the value is true, integers appear in quotes when using JSON* Int64 and UInt64 formats (for compatibility with most JavaScript implementations); otherwise, integers are output without the quotes.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_output_format_json_quote_denormals">
+    <rdfs:label>output_format_json_quote_denormals</rdfs:label>
+    <rdfs:comment>Enables +nan, -nan, +inf, -inf outputs in JSON output format.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_prefer_localhost_replica">
+    <rdfs:label>prefer_localhost_replica</rdfs:label>
+    <rdfs:comment>Enables/disables preferable using the localhost replica when processing distributed queries. Default value: true.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_priority">
+    <rdfs:label>priority</rdfs:label>
+    <rdfs:comment>Priority of the query.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_query_cache_max_entries">
+    <rdfs:label>query_cache_max_entries</rdfs:label>
+    <rdfs:comment>The maximum number of query results the current user may store in the query cache. 0 means unlimited.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_query_cache_max_size_in_bytes">
+    <rdfs:label>query_cache_max_size_in_bytes</rdfs:label>
+    <rdfs:comment>The maximum amount of memory (in bytes) the current user may allocate in the query cache. 0 means unlimited.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_query_cache_min_query_duration">
+    <rdfs:label>query_cache_min_query_duration</rdfs:label>
+    <rdfs:comment>Minimum duration in milliseconds a query needs to run for its result to be stored in the query cache.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_query_cache_min_query_runs">
+    <rdfs:label>query_cache_min_query_runs</rdfs:label>
+    <rdfs:comment>Minimum number of times a SELECT query must run before its result is stored in the query cache.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_query_cache_nondeterministic_function_handling">
+    <rdfs:label>query_cache_nondeterministic_function_handling</rdfs:label>
+    <rdfs:comment>Controls how the query cache handles **SELECT** queries with non-deterministic functions like rand() or now().</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_query_cache_share_between_users">
+    <rdfs:label>query_cache_share_between_users</rdfs:label>
+    <rdfs:comment>If turned on, the result of SELECT queries cached in the query cache can be read by other users. It is not recommended to enable this setting due to security reasons.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_query_cache_system_table_handling">
+    <rdfs:label>query_cache_system_table_handling</rdfs:label>
+    <rdfs:comment>Controls how the query cache handles **SELECT** queries against system tables.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_query_cache_tag">
+    <rdfs:label>query_cache_tag</rdfs:label>
+    <rdfs:comment>A string which acts as a label for query cache entries. The same queries with different tags are considered different by the query cache.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_query_cache_ttl">
+    <rdfs:label>query_cache_ttl</rdfs:label>
+    <rdfs:comment>After this time in seconds entries in the query cache become stale.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_quota_mode">
+    <rdfs:label>quota_mode</rdfs:label>
+    <rdfs:comment>Quota accounting mode.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_read_overflow_mode">
+    <rdfs:label>read_overflow_mode</rdfs:label>
+    <rdfs:comment>Sets behaviour on overflow while read. Possible values: * throw - abort query execution, return an error.  * break - stop query execution, return partial result.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_readonly">
+    <rdfs:label>readonly</rdfs:label>
+    <rdfs:comment>Restricts permissions for non-DDL queries.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_receive_timeout">
+    <rdfs:label>receive_timeout</rdfs:label>
+    <rdfs:comment>Receive timeout in milliseconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_remote_filesystem_read_method">
+    <rdfs:label>remote_filesystem_read_method</rdfs:label>
+    <rdfs:comment>Method of reading data from remote filesystem, one of: `read`, `threadpool`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_replication_alter_partitions_sync">
+    <rdfs:label>replication_alter_partitions_sync</rdfs:label>
+    <rdfs:comment>Wait mode for asynchronous actions in ALTER queries on replicated tables.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_result_overflow_mode">
+    <rdfs:label>result_overflow_mode</rdfs:label>
+    <rdfs:comment>Sets behaviour on overflow in result.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_s3_use_adaptive_timeouts">
+    <rdfs:label>s3_use_adaptive_timeouts</rdfs:label>
+    <rdfs:comment>Enables or disables adaptive timeouts for S3 requests.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_select_sequential_consistency">
+    <rdfs:label>select_sequential_consistency</rdfs:label>
+    <rdfs:comment>Determines the behavior of SELECT queries from replicated tables. If enabled, ClickHouse will terminate a query with error message in case the replica does not have a chunk written with the quorum and will not read the parts that have not yet been written with the quorum.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_send_progress_in_http_headers">
+    <rdfs:label>send_progress_in_http_headers</rdfs:label>
+    <rdfs:comment>Enables or disables X-ClickHouse-Progress HTTP response headers in clickhouse-server responses.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_send_timeout">
+    <rdfs:label>send_timeout</rdfs:label>
+    <rdfs:comment>Send timeout in milliseconds.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_set_overflow_mode">
+    <rdfs:label>set_overflow_mode</rdfs:label>
+    <rdfs:comment>Sets behaviour on overflow in the set resulting.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_skip_unavailable_shards">
+    <rdfs:label>skip_unavailable_shards</rdfs:label>
+    <rdfs:comment>Enables or disables silent skipping of unavailable shards</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_sort_overflow_mode">
+    <rdfs:label>sort_overflow_mode</rdfs:label>
+    <rdfs:comment>Sets behaviour on overflow while sort.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_timeout_before_checking_execution_speed">
+    <rdfs:label>timeout_before_checking_execution_speed</rdfs:label>
+    <rdfs:comment>Timeout (in seconds) between checks of execution speed. It is checked that execution speed is not less that specified in min_execution_speed parameter. Must be at least 1000.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_timeout_overflow_mode">
+    <rdfs:label>timeout_overflow_mode</rdfs:label>
+    <rdfs:comment>Sets behaviour on overflow.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_transfer_overflow_mode">
+    <rdfs:label>transfer_overflow_mode</rdfs:label>
+    <rdfs:comment>Sets behaviour on overflow.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_transform_null_in">
+    <rdfs:label>transform_null_in</rdfs:label>
+    <rdfs:comment>Enables equality of NULL values for IN operator.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_use_hedged_requests">
+    <rdfs:label>use_hedged_requests</rdfs:label>
+    <rdfs:comment>Enables hedged requests logic for remote queries. It allows to establish many connections with different replicas for query. New connection is enabled in case existent connection(s) with replica(s) were not established within hedged_connection_timeout or no data was received within receive_data_timeout. Query uses the first connection which send non empty progress packet (or data packet, if allow_changing_replica_until_first_data_packet); other connections are cancelled. Queries with max_parallel_replicas > 1 are supported. Default value: true.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_use_query_cache">
+    <rdfs:label>use_query_cache</rdfs:label>
+    <rdfs:comment>If turned on, SELECT queries may utilize the query cache.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_use_uncompressed_cache">
+    <rdfs:label>use_uncompressed_cache</rdfs:label>
+    <rdfs:comment>Whether to use a cache of uncompressed blocks.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_wait_for_async_insert">
+    <rdfs:label>wait_for_async_insert</rdfs:label>
+    <rdfs:comment>Enables waiting for processing of asynchronous insertion. If enabled, server returns OK only after the data is inserted.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_clickhouse_user_wait_for_async_insert_timeout">
+    <rdfs:label>wait_for_async_insert_timeout</rdfs:label>
+    <rdfs:comment>The timeout (in seconds) for waiting for processing of asynchronous insertion. Value must be at least 1000 (1 second).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_clickhouse_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

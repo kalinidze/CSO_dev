@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window">
+    <rdfs:label>azurerm_data_factory_trigger_tumbling_window</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_activated">
+    <rdfs:label>activated</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_additional_properties">
+    <rdfs:label>additional_properties</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_annotations">
+    <rdfs:label>annotations</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_data_factory_id">
+    <rdfs:label>data_factory_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_delay">
+    <rdfs:label>delay</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_end_time">
+    <rdfs:label>end_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_frequency">
+    <rdfs:label>frequency</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_interval">
+    <rdfs:label>interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_max_concurrency">
+    <rdfs:label>max_concurrency</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_start_time">
+    <rdfs:label>start_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_parameters">
+    <rdfs:label>parameters</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_count">
+    <rdfs:label>count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_interval">
+    <rdfs:label>interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_offset">
+    <rdfs:label>offset</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_size">
+    <rdfs:label>size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_trigger_tumbling_window_trigger_name">
+    <rdfs:label>trigger_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_trigger_tumbling_window"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

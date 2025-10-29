@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_storage_bucket_policy">
+    <rdfs:label>yandex_storage_bucket_policy</rdfs:label>
+    <rdfs:comment>Allows management of policy of an existing [Yandex Cloud Storage Bucket](https://yandex.cloud/docs/storage/concepts/bucket).
+
+~> By default, for authentication, you need to use [IAM token](https://yandex.cloud/docs/iam/concepts/authorization/iam-token) with the necessary permissions.
+
+~> Alternatively, you can provide [static access keys](https://yandex.cloud/docs/iam/concepts/authorization/access-key) (Access and Secret). To generate these keys, you will need a Service Account with the appropriate permissions.
+
+~> "Version" element is required and must be set to `2012-10-17`.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_storage_bucket_policy_access_key">
+    <rdfs:label>access_key</rdfs:label>
+    <rdfs:comment>The access key to use when applying changes. This value can also be provided as `storage_access_key` specified in provider config (explicitly or within `shared_credentials_file`) is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_storage_bucket_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_storage_bucket_policy_bucket">
+    <rdfs:label>bucket</rdfs:label>
+    <rdfs:comment>The name of the bucket.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_storage_bucket_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_storage_bucket_policy_policy">
+    <rdfs:label>policy</rdfs:label>
+    <rdfs:comment>The text of the policy.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_storage_bucket_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_storage_bucket_policy_secret_key">
+    <rdfs:label>secret_key</rdfs:label>
+    <rdfs:comment>The secret key to use when applying changes. This value can also be provided as `storage_secret_key` specified in provider config (explicitly or within `shared_credentials_file`) is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_storage_bucket_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_appflow_connector_profile">
+    <rdfs:label>aws_appflow_connector_profile</rdfs:label>
+    <rdfs:comment>Provides an AppFlow connector profile resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_connection_mode">
+    <rdfs:label>connection_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_connector_label">
+    <rdfs:label>connector_label</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_connector_type">
+    <rdfs:label>connector_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_credentials_arn">
+    <rdfs:label>credentials_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_kms_arn">
+    <rdfs:label>kms_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_api_key">
+    <rdfs:label>api_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_secret_key">
+    <rdfs:label>secret_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_authentication_type">
+    <rdfs:label>authentication_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_api_key">
+    <rdfs:label>api_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_api_secret_key">
+    <rdfs:label>api_secret_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_credentials_map">
+    <rdfs:label>credentials_map</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_custom_authentication_type">
+    <rdfs:label>custom_authentication_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_access_token">
+    <rdfs:label>access_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_client_id">
+    <rdfs:label>client_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_client_secret">
+    <rdfs:label>client_secret</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_refresh_token">
+    <rdfs:label>refresh_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_auth_code">
+    <rdfs:label>auth_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_redirect_uri">
+    <rdfs:label>redirect_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_api_key">
+    <rdfs:label>api_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_application_key">
+    <rdfs:label>application_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_api_token">
+    <rdfs:label>api_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_access_token">
+    <rdfs:label>access_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_client_id">
+    <rdfs:label>client_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_client_secret">
+    <rdfs:label>client_secret</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_refresh_token">
+    <rdfs:label>refresh_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_auth_code">
+    <rdfs:label>auth_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_redirect_uri">
+    <rdfs:label>redirect_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_access_token">
+    <rdfs:label>access_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_refresh_token">
+    <rdfs:label>refresh_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_auth_code">
+    <rdfs:label>auth_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_redirect_uri">
+    <rdfs:label>redirect_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_access_key_id">
+    <rdfs:label>access_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_datakey">
+    <rdfs:label>datakey</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_secret_access_key">
+    <rdfs:label>secret_access_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_user_id">
+    <rdfs:label>user_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_access_token">
+    <rdfs:label>access_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_client_id">
+    <rdfs:label>client_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_client_secret">
+    <rdfs:label>client_secret</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_auth_code">
+    <rdfs:label>auth_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_redirect_uri">
+    <rdfs:label>redirect_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_access_token">
+    <rdfs:label>access_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_client_credentials_arn">
+    <rdfs:label>client_credentials_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_jwt_token">
+    <rdfs:label>jwt_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_oauth2_grant_type">
+    <rdfs:label>oauth2_grant_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_refresh_token">
+    <rdfs:label>refresh_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_auth_code">
+    <rdfs:label>auth_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_redirect_uri">
+    <rdfs:label>redirect_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_access_token">
+    <rdfs:label>access_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_client_id">
+    <rdfs:label>client_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_client_secret">
+    <rdfs:label>client_secret</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_refresh_token">
+    <rdfs:label>refresh_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_auth_code">
+    <rdfs:label>auth_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_redirect_uri">
+    <rdfs:label>redirect_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_api_key">
+    <rdfs:label>api_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_access_token">
+    <rdfs:label>access_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_client_id">
+    <rdfs:label>client_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_client_secret">
+    <rdfs:label>client_secret</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_auth_code">
+    <rdfs:label>auth_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_redirect_uri">
+    <rdfs:label>redirect_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_api_secret_key">
+    <rdfs:label>api_secret_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_access_token">
+    <rdfs:label>access_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_client_id">
+    <rdfs:label>client_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_client_secret">
+    <rdfs:label>client_secret</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_auth_code">
+    <rdfs:label>auth_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_redirect_uri">
+    <rdfs:label>redirect_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_profile_properties">
+    <rdfs:label>profile_properties</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_oauth2_grant_type">
+    <rdfs:label>oauth2_grant_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_token_url">
+    <rdfs:label>token_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_token_url_custom_properties">
+    <rdfs:label>token_url_custom_properties</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_instance_url">
+    <rdfs:label>instance_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_instance_url">
+    <rdfs:label>instance_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_instance_url">
+    <rdfs:label>instance_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_instance_url">
+    <rdfs:label>instance_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_cluster_identifier">
+    <rdfs:label>cluster_identifier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_data_api_role_arn">
+    <rdfs:label>data_api_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_database_name">
+    <rdfs:label>database_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_database_url">
+    <rdfs:label>database_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_role_arn">
+    <rdfs:label>role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_instance_url">
+    <rdfs:label>instance_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_is_sandbox_environment">
+    <rdfs:label>is_sandbox_environment</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_use_privatelink_for_metadata_and_authorization">
+    <rdfs:label>use_privatelink_for_metadata_and_authorization</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_application_host_url">
+    <rdfs:label>application_host_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_application_service_path">
+    <rdfs:label>application_service_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_client_number">
+    <rdfs:label>client_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_logon_language">
+    <rdfs:label>logon_language</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_port_number">
+    <rdfs:label>port_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_private_link_service_name">
+    <rdfs:label>private_link_service_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_auth_code_url">
+    <rdfs:label>auth_code_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_oauth_scopes">
+    <rdfs:label>oauth_scopes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_token_url">
+    <rdfs:label>token_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_instance_url">
+    <rdfs:label>instance_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_instance_url">
+    <rdfs:label>instance_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_account_name">
+    <rdfs:label>account_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_bucket_prefix">
+    <rdfs:label>bucket_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_private_link_service_name">
+    <rdfs:label>private_link_service_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_stage">
+    <rdfs:label>stage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_warehouse">
+    <rdfs:label>warehouse</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_instance_url">
+    <rdfs:label>instance_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appflow_connector_profile_instance_url">
+    <rdfs:label>instance_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appflow_connector_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

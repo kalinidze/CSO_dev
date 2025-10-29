@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_virtual_network_gateway_connection">
+    <rdfs:label>azurerm_virtual_network_gateway_connection</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_authorization_key">
+    <rdfs:label>authorization_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_connection_mode">
+    <rdfs:label>connection_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_connection_protocol">
+    <rdfs:label>connection_protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_dpd_timeout_seconds">
+    <rdfs:label>dpd_timeout_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_egress_nat_rule_ids">
+    <rdfs:label>egress_nat_rule_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_enable_bgp">
+    <rdfs:label>enable_bgp</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_express_route_circuit_id">
+    <rdfs:label>express_route_circuit_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_express_route_gateway_bypass">
+    <rdfs:label>express_route_gateway_bypass</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_ingress_nat_rule_ids">
+    <rdfs:label>ingress_nat_rule_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_local_azure_ip_address_enabled">
+    <rdfs:label>local_azure_ip_address_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_local_network_gateway_id">
+    <rdfs:label>local_network_gateway_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_peer_virtual_network_gateway_id">
+    <rdfs:label>peer_virtual_network_gateway_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_private_link_fast_path_enabled">
+    <rdfs:label>private_link_fast_path_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_routing_weight">
+    <rdfs:label>routing_weight</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_shared_key">
+    <rdfs:label>shared_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_use_policy_based_traffic_selectors">
+    <rdfs:label>use_policy_based_traffic_selectors</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_virtual_network_gateway_id">
+    <rdfs:label>virtual_network_gateway_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_primary">
+    <rdfs:label>primary</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_secondary">
+    <rdfs:label>secondary</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_dh_group">
+    <rdfs:label>dh_group</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_ike_encryption">
+    <rdfs:label>ike_encryption</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_ike_integrity">
+    <rdfs:label>ike_integrity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_ipsec_encryption">
+    <rdfs:label>ipsec_encryption</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_ipsec_integrity">
+    <rdfs:label>ipsec_integrity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_pfs_group">
+    <rdfs:label>pfs_group</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_sa_datasize">
+    <rdfs:label>sa_datasize</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_sa_lifetime">
+    <rdfs:label>sa_lifetime</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_local_address_cidrs">
+    <rdfs:label>local_address_cidrs</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_virtual_network_gateway_connection_remote_address_cidrs">
+    <rdfs:label>remote_address_cidrs</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_virtual_network_gateway_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

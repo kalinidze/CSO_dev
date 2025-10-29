@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_dx_hosted_connection">
+    <rdfs:label>aws_dx_hosted_connection</rdfs:label>
+    <rdfs:comment>Provides a hosted connection on the specified interconnect or a link aggregation group (LAG) of interconnects. Intended for use by AWS Direct Connect Partners only.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_aws_device">
+    <rdfs:label>aws_device</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_bandwidth">
+    <rdfs:label>bandwidth</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_connection_id">
+    <rdfs:label>connection_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_connection_region">
+    <rdfs:label>connection_region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_has_logical_redundancy">
+    <rdfs:label>has_logical_redundancy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_jumbo_frame_capable">
+    <rdfs:label>jumbo_frame_capable</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_lag_id">
+    <rdfs:label>lag_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_loa_issue_time">
+    <rdfs:label>loa_issue_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_owner_account_id">
+    <rdfs:label>owner_account_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_partner_name">
+    <rdfs:label>partner_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_provider_name">
+    <rdfs:label>provider_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_state">
+    <rdfs:label>state</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_connection_vlan">
+    <rdfs:label>vlan</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

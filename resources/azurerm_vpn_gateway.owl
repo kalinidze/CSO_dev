@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_vpn_gateway">
+    <rdfs:label>azurerm_vpn_gateway</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_bgp_route_translation_for_nat_enabled">
+    <rdfs:label>bgp_route_translation_for_nat_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_ip_configuration">
+    <rdfs:label>ip_configuration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_routing_preference">
+    <rdfs:label>routing_preference</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_scale_unit">
+    <rdfs:label>scale_unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_virtual_hub_id">
+    <rdfs:label>virtual_hub_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_asn">
+    <rdfs:label>asn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_bgp_peering_address">
+    <rdfs:label>bgp_peering_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_peer_weight">
+    <rdfs:label>peer_weight</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_custom_ips">
+    <rdfs:label>custom_ips</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_default_ips">
+    <rdfs:label>default_ips</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_ip_configuration_id">
+    <rdfs:label>ip_configuration_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_tunnel_ips">
+    <rdfs:label>tunnel_ips</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_custom_ips">
+    <rdfs:label>custom_ips</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_default_ips">
+    <rdfs:label>default_ips</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_ip_configuration_id">
+    <rdfs:label>ip_configuration_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_tunnel_ips">
+    <rdfs:label>tunnel_ips</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_vpn_gateway_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_vpn_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

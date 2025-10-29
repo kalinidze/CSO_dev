@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_appsync_datasource">
+    <rdfs:label>aws_appsync_datasource</rdfs:label>
+    <rdfs:comment>Provides an AppSync Data Source.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_api_id">
+    <rdfs:label>api_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_service_role_arn">
+    <rdfs:label>service_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_table_name">
+    <rdfs:label>table_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_use_caller_credentials">
+    <rdfs:label>use_caller_credentials</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_versioned">
+    <rdfs:label>versioned</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_base_table_ttl">
+    <rdfs:label>base_table_ttl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_delta_sync_table_name">
+    <rdfs:label>delta_sync_table_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_delta_sync_table_ttl">
+    <rdfs:label>delta_sync_table_ttl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_endpoint">
+    <rdfs:label>endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_event_bus_arn">
+    <rdfs:label>event_bus_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_endpoint">
+    <rdfs:label>endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_authorization_type">
+    <rdfs:label>authorization_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_signing_region">
+    <rdfs:label>signing_region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_signing_service_name">
+    <rdfs:label>signing_service_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_function_arn">
+    <rdfs:label>function_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_endpoint">
+    <rdfs:label>endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_source_type">
+    <rdfs:label>source_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_aws_secret_store_arn">
+    <rdfs:label>aws_secret_store_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_database_name">
+    <rdfs:label>database_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_db_cluster_identifier">
+    <rdfs:label>db_cluster_identifier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_datasource_schema">
+    <rdfs:label>schema</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_datasource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

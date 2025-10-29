@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_cdn_resource">
+    <rdfs:label>yandex_cdn_resource</rdfs:label>
+    <rdfs:comment>Allows management of [Yandex Cloud CDN Resource](https://yandex.cloud/docs/cdn/concepts/resource).
+
+~> CDN provider must be activated prior usage of CDN resources, either via UI console or via yc cli command: `yc cdn provider activate --folder-id <folder-id> --type gcore`.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_active">
+    <rdfs:label>active</rdfs:label>
+    <rdfs:comment>Flag to create Resource either in active or disabled state. `True` - the content from CDN is available to clients.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_cname">
+    <rdfs:label>cname</rdfs:label>
+    <rdfs:comment>CDN endpoint CNAME, must be unique among resources.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The creation timestamp of the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>A set of key/value label pairs which assigned to resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_origin_group_id">
+    <rdfs:label>origin_group_id</rdfs:label>
+    <rdfs:comment>The ID of a specific origin group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_origin_group_name">
+    <rdfs:label>origin_group_name</rdfs:label>
+    <rdfs:comment>The name of a specific origin group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_origin_protocol">
+    <rdfs:label>origin_protocol</rdfs:label>
+    <rdfs:comment>Protocol of origin resource. `http` or `https`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_provider_cname">
+    <rdfs:label>provider_cname</rdfs:label>
+    <rdfs:comment>Provider CNAME of CDN resource, computed value for read and update operations.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_provider_type">
+    <rdfs:label>provider_type</rdfs:label>
+    <rdfs:comment>CDN provider is a content delivery service provider. Possible values: "ourcdn" (default) or "gcore"</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_secondary_hostnames">
+    <rdfs:label>secondary_hostnames</rdfs:label>
+    <rdfs:comment>List of secondary hostname strings.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_updated_at">
+    <rdfs:label>updated_at</rdfs:label>
+    <rdfs:comment>Last update timestamp. Computed value for read and update operations.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_allowed_http_methods">
+    <rdfs:label>allowed_http_methods</rdfs:label>
+    <rdfs:comment>HTTP methods for your CDN content. By default the following methods are allowed: GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS. In case some methods are not allowed to the user, they will get the 405 (Method Not Allowed) response. If the method is not supported, the user gets the 501 (Not Implemented) response.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_browser_cache_settings">
+    <rdfs:label>browser_cache_settings</rdfs:label>
+    <rdfs:comment>Set up a cache period for the end-users browser. Content will be cached due to origin settings. If there are no cache settings on your origin, the content will not be cached. The list of HTTP response codes that can be cached in browsers: 200, 201, 204, 206, 301, 302, 303, 304, 307, 308. Other response codes will not be cached. The default value is 4 days.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_cache_http_headers">
+    <rdfs:label>cache_http_headers</rdfs:label>
+    <rdfs:comment>List HTTP headers that must be included in responses to clients.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_cors">
+    <rdfs:label>cors</rdfs:label>
+    <rdfs:comment>Parameter that lets browsers get access to selected resources from a domain different to a domain from which the request is received.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_custom_host_header">
+    <rdfs:label>custom_host_header</rdfs:label>
+    <rdfs:comment>Custom value for the Host header. Your server must be able to process requests with the chosen header.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_custom_server_name">
+    <rdfs:label>custom_server_name</rdfs:label>
+    <rdfs:comment>Wildcard additional CNAME. If a resource has a wildcard additional CNAME, you can use your own certificate for content delivery via HTTPS.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_disable_cache">
+    <rdfs:label>disable_cache</rdfs:label>
+    <rdfs:comment>Setup a cache status.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_disable_proxy_force_ranges">
+    <rdfs:label>disable_proxy_force_ranges</rdfs:label>
+    <rdfs:comment>Disabling proxy force ranges.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_edge_cache_settings">
+    <rdfs:label>edge_cache_settings</rdfs:label>
+    <rdfs:comment>Content will be cached according to origin cache settings. The value applies for a response with codes 200, 201, 204, 206, 301, 302, 303, 304, 307, 308 if an origin server does not have caching HTTP headers. Responses with other codes will not be cached.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_enable_ip_url_signing">
+    <rdfs:label>enable_ip_url_signing</rdfs:label>
+    <rdfs:comment>Enable access limiting by IP addresses, option available only with setting secure_key.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_fetched_compressed">
+    <rdfs:label>fetched_compressed</rdfs:label>
+    <rdfs:comment>Option helps you to reduce the bandwidth between origin and CDN servers. Also, content delivery speed becomes higher because of reducing the time for compressing files in a CDN.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_forward_host_header">
+    <rdfs:label>forward_host_header</rdfs:label>
+    <rdfs:comment>Choose the Forward Host header option if is important to send in the request to the Origin the same Host header as was sent in the request to CDN server.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_gzip_on">
+    <rdfs:label>gzip_on</rdfs:label>
+    <rdfs:comment>GZip compression at CDN servers reduces file size by 70% and can be as high as 90%.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_ignore_cookie">
+    <rdfs:label>ignore_cookie</rdfs:label>
+    <rdfs:comment>Set for ignoring cookie.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_ignore_query_params">
+    <rdfs:label>ignore_query_params</rdfs:label>
+    <rdfs:comment>Files with different query parameters are cached as objects with the same key regardless of the parameter value. selected by default.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_proxy_cache_methods_set">
+    <rdfs:label>proxy_cache_methods_set</rdfs:label>
+    <rdfs:comment>Allows caching for GET, HEAD and POST requests.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_query_params_blacklist">
+    <rdfs:label>query_params_blacklist</rdfs:label>
+    <rdfs:comment>Files with the specified query parameters are cached as objects with the same key, files with other parameters are cached as objects with different keys.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_query_params_whitelist">
+    <rdfs:label>query_params_whitelist</rdfs:label>
+    <rdfs:comment>Files with the specified query parameters are cached as objects with different keys, files with other parameters are cached as objects with the same key.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_redirect_http_to_https">
+    <rdfs:label>redirect_http_to_https</rdfs:label>
+    <rdfs:comment>Set up a redirect from HTTP to HTTPS.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_redirect_https_to_http">
+    <rdfs:label>redirect_https_to_http</rdfs:label>
+    <rdfs:comment>Set up a redirect from HTTPS to HTTP.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_secure_key">
+    <rdfs:label>secure_key</rdfs:label>
+    <rdfs:comment>Set secure key for url encoding to protect contect and limit access by IP addresses and time limits.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_slice">
+    <rdfs:label>slice</rdfs:label>
+    <rdfs:comment>Files larger than 10 MB will be requested and cached in parts (no larger than 10 MB each part). It reduces time to first byte. The origin must support HTTP Range requests.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_static_request_headers">
+    <rdfs:label>static_request_headers</rdfs:label>
+    <rdfs:comment>Set up custom headers that CDN servers will send in requests to origins.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_static_response_headers">
+    <rdfs:label>static_response_headers</rdfs:label>
+    <rdfs:comment>Set up a static response header. The header name must be lowercase.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_excepted_values">
+    <rdfs:label>excepted_values</rdfs:label>
+    <rdfs:comment>The list of specified IP addresses to be allowed or denied depending on acl policy type.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_policy_type">
+    <rdfs:label>policy_type</rdfs:label>
+    <rdfs:comment>The policy type for ACL. One of `allow` or `deny` values.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_certificate_manager_id">
+    <rdfs:label>certificate_manager_id</rdfs:label>
+    <rdfs:comment>Certificate Manager ID.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:comment>SSL certificate status.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>SSL certificate type.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_cdn_resource_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_cdn_resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

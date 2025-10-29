@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_backup_policy_vm_workload">
+    <rdfs:label>azurerm_backup_policy_vm_workload</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_recovery_vault_name">
+    <rdfs:label>recovery_vault_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_workload_type">
+    <rdfs:label>workload_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_policy_type">
+    <rdfs:label>policy_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_frequency">
+    <rdfs:label>frequency</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_frequency_in_minutes">
+    <rdfs:label>frequency_in_minutes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_time">
+    <rdfs:label>time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_weekdays">
+    <rdfs:label>weekdays</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_count">
+    <rdfs:label>count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_count">
+    <rdfs:label>count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_format_type">
+    <rdfs:label>format_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_monthdays">
+    <rdfs:label>monthdays</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_weekdays">
+    <rdfs:label>weekdays</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_weeks">
+    <rdfs:label>weeks</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_count">
+    <rdfs:label>count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_weekdays">
+    <rdfs:label>weekdays</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_count">
+    <rdfs:label>count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_format_type">
+    <rdfs:label>format_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_monthdays">
+    <rdfs:label>monthdays</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_months">
+    <rdfs:label>months</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_weekdays">
+    <rdfs:label>weekdays</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_weeks">
+    <rdfs:label>weeks</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_count">
+    <rdfs:label>count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_compression_enabled">
+    <rdfs:label>compression_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_time_zone">
+    <rdfs:label>time_zone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_backup_policy_vm_workload_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_backup_policy_vm_workload"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

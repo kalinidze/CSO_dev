@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_function_scaling_policy">
+    <rdfs:label>yandex_function_scaling_policy</rdfs:label>
+    <rdfs:comment>Allows management of [Yandex Cloud Function Scaling Policies](https://yandex.cloud/docs/functions/).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_scaling_policy_function_id">
+    <rdfs:label>function_id</rdfs:label>
+    <rdfs:comment>Yandex Cloud Function id used to define function.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_scaling_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_scaling_policy_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_scaling_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_scaling_policy_tag">
+    <rdfs:label>tag</rdfs:label>
+    <rdfs:comment>Yandex Cloud Function version tag for Yandex Cloud Function scaling policy.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_scaling_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_scaling_policy_zone_instances_limit">
+    <rdfs:label>zone_instances_limit</rdfs:label>
+    <rdfs:comment>Max number of instances in one zone for Yandex Cloud Function with tag.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_scaling_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_function_scaling_policy_zone_requests_limit">
+    <rdfs:label>zone_requests_limit</rdfs:label>
+    <rdfs:comment>Max number of requests in one zone for Yandex Cloud Function with tag.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_function_scaling_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

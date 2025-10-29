@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_ecs_task_set">
+    <rdfs:label>aws_ecs_task_set</rdfs:label>
+    <rdfs:comment>Provides an ECS task set - effectively a task that is expected to run until an error occurs or a user terminates it (typically a webserver or a database).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_cluster">
+    <rdfs:label>cluster</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_external_id">
+    <rdfs:label>external_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_force_delete">
+    <rdfs:label>force_delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_launch_type">
+    <rdfs:label>launch_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_platform_version">
+    <rdfs:label>platform_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_service">
+    <rdfs:label>service</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_stability_status">
+    <rdfs:label>stability_status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_task_definition">
+    <rdfs:label>task_definition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_task_set_id">
+    <rdfs:label>task_set_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_wait_until_stable">
+    <rdfs:label>wait_until_stable</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_wait_until_stable_timeout">
+    <rdfs:label>wait_until_stable_timeout</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_base">
+    <rdfs:label>base</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_capacity_provider">
+    <rdfs:label>capacity_provider</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_weight">
+    <rdfs:label>weight</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_container_name">
+    <rdfs:label>container_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_container_port">
+    <rdfs:label>container_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_load_balancer_name">
+    <rdfs:label>load_balancer_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_target_group_arn">
+    <rdfs:label>target_group_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_assign_public_ip">
+    <rdfs:label>assign_public_ip</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_subnets">
+    <rdfs:label>subnets</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_container_name">
+    <rdfs:label>container_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_container_port">
+    <rdfs:label>container_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecs_task_set_registry_arn">
+    <rdfs:label>registry_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecs_task_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

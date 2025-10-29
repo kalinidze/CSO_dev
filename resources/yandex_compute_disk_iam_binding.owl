@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_compute_disk_iam_binding">
+    <rdfs:label>yandex_compute_disk_iam_binding</rdfs:label>
+    <rdfs:comment>Allows creation and management of a single binding within IAM policy for an existing `disk`.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_disk_iam_binding_disk_id">
+    <rdfs:label>disk_id</rdfs:label>
+    <rdfs:comment>The ID of the compute `disk` to attach the policy to.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_disk_iam_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_disk_iam_binding_members">
+    <rdfs:label>members</rdfs:label>
+    <rdfs:comment>An array of identities that will be granted the privilege in the `role`. Each entry can have one of the following values:
+ * **userAccount:{user_id}**: A unique user ID that represents a specific Yandex account.
+ * **serviceAccount:{service_account_id}**: A unique service account ID.
+ * **federatedUser:{federated_user_id}**: A unique federated user ID.
+ * **federatedUser:{federated_user_id}:**: A unique SAML federation user account ID.
+ * **group:{group_id}**: A unique group ID.
+ * **system:group:federation:{federation_id}:users**: All users in federation.
+ * **system:group:organization:{organization_id}:users**: All users in organization.
+ * **system:allAuthenticatedUsers**: All authenticated users.
+ * **system:allUsers**: All users, including unauthenticated ones.
+
+~> for more information about system groups, see [Cloud Documentation](https://yandex.cloud/docs/iam/concepts/access-control/system-group).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_disk_iam_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_disk_iam_binding_role">
+    <rdfs:label>role</rdfs:label>
+    <rdfs:comment>The role that should be assigned. Only one yandex_compute_disk_iam_binding can be used per role.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_disk_iam_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_compute_disk_iam_binding_sleep_after">
+    <rdfs:label>sleep_after</rdfs:label>
+    <rdfs:comment>For test purposes, to compensate IAM operations delay</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_compute_disk_iam_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

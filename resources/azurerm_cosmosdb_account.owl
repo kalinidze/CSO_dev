@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_cosmosdb_account">
+    <rdfs:label>azurerm_cosmosdb_account</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_access_key_metadata_writes_enabled">
+    <rdfs:label>access_key_metadata_writes_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_analytical_storage_enabled">
+    <rdfs:label>analytical_storage_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_automatic_failover_enabled">
+    <rdfs:label>automatic_failover_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_burst_capacity_enabled">
+    <rdfs:label>burst_capacity_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_create_mode">
+    <rdfs:label>create_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_default_identity_type">
+    <rdfs:label>default_identity_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_endpoint">
+    <rdfs:label>endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_free_tier_enabled">
+    <rdfs:label>free_tier_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_ip_range_filter">
+    <rdfs:label>ip_range_filter</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_is_virtual_network_filter_enabled">
+    <rdfs:label>is_virtual_network_filter_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_key_vault_key_id">
+    <rdfs:label>key_vault_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_kind">
+    <rdfs:label>kind</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_local_authentication_disabled">
+    <rdfs:label>local_authentication_disabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_managed_hsm_key_id">
+    <rdfs:label>managed_hsm_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_minimal_tls_version">
+    <rdfs:label>minimal_tls_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_mongo_server_version">
+    <rdfs:label>mongo_server_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_multiple_write_locations_enabled">
+    <rdfs:label>multiple_write_locations_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_network_acl_bypass_for_azure_services">
+    <rdfs:label>network_acl_bypass_for_azure_services</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_network_acl_bypass_ids">
+    <rdfs:label>network_acl_bypass_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_offer_type">
+    <rdfs:label>offer_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_partition_merge_enabled">
+    <rdfs:label>partition_merge_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_primary_key">
+    <rdfs:label>primary_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_primary_mongodb_connection_string">
+    <rdfs:label>primary_mongodb_connection_string</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_primary_readonly_key">
+    <rdfs:label>primary_readonly_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_primary_readonly_mongodb_connection_string">
+    <rdfs:label>primary_readonly_mongodb_connection_string</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_primary_readonly_sql_connection_string">
+    <rdfs:label>primary_readonly_sql_connection_string</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_primary_sql_connection_string">
+    <rdfs:label>primary_sql_connection_string</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_public_network_access_enabled">
+    <rdfs:label>public_network_access_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_read_endpoints">
+    <rdfs:label>read_endpoints</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_secondary_key">
+    <rdfs:label>secondary_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_secondary_mongodb_connection_string">
+    <rdfs:label>secondary_mongodb_connection_string</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_secondary_readonly_key">
+    <rdfs:label>secondary_readonly_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_secondary_readonly_mongodb_connection_string">
+    <rdfs:label>secondary_readonly_mongodb_connection_string</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_secondary_readonly_sql_connection_string">
+    <rdfs:label>secondary_readonly_sql_connection_string</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_secondary_sql_connection_string">
+    <rdfs:label>secondary_sql_connection_string</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_write_endpoints">
+    <rdfs:label>write_endpoints</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_schema_type">
+    <rdfs:label>schema_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_interval_in_minutes">
+    <rdfs:label>interval_in_minutes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_retention_in_hours">
+    <rdfs:label>retention_in_hours</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_storage_redundancy">
+    <rdfs:label>storage_redundancy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_tier">
+    <rdfs:label>tier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_total_throughput_limit">
+    <rdfs:label>total_throughput_limit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_consistency_level">
+    <rdfs:label>consistency_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_max_interval_in_seconds">
+    <rdfs:label>max_interval_in_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_max_staleness_prefix">
+    <rdfs:label>max_staleness_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_allowed_headers">
+    <rdfs:label>allowed_headers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_allowed_methods">
+    <rdfs:label>allowed_methods</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_allowed_origins">
+    <rdfs:label>allowed_origins</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_exposed_headers">
+    <rdfs:label>exposed_headers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_max_age_in_seconds">
+    <rdfs:label>max_age_in_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_failover_priority">
+    <rdfs:label>failover_priority</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_zone_redundant">
+    <rdfs:label>zone_redundant</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_identity_ids">
+    <rdfs:label>identity_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_principal_id">
+    <rdfs:label>principal_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_tenant_id">
+    <rdfs:label>tenant_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_restore_timestamp_in_utc">
+    <rdfs:label>restore_timestamp_in_utc</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_source_cosmosdb_account_id">
+    <rdfs:label>source_cosmosdb_account_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_tables_to_restore">
+    <rdfs:label>tables_to_restore</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_collection_names">
+    <rdfs:label>collection_names</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_graph_names">
+    <rdfs:label>graph_names</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_account_ignore_missing_vnet_service_endpoint">
+    <rdfs:label>ignore_missing_vnet_service_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_account"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

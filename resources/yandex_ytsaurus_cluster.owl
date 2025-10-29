@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_ytsaurus_cluster">
+    <rdfs:label>yandex_ytsaurus_cluster</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_cluster_id">
+    <rdfs:label>cluster_id</rdfs:label>
+    <rdfs:comment>ID of the cluster to return.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>Time when the cluster was created.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_created_by">
+    <rdfs:label>created_by</rdfs:label>
+    <rdfs:comment>User who created the cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>Description of the cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_endpoints">
+    <rdfs:label>endpoints</rdfs:label>
+    <rdfs:comment>Endpoints of the cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>ID of the folder that the cluster belongs to.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_health">
+    <rdfs:label>health</rdfs:label>
+    <rdfs:comment>Health of the cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:comment>ID of the cluster to return.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>Cluster labels as `key:value` pairs.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name of the cluster.
+ The name is unique within the folder.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_security_group_ids">
+    <rdfs:label>security_group_ids</rdfs:label>
+    <rdfs:comment>Network interfaces security groups.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_spec">
+    <rdfs:label>spec</rdfs:label>
+    <rdfs:comment>Cluster specification.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:comment>Status of the cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>ID of the subnet where the cluster resides.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_timeouts">
+    <rdfs:label>timeouts</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_updated_at">
+    <rdfs:label>updated_at</rdfs:label>
+    <rdfs:comment>Time when the cluster was last updated.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_updated_by">
+    <rdfs:label>updated_by</rdfs:label>
+    <rdfs:comment>User who last updated the cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ytsaurus_cluster_zone_id">
+    <rdfs:label>zone_id</rdfs:label>
+    <rdfs:comment>ID of the availability zone where the cluster resides.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ytsaurus_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_network_interface">
+    <rdfs:label>aws_network_interface</rdfs:label>
+    <rdfs:comment>Provides an Elastic network interface (ENI) resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_enable_primary_ipv6">
+    <rdfs:label>enable_primary_ipv6</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_interface_type">
+    <rdfs:label>interface_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_ipv4_prefix_count">
+    <rdfs:label>ipv4_prefix_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_ipv4_prefixes">
+    <rdfs:label>ipv4_prefixes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_ipv6_address_count">
+    <rdfs:label>ipv6_address_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_ipv6_address_list">
+    <rdfs:label>ipv6_address_list</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_ipv6_address_list_enabled">
+    <rdfs:label>ipv6_address_list_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_ipv6_addresses">
+    <rdfs:label>ipv6_addresses</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_ipv6_prefix_count">
+    <rdfs:label>ipv6_prefix_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_ipv6_prefixes">
+    <rdfs:label>ipv6_prefixes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_mac_address">
+    <rdfs:label>mac_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_outpost_arn">
+    <rdfs:label>outpost_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_owner_id">
+    <rdfs:label>owner_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_private_dns_name">
+    <rdfs:label>private_dns_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_private_ip">
+    <rdfs:label>private_ip</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_private_ip_list">
+    <rdfs:label>private_ip_list</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_private_ip_list_enabled">
+    <rdfs:label>private_ip_list_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_private_ips">
+    <rdfs:label>private_ips</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_private_ips_count">
+    <rdfs:label>private_ips_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_source_dest_check">
+    <rdfs:label>source_dest_check</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_attachment_id">
+    <rdfs:label>attachment_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_device_index">
+    <rdfs:label>device_index</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_instance">
+    <rdfs:label>instance</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_network_interface_network_card_index">
+    <rdfs:label>network_card_index</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_network_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

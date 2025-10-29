@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_transfer_connector">
+    <rdfs:label>aws_transfer_connector</rdfs:label>
+    <rdfs:comment>Provides a AWS Transfer AS2 Connector resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_access_role">
+    <rdfs:label>access_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_connector_id">
+    <rdfs:label>connector_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_logging_role">
+    <rdfs:label>logging_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_security_policy_name">
+    <rdfs:label>security_policy_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_url">
+    <rdfs:label>url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_compression">
+    <rdfs:label>compression</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_encryption_algorithm">
+    <rdfs:label>encryption_algorithm</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_local_profile_id">
+    <rdfs:label>local_profile_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_mdn_response">
+    <rdfs:label>mdn_response</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_mdn_signing_algorithm">
+    <rdfs:label>mdn_signing_algorithm</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_message_subject">
+    <rdfs:label>message_subject</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_partner_profile_id">
+    <rdfs:label>partner_profile_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_signing_algorithm">
+    <rdfs:label>signing_algorithm</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_trusted_host_keys">
+    <rdfs:label>trusted_host_keys</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_connector_user_secret_id">
+    <rdfs:label>user_secret_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_connector"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

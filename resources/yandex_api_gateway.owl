@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_api_gateway">
+    <rdfs:label>yandex_api_gateway</rdfs:label>
+    <rdfs:comment>Allows management of [Yandex Cloud API Gateway](https://yandex.cloud/docs/api-gateway/).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The creation timestamp of the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>The resource description.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_domain">
+    <rdfs:label>domain</rdfs:label>
+    <rdfs:comment>Default domain for the Yandex Cloud API Gateway. Generated at creation time.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_execution_timeout">
+    <rdfs:label>execution_timeout</rdfs:label>
+    <rdfs:comment>Execution timeout in seconds for the Yandex Cloud API Gateway.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>A set of key/value label pairs which assigned to resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_log_group_id">
+    <rdfs:label>log_group_id</rdfs:label>
+    <rdfs:comment>ID of the log group for the Yandex Cloud API Gateway.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_spec">
+    <rdfs:label>spec</rdfs:label>
+    <rdfs:comment>The OpenAPI specification for Yandex Cloud API Gateway.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:comment>Status of the Yandex Cloud API Gateway.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_user_domains">
+    <rdfs:label>user_domains</rdfs:label>
+    <rdfs:comment>~> **DEPRECATED** Use `custom_domains` instead. Set of user domains attached to Yandex Cloud API Gateway.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_variables">
+    <rdfs:label>variables</rdfs:label>
+    <rdfs:comment>A set of values for variables in gateway specification.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_variables">
+    <rdfs:label>variables</rdfs:label>
+    <rdfs:comment>A list of values for variables in gateway specification of canary release.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_weight">
+    <rdfs:label>weight</rdfs:label>
+    <rdfs:comment>Percentage of requests, which will be processed by canary release.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_network_id">
+    <rdfs:label>network_id</rdfs:label>
+    <rdfs:comment>Network the gateway will have access to. It's essential to specify network with subnets in all availability zones.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_certificate_id">
+    <rdfs:label>certificate_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_domain_id">
+    <rdfs:label>domain_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_fqdn">
+    <rdfs:label>fqdn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_disabled">
+    <rdfs:label>disabled</rdfs:label>
+    <rdfs:comment>Is logging from Yandex Cloud API Gateway disabled.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>Log entries are written to default log group for specified folder.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_log_group_id">
+    <rdfs:label>log_group_id</rdfs:label>
+    <rdfs:comment>Log entries are written to specified log group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_min_level">
+    <rdfs:label>min_level</rdfs:label>
+    <rdfs:comment>Minimum log entry level.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_api_gateway_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_api_gateway"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

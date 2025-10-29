@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_opensearchserverless_lifecycle_policy">
+    <rdfs:label>aws_opensearchserverless_lifecycle_policy</rdfs:label>
+    <rdfs:comment>Terraform resource for managing an AWS OpenSearch Serverless Lifecycle Policy. See AWS documentation for [lifecycle policies](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-lifecycle.html).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_opensearchserverless_lifecycle_policy_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>Description of the policy.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_opensearchserverless_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_opensearchserverless_lifecycle_policy_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_opensearchserverless_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_opensearchserverless_lifecycle_policy_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name of the policy.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_opensearchserverless_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_opensearchserverless_lifecycle_policy_policy">
+    <rdfs:label>policy</rdfs:label>
+    <rdfs:comment>JSON policy document to use as the content for the new policy.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_opensearchserverless_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_opensearchserverless_lifecycle_policy_policy_version">
+    <rdfs:label>policy_version</rdfs:label>
+    <rdfs:comment>Version of the policy.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_opensearchserverless_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_opensearchserverless_lifecycle_policy_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_opensearchserverless_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_opensearchserverless_lifecycle_policy_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Type of lifecycle policy. Must be `retention`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_opensearchserverless_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

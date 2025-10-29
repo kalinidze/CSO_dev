@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_route53_health_check">
+    <rdfs:label>aws_route53_health_check</rdfs:label>
+    <rdfs:comment>Provides a Route53 health check.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_child_health_threshold">
+    <rdfs:label>child_health_threshold</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_child_healthchecks">
+    <rdfs:label>child_healthchecks</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_cloudwatch_alarm_name">
+    <rdfs:label>cloudwatch_alarm_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_cloudwatch_alarm_region">
+    <rdfs:label>cloudwatch_alarm_region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_disabled">
+    <rdfs:label>disabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_enable_sni">
+    <rdfs:label>enable_sni</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_failure_threshold">
+    <rdfs:label>failure_threshold</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_fqdn">
+    <rdfs:label>fqdn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_insufficient_data_health_status">
+    <rdfs:label>insufficient_data_health_status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_invert_healthcheck">
+    <rdfs:label>invert_healthcheck</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_ip_address">
+    <rdfs:label>ip_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_measure_latency">
+    <rdfs:label>measure_latency</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_reference_name">
+    <rdfs:label>reference_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_regions">
+    <rdfs:label>regions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_request_interval">
+    <rdfs:label>request_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_resource_path">
+    <rdfs:label>resource_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_routing_control_arn">
+    <rdfs:label>routing_control_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_search_string">
+    <rdfs:label>search_string</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_triggers">
+    <rdfs:label>triggers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_health_check_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_health_check"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

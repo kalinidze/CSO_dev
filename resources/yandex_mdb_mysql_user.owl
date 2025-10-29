@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_mdb_mysql_user">
+    <rdfs:label>yandex_mdb_mysql_user</rdfs:label>
+    <rdfs:comment>Manages a MySQL user within the Yandex Cloud. For more information, see [the official documentation](https://yandex.cloud/docs/managed-mysql/).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_authentication_plugin">
+    <rdfs:label>authentication_plugin</rdfs:label>
+    <rdfs:comment>Authentication plugin. Allowed values: `MYSQL_NATIVE_PASSWORD`, `CACHING_SHA2_PASSWORD`, `SHA256_PASSWORD`, `MYSQL_NO_LOGIN`, `MDB_IAMPROXY_AUTH` (for version 5.7 `MYSQL_NATIVE_PASSWORD`, `SHA256_PASSWORD`, `MYSQL_NO_LOGIN`, `MDB_IAMPROXY_AUTH`).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_cluster_id">
+    <rdfs:label>cluster_id</rdfs:label>
+    <rdfs:comment>The ID of the MySQL cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_connection_manager">
+    <rdfs:label>connection_manager</rdfs:label>
+    <rdfs:comment>Connection Manager connection configuration. Filled in by the server automatically.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_generate_password">
+    <rdfs:label>generate_password</rdfs:label>
+    <rdfs:comment>Generate password using Connection Manager. Allowed values: `true` or `false`. It's used only during user creation and is ignored during updating.
+
+~> **Must specify either password or generate_password**.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_global_permissions">
+    <rdfs:label>global_permissions</rdfs:label>
+    <rdfs:comment>List user's global permissions. Allowed permissions: `REPLICATION_CLIENT`, `REPLICATION_SLAVE`, `PROCESS`, `FLUSH_OPTIMIZER_COSTS`, `SHOW_ROUTINE`, `MDB_ADMIN` for clear list use empty list. If the attribute is not specified there will be no changes.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The name of the user.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:comment>The password of the user.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_max_connections_per_hour">
+    <rdfs:label>max_connections_per_hour</rdfs:label>
+    <rdfs:comment>Max connections per hour.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_max_questions_per_hour">
+    <rdfs:label>max_questions_per_hour</rdfs:label>
+    <rdfs:comment>Max questions per hour.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_max_updates_per_hour">
+    <rdfs:label>max_updates_per_hour</rdfs:label>
+    <rdfs:comment>Max updates per hour.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_max_user_connections">
+    <rdfs:label>max_user_connections</rdfs:label>
+    <rdfs:comment>Max user connections.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_database_name">
+    <rdfs:label>database_name</rdfs:label>
+    <rdfs:comment>The name of the database that the permission grants access to.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_roles">
+    <rdfs:label>roles</rdfs:label>
+    <rdfs:comment>List user's roles in the database. Allowed roles: `ALL`,`ALTER`,`ALTER_ROUTINE`,`CREATE`,`CREATE_ROUTINE`,`CREATE_TEMPORARY_TABLES`, `CREATE_VIEW`,`DELETE`,`DROP`,`EVENT`,`EXECUTE`,`INDEX`,`INSERT`,`LOCK_TABLES`,`SELECT`,`SHOW_VIEW`,`TRIGGER`,`UPDATE`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_mdb_mysql_user_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_mdb_mysql_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

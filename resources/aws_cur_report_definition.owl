@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_cur_report_definition">
+    <rdfs:label>aws_cur_report_definition</rdfs:label>
+    <rdfs:comment>Manages Cost and Usage Report Definitions.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cur_report_definition_additional_artifacts">
+    <rdfs:label>additional_artifacts</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cur_report_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cur_report_definition_additional_schema_elements">
+    <rdfs:label>additional_schema_elements</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cur_report_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cur_report_definition_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cur_report_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cur_report_definition_compression">
+    <rdfs:label>compression</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cur_report_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cur_report_definition_format">
+    <rdfs:label>format</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cur_report_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cur_report_definition_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cur_report_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cur_report_definition_refresh_closed_reports">
+    <rdfs:label>refresh_closed_reports</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cur_report_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cur_report_definition_report_name">
+    <rdfs:label>report_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cur_report_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cur_report_definition_report_versioning">
+    <rdfs:label>report_versioning</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cur_report_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cur_report_definition_s3_bucket">
+    <rdfs:label>s3_bucket</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cur_report_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cur_report_definition_s3_prefix">
+    <rdfs:label>s3_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cur_report_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cur_report_definition_s3_region">
+    <rdfs:label>s3_region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cur_report_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cur_report_definition_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cur_report_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cur_report_definition_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cur_report_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cur_report_definition_time_unit">
+    <rdfs:label>time_unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cur_report_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

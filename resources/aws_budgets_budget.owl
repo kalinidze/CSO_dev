@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_budgets_budget">
+    <rdfs:label>aws_budgets_budget</rdfs:label>
+    <rdfs:comment>Provides a budgets budget resource. Budgets use the cost visualization provided by Cost Explorer to show you the status of your budgets, to provide forecasts of your estimated costs, and to track your AWS usage, including your free tier usage.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_account_id">
+    <rdfs:label>account_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_billing_view_arn">
+    <rdfs:label>billing_view_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_budget_type">
+    <rdfs:label>budget_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_limit_amount">
+    <rdfs:label>limit_amount</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_limit_unit">
+    <rdfs:label>limit_unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_name_prefix">
+    <rdfs:label>name_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_time_period_end">
+    <rdfs:label>time_period_end</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_time_period_start">
+    <rdfs:label>time_period_start</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_time_unit">
+    <rdfs:label>time_unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_auto_adjust_type">
+    <rdfs:label>auto_adjust_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_last_auto_adjust_time">
+    <rdfs:label>last_auto_adjust_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_budget_adjustment_period">
+    <rdfs:label>budget_adjustment_period</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_lookback_available_periods">
+    <rdfs:label>lookback_available_periods</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_values">
+    <rdfs:label>values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_include_credit">
+    <rdfs:label>include_credit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_include_discount">
+    <rdfs:label>include_discount</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_include_other_subscription">
+    <rdfs:label>include_other_subscription</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_include_recurring">
+    <rdfs:label>include_recurring</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_include_refund">
+    <rdfs:label>include_refund</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_include_subscription">
+    <rdfs:label>include_subscription</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_include_support">
+    <rdfs:label>include_support</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_include_tax">
+    <rdfs:label>include_tax</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_include_upfront">
+    <rdfs:label>include_upfront</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_use_amortized">
+    <rdfs:label>use_amortized</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_use_blended">
+    <rdfs:label>use_blended</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_comparison_operator">
+    <rdfs:label>comparison_operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_notification_type">
+    <rdfs:label>notification_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_subscriber_email_addresses">
+    <rdfs:label>subscriber_email_addresses</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_subscriber_sns_topic_arns">
+    <rdfs:label>subscriber_sns_topic_arns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_threshold">
+    <rdfs:label>threshold</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_threshold_type">
+    <rdfs:label>threshold_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_amount">
+    <rdfs:label>amount</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_start_time">
+    <rdfs:label>start_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_budgets_budget_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_budgets_budget"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

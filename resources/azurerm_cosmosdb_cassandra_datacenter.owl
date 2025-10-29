@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter">
+    <rdfs:label>azurerm_cosmosdb_cassandra_datacenter</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_availability_zones_enabled">
+    <rdfs:label>availability_zones_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_backup_storage_customer_key_uri">
+    <rdfs:label>backup_storage_customer_key_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_base64_encoded_yaml_fragment">
+    <rdfs:label>base64_encoded_yaml_fragment</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_cassandra_cluster_id">
+    <rdfs:label>cassandra_cluster_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_delegated_management_subnet_id">
+    <rdfs:label>delegated_management_subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_disk_count">
+    <rdfs:label>disk_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_disk_sku">
+    <rdfs:label>disk_sku</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_managed_disk_customer_key_uri">
+    <rdfs:label>managed_disk_customer_key_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_node_count">
+    <rdfs:label>node_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_seed_node_ip_addresses">
+    <rdfs:label>seed_node_ip_addresses</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_sku_name">
+    <rdfs:label>sku_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_cassandra_datacenter_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_cassandra_datacenter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

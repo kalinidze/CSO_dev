@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_batch_pool">
+    <rdfs:label>azurerm_batch_pool</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_account_name">
+    <rdfs:label>account_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_display_name">
+    <rdfs:label>display_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_inter_node_communication">
+    <rdfs:label>inter_node_communication</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_license_type">
+    <rdfs:label>license_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_max_tasks_per_node">
+    <rdfs:label>max_tasks_per_node</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_metadata">
+    <rdfs:label>metadata</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_node_agent_sku_id">
+    <rdfs:label>node_agent_sku_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_os_disk_placement">
+    <rdfs:label>os_disk_placement</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_stop_pending_resize_operation">
+    <rdfs:label>stop_pending_resize_operation</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_target_node_communication_mode">
+    <rdfs:label>target_node_communication_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_vm_size">
+    <rdfs:label>vm_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_evaluation_interval">
+    <rdfs:label>evaluation_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_formula">
+    <rdfs:label>formula</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_store_location">
+    <rdfs:label>store_location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_store_name">
+    <rdfs:label>store_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_visibility">
+    <rdfs:label>visibility</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_container_image_names">
+    <rdfs:label>container_image_names</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_container_registries">
+    <rdfs:label>container_registries</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_caching">
+    <rdfs:label>caching</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_disk_size_gb">
+    <rdfs:label>disk_size_gb</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_lun">
+    <rdfs:label>lun</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_storage_account_type">
+    <rdfs:label>storage_account_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_disk_encryption_target">
+    <rdfs:label>disk_encryption_target</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_auto_upgrade_minor_version">
+    <rdfs:label>auto_upgrade_minor_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_automatic_upgrade_enabled">
+    <rdfs:label>automatic_upgrade_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_protected_settings">
+    <rdfs:label>protected_settings</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_provision_after_extensions">
+    <rdfs:label>provision_after_extensions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_publisher">
+    <rdfs:label>publisher</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_settings_json">
+    <rdfs:label>settings_json</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_type_handler_version">
+    <rdfs:label>type_handler_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_node_deallocation_method">
+    <rdfs:label>node_deallocation_method</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_resize_timeout">
+    <rdfs:label>resize_timeout</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_target_dedicated_nodes">
+    <rdfs:label>target_dedicated_nodes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_target_low_priority_nodes">
+    <rdfs:label>target_low_priority_nodes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_identity_ids">
+    <rdfs:label>identity_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_account_key">
+    <rdfs:label>account_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_account_name">
+    <rdfs:label>account_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_blobfuse_options">
+    <rdfs:label>blobfuse_options</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_container_name">
+    <rdfs:label>container_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_identity_id">
+    <rdfs:label>identity_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_relative_mount_path">
+    <rdfs:label>relative_mount_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_sas_key">
+    <rdfs:label>sas_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_account_key">
+    <rdfs:label>account_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_account_name">
+    <rdfs:label>account_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_azure_file_url">
+    <rdfs:label>azure_file_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_mount_options">
+    <rdfs:label>mount_options</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_relative_mount_path">
+    <rdfs:label>relative_mount_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_mount_options">
+    <rdfs:label>mount_options</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_relative_mount_path">
+    <rdfs:label>relative_mount_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_source">
+    <rdfs:label>source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_user_name">
+    <rdfs:label>user_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_mount_options">
+    <rdfs:label>mount_options</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_relative_mount_path">
+    <rdfs:label>relative_mount_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_source">
+    <rdfs:label>source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_accelerated_networking_enabled">
+    <rdfs:label>accelerated_networking_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_dynamic_vnet_assignment_scope">
+    <rdfs:label>dynamic_vnet_assignment_scope</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_public_address_provisioning_type">
+    <rdfs:label>public_address_provisioning_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_public_ips">
+    <rdfs:label>public_ips</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_backend_port">
+    <rdfs:label>backend_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_frontend_port_range">
+    <rdfs:label>frontend_port_range</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_protocol">
+    <rdfs:label>protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_access">
+    <rdfs:label>access</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_priority">
+    <rdfs:label>priority</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_source_address_prefix">
+    <rdfs:label>source_address_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_source_port_ranges">
+    <rdfs:label>source_port_ranges</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_policy">
+    <rdfs:label>policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_host_encryption_enabled">
+    <rdfs:label>host_encryption_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_secure_boot_enabled">
+    <rdfs:label>secure_boot_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_security_type">
+    <rdfs:label>security_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_vtpm_enabled">
+    <rdfs:label>vtpm_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_command_line">
+    <rdfs:label>command_line</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_common_environment_properties">
+    <rdfs:label>common_environment_properties</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_task_retry_maximum">
+    <rdfs:label>task_retry_maximum</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_wait_for_success">
+    <rdfs:label>wait_for_success</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_image_name">
+    <rdfs:label>image_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_run_options">
+    <rdfs:label>run_options</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_working_directory">
+    <rdfs:label>working_directory</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_registry_server">
+    <rdfs:label>registry_server</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_user_assigned_identity_id">
+    <rdfs:label>user_assigned_identity_id</rdfs:label>
+    <rdfs:comment>The User Assigned Identity to use for Container Registry access.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_user_name">
+    <rdfs:label>user_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_auto_storage_container_name">
+    <rdfs:label>auto_storage_container_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_blob_prefix">
+    <rdfs:label>blob_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_file_mode">
+    <rdfs:label>file_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_file_path">
+    <rdfs:label>file_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_http_url">
+    <rdfs:label>http_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_storage_container_url">
+    <rdfs:label>storage_container_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_user_assigned_identity_id">
+    <rdfs:label>user_assigned_identity_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_user_name">
+    <rdfs:label>user_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_elevation_level">
+    <rdfs:label>elevation_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_scope">
+    <rdfs:label>scope</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_offer">
+    <rdfs:label>offer</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_publisher">
+    <rdfs:label>publisher</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_sku">
+    <rdfs:label>sku</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_node_fill_type">
+    <rdfs:label>node_fill_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_elevation_level">
+    <rdfs:label>elevation_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_gid">
+    <rdfs:label>gid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_ssh_private_key">
+    <rdfs:label>ssh_private_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_uid">
+    <rdfs:label>uid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_login_mode">
+    <rdfs:label>login_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_batch_pool_enable_automatic_updates">
+    <rdfs:label>enable_automatic_updates</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_batch_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

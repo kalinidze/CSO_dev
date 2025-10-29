@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_web_pubsub_hub">
+    <rdfs:label>azurerm_web_pubsub_hub</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_anonymous_connections_enabled">
+    <rdfs:label>anonymous_connections_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_web_pubsub_id">
+    <rdfs:label>web_pubsub_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_system_events">
+    <rdfs:label>system_events</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_url_template">
+    <rdfs:label>url_template</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_user_event_pattern">
+    <rdfs:label>user_event_pattern</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_managed_identity_id">
+    <rdfs:label>managed_identity_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_eventhub_name">
+    <rdfs:label>eventhub_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_eventhub_namespace_name">
+    <rdfs:label>eventhub_namespace_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_system_event_name_filter">
+    <rdfs:label>system_event_name_filter</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_user_event_name_filter">
+    <rdfs:label>user_event_name_filter</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_web_pubsub_hub_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_web_pubsub_hub"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

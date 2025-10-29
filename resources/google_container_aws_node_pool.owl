@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/google_container_aws_node_pool">
+    <rdfs:label>google_container_aws_node_pool</rdfs:label>
+    <rdfs:comment>#
+#     ***     AUTO GENERATED CODE    ***    Type: DCL     ***
+#
+# ----------------------------------------------------------------------------
+#
+#     This file is managed by Magic Modules (https:#github.com/GoogleCloudPlatform/magic-modules)
+#     and is based on the DCL (https:#github.com/GoogleCloudPlatform/declarative-resource-client-library).
+#     Changes will need to be made to the DCL or Magic Modules instead of here.
+#
+#     We are not currently able to accept contributions to this file. If changes
+#     are required, please file an issue at https:#github.com/hashicorp/terraform-provider-google/issues/new/choose
+#
+# ----------------------------------------------------------------------------
+subcategory: "ContainerAws"
+description: |-
+  An Anthos node pool running on AWS.
+---</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_annotations">
+    <rdfs:label>annotations</rdfs:label>
+    <rdfs:comment>Optional. Annotations on the node pool. This field has the same restrictions as Kubernetes annotations. The total size of all keys and values combined is limited to 256k. Key can have 2 segments: prefix (optional) and name (required), separated by a slash (/). Prefix must be a DNS subdomain. Name must be 63 characters or less, begin and end with alphanumerics, with dashes (-), underscores (_), dots (.), and alphanumerics between.
+
+**Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
+Please refer to the field `effective_annotations` for all of the annotations present on the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_cluster">
+    <rdfs:label>cluster</rdfs:label>
+    <rdfs:comment>The awsCluster for the resource</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_create_time">
+    <rdfs:label>create_time</rdfs:label>
+    <rdfs:comment>Output only. The time at which this node pool was created.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_effective_annotations">
+    <rdfs:label>effective_annotations</rdfs:label>
+    <rdfs:comment>All of annotations (key/value pairs) present on the resource in GCP, including the annotations configured through Terraform, other clients and services.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_etag">
+    <rdfs:label>etag</rdfs:label>
+    <rdfs:comment>Allows clients to perform consistent read-modify-writes through optimistic concurrency control. May be sent on update and delete requests to ensure the client has an up-to-date value before proceeding.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:comment>The location for the resource</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The name of this resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_project">
+    <rdfs:label>project</rdfs:label>
+    <rdfs:comment>The project for the resource</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_reconciling">
+    <rdfs:label>reconciling</rdfs:label>
+    <rdfs:comment>Output only. If set, there are currently changes in flight to the node pool.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_state">
+    <rdfs:label>state</rdfs:label>
+    <rdfs:comment>Output only. The lifecycle state of the node pool. Possible values: STATE_UNSPECIFIED, PROVISIONING, RUNNING, RECONCILING, STOPPING, ERROR, DEGRADED</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>The subnet where the node pool node run.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_uid">
+    <rdfs:label>uid</rdfs:label>
+    <rdfs:comment>Output only. A globally unique identifier for the node pool.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_update_time">
+    <rdfs:label>update_time</rdfs:label>
+    <rdfs:comment>Output only. The time at which this node pool was last updated.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:comment>The Kubernetes version to run on this node pool (e.g. `1.19.10-gke.1000`). You can list all supported versions on a given Google Cloud region by calling GetAwsServerConfig.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_max_node_count">
+    <rdfs:label>max_node_count</rdfs:label>
+    <rdfs:comment>Maximum number of nodes in the NodePool. Must be >= min_node_count.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_min_node_count">
+    <rdfs:label>min_node_count</rdfs:label>
+    <rdfs:comment>Minimum number of nodes in the NodePool. Must be >= 1 and <= max_node_count.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_iam_instance_profile">
+    <rdfs:label>iam_instance_profile</rdfs:label>
+    <rdfs:comment>The name of the AWS IAM role assigned to nodes in the pool.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_instance_type">
+    <rdfs:label>instance_type</rdfs:label>
+    <rdfs:comment>Optional. The AWS instance type. When unspecified, it defaults to `m5.large`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>Optional. The initial labels assigned to nodes of this node pool. An object containing a list of "key": value pairs. Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_security_group_ids">
+    <rdfs:label>security_group_ids</rdfs:label>
+    <rdfs:comment>Optional. The IDs of additional security groups to add to nodes in this pool. The manager will automatically create security groups with minimum rules needed for a functioning cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:comment>Optional. Key/value metadata to assign to each underlying AWS resource. Specify at most 50 pairs containing alphanumerics, spaces, and symbols (.+-=_:@/). Keys can be up to 127 Unicode characters. Values can be up to 255 Unicode characters.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_granularity">
+    <rdfs:label>granularity</rdfs:label>
+    <rdfs:comment>The frequency at which EC2 Auto Scaling sends aggregated data to AWS CloudWatch. The only valid value is "1Minute".</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_metrics">
+    <rdfs:label>metrics</rdfs:label>
+    <rdfs:comment>The metrics to enable. For a list of valid metrics, see https://docs.aws.amazon.com/autoscaling/ec2/APIReference/API_EnableMetricsCollection.html. If you specify granularity and don't specify any metrics, all metrics are enabled.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_kms_key_arn">
+    <rdfs:label>kms_key_arn</rdfs:label>
+    <rdfs:comment>The ARN of the AWS KMS key used to encrypt node pool configuration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_secret_arn">
+    <rdfs:label>secret_arn</rdfs:label>
+    <rdfs:comment>The ARN of the AWS Secret Manager secret that contains the HTTP(S) proxy configuration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_secret_version">
+    <rdfs:label>secret_version</rdfs:label>
+    <rdfs:comment>The version string of the AWS Secret Manager secret that contains the HTTP(S) proxy configuration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_iops">
+    <rdfs:label>iops</rdfs:label>
+    <rdfs:comment>Optional. The number of I/O operations per second (IOPS) to provision for GP3 volume.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_kms_key_arn">
+    <rdfs:label>kms_key_arn</rdfs:label>
+    <rdfs:comment>Optional. The Amazon Resource Name (ARN) of the Customer Managed Key (CMK) used to encrypt AWS EBS volumes. If not specified, the default Amazon managed key associated to the AWS region where this cluster runs will be used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_size_gib">
+    <rdfs:label>size_gib</rdfs:label>
+    <rdfs:comment>Optional. The size of the volume, in GiBs. When unspecified, a default value is provided. See the specific reference in the parent resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_throughput">
+    <rdfs:label>throughput</rdfs:label>
+    <rdfs:comment>Optional. The throughput to provision for the volume, in MiB/s. Only valid if the volume type is GP3. If volume type is gp3 and throughput is not specified, the throughput will defaults to 125.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_volume_type">
+    <rdfs:label>volume_type</rdfs:label>
+    <rdfs:comment>Optional. Type of the EBS volume. When unspecified, it defaults to GP2 volume. Possible values: VOLUME_TYPE_UNSPECIFIED, GP2, GP3</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_ec2_key_pair">
+    <rdfs:label>ec2_key_pair</rdfs:label>
+    <rdfs:comment>The name of the EC2 key pair used to login into cluster machines.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_effect">
+    <rdfs:label>effect</rdfs:label>
+    <rdfs:comment>The taint effect. Possible values: EFFECT_UNSPECIFIED, NO_SCHEDULE, PREFER_NO_SCHEDULE, NO_EXECUTE</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:comment>Key for the taint.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:comment>Value for the taint.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_cpu_cfs_quota">
+    <rdfs:label>cpu_cfs_quota</rdfs:label>
+    <rdfs:comment>Whether or not to enable CPU CFS quota. Defaults to true.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_cpu_cfs_quota_period">
+    <rdfs:label>cpu_cfs_quota_period</rdfs:label>
+    <rdfs:comment>Optional. The CPU CFS quota period to use for the node. Defaults to "100ms".</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_cpu_manager_policy">
+    <rdfs:label>cpu_manager_policy</rdfs:label>
+    <rdfs:comment>The CpuManagerPolicy to use for the node. Defaults to "none".</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_pod_pids_limit">
+    <rdfs:label>pod_pids_limit</rdfs:label>
+    <rdfs:comment>Optional. The maximum number of PIDs in each pod running on the node. The limit scales automatically based on underlying machine size if left unset.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_auto_repair">
+    <rdfs:label>auto_repair</rdfs:label>
+    <rdfs:comment>Optional. Whether or not the nodes will be automatically repaired.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_max_pods_per_node">
+    <rdfs:label>max_pods_per_node</rdfs:label>
+    <rdfs:comment>The maximum number of pods to schedule on a single node.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_max_surge">
+    <rdfs:label>max_surge</rdfs:label>
+    <rdfs:comment>Optional. The maximum number of nodes that can be created beyond the current size of the node pool during the update process.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_container_aws_node_pool_max_unavailable">
+    <rdfs:label>max_unavailable</rdfs:label>
+    <rdfs:comment>Optional. The maximum number of nodes that can be simultaneously unavailable during the update process. A node is considered unavailable if its status is not Ready.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_container_aws_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

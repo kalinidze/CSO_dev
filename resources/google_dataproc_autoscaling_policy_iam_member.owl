@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/google_dataproc_autoscaling_policy_iam_member">
+    <rdfs:label>google_dataproc_autoscaling_policy_iam_member</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_dataproc_autoscaling_policy_iam_member_etag">
+    <rdfs:label>etag</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_dataproc_autoscaling_policy_iam_member"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_dataproc_autoscaling_policy_iam_member_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_dataproc_autoscaling_policy_iam_member"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_dataproc_autoscaling_policy_iam_member_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_dataproc_autoscaling_policy_iam_member"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_dataproc_autoscaling_policy_iam_member_member">
+    <rdfs:label>member</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_dataproc_autoscaling_policy_iam_member"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_dataproc_autoscaling_policy_iam_member_policy_id">
+    <rdfs:label>policy_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_dataproc_autoscaling_policy_iam_member"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_dataproc_autoscaling_policy_iam_member_project">
+    <rdfs:label>project</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_dataproc_autoscaling_policy_iam_member"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_dataproc_autoscaling_policy_iam_member_role">
+    <rdfs:label>role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_dataproc_autoscaling_policy_iam_member"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_dataproc_autoscaling_policy_iam_member_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_dataproc_autoscaling_policy_iam_member"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_dataproc_autoscaling_policy_iam_member_expression">
+    <rdfs:label>expression</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_dataproc_autoscaling_policy_iam_member"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_dataproc_autoscaling_policy_iam_member_title">
+    <rdfs:label>title</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_dataproc_autoscaling_policy_iam_member"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

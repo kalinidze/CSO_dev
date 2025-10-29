@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_customerprofiles_domain">
+    <rdfs:label>aws_customerprofiles_domain</rdfs:label>
+    <rdfs:comment>Terraform resource for managing an Amazon Customer Profiles Domain.
+See the [Create Domain](https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_CreateDomain.html) for more information.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_dead_letter_queue_url">
+    <rdfs:label>dead_letter_queue_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_default_encryption_key">
+    <rdfs:label>default_encryption_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_default_expiration_days">
+    <rdfs:label>default_expiration_days</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_domain_name">
+    <rdfs:label>domain_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_enabled">
+    <rdfs:label>enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_enabled">
+    <rdfs:label>enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_min_allowed_confidence_score_for_merging">
+    <rdfs:label>min_allowed_confidence_score_for_merging</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_conflict_resolving_model">
+    <rdfs:label>conflict_resolving_model</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_source_name">
+    <rdfs:label>source_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_matching_attributes_list">
+    <rdfs:label>matching_attributes_list</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_s3_bucket_name">
+    <rdfs:label>s3_bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_s3_key_name">
+    <rdfs:label>s3_key_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_day_of_the_week">
+    <rdfs:label>day_of_the_week</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_time">
+    <rdfs:label>time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_enabled">
+    <rdfs:label>enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_max_allowed_rule_level_for_matching">
+    <rdfs:label>max_allowed_rule_level_for_matching</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_max_allowed_rule_level_for_merging">
+    <rdfs:label>max_allowed_rule_level_for_merging</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_address">
+    <rdfs:label>address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_attribute_matching_model">
+    <rdfs:label>attribute_matching_model</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_email_address">
+    <rdfs:label>email_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_phone_number">
+    <rdfs:label>phone_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_conflict_resolving_model">
+    <rdfs:label>conflict_resolving_model</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_source_name">
+    <rdfs:label>source_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_s3_bucket_name">
+    <rdfs:label>s3_bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_s3_key_name">
+    <rdfs:label>s3_key_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_customerprofiles_domain_rule">
+    <rdfs:label>rule</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_customerprofiles_domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

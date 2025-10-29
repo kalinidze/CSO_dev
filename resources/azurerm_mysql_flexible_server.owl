@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_mysql_flexible_server">
+    <rdfs:label>azurerm_mysql_flexible_server</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_administrator_login">
+    <rdfs:label>administrator_login</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_administrator_password">
+    <rdfs:label>administrator_password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_administrator_password_wo">
+    <rdfs:label>administrator_password_wo</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_administrator_password_wo_version">
+    <rdfs:label>administrator_password_wo_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_backup_retention_days">
+    <rdfs:label>backup_retention_days</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_create_mode">
+    <rdfs:label>create_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_delegated_subnet_id">
+    <rdfs:label>delegated_subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_fqdn">
+    <rdfs:label>fqdn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_geo_redundant_backup_enabled">
+    <rdfs:label>geo_redundant_backup_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_point_in_time_restore_time_in_utc">
+    <rdfs:label>point_in_time_restore_time_in_utc</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_private_dns_zone_id">
+    <rdfs:label>private_dns_zone_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_public_network_access">
+    <rdfs:label>public_network_access</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_public_network_access_enabled">
+    <rdfs:label>public_network_access_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_replica_capacity">
+    <rdfs:label>replica_capacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_replication_role">
+    <rdfs:label>replication_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_sku_name">
+    <rdfs:label>sku_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_source_server_id">
+    <rdfs:label>source_server_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_zone">
+    <rdfs:label>zone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_geo_backup_key_vault_key_id">
+    <rdfs:label>geo_backup_key_vault_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_geo_backup_user_assigned_identity_id">
+    <rdfs:label>geo_backup_user_assigned_identity_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_key_vault_key_id">
+    <rdfs:label>key_vault_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_managed_hsm_key_id">
+    <rdfs:label>managed_hsm_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_primary_user_assigned_identity_id">
+    <rdfs:label>primary_user_assigned_identity_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_mode">
+    <rdfs:label>mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_standby_availability_zone">
+    <rdfs:label>standby_availability_zone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_identity_ids">
+    <rdfs:label>identity_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_day_of_week">
+    <rdfs:label>day_of_week</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_start_hour">
+    <rdfs:label>start_hour</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_start_minute">
+    <rdfs:label>start_minute</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_auto_grow_enabled">
+    <rdfs:label>auto_grow_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_io_scaling_enabled">
+    <rdfs:label>io_scaling_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_iops">
+    <rdfs:label>iops</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_log_on_disk_enabled">
+    <rdfs:label>log_on_disk_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_size_gb">
+    <rdfs:label>size_gb</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_mysql_flexible_server_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_mysql_flexible_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

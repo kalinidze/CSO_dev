@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi">
+    <rdfs:label>azurerm_data_factory_linked_service_cosmosdb_mongoapi</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_linked_service_cosmosdb_mongoapi_additional_properties">
+    <rdfs:label>additional_properties</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_linked_service_cosmosdb_mongoapi_annotations">
+    <rdfs:label>annotations</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_linked_service_cosmosdb_mongoapi_connection_string">
+    <rdfs:label>connection_string</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_linked_service_cosmosdb_mongoapi_data_factory_id">
+    <rdfs:label>data_factory_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_linked_service_cosmosdb_mongoapi_database">
+    <rdfs:label>database</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_linked_service_cosmosdb_mongoapi_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_linked_service_cosmosdb_mongoapi_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_linked_service_cosmosdb_mongoapi_integration_runtime_name">
+    <rdfs:label>integration_runtime_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_linked_service_cosmosdb_mongoapi_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_linked_service_cosmosdb_mongoapi_parameters">
+    <rdfs:label>parameters</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_linked_service_cosmosdb_mongoapi_server_version_is_32_or_higher">
+    <rdfs:label>server_version_is_32_or_higher</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_linked_service_cosmosdb_mongoapi_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_linked_service_cosmosdb_mongoapi_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_linked_service_cosmosdb_mongoapi_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_data_factory_linked_service_cosmosdb_mongoapi_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_data_factory_linked_service_cosmosdb_mongoapi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

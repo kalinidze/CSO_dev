@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_apigatewayv2_integration">
+    <rdfs:label>aws_apigatewayv2_integration</rdfs:label>
+    <rdfs:comment>Manages an Amazon API Gateway Version 2 integration.
+More information can be found in the [Amazon API Gateway Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api.html).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_api_id">
+    <rdfs:label>api_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_connection_id">
+    <rdfs:label>connection_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_connection_type">
+    <rdfs:label>connection_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_content_handling_strategy">
+    <rdfs:label>content_handling_strategy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_credentials_arn">
+    <rdfs:label>credentials_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_integration_method">
+    <rdfs:label>integration_method</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_integration_response_selection_expression">
+    <rdfs:label>integration_response_selection_expression</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_integration_subtype">
+    <rdfs:label>integration_subtype</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_integration_type">
+    <rdfs:label>integration_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_integration_uri">
+    <rdfs:label>integration_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_passthrough_behavior">
+    <rdfs:label>passthrough_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_payload_format_version">
+    <rdfs:label>payload_format_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_request_parameters">
+    <rdfs:label>request_parameters</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_request_templates">
+    <rdfs:label>request_templates</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_template_selection_expression">
+    <rdfs:label>template_selection_expression</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_timeout_milliseconds">
+    <rdfs:label>timeout_milliseconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_mappings">
+    <rdfs:label>mappings</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_status_code">
+    <rdfs:label>status_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_integration_server_name_to_verify">
+    <rdfs:label>server_name_to_verify</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_integration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_cognito_user_pool_client">
+    <rdfs:label>aws_cognito_user_pool_client</rdfs:label>
+    <rdfs:comment>Provides a Cognito User Pool Client resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_access_token_validity">
+    <rdfs:label>access_token_validity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_allowed_oauth_flows">
+    <rdfs:label>allowed_oauth_flows</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_allowed_oauth_flows_user_pool_client">
+    <rdfs:label>allowed_oauth_flows_user_pool_client</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_allowed_oauth_scopes">
+    <rdfs:label>allowed_oauth_scopes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_auth_session_validity">
+    <rdfs:label>auth_session_validity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_callback_urls">
+    <rdfs:label>callback_urls</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_client_secret">
+    <rdfs:label>client_secret</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_default_redirect_uri">
+    <rdfs:label>default_redirect_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_enable_propagate_additional_user_context_data">
+    <rdfs:label>enable_propagate_additional_user_context_data</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_enable_token_revocation">
+    <rdfs:label>enable_token_revocation</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_explicit_auth_flows">
+    <rdfs:label>explicit_auth_flows</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_generate_secret">
+    <rdfs:label>generate_secret</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_id_token_validity">
+    <rdfs:label>id_token_validity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_logout_urls">
+    <rdfs:label>logout_urls</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_prevent_user_existence_errors">
+    <rdfs:label>prevent_user_existence_errors</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_read_attributes">
+    <rdfs:label>read_attributes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_refresh_token_validity">
+    <rdfs:label>refresh_token_validity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_supported_identity_providers">
+    <rdfs:label>supported_identity_providers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_user_pool_id">
+    <rdfs:label>user_pool_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_write_attributes">
+    <rdfs:label>write_attributes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_application_arn">
+    <rdfs:label>application_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_application_id">
+    <rdfs:label>application_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_external_id">
+    <rdfs:label>external_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_role_arn">
+    <rdfs:label>role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_user_data_shared">
+    <rdfs:label>user_data_shared</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_feature">
+    <rdfs:label>feature</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_retry_grace_period_seconds">
+    <rdfs:label>retry_grace_period_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_access_token">
+    <rdfs:label>access_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_id_token">
+    <rdfs:label>id_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cognito_user_pool_client_refresh_token">
+    <rdfs:label>refresh_token</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cognito_user_pool_client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

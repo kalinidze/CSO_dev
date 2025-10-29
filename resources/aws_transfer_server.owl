@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_transfer_server">
+    <rdfs:label>aws_transfer_server</rdfs:label>
+    <rdfs:comment>Provides a AWS Transfer Server resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_certificate">
+    <rdfs:label>certificate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_directory_id">
+    <rdfs:label>directory_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_domain">
+    <rdfs:label>domain</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_endpoint">
+    <rdfs:label>endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_endpoint_type">
+    <rdfs:label>endpoint_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_force_destroy">
+    <rdfs:label>force_destroy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_function">
+    <rdfs:label>function</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_host_key">
+    <rdfs:label>host_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_host_key_fingerprint">
+    <rdfs:label>host_key_fingerprint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_identity_provider_type">
+    <rdfs:label>identity_provider_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_invocation_role">
+    <rdfs:label>invocation_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_logging_role">
+    <rdfs:label>logging_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_post_authentication_login_banner">
+    <rdfs:label>post_authentication_login_banner</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_pre_authentication_login_banner">
+    <rdfs:label>pre_authentication_login_banner</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_protocols">
+    <rdfs:label>protocols</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_security_policy_name">
+    <rdfs:label>security_policy_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_sftp_authentication_methods">
+    <rdfs:label>sftp_authentication_methods</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_structured_log_destinations">
+    <rdfs:label>structured_log_destinations</rdfs:label>
+    <rdfs:comment>This is a set of arns of destinations that will receive structured logs from the transfer server</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_url">
+    <rdfs:label>url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_address_allocation_ids">
+    <rdfs:label>address_allocation_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_security_group_ids">
+    <rdfs:label>security_group_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_subnet_ids">
+    <rdfs:label>subnet_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_vpc_endpoint_id">
+    <rdfs:label>vpc_endpoint_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_vpc_id">
+    <rdfs:label>vpc_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_as2_transports">
+    <rdfs:label>as2_transports</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_passive_ip">
+    <rdfs:label>passive_ip</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_set_stat_option">
+    <rdfs:label>set_stat_option</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_tls_session_resumption_mode">
+    <rdfs:label>tls_session_resumption_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_directory_listing_optimization">
+    <rdfs:label>directory_listing_optimization</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_execution_role">
+    <rdfs:label>execution_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_workflow_id">
+    <rdfs:label>workflow_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_execution_role">
+    <rdfs:label>execution_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_transfer_server_workflow_id">
+    <rdfs:label>workflow_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_transfer_server"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

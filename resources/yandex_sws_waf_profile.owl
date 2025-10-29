@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_sws_waf_profile">
+    <rdfs:label>yandex_sws_waf_profile</rdfs:label>
+    <rdfs:comment>Creates a WAF Profile in the specified folder. For more information, see [the official documentation](https://yandex.cloud/docs/smartwebsecurity/quickstart#waf).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_cloud_id">
+    <rdfs:label>cloud_id</rdfs:label>
+    <rdfs:comment>The `Cloud ID` which resource belongs to. If it is not provided, the default provider `cloud-id` is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The creation timestamp of the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>The resource description.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>A set of key/value label pairs which assigned to resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_match_all_rule_sets">
+    <rdfs:label>match_all_rule_sets</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_is_enabled">
+    <rdfs:label>is_enabled</rdfs:label>
+    <rdfs:comment>Possible to turn analyzer on and turn if off.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_size_limit">
+    <rdfs:label>size_limit</rdfs:label>
+    <rdfs:comment>Maximum size of body to pass to analyzer. In kilobytes.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_size_limit_action">
+    <rdfs:label>size_limit_action</rdfs:label>
+    <rdfs:comment>Action to perform if maximum size of body exceeded. Possible values: `IGNORE` and `DENY`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_inbound_anomaly_score">
+    <rdfs:label>inbound_anomaly_score</rdfs:label>
+    <rdfs:comment>Anomaly score. Enter an integer within the range of 2 and 10000. The higher this value, the more likely it is that the request that satisfies the rule is an attack. See [Rules](https://yandex.cloud/en/docs/smartwebsecurity/concepts/waf#anomaly) for more details.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_paranoia_level">
+    <rdfs:label>paranoia_level</rdfs:label>
+    <rdfs:comment>Paranoia level. Enter an integer within the range of 1 and 4. Paranoia level classifies rules according to their aggression. The higher the paranoia level, the better your protection, but also the higher the probability of WAF false positives. See [Rules](https://yandex.cloud/en/docs/smartwebsecurity/concepts/waf#paranoia) for more details. NOTE: this option has no effect on enabling or disabling rules, it is used only as recommendation for user to enable all rules with paranoia_level <= this value.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:comment>Id of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Type of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:comment>Version of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>Description of the rule. 0-512 characters long.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_log_excluded">
+    <rdfs:label>log_excluded</rdfs:label>
+    <rdfs:comment>Records the fact that an exception rule is triggered.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name of exclusion rule.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_exact_match">
+    <rdfs:label>exact_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_exact_not_match">
+    <rdfs:label>exact_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_pire_regex_match">
+    <rdfs:label>pire_regex_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_pire_regex_not_match">
+    <rdfs:label>pire_regex_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_prefix_match">
+    <rdfs:label>prefix_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_prefix_not_match">
+    <rdfs:label>prefix_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_exact_match">
+    <rdfs:label>exact_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_exact_not_match">
+    <rdfs:label>exact_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_pire_regex_match">
+    <rdfs:label>pire_regex_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_pire_regex_not_match">
+    <rdfs:label>pire_regex_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_prefix_match">
+    <rdfs:label>prefix_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_prefix_not_match">
+    <rdfs:label>prefix_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_exact_match">
+    <rdfs:label>exact_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_exact_not_match">
+    <rdfs:label>exact_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_pire_regex_match">
+    <rdfs:label>pire_regex_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_pire_regex_not_match">
+    <rdfs:label>pire_regex_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_prefix_match">
+    <rdfs:label>prefix_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_prefix_not_match">
+    <rdfs:label>prefix_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_exact_match">
+    <rdfs:label>exact_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_exact_not_match">
+    <rdfs:label>exact_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_pire_regex_match">
+    <rdfs:label>pire_regex_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_pire_regex_not_match">
+    <rdfs:label>pire_regex_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_prefix_match">
+    <rdfs:label>prefix_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_prefix_not_match">
+    <rdfs:label>prefix_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_exact_match">
+    <rdfs:label>exact_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_exact_not_match">
+    <rdfs:label>exact_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_pire_regex_match">
+    <rdfs:label>pire_regex_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_pire_regex_not_match">
+    <rdfs:label>pire_regex_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_prefix_match">
+    <rdfs:label>prefix_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_prefix_not_match">
+    <rdfs:label>prefix_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_locations">
+    <rdfs:label>locations</rdfs:label>
+    <rdfs:comment>Locations to include.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_locations">
+    <rdfs:label>locations</rdfs:label>
+    <rdfs:comment>Locations to exclude.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_ip_ranges">
+    <rdfs:label>ip_ranges</rdfs:label>
+    <rdfs:comment>IP ranges to include.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_ip_ranges">
+    <rdfs:label>ip_ranges</rdfs:label>
+    <rdfs:comment>IP ranges to exclude.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_exclude_all">
+    <rdfs:label>exclude_all</rdfs:label>
+    <rdfs:comment>Set this option true to exclude all rules.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_rule_ids">
+    <rdfs:label>rule_ids</rdfs:label>
+    <rdfs:comment>List of rules to exclude.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_is_blocking">
+    <rdfs:label>is_blocking</rdfs:label>
+    <rdfs:comment>Determines is it rule blocking or not.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_is_enabled">
+    <rdfs:label>is_enabled</rdfs:label>
+    <rdfs:comment>Determines is it rule enabled or not.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_rule_id">
+    <rdfs:label>rule_id</rdfs:label>
+    <rdfs:comment>Rule ID.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_action">
+    <rdfs:label>action</rdfs:label>
+    <rdfs:comment>Action of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_is_enabled">
+    <rdfs:label>is_enabled</rdfs:label>
+    <rdfs:comment>Determines is it rule set enabled or not.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_priority">
+    <rdfs:label>priority</rdfs:label>
+    <rdfs:comment>Priority of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_inbound_anomaly_score">
+    <rdfs:label>inbound_anomaly_score</rdfs:label>
+    <rdfs:comment>Inbound anomaly score of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_paranoia_level">
+    <rdfs:label>paranoia_level</rdfs:label>
+    <rdfs:comment>Paranoia level of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:comment>ID of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Type of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:comment>Version of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_action">
+    <rdfs:label>action</rdfs:label>
+    <rdfs:comment>Action of the rule group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:comment>ID of the rule group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_inbound_anomaly_score">
+    <rdfs:label>inbound_anomaly_score</rdfs:label>
+    <rdfs:comment>Inbound anomaly score.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_is_enabled">
+    <rdfs:label>is_enabled</rdfs:label>
+    <rdfs:comment>Is the rule group enabled.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:comment>ID of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Type of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:comment>Version of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_action">
+    <rdfs:label>action</rdfs:label>
+    <rdfs:comment>Action of the rule group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:comment>ID of the rule group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_inbound_anomaly_score">
+    <rdfs:label>inbound_anomaly_score</rdfs:label>
+    <rdfs:comment>Inbound anomaly score.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_is_enabled">
+    <rdfs:label>is_enabled</rdfs:label>
+    <rdfs:comment>Is the rule group enabled.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:comment>ID of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Type of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:comment>Version of the rule set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_sws_waf_profile_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_sws_waf_profile"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

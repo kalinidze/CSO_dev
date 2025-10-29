@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_appsync_graphql_api">
+    <rdfs:label>aws_appsync_graphql_api</rdfs:label>
+    <rdfs:comment>Provides an AppSync GraphQL API.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_api_type">
+    <rdfs:label>api_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_authentication_type">
+    <rdfs:label>authentication_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_introspection_config">
+    <rdfs:label>introspection_config</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_merged_api_execution_role_arn">
+    <rdfs:label>merged_api_execution_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_query_depth_limit">
+    <rdfs:label>query_depth_limit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_resolver_count_limit">
+    <rdfs:label>resolver_count_limit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_schema">
+    <rdfs:label>schema</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_uris">
+    <rdfs:label>uris</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_visibility">
+    <rdfs:label>visibility</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_xray_enabled">
+    <rdfs:label>xray_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_authentication_type">
+    <rdfs:label>authentication_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_authorizer_result_ttl_in_seconds">
+    <rdfs:label>authorizer_result_ttl_in_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_authorizer_uri">
+    <rdfs:label>authorizer_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_identity_validation_expression">
+    <rdfs:label>identity_validation_expression</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_auth_ttl">
+    <rdfs:label>auth_ttl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_client_id">
+    <rdfs:label>client_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_iat_ttl">
+    <rdfs:label>iat_ttl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_issuer">
+    <rdfs:label>issuer</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_app_id_client_regex">
+    <rdfs:label>app_id_client_regex</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_aws_region">
+    <rdfs:label>aws_region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_user_pool_id">
+    <rdfs:label>user_pool_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_data_source_level_metrics_behavior">
+    <rdfs:label>data_source_level_metrics_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_operation_level_metrics_config">
+    <rdfs:label>operation_level_metrics_config</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_resolver_level_metrics_behavior">
+    <rdfs:label>resolver_level_metrics_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_authorizer_result_ttl_in_seconds">
+    <rdfs:label>authorizer_result_ttl_in_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_authorizer_uri">
+    <rdfs:label>authorizer_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_identity_validation_expression">
+    <rdfs:label>identity_validation_expression</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_cloudwatch_logs_role_arn">
+    <rdfs:label>cloudwatch_logs_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_exclude_verbose_content">
+    <rdfs:label>exclude_verbose_content</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_field_log_level">
+    <rdfs:label>field_log_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_auth_ttl">
+    <rdfs:label>auth_ttl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_client_id">
+    <rdfs:label>client_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_iat_ttl">
+    <rdfs:label>iat_ttl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_issuer">
+    <rdfs:label>issuer</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_app_id_client_regex">
+    <rdfs:label>app_id_client_regex</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_aws_region">
+    <rdfs:label>aws_region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_default_action">
+    <rdfs:label>default_action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_appsync_graphql_api_user_pool_id">
+    <rdfs:label>user_pool_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_appsync_graphql_api"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

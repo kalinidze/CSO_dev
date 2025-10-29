@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_elasticache_cluster">
+    <rdfs:label>aws_elasticache_cluster</rdfs:label>
+    <rdfs:comment>Provides an ElastiCache Cluster resource, which manages a Memcached cluster, a single-node Redis instance,
+or a read replica in a Redis (Cluster Mode Enabled) replication group. For more information, refer to
+the AWS document [What is Amazon ElastiCache?](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_apply_immediately">
+    <rdfs:label>apply_immediately</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_auto_minor_version_upgrade">
+    <rdfs:label>auto_minor_version_upgrade</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_availability_zone">
+    <rdfs:label>availability_zone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_az_mode">
+    <rdfs:label>az_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_cache_nodes">
+    <rdfs:label>cache_nodes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_cluster_address">
+    <rdfs:label>cluster_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_cluster_id">
+    <rdfs:label>cluster_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_configuration_endpoint">
+    <rdfs:label>configuration_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_engine">
+    <rdfs:label>engine</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_engine_version">
+    <rdfs:label>engine_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_engine_version_actual">
+    <rdfs:label>engine_version_actual</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_final_snapshot_identifier">
+    <rdfs:label>final_snapshot_identifier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_ip_discovery">
+    <rdfs:label>ip_discovery</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_maintenance_window">
+    <rdfs:label>maintenance_window</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_network_type">
+    <rdfs:label>network_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_node_type">
+    <rdfs:label>node_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_notification_topic_arn">
+    <rdfs:label>notification_topic_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_num_cache_nodes">
+    <rdfs:label>num_cache_nodes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_outpost_mode">
+    <rdfs:label>outpost_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_parameter_group_name">
+    <rdfs:label>parameter_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_preferred_availability_zones">
+    <rdfs:label>preferred_availability_zones</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_preferred_outpost_arn">
+    <rdfs:label>preferred_outpost_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_replication_group_id">
+    <rdfs:label>replication_group_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_security_group_ids">
+    <rdfs:label>security_group_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_snapshot_arns">
+    <rdfs:label>snapshot_arns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_snapshot_name">
+    <rdfs:label>snapshot_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_snapshot_retention_limit">
+    <rdfs:label>snapshot_retention_limit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_snapshot_window">
+    <rdfs:label>snapshot_window</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_subnet_group_name">
+    <rdfs:label>subnet_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_transit_encryption_enabled">
+    <rdfs:label>transit_encryption_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_destination">
+    <rdfs:label>destination</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_destination_type">
+    <rdfs:label>destination_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_log_format">
+    <rdfs:label>log_format</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_log_type">
+    <rdfs:label>log_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_elasticache_cluster_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_elasticache_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

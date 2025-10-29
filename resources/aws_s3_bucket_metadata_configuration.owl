@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_s3_bucket_metadata_configuration">
+    <rdfs:label>aws_s3_bucket_metadata_configuration</rdfs:label>
+    <rdfs:comment>Manages Amazon S3 Metadata for a bucket.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_bucket">
+    <rdfs:label>bucket</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_expected_bucket_owner">
+    <rdfs:label>expected_bucket_owner</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_destination">
+    <rdfs:label>destination</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_configuration_state">
+    <rdfs:label>configuration_state</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_table_arn">
+    <rdfs:label>table_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_table_name">
+    <rdfs:label>table_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_kms_key_arn">
+    <rdfs:label>kms_key_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_sse_algorithm">
+    <rdfs:label>sse_algorithm</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_table_arn">
+    <rdfs:label>table_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_table_name">
+    <rdfs:label>table_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_kms_key_arn">
+    <rdfs:label>kms_key_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_sse_algorithm">
+    <rdfs:label>sse_algorithm</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_days">
+    <rdfs:label>days</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_expiration">
+    <rdfs:label>expiration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_metadata_configuration_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_metadata_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

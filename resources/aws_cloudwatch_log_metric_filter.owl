@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_cloudwatch_log_metric_filter">
+    <rdfs:label>aws_cloudwatch_log_metric_filter</rdfs:label>
+    <rdfs:comment>Provides a CloudWatch Log Metric Filter resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_log_metric_filter_apply_on_transformed_logs">
+    <rdfs:label>apply_on_transformed_logs</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_log_metric_filter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_log_metric_filter_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_log_metric_filter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_log_metric_filter_log_group_name">
+    <rdfs:label>log_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_log_metric_filter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_log_metric_filter_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_log_metric_filter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_log_metric_filter_pattern">
+    <rdfs:label>pattern</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_log_metric_filter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_log_metric_filter_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_log_metric_filter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_log_metric_filter_default_value">
+    <rdfs:label>default_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_log_metric_filter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_log_metric_filter_dimensions">
+    <rdfs:label>dimensions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_log_metric_filter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_log_metric_filter_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_log_metric_filter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_log_metric_filter_namespace">
+    <rdfs:label>namespace</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_log_metric_filter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_log_metric_filter_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_log_metric_filter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudwatch_log_metric_filter_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudwatch_log_metric_filter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

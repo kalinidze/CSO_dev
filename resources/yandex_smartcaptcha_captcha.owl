@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_smartcaptcha_captcha">
+    <rdfs:label>yandex_smartcaptcha_captcha</rdfs:label>
+    <rdfs:comment>Creates a Captcha in the specified folder. For more information, see [the official documentation](https://yandex.cloud/docs/smartcaptcha/).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_allowed_sites">
+    <rdfs:label>allowed_sites</rdfs:label>
+    <rdfs:comment>List of allowed host names, see [Domain validation](https://yandex.cloud/docs/smartcaptcha/concepts/domain-validation).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_challenge_type">
+    <rdfs:label>challenge_type</rdfs:label>
+    <rdfs:comment>Additional task type of the captcha. Possible values:
+* `IMAGE_TEXT` - Text recognition: The user has to type a distorted text from the picture into a special field.
+* `SILHOUETTES` - Silhouettes: The user has to mark several icons from the picture in a particular order.
+* `KALEIDOSCOPE` - Kaleidoscope: The user has to build a picture from individual parts by shuffling them using a slider.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_client_key">
+    <rdfs:label>client_key</rdfs:label>
+    <rdfs:comment>Client key of the captcha, see [CAPTCHA keys](https://yandex.cloud/docs/smartcaptcha/concepts/keys).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_cloud_id">
+    <rdfs:label>cloud_id</rdfs:label>
+    <rdfs:comment>The `Cloud ID` which resource belongs to. If it is not provided, the default provider `cloud-id` is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_complexity">
+    <rdfs:label>complexity</rdfs:label>
+    <rdfs:comment>Complexity of the captcha. Possible values:
+* `EASY` - High chance to pass pre-check and easy advanced challenge.
+* `MEDIUM` - Medium chance to pass pre-check and normal advanced challenge.
+* `HARD` - Little chance to pass pre-check and hard advanced challenge.
+* `FORCE_HARD` - Impossible to pass pre-check and hard advanced challenge.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The creation timestamp of the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_deletion_protection">
+    <rdfs:label>deletion_protection</rdfs:label>
+    <rdfs:comment>The `true` value means that resource is protected from accidental deletion.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_pre_check_type">
+    <rdfs:label>pre_check_type</rdfs:label>
+    <rdfs:comment>Basic check type of the captcha.Possible values:
+* `CHECKBOX` - User must click the 'I am not a robot' button.
+* `SLIDER` - User must move the slider from left to right.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_style_json">
+    <rdfs:label>style_json</rdfs:label>
+    <rdfs:comment>JSON with variables to define the captcha appearance. For more details see generated JSON in cloud console.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_suspend">
+    <rdfs:label>suspend</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_turn_off_hostname_check">
+    <rdfs:label>turn_off_hostname_check</rdfs:label>
+    <rdfs:comment>Turn off host name check, see [Domain validation](https://yandex.cloud/docs/smartcaptcha/concepts/domain-validation).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_challenge_type">
+    <rdfs:label>challenge_type</rdfs:label>
+    <rdfs:comment>Additional task type of the captcha.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_complexity">
+    <rdfs:label>complexity</rdfs:label>
+    <rdfs:comment>Complexity of the captcha.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>Optional description of the rule. 0-512 characters long.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_pre_check_type">
+    <rdfs:label>pre_check_type</rdfs:label>
+    <rdfs:comment>Basic check type of the captcha.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_uuid">
+    <rdfs:label>uuid</rdfs:label>
+    <rdfs:comment>Unique identifier of the variant.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>Description of the rule. 0-512 characters long.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name of the rule. The name is unique within the captcha. 1-50 characters long.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_override_variant_uuid">
+    <rdfs:label>override_variant_uuid</rdfs:label>
+    <rdfs:comment>Variant UUID to show in case of match the rule. Keep empty to use defaults.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_priority">
+    <rdfs:label>priority</rdfs:label>
+    <rdfs:comment>Priority of the rule. Lower value means higher priority.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_exact_match">
+    <rdfs:label>exact_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_exact_not_match">
+    <rdfs:label>exact_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_pire_regex_match">
+    <rdfs:label>pire_regex_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_pire_regex_not_match">
+    <rdfs:label>pire_regex_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_prefix_match">
+    <rdfs:label>prefix_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_prefix_not_match">
+    <rdfs:label>prefix_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_exact_match">
+    <rdfs:label>exact_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_exact_not_match">
+    <rdfs:label>exact_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_pire_regex_match">
+    <rdfs:label>pire_regex_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_pire_regex_not_match">
+    <rdfs:label>pire_regex_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_prefix_match">
+    <rdfs:label>prefix_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_prefix_not_match">
+    <rdfs:label>prefix_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_locations">
+    <rdfs:label>locations</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_locations">
+    <rdfs:label>locations</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_ip_ranges">
+    <rdfs:label>ip_ranges</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_ip_ranges">
+    <rdfs:label>ip_ranges</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_exact_match">
+    <rdfs:label>exact_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_exact_not_match">
+    <rdfs:label>exact_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_pire_regex_match">
+    <rdfs:label>pire_regex_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_pire_regex_not_match">
+    <rdfs:label>pire_regex_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_prefix_match">
+    <rdfs:label>prefix_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_prefix_not_match">
+    <rdfs:label>prefix_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_exact_match">
+    <rdfs:label>exact_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_exact_not_match">
+    <rdfs:label>exact_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_pire_regex_match">
+    <rdfs:label>pire_regex_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_pire_regex_not_match">
+    <rdfs:label>pire_regex_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_prefix_match">
+    <rdfs:label>prefix_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_prefix_not_match">
+    <rdfs:label>prefix_not_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_smartcaptcha_captcha_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_smartcaptcha_captcha"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

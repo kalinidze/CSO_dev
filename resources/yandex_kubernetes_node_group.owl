@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_kubernetes_node_group">
+    <rdfs:label>yandex_kubernetes_node_group</rdfs:label>
+    <rdfs:comment>Creates a Yandex Managed Kubernetes Cluster Node Group. For more information, see [the official documentation](https://yandex.cloud/docs/managed-kubernetes/concepts/#node-group).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_allowed_unsafe_sysctls">
+    <rdfs:label>allowed_unsafe_sysctls</rdfs:label>
+    <rdfs:comment>A list of allowed unsafe `sysctl` parameters for this node group. For more details see [documentation](https://kubernetes.io/docs/tasks/administer-cluster/sysctl-cluster).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_cluster_id">
+    <rdfs:label>cluster_id</rdfs:label>
+    <rdfs:comment>The ID of the Kubernetes cluster that this node group belongs to.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The creation timestamp of the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>The resource description.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_instance_group_id">
+    <rdfs:label>instance_group_id</rdfs:label>
+    <rdfs:comment>ID of instance group that is used to manage this Kubernetes node group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>A set of key/value label pairs which assigned to resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_node_labels">
+    <rdfs:label>node_labels</rdfs:label>
+    <rdfs:comment>A set of key/value label pairs, that are assigned to all the nodes of this Kubernetes node group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_node_taints">
+    <rdfs:label>node_taints</rdfs:label>
+    <rdfs:comment>A list of Kubernetes taints, that are applied to all the nodes of this Kubernetes node group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:comment>Status of the Kubernetes node group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:comment>Version of Kubernetes that will be used for Kubernetes node group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_version_info">
+    <rdfs:label>version_info</rdfs:label>
+    <rdfs:comment>Information about Kubernetes node group version.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>ID of the subnet, that will be used by one compute instance in node group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_zone">
+    <rdfs:label>zone</rdfs:label>
+    <rdfs:comment>ID of the availability zone where for one compute instance in node group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_max_expansion">
+    <rdfs:label>max_expansion</rdfs:label>
+    <rdfs:comment>The maximum number of instances that can be temporarily allocated above the group's target size during the update.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_max_unavailable">
+    <rdfs:label>max_unavailable</rdfs:label>
+    <rdfs:comment>The maximum number of running instances that can be taken offline during update.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>Labels that will be assigned to compute nodes (instances), created by the Node Group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_metadata">
+    <rdfs:label>metadata</rdfs:label>
+    <rdfs:comment>The set of metadata `key:value` pairs assigned to this instance template. This includes custom metadata and predefined keys. **Note**: key `user-data` won't be provided into instances. It reserved for internal activity in `kubernetes_node_group` resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name template of the instance. In order to be unique it must contain at least one of instance unique placeholders:
+* `{instance.short_id}
+* `{instance.index}`
+* combination of `{instance.zone_id}` and `{instance.index_in_zone}`
+
+Example: `my-instance-{instance.index}`.
+If not set, default is used: `{instance_group.id}-{instance.short_id}`. It may also contain another placeholders, see [Compute Instance group metadata doc](https://yandex.cloud/docs/compute/instancegroup/api-ref/grpc/InstanceGroup) for full list.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_nat">
+    <rdfs:label>nat</rdfs:label>
+    <rdfs:comment>Enables NAT for node group compute instances.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_network_acceleration_type">
+    <rdfs:label>network_acceleration_type</rdfs:label>
+    <rdfs:comment>Type of network acceleration. Values: `standard`, `software_accelerated`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_platform_id">
+    <rdfs:label>platform_id</rdfs:label>
+    <rdfs:comment>The ID of the hardware platform configuration for the node group compute instances.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_size">
+    <rdfs:label>size</rdfs:label>
+    <rdfs:comment>The size of the disk in GB. Allowed minimal size: 64 GB.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>The disk type.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_pod_mtu">
+    <rdfs:label>pod_mtu</rdfs:label>
+    <rdfs:comment>MTU for pods.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Type of container runtime. Values: `docker`, `containerd`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_gpu_cluster_id">
+    <rdfs:label>gpu_cluster_id</rdfs:label>
+    <rdfs:comment>GPU cluster id.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_gpu_environment">
+    <rdfs:label>gpu_environment</rdfs:label>
+    <rdfs:comment>GPU environment. Values: `runc`, `runc_drivers_cuda`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_ipv4">
+    <rdfs:label>ipv4</rdfs:label>
+    <rdfs:comment>Allocate an IPv4 address for the interface. The default value is `true`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_ipv6">
+    <rdfs:label>ipv6</rdfs:label>
+    <rdfs:comment>If true, allocate an IPv6 address for the interface. The address will be automatically assigned from the specified subnet.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_nat">
+    <rdfs:label>nat</rdfs:label>
+    <rdfs:comment>A public address that can be used to access the internet over NAT.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_security_group_ids">
+    <rdfs:label>security_group_ids</rdfs:label>
+    <rdfs:comment>Security group IDs for network interface.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_subnet_ids">
+    <rdfs:label>subnet_ids</rdfs:label>
+    <rdfs:comment>The IDs of the subnets.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_dns_zone_id">
+    <rdfs:label>dns_zone_id</rdfs:label>
+    <rdfs:comment>DNS zone ID (if not set, private zone is used).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_fqdn">
+    <rdfs:label>fqdn</rdfs:label>
+    <rdfs:comment>DNS record FQDN.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_ptr">
+    <rdfs:label>ptr</rdfs:label>
+    <rdfs:comment>When set to `true`, also create a PTR DNS record.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_ttl">
+    <rdfs:label>ttl</rdfs:label>
+    <rdfs:comment>DNS record TTL (in seconds).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_dns_zone_id">
+    <rdfs:label>dns_zone_id</rdfs:label>
+    <rdfs:comment>DNS zone ID (if not set, private zone is used).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_fqdn">
+    <rdfs:label>fqdn</rdfs:label>
+    <rdfs:comment>DNS record FQDN.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_ptr">
+    <rdfs:label>ptr</rdfs:label>
+    <rdfs:comment>When set to `true`, also create a PTR DNS record.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_ttl">
+    <rdfs:label>ttl</rdfs:label>
+    <rdfs:comment>DNS record TTL (in seconds).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_placement_group_id">
+    <rdfs:label>placement_group_id</rdfs:label>
+    <rdfs:comment>Specifies the id of the Placement Group to assign to the instances.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_core_fraction">
+    <rdfs:label>core_fraction</rdfs:label>
+    <rdfs:comment>Baseline core performance as a percent.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_cores">
+    <rdfs:label>cores</rdfs:label>
+    <rdfs:comment>Number of CPU cores allocated to the instance.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_gpus">
+    <rdfs:label>gpus</rdfs:label>
+    <rdfs:comment>Number of GPU cores allocated to the instance.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_memory">
+    <rdfs:label>memory</rdfs:label>
+    <rdfs:comment>The memory size allocated to the instance.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_preemptible">
+    <rdfs:label>preemptible</rdfs:label>
+    <rdfs:comment>Specifies if the instance is preemptible. Defaults to `false`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_auto_repair">
+    <rdfs:label>auto_repair</rdfs:label>
+    <rdfs:comment>Flag that specifies if node group can be repaired automatically. When omitted, default value is `true`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_auto_upgrade">
+    <rdfs:label>auto_upgrade</rdfs:label>
+    <rdfs:comment>Flag specifies if node group can be upgraded automatically. When omitted, default value is `true`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_day">
+    <rdfs:label>day</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_duration">
+    <rdfs:label>duration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_start_time">
+    <rdfs:label>start_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_initial">
+    <rdfs:label>initial</rdfs:label>
+    <rdfs:comment>Initial number of instances in the node group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_max">
+    <rdfs:label>max</rdfs:label>
+    <rdfs:comment>Maximum number of instances in the node group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_min">
+    <rdfs:label>min</rdfs:label>
+    <rdfs:comment>Minimum number of instances in the node group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_size">
+    <rdfs:label>size</rdfs:label>
+    <rdfs:comment>The number of instances in the node group.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_kubernetes_node_group_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_kubernetes_node_group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

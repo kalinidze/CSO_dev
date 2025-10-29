@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_sns_topic_subscription">
+    <rdfs:label>aws_sns_topic_subscription</rdfs:label>
+    <rdfs:comment>Provides a resource for subscribing to SNS topics. Requires that an SNS topic exist for the subscription to attach to. This resource allows you to automatically place messages sent to SNS topics in SQS queues, send them as HTTP(S) POST requests to a given endpoint, send SMS messages, or notify devices / applications. The most likely use case for Terraform users will probably be SQS queues.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_confirmation_timeout_in_minutes">
+    <rdfs:label>confirmation_timeout_in_minutes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_confirmation_was_authenticated">
+    <rdfs:label>confirmation_was_authenticated</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_delivery_policy">
+    <rdfs:label>delivery_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_endpoint">
+    <rdfs:label>endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_endpoint_auto_confirms">
+    <rdfs:label>endpoint_auto_confirms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_filter_policy">
+    <rdfs:label>filter_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_filter_policy_scope">
+    <rdfs:label>filter_policy_scope</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_owner_id">
+    <rdfs:label>owner_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_pending_confirmation">
+    <rdfs:label>pending_confirmation</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_protocol">
+    <rdfs:label>protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_raw_message_delivery">
+    <rdfs:label>raw_message_delivery</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_redrive_policy">
+    <rdfs:label>redrive_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_replay_policy">
+    <rdfs:label>replay_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_subscription_role_arn">
+    <rdfs:label>subscription_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sns_topic_subscription_topic_arn">
+    <rdfs:label>topic_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sns_topic_subscription"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

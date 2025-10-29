@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_route53_key_signing_key">
+    <rdfs:label>aws_route53_key_signing_key</rdfs:label>
+    <rdfs:comment>Manages a Route 53 Key Signing Key. To manage Domain Name System Security Extensions (DNSSEC) for a Hosted Zone, see the [`aws_route53_hosted_zone_dnssec` resource](route53_hosted_zone_dnssec.html). For more information about managing DNSSEC in Route 53, see the [Route 53 Developer Guide](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_digest_algorithm_mnemonic">
+    <rdfs:label>digest_algorithm_mnemonic</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_digest_algorithm_type">
+    <rdfs:label>digest_algorithm_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_digest_value">
+    <rdfs:label>digest_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_dnskey_record">
+    <rdfs:label>dnskey_record</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_ds_record">
+    <rdfs:label>ds_record</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_flag">
+    <rdfs:label>flag</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_hosted_zone_id">
+    <rdfs:label>hosted_zone_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_key_management_service_arn">
+    <rdfs:label>key_management_service_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_key_tag">
+    <rdfs:label>key_tag</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_public_key">
+    <rdfs:label>public_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_signing_algorithm_mnemonic">
+    <rdfs:label>signing_algorithm_mnemonic</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_signing_algorithm_type">
+    <rdfs:label>signing_algorithm_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53_key_signing_key_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53_key_signing_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

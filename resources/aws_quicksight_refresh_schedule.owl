@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_quicksight_refresh_schedule">
+    <rdfs:label>aws_quicksight_refresh_schedule</rdfs:label>
+    <rdfs:comment>Resource for managing a QuickSight Refresh Schedule.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_refresh_schedule_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_refresh_schedule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_refresh_schedule_aws_account_id">
+    <rdfs:label>aws_account_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_refresh_schedule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_refresh_schedule_data_set_id">
+    <rdfs:label>data_set_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_refresh_schedule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_refresh_schedule_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_refresh_schedule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_refresh_schedule_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_refresh_schedule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_refresh_schedule_schedule_id">
+    <rdfs:label>schedule_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_refresh_schedule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_refresh_schedule_refresh_type">
+    <rdfs:label>refresh_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_refresh_schedule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_refresh_schedule_start_after_date_time">
+    <rdfs:label>start_after_date_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_refresh_schedule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_refresh_schedule_interval">
+    <rdfs:label>interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_refresh_schedule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_refresh_schedule_time_of_the_day">
+    <rdfs:label>time_of_the_day</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_refresh_schedule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_refresh_schedule_timezone">
+    <rdfs:label>timezone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_refresh_schedule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_refresh_schedule_day_of_month">
+    <rdfs:label>day_of_month</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_refresh_schedule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_refresh_schedule_day_of_week">
+    <rdfs:label>day_of_week</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_refresh_schedule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

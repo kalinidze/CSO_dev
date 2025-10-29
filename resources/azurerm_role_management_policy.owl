@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_role_management_policy">
+    <rdfs:label>azurerm_role_management_policy</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>The Description of the policy</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The name of the policy</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_role_definition_id">
+    <rdfs:label>role_definition_id</rdfs:label>
+    <rdfs:comment>ID of the Azure Role to which this policy is assigned</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_scope">
+    <rdfs:label>scope</rdfs:label>
+    <rdfs:comment>The scope of the role to which this policy will apply</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_maximum_duration">
+    <rdfs:label>maximum_duration</rdfs:label>
+    <rdfs:comment>The time after which the an activation can be valid for</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_require_approval">
+    <rdfs:label>require_approval</rdfs:label>
+    <rdfs:comment>Whether an approval is required for activation</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_require_justification">
+    <rdfs:label>require_justification</rdfs:label>
+    <rdfs:comment>Whether a justification is required during activation</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_require_multifactor_authentication">
+    <rdfs:label>require_multifactor_authentication</rdfs:label>
+    <rdfs:comment>Whether multi-factor authentication is required during activation</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_require_ticket_info">
+    <rdfs:label>require_ticket_info</rdfs:label>
+    <rdfs:comment>Whether ticket information is required during activation</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_required_conditional_access_authentication_context">
+    <rdfs:label>required_conditional_access_authentication_context</rdfs:label>
+    <rdfs:comment>Whether a conditional access context is required during activation</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_object_id">
+    <rdfs:label>object_id</rdfs:label>
+    <rdfs:comment>The ID of the object to act as an approver</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>The type of object acting as an approver</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_expiration_required">
+    <rdfs:label>expiration_required</rdfs:label>
+    <rdfs:comment>Must the assignment have an expiry date</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_expire_after">
+    <rdfs:label>expire_after</rdfs:label>
+    <rdfs:comment>The duration after which assignments expire</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_require_justification">
+    <rdfs:label>require_justification</rdfs:label>
+    <rdfs:comment>Whether a justification is required to make an assignment</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_require_multifactor_authentication">
+    <rdfs:label>require_multifactor_authentication</rdfs:label>
+    <rdfs:comment>Whether multi-factor authentication is required to make an assignment</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_require_ticket_info">
+    <rdfs:label>require_ticket_info</rdfs:label>
+    <rdfs:comment>Whether ticket information is required to make an assignment</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_expiration_required">
+    <rdfs:label>expiration_required</rdfs:label>
+    <rdfs:comment>Must the assignment have an expiry date</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_expire_after">
+    <rdfs:label>expire_after</rdfs:label>
+    <rdfs:comment>The duration after which assignments expire</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_additional_recipients">
+    <rdfs:label>additional_recipients</rdfs:label>
+    <rdfs:comment>The additional recipients to notify</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_default_recipients">
+    <rdfs:label>default_recipients</rdfs:label>
+    <rdfs:comment>Whether the default recipients are notified</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_notification_level">
+    <rdfs:label>notification_level</rdfs:label>
+    <rdfs:comment>What level of notifications are sent</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_additional_recipients">
+    <rdfs:label>additional_recipients</rdfs:label>
+    <rdfs:comment>The additional recipients to notify</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_default_recipients">
+    <rdfs:label>default_recipients</rdfs:label>
+    <rdfs:comment>Whether the default recipients are notified</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_notification_level">
+    <rdfs:label>notification_level</rdfs:label>
+    <rdfs:comment>What level of notifications are sent</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_additional_recipients">
+    <rdfs:label>additional_recipients</rdfs:label>
+    <rdfs:comment>The additional recipients to notify</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_default_recipients">
+    <rdfs:label>default_recipients</rdfs:label>
+    <rdfs:comment>Whether the default recipients are notified</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_notification_level">
+    <rdfs:label>notification_level</rdfs:label>
+    <rdfs:comment>What level of notifications are sent</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_additional_recipients">
+    <rdfs:label>additional_recipients</rdfs:label>
+    <rdfs:comment>The additional recipients to notify</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_default_recipients">
+    <rdfs:label>default_recipients</rdfs:label>
+    <rdfs:comment>Whether the default recipients are notified</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_notification_level">
+    <rdfs:label>notification_level</rdfs:label>
+    <rdfs:comment>What level of notifications are sent</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_additional_recipients">
+    <rdfs:label>additional_recipients</rdfs:label>
+    <rdfs:comment>The additional recipients to notify</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_default_recipients">
+    <rdfs:label>default_recipients</rdfs:label>
+    <rdfs:comment>Whether the default recipients are notified</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_notification_level">
+    <rdfs:label>notification_level</rdfs:label>
+    <rdfs:comment>What level of notifications are sent</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_additional_recipients">
+    <rdfs:label>additional_recipients</rdfs:label>
+    <rdfs:comment>The additional recipients to notify</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_default_recipients">
+    <rdfs:label>default_recipients</rdfs:label>
+    <rdfs:comment>Whether the default recipients are notified</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_notification_level">
+    <rdfs:label>notification_level</rdfs:label>
+    <rdfs:comment>What level of notifications are sent</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_additional_recipients">
+    <rdfs:label>additional_recipients</rdfs:label>
+    <rdfs:comment>The additional recipients to notify</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_default_recipients">
+    <rdfs:label>default_recipients</rdfs:label>
+    <rdfs:comment>Whether the default recipients are notified</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_notification_level">
+    <rdfs:label>notification_level</rdfs:label>
+    <rdfs:comment>What level of notifications are sent</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_additional_recipients">
+    <rdfs:label>additional_recipients</rdfs:label>
+    <rdfs:comment>The additional recipients to notify</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_default_recipients">
+    <rdfs:label>default_recipients</rdfs:label>
+    <rdfs:comment>Whether the default recipients are notified</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_notification_level">
+    <rdfs:label>notification_level</rdfs:label>
+    <rdfs:comment>What level of notifications are sent</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_additional_recipients">
+    <rdfs:label>additional_recipients</rdfs:label>
+    <rdfs:comment>The additional recipients to notify</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_default_recipients">
+    <rdfs:label>default_recipients</rdfs:label>
+    <rdfs:comment>Whether the default recipients are notified</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_notification_level">
+    <rdfs:label>notification_level</rdfs:label>
+    <rdfs:comment>What level of notifications are sent</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_role_management_policy_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_role_management_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

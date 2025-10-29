@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_apigatewayv2_route">
+    <rdfs:label>aws_apigatewayv2_route</rdfs:label>
+    <rdfs:comment>Manages an Amazon API Gateway Version 2 route.
+More information can be found in the [Amazon API Gateway Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html) for [WebSocket](https://docs.aws.amazon.com/apigateway/latest/developerguide/websocket-api-develop-routes.html) and [HTTP](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-routes.html) APIs.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_route_api_id">
+    <rdfs:label>api_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_route_api_key_required">
+    <rdfs:label>api_key_required</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_route_authorization_scopes">
+    <rdfs:label>authorization_scopes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_route_authorization_type">
+    <rdfs:label>authorization_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_route_authorizer_id">
+    <rdfs:label>authorizer_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_route_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_route_model_selection_expression">
+    <rdfs:label>model_selection_expression</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_route_operation_name">
+    <rdfs:label>operation_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_route_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_route_request_models">
+    <rdfs:label>request_models</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_route_route_key">
+    <rdfs:label>route_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_route_route_response_selection_expression">
+    <rdfs:label>route_response_selection_expression</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_route_target">
+    <rdfs:label>target</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_route_request_parameter_key">
+    <rdfs:label>request_parameter_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apigatewayv2_route_required">
+    <rdfs:label>required</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apigatewayv2_route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

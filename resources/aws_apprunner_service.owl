@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_apprunner_service">
+    <rdfs:label>aws_apprunner_service</rdfs:label>
+    <rdfs:comment>Manages an App Runner Service.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_auto_scaling_configuration_arn">
+    <rdfs:label>auto_scaling_configuration_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_service_id">
+    <rdfs:label>service_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_service_name">
+    <rdfs:label>service_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_service_url">
+    <rdfs:label>service_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_kms_key">
+    <rdfs:label>kms_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_healthy_threshold">
+    <rdfs:label>healthy_threshold</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_interval">
+    <rdfs:label>interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_protocol">
+    <rdfs:label>protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_timeout">
+    <rdfs:label>timeout</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_unhealthy_threshold">
+    <rdfs:label>unhealthy_threshold</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_cpu">
+    <rdfs:label>cpu</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_instance_role_arn">
+    <rdfs:label>instance_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_memory">
+    <rdfs:label>memory</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_ip_address_type">
+    <rdfs:label>ip_address_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_egress_type">
+    <rdfs:label>egress_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_vpc_connector_arn">
+    <rdfs:label>vpc_connector_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_is_publicly_accessible">
+    <rdfs:label>is_publicly_accessible</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_observability_configuration_arn">
+    <rdfs:label>observability_configuration_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_observability_enabled">
+    <rdfs:label>observability_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_auto_deployments_enabled">
+    <rdfs:label>auto_deployments_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_access_role_arn">
+    <rdfs:label>access_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_connection_arn">
+    <rdfs:label>connection_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_repository_url">
+    <rdfs:label>repository_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_source_directory">
+    <rdfs:label>source_directory</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_configuration_source">
+    <rdfs:label>configuration_source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_build_command">
+    <rdfs:label>build_command</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_runtime">
+    <rdfs:label>runtime</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_runtime_environment_secrets">
+    <rdfs:label>runtime_environment_secrets</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_runtime_environment_variables">
+    <rdfs:label>runtime_environment_variables</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_start_command">
+    <rdfs:label>start_command</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_image_identifier">
+    <rdfs:label>image_identifier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_image_repository_type">
+    <rdfs:label>image_repository_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_runtime_environment_secrets">
+    <rdfs:label>runtime_environment_secrets</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_runtime_environment_variables">
+    <rdfs:label>runtime_environment_variables</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_apprunner_service_start_command">
+    <rdfs:label>start_command</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_apprunner_service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

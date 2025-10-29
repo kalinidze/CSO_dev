@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_cosmosdb_mongo_role_definition">
+    <rdfs:label>azurerm_cosmosdb_mongo_role_definition</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_mongo_role_definition_cosmos_mongo_database_id">
+    <rdfs:label>cosmos_mongo_database_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_mongo_role_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_mongo_role_definition_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_mongo_role_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_mongo_role_definition_inherited_role_names">
+    <rdfs:label>inherited_role_names</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_mongo_role_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_mongo_role_definition_role_name">
+    <rdfs:label>role_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_mongo_role_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_mongo_role_definition_actions">
+    <rdfs:label>actions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_mongo_role_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_mongo_role_definition_collection_name">
+    <rdfs:label>collection_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_mongo_role_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_mongo_role_definition_db_name">
+    <rdfs:label>db_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_mongo_role_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_mongo_role_definition_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_mongo_role_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_mongo_role_definition_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_mongo_role_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_mongo_role_definition_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_mongo_role_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_mongo_role_definition_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_mongo_role_definition"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

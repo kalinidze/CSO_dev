@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_fsx_windows_file_system">
+    <rdfs:label>aws_fsx_windows_file_system</rdfs:label>
+    <rdfs:comment>Manages a FSx Windows File System. See the [FSx Windows Guide](https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html) for more information.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_active_directory_id">
+    <rdfs:label>active_directory_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_aliases">
+    <rdfs:label>aliases</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_automatic_backup_retention_days">
+    <rdfs:label>automatic_backup_retention_days</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_backup_id">
+    <rdfs:label>backup_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_copy_tags_to_backups">
+    <rdfs:label>copy_tags_to_backups</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_daily_automatic_backup_start_time">
+    <rdfs:label>daily_automatic_backup_start_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_deployment_type">
+    <rdfs:label>deployment_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_dns_name">
+    <rdfs:label>dns_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_final_backup_tags">
+    <rdfs:label>final_backup_tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_kms_key_id">
+    <rdfs:label>kms_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_network_interface_ids">
+    <rdfs:label>network_interface_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_owner_id">
+    <rdfs:label>owner_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_preferred_file_server_ip">
+    <rdfs:label>preferred_file_server_ip</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_preferred_subnet_id">
+    <rdfs:label>preferred_subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_remote_administration_endpoint">
+    <rdfs:label>remote_administration_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_security_group_ids">
+    <rdfs:label>security_group_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_skip_final_backup">
+    <rdfs:label>skip_final_backup</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_storage_capacity">
+    <rdfs:label>storage_capacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_storage_type">
+    <rdfs:label>storage_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_subnet_ids">
+    <rdfs:label>subnet_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_throughput_capacity">
+    <rdfs:label>throughput_capacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_vpc_id">
+    <rdfs:label>vpc_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_weekly_maintenance_start_time">
+    <rdfs:label>weekly_maintenance_start_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_audit_log_destination">
+    <rdfs:label>audit_log_destination</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_file_access_audit_log_level">
+    <rdfs:label>file_access_audit_log_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_file_share_access_audit_log_level">
+    <rdfs:label>file_share_access_audit_log_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_iops">
+    <rdfs:label>iops</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_mode">
+    <rdfs:label>mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_dns_ips">
+    <rdfs:label>dns_ips</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_domain_name">
+    <rdfs:label>domain_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_file_system_administrators_group">
+    <rdfs:label>file_system_administrators_group</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_organizational_unit_distinguished_name">
+    <rdfs:label>organizational_unit_distinguished_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_password">
+    <rdfs:label>password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_username">
+    <rdfs:label>username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_fsx_windows_file_system_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_fsx_windows_file_system"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

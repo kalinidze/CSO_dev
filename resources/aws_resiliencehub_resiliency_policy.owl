@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_resiliencehub_resiliency_policy">
+    <rdfs:label>aws_resiliencehub_resiliency_policy</rdfs:label>
+    <rdfs:comment>Terraform resource for managing an AWS Resilience Hub Resiliency Policy.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_data_location_constraint">
+    <rdfs:label>data_location_constraint</rdfs:label>
+    <rdfs:comment>Specifies a high-level geographical location constraint for where resilience policy data can be stored.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>The description for the policy.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_estimated_cost_tier">
+    <rdfs:label>estimated_cost_tier</rdfs:label>
+    <rdfs:comment>Specifies the estimated cost tier of the resiliency policy.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The name of the policy.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_tier">
+    <rdfs:label>tier</rdfs:label>
+    <rdfs:comment>The tier for the resiliency policy, ranging from the highest severity (MissionCritical) to lowest (NonCritical).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_rpo">
+    <rdfs:label>rpo</rdfs:label>
+    <rdfs:comment>Recovery Point Objective (RPO) as a Go duration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_rto">
+    <rdfs:label>rto</rdfs:label>
+    <rdfs:comment>Recovery Time Objective (RTO) as a Go duration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_rpo">
+    <rdfs:label>rpo</rdfs:label>
+    <rdfs:comment>Recovery Point Objective (RPO) as a Go duration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_rto">
+    <rdfs:label>rto</rdfs:label>
+    <rdfs:comment>Recovery Time Objective (RTO) as a Go duration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_rpo">
+    <rdfs:label>rpo</rdfs:label>
+    <rdfs:comment>Recovery Point Objective (RPO) as a Go duration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_rto">
+    <rdfs:label>rto</rdfs:label>
+    <rdfs:comment>Recovery Time Objective (RTO) as a Go duration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_rpo">
+    <rdfs:label>rpo</rdfs:label>
+    <rdfs:comment>Recovery Point Objective (RPO) as a Go duration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_rto">
+    <rdfs:label>rto</rdfs:label>
+    <rdfs:comment>Recovery Time Objective (RTO) as a Go duration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_resiliencehub_resiliency_policy_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:comment>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_resiliencehub_resiliency_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

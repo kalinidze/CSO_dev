@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_app_service_source_control_slot">
+    <rdfs:label>azurerm_app_service_source_control_slot</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_branch">
+    <rdfs:label>branch</rdfs:label>
+    <rdfs:comment>The URL for the repository</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_repo_url">
+    <rdfs:label>repo_url</rdfs:label>
+    <rdfs:comment>The branch name to use for deployments.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_rollback_enabled">
+    <rdfs:label>rollback_enabled</rdfs:label>
+    <rdfs:comment>Should the Deployment Rollback be enabled? Defaults to `false`</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_scm_type">
+    <rdfs:label>scm_type</rdfs:label>
+    <rdfs:comment>The SCM Type in use. This value is decoded by the service from the repository information supplied.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_slot_id">
+    <rdfs:label>slot_id</rdfs:label>
+    <rdfs:comment>The ID of the Linux or Windows Web App Slot.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_use_local_git">
+    <rdfs:label>use_local_git</rdfs:label>
+    <rdfs:comment>Should the Slot use local Git configuration.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_use_manual_integration">
+    <rdfs:label>use_manual_integration</rdfs:label>
+    <rdfs:comment>Should code be deployed manually. Set to `true` to disable continuous integration, such as webhooks into online repos such as GitHub. Defaults to `false`</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_use_mercurial">
+    <rdfs:label>use_mercurial</rdfs:label>
+    <rdfs:comment>The repository specified is Mercurial. Defaults to `false`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_uses_github_action">
+    <rdfs:label>uses_github_action</rdfs:label>
+    <rdfs:comment>Indicates if the Slot uses a GitHub action for deployment. This value is decoded by the service from the repository information supplied.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_generate_workflow_file">
+    <rdfs:label>generate_workflow_file</rdfs:label>
+    <rdfs:comment>Should the service generate the GitHub Action Workflow file. Defaults to `true`</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_linux_action">
+    <rdfs:label>linux_action</rdfs:label>
+    <rdfs:comment>Denotes this action uses a Linux base image.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_runtime_stack">
+    <rdfs:label>runtime_stack</rdfs:label>
+    <rdfs:comment>The value to use for the Runtime Stack in the workflow file content for code base apps.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_runtime_version">
+    <rdfs:label>runtime_version</rdfs:label>
+    <rdfs:comment>The value to use for the Runtime Version in the workflow file content for code base apps.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_image_name">
+    <rdfs:label>image_name</rdfs:label>
+    <rdfs:comment>The image name for the build.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_registry_password">
+    <rdfs:label>registry_password</rdfs:label>
+    <rdfs:comment>The password used to upload the image to the container registry.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_registry_url">
+    <rdfs:label>registry_url</rdfs:label>
+    <rdfs:comment>The server URL for the container registry where the build will be hosted.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_registry_username">
+    <rdfs:label>registry_username</rdfs:label>
+    <rdfs:comment>The username used to upload the image to the container registry.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_app_service_source_control_slot_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_app_service_source_control_slot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

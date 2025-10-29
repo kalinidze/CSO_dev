@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool">
+    <rdfs:label>azurerm_kubernetes_cluster_node_pool</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_auto_scaling_enabled">
+    <rdfs:label>auto_scaling_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_capacity_reservation_group_id">
+    <rdfs:label>capacity_reservation_group_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_eviction_policy">
+    <rdfs:label>eviction_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_fips_enabled">
+    <rdfs:label>fips_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_gpu_driver">
+    <rdfs:label>gpu_driver</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_gpu_instance">
+    <rdfs:label>gpu_instance</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_host_encryption_enabled">
+    <rdfs:label>host_encryption_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_host_group_id">
+    <rdfs:label>host_group_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_kubelet_disk_type">
+    <rdfs:label>kubelet_disk_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_kubernetes_cluster_id">
+    <rdfs:label>kubernetes_cluster_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_max_count">
+    <rdfs:label>max_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_max_pods">
+    <rdfs:label>max_pods</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_min_count">
+    <rdfs:label>min_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_mode">
+    <rdfs:label>mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_node_count">
+    <rdfs:label>node_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_node_labels">
+    <rdfs:label>node_labels</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_node_public_ip_enabled">
+    <rdfs:label>node_public_ip_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_node_public_ip_prefix_id">
+    <rdfs:label>node_public_ip_prefix_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_node_taints">
+    <rdfs:label>node_taints</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_orchestrator_version">
+    <rdfs:label>orchestrator_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_os_disk_size_gb">
+    <rdfs:label>os_disk_size_gb</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_os_disk_type">
+    <rdfs:label>os_disk_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_os_sku">
+    <rdfs:label>os_sku</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_os_type">
+    <rdfs:label>os_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_pod_subnet_id">
+    <rdfs:label>pod_subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_priority">
+    <rdfs:label>priority</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_proximity_placement_group_id">
+    <rdfs:label>proximity_placement_group_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_scale_down_mode">
+    <rdfs:label>scale_down_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_snapshot_id">
+    <rdfs:label>snapshot_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_spot_max_price">
+    <rdfs:label>spot_max_price</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_temporary_name_for_rotation">
+    <rdfs:label>temporary_name_for_rotation</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_ultra_ssd_enabled">
+    <rdfs:label>ultra_ssd_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_vm_size">
+    <rdfs:label>vm_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_vnet_subnet_id">
+    <rdfs:label>vnet_subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_workload_runtime">
+    <rdfs:label>workload_runtime</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_zones">
+    <rdfs:label>zones</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_allowed_unsafe_sysctls">
+    <rdfs:label>allowed_unsafe_sysctls</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_container_log_max_line">
+    <rdfs:label>container_log_max_line</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_container_log_max_size_mb">
+    <rdfs:label>container_log_max_size_mb</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_cpu_cfs_quota_enabled">
+    <rdfs:label>cpu_cfs_quota_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_cpu_cfs_quota_period">
+    <rdfs:label>cpu_cfs_quota_period</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_cpu_manager_policy">
+    <rdfs:label>cpu_manager_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_image_gc_high_threshold">
+    <rdfs:label>image_gc_high_threshold</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_image_gc_low_threshold">
+    <rdfs:label>image_gc_low_threshold</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_pod_max_pid">
+    <rdfs:label>pod_max_pid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_topology_manager_policy">
+    <rdfs:label>topology_manager_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_swap_file_size_mb">
+    <rdfs:label>swap_file_size_mb</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_transparent_huge_page">
+    <rdfs:label>transparent_huge_page</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_transparent_huge_page_defrag">
+    <rdfs:label>transparent_huge_page_defrag</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_transparent_huge_page_enabled">
+    <rdfs:label>transparent_huge_page_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_fs_aio_max_nr">
+    <rdfs:label>fs_aio_max_nr</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_fs_file_max">
+    <rdfs:label>fs_file_max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_fs_inotify_max_user_watches">
+    <rdfs:label>fs_inotify_max_user_watches</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_fs_nr_open">
+    <rdfs:label>fs_nr_open</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_kernel_threads_max">
+    <rdfs:label>kernel_threads_max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_core_netdev_max_backlog">
+    <rdfs:label>net_core_netdev_max_backlog</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_core_optmem_max">
+    <rdfs:label>net_core_optmem_max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_core_rmem_default">
+    <rdfs:label>net_core_rmem_default</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_core_rmem_max">
+    <rdfs:label>net_core_rmem_max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_core_somaxconn">
+    <rdfs:label>net_core_somaxconn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_core_wmem_default">
+    <rdfs:label>net_core_wmem_default</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_core_wmem_max">
+    <rdfs:label>net_core_wmem_max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_ipv4_ip_local_port_range_max">
+    <rdfs:label>net_ipv4_ip_local_port_range_max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_ipv4_ip_local_port_range_min">
+    <rdfs:label>net_ipv4_ip_local_port_range_min</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_ipv4_neigh_default_gc_thresh1">
+    <rdfs:label>net_ipv4_neigh_default_gc_thresh1</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_ipv4_neigh_default_gc_thresh2">
+    <rdfs:label>net_ipv4_neigh_default_gc_thresh2</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_ipv4_neigh_default_gc_thresh3">
+    <rdfs:label>net_ipv4_neigh_default_gc_thresh3</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_ipv4_tcp_fin_timeout">
+    <rdfs:label>net_ipv4_tcp_fin_timeout</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_ipv4_tcp_keepalive_intvl">
+    <rdfs:label>net_ipv4_tcp_keepalive_intvl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_ipv4_tcp_keepalive_probes">
+    <rdfs:label>net_ipv4_tcp_keepalive_probes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_ipv4_tcp_keepalive_time">
+    <rdfs:label>net_ipv4_tcp_keepalive_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_ipv4_tcp_max_syn_backlog">
+    <rdfs:label>net_ipv4_tcp_max_syn_backlog</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_ipv4_tcp_max_tw_buckets">
+    <rdfs:label>net_ipv4_tcp_max_tw_buckets</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_ipv4_tcp_tw_reuse">
+    <rdfs:label>net_ipv4_tcp_tw_reuse</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_netfilter_nf_conntrack_buckets">
+    <rdfs:label>net_netfilter_nf_conntrack_buckets</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_net_netfilter_nf_conntrack_max">
+    <rdfs:label>net_netfilter_nf_conntrack_max</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_vm_max_map_count">
+    <rdfs:label>vm_max_map_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_vm_swappiness">
+    <rdfs:label>vm_swappiness</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_vm_vfs_cache_pressure">
+    <rdfs:label>vm_vfs_cache_pressure</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_application_security_group_ids">
+    <rdfs:label>application_security_group_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_node_public_ip_tags">
+    <rdfs:label>node_public_ip_tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_port_end">
+    <rdfs:label>port_end</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_port_start">
+    <rdfs:label>port_start</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_protocol">
+    <rdfs:label>protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_drain_timeout_in_minutes">
+    <rdfs:label>drain_timeout_in_minutes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_max_surge">
+    <rdfs:label>max_surge</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_node_soak_duration_in_minutes">
+    <rdfs:label>node_soak_duration_in_minutes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_kubernetes_cluster_node_pool_outbound_nat_enabled">
+    <rdfs:label>outbound_nat_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_kubernetes_cluster_node_pool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

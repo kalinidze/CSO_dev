@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_identitystore_user">
+    <rdfs:label>aws_identitystore_user</rdfs:label>
+    <rdfs:comment>This resource manages a User resource within an Identity Store.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_display_name">
+    <rdfs:label>display_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_external_ids">
+    <rdfs:label>external_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_identity_store_id">
+    <rdfs:label>identity_store_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_locale">
+    <rdfs:label>locale</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_nickname">
+    <rdfs:label>nickname</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_preferred_language">
+    <rdfs:label>preferred_language</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_profile_url">
+    <rdfs:label>profile_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_timezone">
+    <rdfs:label>timezone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_title">
+    <rdfs:label>title</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_user_id">
+    <rdfs:label>user_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_user_name">
+    <rdfs:label>user_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_user_type">
+    <rdfs:label>user_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_country">
+    <rdfs:label>country</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_formatted">
+    <rdfs:label>formatted</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_locality">
+    <rdfs:label>locality</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_postal_code">
+    <rdfs:label>postal_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_primary">
+    <rdfs:label>primary</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_street_address">
+    <rdfs:label>street_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_primary">
+    <rdfs:label>primary</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_family_name">
+    <rdfs:label>family_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_formatted">
+    <rdfs:label>formatted</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_given_name">
+    <rdfs:label>given_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_honorific_prefix">
+    <rdfs:label>honorific_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_honorific_suffix">
+    <rdfs:label>honorific_suffix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_middle_name">
+    <rdfs:label>middle_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_primary">
+    <rdfs:label>primary</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_identitystore_user_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_identitystore_user"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

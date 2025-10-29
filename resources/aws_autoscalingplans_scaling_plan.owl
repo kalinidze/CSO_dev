@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_autoscalingplans_scaling_plan">
+    <rdfs:label>aws_autoscalingplans_scaling_plan</rdfs:label>
+    <rdfs:comment>Manages an AWS Auto Scaling scaling plan.
+More information can be found in the [AWS Auto Scaling User Guide](https://docs.aws.amazon.com/autoscaling/plans/userguide/what-is-aws-auto-scaling.html).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_scaling_plan_version">
+    <rdfs:label>scaling_plan_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_cloudformation_stack_arn">
+    <rdfs:label>cloudformation_stack_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_values">
+    <rdfs:label>values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_disable_dynamic_scaling">
+    <rdfs:label>disable_dynamic_scaling</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_max_capacity">
+    <rdfs:label>max_capacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_min_capacity">
+    <rdfs:label>min_capacity</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_predictive_scaling_max_capacity_behavior">
+    <rdfs:label>predictive_scaling_max_capacity_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_predictive_scaling_max_capacity_buffer">
+    <rdfs:label>predictive_scaling_max_capacity_buffer</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_predictive_scaling_mode">
+    <rdfs:label>predictive_scaling_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_resource_id">
+    <rdfs:label>resource_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_scalable_dimension">
+    <rdfs:label>scalable_dimension</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_scaling_policy_update_behavior">
+    <rdfs:label>scaling_policy_update_behavior</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_scheduled_action_buffer_time">
+    <rdfs:label>scheduled_action_buffer_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_service_namespace">
+    <rdfs:label>service_namespace</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_dimensions">
+    <rdfs:label>dimensions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_metric_name">
+    <rdfs:label>metric_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_namespace">
+    <rdfs:label>namespace</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_statistic">
+    <rdfs:label>statistic</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_predefined_load_metric_type">
+    <rdfs:label>predefined_load_metric_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_resource_label">
+    <rdfs:label>resource_label</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_disable_scale_in">
+    <rdfs:label>disable_scale_in</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_estimated_instance_warmup">
+    <rdfs:label>estimated_instance_warmup</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_scale_in_cooldown">
+    <rdfs:label>scale_in_cooldown</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_scale_out_cooldown">
+    <rdfs:label>scale_out_cooldown</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_target_value">
+    <rdfs:label>target_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_dimensions">
+    <rdfs:label>dimensions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_metric_name">
+    <rdfs:label>metric_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_namespace">
+    <rdfs:label>namespace</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_statistic">
+    <rdfs:label>statistic</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_unit">
+    <rdfs:label>unit</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_predefined_scaling_metric_type">
+    <rdfs:label>predefined_scaling_metric_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_autoscalingplans_scaling_plan_resource_label">
+    <rdfs:label>resource_label</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_autoscalingplans_scaling_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

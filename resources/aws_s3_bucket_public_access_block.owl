@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_s3_bucket_public_access_block">
+    <rdfs:label>aws_s3_bucket_public_access_block</rdfs:label>
+    <rdfs:comment>Manages S3 bucket-level Public Access Block configuration. For more information about these settings, see the [AWS S3 Block Public Access documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-block-public-access.html).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_public_access_block_block_public_acls">
+    <rdfs:label>block_public_acls</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_public_access_block"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_public_access_block_block_public_policy">
+    <rdfs:label>block_public_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_public_access_block"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_public_access_block_bucket">
+    <rdfs:label>bucket</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_public_access_block"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_public_access_block_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_public_access_block"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_public_access_block_ignore_public_acls">
+    <rdfs:label>ignore_public_acls</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_public_access_block"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_public_access_block_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_public_access_block"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_public_access_block_restrict_public_buckets">
+    <rdfs:label>restrict_public_buckets</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_public_access_block"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_public_access_block_skip_destroy">
+    <rdfs:label>skip_destroy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_public_access_block"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

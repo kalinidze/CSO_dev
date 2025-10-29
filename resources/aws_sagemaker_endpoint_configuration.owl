@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_sagemaker_endpoint_configuration">
+    <rdfs:label>aws_sagemaker_endpoint_configuration</rdfs:label>
+    <rdfs:comment>Provides a SageMaker AI endpoint configuration resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_kms_key_arn">
+    <rdfs:label>kms_key_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_name_prefix">
+    <rdfs:label>name_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_max_concurrent_invocations_per_instance">
+    <rdfs:label>max_concurrent_invocations_per_instance</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_kms_key_id">
+    <rdfs:label>kms_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_s3_failure_path">
+    <rdfs:label>s3_failure_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_s3_output_path">
+    <rdfs:label>s3_output_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_error_topic">
+    <rdfs:label>error_topic</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_include_inference_response_in">
+    <rdfs:label>include_inference_response_in</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_success_topic">
+    <rdfs:label>success_topic</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_destination_s3_uri">
+    <rdfs:label>destination_s3_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_enable_capture">
+    <rdfs:label>enable_capture</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_initial_sampling_percentage">
+    <rdfs:label>initial_sampling_percentage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_kms_key_id">
+    <rdfs:label>kms_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_csv_content_types">
+    <rdfs:label>csv_content_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_json_content_types">
+    <rdfs:label>json_content_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_capture_mode">
+    <rdfs:label>capture_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_accelerator_type">
+    <rdfs:label>accelerator_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_container_startup_health_check_timeout_in_seconds">
+    <rdfs:label>container_startup_health_check_timeout_in_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_enable_ssm_access">
+    <rdfs:label>enable_ssm_access</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_inference_ami_version">
+    <rdfs:label>inference_ami_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_initial_instance_count">
+    <rdfs:label>initial_instance_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_initial_variant_weight">
+    <rdfs:label>initial_variant_weight</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_instance_type">
+    <rdfs:label>instance_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_model_data_download_timeout_in_seconds">
+    <rdfs:label>model_data_download_timeout_in_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_model_name">
+    <rdfs:label>model_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_variant_name">
+    <rdfs:label>variant_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_volume_size_in_gb">
+    <rdfs:label>volume_size_in_gb</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_destination_s3_uri">
+    <rdfs:label>destination_s3_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_kms_key_id">
+    <rdfs:label>kms_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_max_instance_count">
+    <rdfs:label>max_instance_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_min_instance_count">
+    <rdfs:label>min_instance_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_routing_strategy">
+    <rdfs:label>routing_strategy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_max_concurrency">
+    <rdfs:label>max_concurrency</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_memory_size_in_mb">
+    <rdfs:label>memory_size_in_mb</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_provisioned_concurrency">
+    <rdfs:label>provisioned_concurrency</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_accelerator_type">
+    <rdfs:label>accelerator_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_container_startup_health_check_timeout_in_seconds">
+    <rdfs:label>container_startup_health_check_timeout_in_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_enable_ssm_access">
+    <rdfs:label>enable_ssm_access</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_inference_ami_version">
+    <rdfs:label>inference_ami_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_initial_instance_count">
+    <rdfs:label>initial_instance_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_initial_variant_weight">
+    <rdfs:label>initial_variant_weight</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_instance_type">
+    <rdfs:label>instance_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_model_data_download_timeout_in_seconds">
+    <rdfs:label>model_data_download_timeout_in_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_model_name">
+    <rdfs:label>model_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_variant_name">
+    <rdfs:label>variant_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_volume_size_in_gb">
+    <rdfs:label>volume_size_in_gb</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_destination_s3_uri">
+    <rdfs:label>destination_s3_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_kms_key_id">
+    <rdfs:label>kms_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_max_instance_count">
+    <rdfs:label>max_instance_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_min_instance_count">
+    <rdfs:label>min_instance_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_routing_strategy">
+    <rdfs:label>routing_strategy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_max_concurrency">
+    <rdfs:label>max_concurrency</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_memory_size_in_mb">
+    <rdfs:label>memory_size_in_mb</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_sagemaker_endpoint_configuration_provisioned_concurrency">
+    <rdfs:label>provisioned_concurrency</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_sagemaker_endpoint_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_gamelift_fleet">
+    <rdfs:label>aws_gamelift_fleet</rdfs:label>
+    <rdfs:comment>Provides a GameLift Fleet resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_build_arn">
+    <rdfs:label>build_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_build_id">
+    <rdfs:label>build_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_ec2_instance_type">
+    <rdfs:label>ec2_instance_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_fleet_type">
+    <rdfs:label>fleet_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_instance_role_arn">
+    <rdfs:label>instance_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_log_paths">
+    <rdfs:label>log_paths</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_metric_groups">
+    <rdfs:label>metric_groups</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_new_game_session_protection_policy">
+    <rdfs:label>new_game_session_protection_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_operating_system">
+    <rdfs:label>operating_system</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_script_arn">
+    <rdfs:label>script_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_script_id">
+    <rdfs:label>script_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_certificate_type">
+    <rdfs:label>certificate_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_from_port">
+    <rdfs:label>from_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_ip_range">
+    <rdfs:label>ip_range</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_protocol">
+    <rdfs:label>protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_to_port">
+    <rdfs:label>to_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_new_game_sessions_per_creator">
+    <rdfs:label>new_game_sessions_per_creator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_policy_period_in_minutes">
+    <rdfs:label>policy_period_in_minutes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_game_session_activation_timeout_seconds">
+    <rdfs:label>game_session_activation_timeout_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_max_concurrent_game_session_activations">
+    <rdfs:label>max_concurrent_game_session_activations</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_concurrent_executions">
+    <rdfs:label>concurrent_executions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_launch_path">
+    <rdfs:label>launch_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_parameters">
+    <rdfs:label>parameters</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_gamelift_fleet_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_gamelift_fleet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

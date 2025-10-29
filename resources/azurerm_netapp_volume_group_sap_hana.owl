@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana">
+    <rdfs:label>azurerm_netapp_volume_group_sap_hana</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_account_name">
+    <rdfs:label>account_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_application_identifier">
+    <rdfs:label>application_identifier</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_group_description">
+    <rdfs:label>group_description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_capacity_pool_id">
+    <rdfs:label>capacity_pool_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_mount_ip_addresses">
+    <rdfs:label>mount_ip_addresses</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_protocols">
+    <rdfs:label>protocols</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_proximity_placement_group_id">
+    <rdfs:label>proximity_placement_group_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_security_style">
+    <rdfs:label>security_style</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_service_level">
+    <rdfs:label>service_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_snapshot_directory_visible">
+    <rdfs:label>snapshot_directory_visible</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_storage_quota_in_gb">
+    <rdfs:label>storage_quota_in_gb</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_throughput_in_mibps">
+    <rdfs:label>throughput_in_mibps</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_volume_path">
+    <rdfs:label>volume_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_volume_spec_name">
+    <rdfs:label>volume_spec_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_endpoint_type">
+    <rdfs:label>endpoint_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_remote_volume_location">
+    <rdfs:label>remote_volume_location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_remote_volume_resource_id">
+    <rdfs:label>remote_volume_resource_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_replication_frequency">
+    <rdfs:label>replication_frequency</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_snapshot_policy_id">
+    <rdfs:label>snapshot_policy_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_allowed_clients">
+    <rdfs:label>allowed_clients</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_nfsv3_enabled">
+    <rdfs:label>nfsv3_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_nfsv41_enabled">
+    <rdfs:label>nfsv41_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_root_access_enabled">
+    <rdfs:label>root_access_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_rule_index">
+    <rdfs:label>rule_index</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_unix_read_only">
+    <rdfs:label>unix_read_only</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_netapp_volume_group_sap_hana_unix_read_write">
+    <rdfs:label>unix_read_write</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_netapp_volume_group_sap_hana"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

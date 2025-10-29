@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_datasync_task">
+    <rdfs:label>aws_datasync_task</rdfs:label>
+    <rdfs:comment>Manages an AWS DataSync Task, which represents a configuration for synchronization. Starting an execution of these DataSync Tasks (actually synchronizing files) is performed outside of this Terraform resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_cloudwatch_log_group_arn">
+    <rdfs:label>cloudwatch_log_group_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_destination_location_arn">
+    <rdfs:label>destination_location_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_source_location_arn">
+    <rdfs:label>source_location_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_task_mode">
+    <rdfs:label>task_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_filter_type">
+    <rdfs:label>filter_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_filter_type">
+    <rdfs:label>filter_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_atime">
+    <rdfs:label>atime</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_bytes_per_second">
+    <rdfs:label>bytes_per_second</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_gid">
+    <rdfs:label>gid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_log_level">
+    <rdfs:label>log_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_mtime">
+    <rdfs:label>mtime</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_object_tags">
+    <rdfs:label>object_tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_overwrite_mode">
+    <rdfs:label>overwrite_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_posix_permissions">
+    <rdfs:label>posix_permissions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_preserve_deleted_files">
+    <rdfs:label>preserve_deleted_files</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_preserve_devices">
+    <rdfs:label>preserve_devices</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_security_descriptor_copy_flags">
+    <rdfs:label>security_descriptor_copy_flags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_task_queueing">
+    <rdfs:label>task_queueing</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_transfer_mode">
+    <rdfs:label>transfer_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_uid">
+    <rdfs:label>uid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_verify_mode">
+    <rdfs:label>verify_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_schedule_expression">
+    <rdfs:label>schedule_expression</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_output_type">
+    <rdfs:label>output_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_report_level">
+    <rdfs:label>report_level</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_s3_object_versioning">
+    <rdfs:label>s3_object_versioning</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_deleted_override">
+    <rdfs:label>deleted_override</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_skipped_override">
+    <rdfs:label>skipped_override</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_transferred_override">
+    <rdfs:label>transferred_override</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_verified_override">
+    <rdfs:label>verified_override</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_bucket_access_role_arn">
+    <rdfs:label>bucket_access_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_s3_bucket_arn">
+    <rdfs:label>s3_bucket_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_subdirectory">
+    <rdfs:label>subdirectory</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_datasync_task_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_datasync_task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

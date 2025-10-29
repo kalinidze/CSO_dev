@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_container_repository_lifecycle_policy">
+    <rdfs:label>yandex_container_repository_lifecycle_policy</rdfs:label>
+    <rdfs:comment>Creates a new container repository lifecycle policy. For more information, see [the official documentation](https://yandex.cloud/docs/container-registry/concepts/lifecycle-policy).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_container_repository_lifecycle_policy_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The creation timestamp of the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_container_repository_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_container_repository_lifecycle_policy_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>The resource description.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_container_repository_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_container_repository_lifecycle_policy_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_container_repository_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_container_repository_lifecycle_policy_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_container_repository_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_container_repository_lifecycle_policy_repository_id">
+    <rdfs:label>repository_id</rdfs:label>
+    <rdfs:comment>The ID of the repository that the resource belongs to.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_container_repository_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_container_repository_lifecycle_policy_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:comment>The status of lifecycle policy. Must be `active` or `disabled`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_container_repository_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_container_repository_lifecycle_policy_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>Description of the lifecycle policy.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_container_repository_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_container_repository_lifecycle_policy_expire_period">
+    <rdfs:label>expire_period</rdfs:label>
+    <rdfs:comment>The period of time that must pass after creating a image for it to suit the automatic deletion criteria. It must be a multiple of 24 hours.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_container_repository_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_container_repository_lifecycle_policy_retained_top">
+    <rdfs:label>retained_top</rdfs:label>
+    <rdfs:comment>The number of images to be retained even if the `expire_period` already expired.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_container_repository_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_container_repository_lifecycle_policy_tag_regexp">
+    <rdfs:label>tag_regexp</rdfs:label>
+    <rdfs:comment>Tag to specify a filter as a regular expression. For example `.*` - all images with tags.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_container_repository_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_container_repository_lifecycle_policy_untagged">
+    <rdfs:label>untagged</rdfs:label>
+    <rdfs:comment>If enabled, rules apply to untagged Docker images.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_container_repository_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_container_repository_lifecycle_policy_default">
+    <rdfs:label>default</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_container_repository_lifecycle_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

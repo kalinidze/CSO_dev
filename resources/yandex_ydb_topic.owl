@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_ydb_topic">
+    <rdfs:label>yandex_ydb_topic</rdfs:label>
+    <rdfs:comment>Manage a YDB Topic. For more information, see [the official documentation](https://yandex.cloud/docs/ydb/concepts/#ydb).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_database_endpoint">
+    <rdfs:label>database_endpoint</rdfs:label>
+    <rdfs:comment>YDB database endpoint.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>Topic description.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_max_partitions_count">
+    <rdfs:label>max_partitions_count</rdfs:label>
+    <rdfs:comment>Number of max active partitions. Default value `1`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_metering_mode">
+    <rdfs:label>metering_mode</rdfs:label>
+    <rdfs:comment>Resource metering mode (`reserved_capacity` - based on the allocated resources or `request_units` - based on actual usage). This option applies to topics in serverless databases.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Topic name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_partition_write_speed_kbps">
+    <rdfs:label>partition_write_speed_kbps</rdfs:label>
+    <rdfs:comment>Maximum allowed write speed per partition. If a write speed for a given partition exceeds this value, the write speed will be capped. Default value: `1024 (1MB)`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_partitions_count">
+    <rdfs:label>partitions_count</rdfs:label>
+    <rdfs:comment>Number of min partitions. Default value `1`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_retention_period_hours">
+    <rdfs:label>retention_period_hours</rdfs:label>
+    <rdfs:comment>Data retention time. Default value `86400000`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_retention_storage_mb">
+    <rdfs:label>retention_storage_mb</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_supported_codecs">
+    <rdfs:label>supported_codecs</rdfs:label>
+    <rdfs:comment>Supported data encodings. Can be one of `gzip`, `raw` or `zstd`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_auto_partitioning_strategy">
+    <rdfs:label>auto_partitioning_strategy</rdfs:label>
+    <rdfs:comment>The auto partitioning strategy to use</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_down_utilization_percent">
+    <rdfs:label>down_utilization_percent</rdfs:label>
+    <rdfs:comment>The down utilization percentage threshold</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_stabilization_window">
+    <rdfs:label>stabilization_window</rdfs:label>
+    <rdfs:comment>The stabilization window in seconds</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_up_utilization_percent">
+    <rdfs:label>up_utilization_percent</rdfs:label>
+    <rdfs:comment>The up utilization percentage threshold</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_important">
+    <rdfs:label>important</rdfs:label>
+    <rdfs:comment>Defines an important consumer. No data will be deleted from the topic until all the important consumers read them. Default value `false`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Reader's name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_starting_message_timestamp_ms">
+    <rdfs:label>starting_message_timestamp_ms</rdfs:label>
+    <rdfs:comment>Timestamp in UNIX timestamp format from which the reader will start reading data. Default value `0`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_supported_codecs">
+    <rdfs:label>supported_codecs</rdfs:label>
+    <rdfs:comment>Supported data encodings. Can be one of `gzip`, `raw` or `zstd`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_default">
+    <rdfs:label>default</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_ydb_topic_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_ydb_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

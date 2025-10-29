@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_cloudformation_stack_set_instance">
+    <rdfs:label>aws_cloudformation_stack_set_instance</rdfs:label>
+    <rdfs:comment>Manages a CloudFormation StackSet Instance. Instances are managed in the account and region of the StackSet after the target account permissions have been configured. Additional information about StackSets can be found in the [AWS CloudFormation User Guide](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/what-is-cfnstacksets.html).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_account_id">
+    <rdfs:label>account_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_call_as">
+    <rdfs:label>call_as</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_organizational_unit_id">
+    <rdfs:label>organizational_unit_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_parameter_overrides">
+    <rdfs:label>parameter_overrides</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_retain_stack">
+    <rdfs:label>retain_stack</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_stack_id">
+    <rdfs:label>stack_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_stack_instance_summaries">
+    <rdfs:label>stack_instance_summaries</rdfs:label>
+    <rdfs:comment>List of stack instances created from an organizational unit deployment target. This will only be populated when `deployment_targets` is set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_stack_set_instance_region">
+    <rdfs:label>stack_set_instance_region</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_stack_set_name">
+    <rdfs:label>stack_set_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_account_filter_type">
+    <rdfs:label>account_filter_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_accounts">
+    <rdfs:label>accounts</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_accounts_url">
+    <rdfs:label>accounts_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_organizational_unit_ids">
+    <rdfs:label>organizational_unit_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_concurrency_mode">
+    <rdfs:label>concurrency_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_failure_tolerance_count">
+    <rdfs:label>failure_tolerance_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_failure_tolerance_percentage">
+    <rdfs:label>failure_tolerance_percentage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_max_concurrent_count">
+    <rdfs:label>max_concurrent_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_max_concurrent_percentage">
+    <rdfs:label>max_concurrent_percentage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_region_concurrency_type">
+    <rdfs:label>region_concurrency_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_region_order">
+    <rdfs:label>region_order</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudformation_stack_set_instance_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudformation_stack_set_instance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

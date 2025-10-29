@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_config_remediation_configuration">
+    <rdfs:label>aws_config_remediation_configuration</rdfs:label>
+    <rdfs:comment>Provides an AWS Config Remediation Configuration.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_automatic">
+    <rdfs:label>automatic</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_config_rule_name">
+    <rdfs:label>config_rule_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_maximum_automatic_attempts">
+    <rdfs:label>maximum_automatic_attempts</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_resource_type">
+    <rdfs:label>resource_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_retry_attempt_seconds">
+    <rdfs:label>retry_attempt_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_target_id">
+    <rdfs:label>target_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_target_type">
+    <rdfs:label>target_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_target_version">
+    <rdfs:label>target_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_concurrent_execution_rate_percentage">
+    <rdfs:label>concurrent_execution_rate_percentage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_error_percentage">
+    <rdfs:label>error_percentage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_resource_value">
+    <rdfs:label>resource_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_static_value">
+    <rdfs:label>static_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_remediation_configuration_static_values">
+    <rdfs:label>static_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_remediation_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

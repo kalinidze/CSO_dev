@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_iam_access_key">
+    <rdfs:label>aws_iam_access_key</rdfs:label>
+    <rdfs:comment>Provides an IAM access key. This is a set of credentials that allow API requests to be made as an IAM user.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iam_access_key_create_date">
+    <rdfs:label>create_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iam_access_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iam_access_key_encrypted_secret">
+    <rdfs:label>encrypted_secret</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iam_access_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iam_access_key_encrypted_ses_smtp_password_v4">
+    <rdfs:label>encrypted_ses_smtp_password_v4</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iam_access_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iam_access_key_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iam_access_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iam_access_key_key_fingerprint">
+    <rdfs:label>key_fingerprint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iam_access_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iam_access_key_pgp_key">
+    <rdfs:label>pgp_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iam_access_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iam_access_key_secret">
+    <rdfs:label>secret</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iam_access_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iam_access_key_ses_smtp_password_v4">
+    <rdfs:label>ses_smtp_password_v4</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iam_access_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iam_access_key_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iam_access_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_iam_access_key_user">
+    <rdfs:label>user</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_iam_access_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

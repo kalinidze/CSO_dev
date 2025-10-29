@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_dns_recordset">
+    <rdfs:label>yandex_dns_recordset</rdfs:label>
+    <rdfs:comment>Manages a DNS RecordSet within Yandex Cloud.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_dns_recordset_data">
+    <rdfs:label>data</rdfs:label>
+    <rdfs:comment>The string data for the records in this record set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_dns_recordset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_dns_recordset_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_dns_recordset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_dns_recordset_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The DNS name this record set will apply to.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_dns_recordset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_dns_recordset_ttl">
+    <rdfs:label>ttl</rdfs:label>
+    <rdfs:comment>The time-to-live of this record set (seconds).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_dns_recordset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_dns_recordset_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>The DNS record set type.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_dns_recordset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_dns_recordset_zone_id">
+    <rdfs:label>zone_id</rdfs:label>
+    <rdfs:comment>The id of the zone in which this record set will reside.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_dns_recordset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_dns_recordset_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_dns_recordset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_dns_recordset_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_dns_recordset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_dns_recordset_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_dns_recordset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

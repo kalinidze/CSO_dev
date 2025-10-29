@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_amplify_branch">
+    <rdfs:label>aws_amplify_branch</rdfs:label>
+    <rdfs:comment>Provides an Amplify Branch resource.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_app_id">
+    <rdfs:label>app_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_associated_resources">
+    <rdfs:label>associated_resources</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_backend_environment_arn">
+    <rdfs:label>backend_environment_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_basic_auth_credentials">
+    <rdfs:label>basic_auth_credentials</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_branch_name">
+    <rdfs:label>branch_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_custom_domains">
+    <rdfs:label>custom_domains</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_destination_branch">
+    <rdfs:label>destination_branch</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_display_name">
+    <rdfs:label>display_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_enable_auto_build">
+    <rdfs:label>enable_auto_build</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_enable_basic_auth">
+    <rdfs:label>enable_basic_auth</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_enable_notification">
+    <rdfs:label>enable_notification</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_enable_performance_mode">
+    <rdfs:label>enable_performance_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_enable_pull_request_preview">
+    <rdfs:label>enable_pull_request_preview</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_enable_skew_protection">
+    <rdfs:label>enable_skew_protection</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_environment_variables">
+    <rdfs:label>environment_variables</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_framework">
+    <rdfs:label>framework</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_pull_request_environment_name">
+    <rdfs:label>pull_request_environment_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_source_branch">
+    <rdfs:label>source_branch</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_stage">
+    <rdfs:label>stage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_amplify_branch_ttl">
+    <rdfs:label>ttl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_amplify_branch"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

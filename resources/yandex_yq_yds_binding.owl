@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_yq_yds_binding">
+    <rdfs:label>yandex_yq_yds_binding</rdfs:label>
+    <rdfs:comment>Manages Yandex DataStreams binding in Yandex Query service. For more information, see [the official documentation](https://yandex.cloud/docs/query/concepts/glossary#Binding).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_yds_binding_compression">
+    <rdfs:label>compression</rdfs:label>
+    <rdfs:comment>The data compression algorithm, e.g. brotli, bzip2, gzip, lz4, xz, zstd.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_yds_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_yds_binding_connection_id">
+    <rdfs:label>connection_id</rdfs:label>
+    <rdfs:comment>The connection identifier.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_yds_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_yds_binding_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>The resource description.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_yds_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_yds_binding_format">
+    <rdfs:label>format</rdfs:label>
+    <rdfs:comment>The data format, e.g. csv_with_names, json_as_string, json_each_row, json_list, parquet, raw, tsv_with_names.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_yds_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_yds_binding_format_setting">
+    <rdfs:label>format_setting</rdfs:label>
+    <rdfs:comment>Special format setting.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_yds_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_yds_binding_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:comment>The resource identifier.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_yds_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_yds_binding_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_yds_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_yds_binding_stream">
+    <rdfs:label>stream</rdfs:label>
+    <rdfs:comment>The stream name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_yds_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_yds_binding_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Column name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_yds_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_yds_binding_not_null">
+    <rdfs:label>not_null</rdfs:label>
+    <rdfs:comment>A column cannot have the NULL data type. Default: `false`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_yds_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_yq_yds_binding_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Column data type. YQL data types are used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_yq_yds_binding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

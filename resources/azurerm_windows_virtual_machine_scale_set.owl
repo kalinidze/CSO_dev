@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set">
+    <rdfs:label>azurerm_windows_virtual_machine_scale_set</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_admin_password">
+    <rdfs:label>admin_password</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_admin_username">
+    <rdfs:label>admin_username</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_capacity_reservation_group_id">
+    <rdfs:label>capacity_reservation_group_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_computer_name_prefix">
+    <rdfs:label>computer_name_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_custom_data">
+    <rdfs:label>custom_data</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_do_not_run_extensions_on_overprovisioned_machines">
+    <rdfs:label>do_not_run_extensions_on_overprovisioned_machines</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_edge_zone">
+    <rdfs:label>edge_zone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_enable_automatic_updates">
+    <rdfs:label>enable_automatic_updates</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_encryption_at_host_enabled">
+    <rdfs:label>encryption_at_host_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_eviction_policy">
+    <rdfs:label>eviction_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_extension_operations_enabled">
+    <rdfs:label>extension_operations_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_extensions_time_budget">
+    <rdfs:label>extensions_time_budget</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_health_probe_id">
+    <rdfs:label>health_probe_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_host_group_id">
+    <rdfs:label>host_group_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_instances">
+    <rdfs:label>instances</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_license_type">
+    <rdfs:label>license_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_max_bid_price">
+    <rdfs:label>max_bid_price</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_overprovision">
+    <rdfs:label>overprovision</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_platform_fault_domain_count">
+    <rdfs:label>platform_fault_domain_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_priority">
+    <rdfs:label>priority</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_provision_vm_agent">
+    <rdfs:label>provision_vm_agent</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_proximity_placement_group_id">
+    <rdfs:label>proximity_placement_group_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_resilient_vm_creation_enabled">
+    <rdfs:label>resilient_vm_creation_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_resilient_vm_deletion_enabled">
+    <rdfs:label>resilient_vm_deletion_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_secure_boot_enabled">
+    <rdfs:label>secure_boot_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_single_placement_group">
+    <rdfs:label>single_placement_group</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_sku">
+    <rdfs:label>sku</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_source_image_id">
+    <rdfs:label>source_image_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_timezone">
+    <rdfs:label>timezone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_unique_id">
+    <rdfs:label>unique_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_upgrade_mode">
+    <rdfs:label>upgrade_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_user_data">
+    <rdfs:label>user_data</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_vtpm_enabled">
+    <rdfs:label>vtpm_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_zone_balance">
+    <rdfs:label>zone_balance</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_zones">
+    <rdfs:label>zones</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_ultra_ssd_enabled">
+    <rdfs:label>ultra_ssd_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_content">
+    <rdfs:label>content</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_setting">
+    <rdfs:label>setting</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_action">
+    <rdfs:label>action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_enabled">
+    <rdfs:label>enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_grace_period">
+    <rdfs:label>grace_period</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_disable_automatic_rollback">
+    <rdfs:label>disable_automatic_rollback</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_enable_automatic_os_upgrade">
+    <rdfs:label>enable_automatic_os_upgrade</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_storage_account_uri">
+    <rdfs:label>storage_account_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_caching">
+    <rdfs:label>caching</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_create_option">
+    <rdfs:label>create_option</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_disk_encryption_set_id">
+    <rdfs:label>disk_encryption_set_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_disk_size_gb">
+    <rdfs:label>disk_size_gb</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_lun">
+    <rdfs:label>lun</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_storage_account_type">
+    <rdfs:label>storage_account_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_ultra_ssd_disk_iops_read_write">
+    <rdfs:label>ultra_ssd_disk_iops_read_write</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_ultra_ssd_disk_mbps_read_write">
+    <rdfs:label>ultra_ssd_disk_mbps_read_write</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_write_accelerator_enabled">
+    <rdfs:label>write_accelerator_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_auto_upgrade_minor_version">
+    <rdfs:label>auto_upgrade_minor_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_automatic_upgrade_enabled">
+    <rdfs:label>automatic_upgrade_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_force_update_tag">
+    <rdfs:label>force_update_tag</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_protected_settings">
+    <rdfs:label>protected_settings</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_provision_after_extensions">
+    <rdfs:label>provision_after_extensions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_publisher">
+    <rdfs:label>publisher</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_settings">
+    <rdfs:label>settings</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_type_handler_version">
+    <rdfs:label>type_handler_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_secret_url">
+    <rdfs:label>secret_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_source_vault_id">
+    <rdfs:label>source_vault_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_configuration_blob_uri">
+    <rdfs:label>configuration_blob_uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_order">
+    <rdfs:label>order</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_tag">
+    <rdfs:label>tag</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_version_id">
+    <rdfs:label>version_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_identity_ids">
+    <rdfs:label>identity_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_principal_id">
+    <rdfs:label>principal_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_tenant_id">
+    <rdfs:label>tenant_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_auxiliary_mode">
+    <rdfs:label>auxiliary_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_auxiliary_sku">
+    <rdfs:label>auxiliary_sku</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_dns_servers">
+    <rdfs:label>dns_servers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_enable_accelerated_networking">
+    <rdfs:label>enable_accelerated_networking</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_enable_ip_forwarding">
+    <rdfs:label>enable_ip_forwarding</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_network_security_group_id">
+    <rdfs:label>network_security_group_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_primary">
+    <rdfs:label>primary</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_application_gateway_backend_address_pool_ids">
+    <rdfs:label>application_gateway_backend_address_pool_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_application_security_group_ids">
+    <rdfs:label>application_security_group_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_load_balancer_backend_address_pool_ids">
+    <rdfs:label>load_balancer_backend_address_pool_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_load_balancer_inbound_nat_rules_ids">
+    <rdfs:label>load_balancer_inbound_nat_rules_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_primary">
+    <rdfs:label>primary</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_domain_name_label">
+    <rdfs:label>domain_name_label</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_idle_timeout_in_minutes">
+    <rdfs:label>idle_timeout_in_minutes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_public_ip_prefix_id">
+    <rdfs:label>public_ip_prefix_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_tag">
+    <rdfs:label>tag</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_caching">
+    <rdfs:label>caching</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_disk_encryption_set_id">
+    <rdfs:label>disk_encryption_set_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_disk_size_gb">
+    <rdfs:label>disk_size_gb</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_secure_vm_disk_encryption_set_id">
+    <rdfs:label>secure_vm_disk_encryption_set_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_security_encryption_type">
+    <rdfs:label>security_encryption_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_storage_account_type">
+    <rdfs:label>storage_account_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_write_accelerator_enabled">
+    <rdfs:label>write_accelerator_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_option">
+    <rdfs:label>option</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_placement">
+    <rdfs:label>placement</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_product">
+    <rdfs:label>product</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_publisher">
+    <rdfs:label>publisher</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_cross_zone_upgrades_enabled">
+    <rdfs:label>cross_zone_upgrades_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_max_batch_instance_percent">
+    <rdfs:label>max_batch_instance_percent</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_max_unhealthy_instance_percent">
+    <rdfs:label>max_unhealthy_instance_percent</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_max_unhealthy_upgraded_instance_percent">
+    <rdfs:label>max_unhealthy_upgraded_instance_percent</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_maximum_surge_instances_enabled">
+    <rdfs:label>maximum_surge_instances_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_pause_time_between_batches">
+    <rdfs:label>pause_time_between_batches</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_prioritize_unhealthy_instances_enabled">
+    <rdfs:label>prioritize_unhealthy_instances_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_force_deletion_enabled">
+    <rdfs:label>force_deletion_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_rule">
+    <rdfs:label>rule</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_key_vault_id">
+    <rdfs:label>key_vault_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_store">
+    <rdfs:label>store</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_url">
+    <rdfs:label>url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_offer">
+    <rdfs:label>offer</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_publisher">
+    <rdfs:label>publisher</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_sku">
+    <rdfs:label>sku</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_enabled">
+    <rdfs:label>enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_timeout">
+    <rdfs:label>timeout</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_enabled">
+    <rdfs:label>enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_timeout">
+    <rdfs:label>timeout</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_certificate_url">
+    <rdfs:label>certificate_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_windows_virtual_machine_scale_set_protocol">
+    <rdfs:label>protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_windows_virtual_machine_scale_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

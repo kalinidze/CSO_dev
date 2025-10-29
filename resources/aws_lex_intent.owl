@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_lex_intent">
+    <rdfs:label>aws_lex_intent</rdfs:label>
+    <rdfs:comment>Provides an Amazon Lex Intent resource. For more information see
+[Amazon Lex: How It Works](https://docs.aws.amazon.com/lex/latest/dg/how-it-works.html)</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_checksum">
+    <rdfs:label>checksum</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_create_version">
+    <rdfs:label>create_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_created_date">
+    <rdfs:label>created_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_last_updated_date">
+    <rdfs:label>last_updated_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_parent_intent_signature">
+    <rdfs:label>parent_intent_signature</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_sample_utterances">
+    <rdfs:label>sample_utterances</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_response_card">
+    <rdfs:label>response_card</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_content">
+    <rdfs:label>content</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_content_type">
+    <rdfs:label>content_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_group_number">
+    <rdfs:label>group_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_max_attempts">
+    <rdfs:label>max_attempts</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_response_card">
+    <rdfs:label>response_card</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_content">
+    <rdfs:label>content</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_content_type">
+    <rdfs:label>content_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_group_number">
+    <rdfs:label>group_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_message_version">
+    <rdfs:label>message_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_uri">
+    <rdfs:label>uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_max_attempts">
+    <rdfs:label>max_attempts</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_response_card">
+    <rdfs:label>response_card</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_content">
+    <rdfs:label>content</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_content_type">
+    <rdfs:label>content_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_group_number">
+    <rdfs:label>group_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_response_card">
+    <rdfs:label>response_card</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_content">
+    <rdfs:label>content</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_content_type">
+    <rdfs:label>content_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_group_number">
+    <rdfs:label>group_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_message_version">
+    <rdfs:label>message_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_uri">
+    <rdfs:label>uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_response_card">
+    <rdfs:label>response_card</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_content">
+    <rdfs:label>content</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_content_type">
+    <rdfs:label>content_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_group_number">
+    <rdfs:label>group_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_priority">
+    <rdfs:label>priority</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_response_card">
+    <rdfs:label>response_card</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_sample_utterances">
+    <rdfs:label>sample_utterances</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_slot_constraint">
+    <rdfs:label>slot_constraint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_slot_type">
+    <rdfs:label>slot_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_slot_type_version">
+    <rdfs:label>slot_type_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_max_attempts">
+    <rdfs:label>max_attempts</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_response_card">
+    <rdfs:label>response_card</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_content">
+    <rdfs:label>content</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_content_type">
+    <rdfs:label>content_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_group_number">
+    <rdfs:label>group_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lex_intent_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lex_intent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

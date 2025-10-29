@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue">
+    <rdfs:label>azurerm_stream_analytics_output_servicebus_queue</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_authentication_mode">
+    <rdfs:label>authentication_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_property_columns">
+    <rdfs:label>property_columns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_queue_name">
+    <rdfs:label>queue_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_servicebus_namespace">
+    <rdfs:label>servicebus_namespace</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_shared_access_policy_key">
+    <rdfs:label>shared_access_policy_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_shared_access_policy_name">
+    <rdfs:label>shared_access_policy_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_stream_analytics_job_name">
+    <rdfs:label>stream_analytics_job_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_system_property_columns">
+    <rdfs:label>system_property_columns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_encoding">
+    <rdfs:label>encoding</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_field_delimiter">
+    <rdfs:label>field_delimiter</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_format">
+    <rdfs:label>format</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_stream_analytics_output_servicebus_queue_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_stream_analytics_output_servicebus_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

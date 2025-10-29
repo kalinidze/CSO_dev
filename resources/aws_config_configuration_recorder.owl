@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_config_configuration_recorder">
+    <rdfs:label>aws_config_configuration_recorder</rdfs:label>
+    <rdfs:comment>Provides an AWS Config Configuration Recorder. Please note that this resource **does not start** the created recorder automatically.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_configuration_recorder_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_configuration_recorder"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_configuration_recorder_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_configuration_recorder"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_configuration_recorder_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_configuration_recorder"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_configuration_recorder_role_arn">
+    <rdfs:label>role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_configuration_recorder"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_configuration_recorder_all_supported">
+    <rdfs:label>all_supported</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_configuration_recorder"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_configuration_recorder_include_global_resource_types">
+    <rdfs:label>include_global_resource_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_configuration_recorder"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_configuration_recorder_resource_types">
+    <rdfs:label>resource_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_configuration_recorder"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_configuration_recorder_resource_types">
+    <rdfs:label>resource_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_configuration_recorder"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_configuration_recorder_use_only">
+    <rdfs:label>use_only</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_configuration_recorder"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_configuration_recorder_recording_frequency">
+    <rdfs:label>recording_frequency</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_configuration_recorder"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_configuration_recorder_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_configuration_recorder"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_configuration_recorder_recording_frequency">
+    <rdfs:label>recording_frequency</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_configuration_recorder"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_config_configuration_recorder_resource_types">
+    <rdfs:label>resource_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_config_configuration_recorder"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

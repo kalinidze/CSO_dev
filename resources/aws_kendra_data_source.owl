@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_kendra_data_source">
+    <rdfs:label>aws_kendra_data_source</rdfs:label>
+    <rdfs:comment>Terraform resource for managing an AWS Kendra Data Source.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_data_source_id">
+    <rdfs:label>data_source_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_error_message">
+    <rdfs:label>error_message</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_index_id">
+    <rdfs:label>index_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_language_code">
+    <rdfs:label>language_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_role_arn">
+    <rdfs:label>role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_schedule">
+    <rdfs:label>schedule</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_updated_at">
+    <rdfs:label>updated_at</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_bucket_name">
+    <rdfs:label>bucket_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_exclusion_patterns">
+    <rdfs:label>exclusion_patterns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_inclusion_patterns">
+    <rdfs:label>inclusion_patterns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_inclusion_prefixes">
+    <rdfs:label>inclusion_prefixes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_key_path">
+    <rdfs:label>key_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_s3_prefix">
+    <rdfs:label>s3_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_template">
+    <rdfs:label>template</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_crawl_depth">
+    <rdfs:label>crawl_depth</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_max_content_size_per_page_in_mega_bytes">
+    <rdfs:label>max_content_size_per_page_in_mega_bytes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_max_links_per_page">
+    <rdfs:label>max_links_per_page</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_max_urls_per_minute_crawl_rate">
+    <rdfs:label>max_urls_per_minute_crawl_rate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_url_exclusion_patterns">
+    <rdfs:label>url_exclusion_patterns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_url_inclusion_patterns">
+    <rdfs:label>url_inclusion_patterns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_credentials">
+    <rdfs:label>credentials</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_host">
+    <rdfs:label>host</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_credentials">
+    <rdfs:label>credentials</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_host">
+    <rdfs:label>host</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_seed_urls">
+    <rdfs:label>seed_urls</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_web_crawler_mode">
+    <rdfs:label>web_crawler_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_site_maps">
+    <rdfs:label>site_maps</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_role_arn">
+    <rdfs:label>role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_document_content_deletion">
+    <rdfs:label>document_content_deletion</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_condition_document_attribute_key">
+    <rdfs:label>condition_document_attribute_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_date_value">
+    <rdfs:label>date_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_long_value">
+    <rdfs:label>long_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_string_list_value">
+    <rdfs:label>string_list_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_string_value">
+    <rdfs:label>string_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_target_document_attribute_key">
+    <rdfs:label>target_document_attribute_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_target_document_attribute_value_deletion">
+    <rdfs:label>target_document_attribute_value_deletion</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_date_value">
+    <rdfs:label>date_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_long_value">
+    <rdfs:label>long_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_string_list_value">
+    <rdfs:label>string_list_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_string_value">
+    <rdfs:label>string_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_lambda_arn">
+    <rdfs:label>lambda_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_s3_bucket">
+    <rdfs:label>s3_bucket</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_condition_document_attribute_key">
+    <rdfs:label>condition_document_attribute_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_date_value">
+    <rdfs:label>date_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_long_value">
+    <rdfs:label>long_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_string_list_value">
+    <rdfs:label>string_list_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_string_value">
+    <rdfs:label>string_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_lambda_arn">
+    <rdfs:label>lambda_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_s3_bucket">
+    <rdfs:label>s3_bucket</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_condition_document_attribute_key">
+    <rdfs:label>condition_document_attribute_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_operator">
+    <rdfs:label>operator</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_date_value">
+    <rdfs:label>date_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_long_value">
+    <rdfs:label>long_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_string_list_value">
+    <rdfs:label>string_list_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_string_value">
+    <rdfs:label>string_value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_kendra_data_source_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_kendra_data_source"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

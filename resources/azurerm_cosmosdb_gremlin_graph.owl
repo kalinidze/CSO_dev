@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph">
+    <rdfs:label>azurerm_cosmosdb_gremlin_graph</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_account_name">
+    <rdfs:label>account_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_analytical_storage_ttl">
+    <rdfs:label>analytical_storage_ttl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_database_name">
+    <rdfs:label>database_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_default_ttl">
+    <rdfs:label>default_ttl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_partition_key_path">
+    <rdfs:label>partition_key_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_partition_key_version">
+    <rdfs:label>partition_key_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_throughput">
+    <rdfs:label>throughput</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_max_throughput">
+    <rdfs:label>max_throughput</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_conflict_resolution_path">
+    <rdfs:label>conflict_resolution_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_conflict_resolution_procedure">
+    <rdfs:label>conflict_resolution_procedure</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_mode">
+    <rdfs:label>mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_automatic">
+    <rdfs:label>automatic</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_excluded_paths">
+    <rdfs:label>excluded_paths</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_included_paths">
+    <rdfs:label>included_paths</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_indexing_mode">
+    <rdfs:label>indexing_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_order">
+    <rdfs:label>order</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_types">
+    <rdfs:label>types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_cosmosdb_gremlin_graph_paths">
+    <rdfs:label>paths</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_cosmosdb_gremlin_graph"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

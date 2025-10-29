@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_imagebuilder_image_pipeline">
+    <rdfs:label>aws_imagebuilder_image_pipeline</rdfs:label>
+    <rdfs:comment>Manages an Image Builder Image Pipeline.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_container_recipe_arn">
+    <rdfs:label>container_recipe_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_date_created">
+    <rdfs:label>date_created</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_date_last_run">
+    <rdfs:label>date_last_run</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_date_next_run">
+    <rdfs:label>date_next_run</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_date_updated">
+    <rdfs:label>date_updated</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_distribution_configuration_arn">
+    <rdfs:label>distribution_configuration_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_enhanced_image_metadata_enabled">
+    <rdfs:label>enhanced_image_metadata_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_execution_role">
+    <rdfs:label>execution_role</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_image_recipe_arn">
+    <rdfs:label>image_recipe_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_infrastructure_configuration_arn">
+    <rdfs:label>infrastructure_configuration_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_platform">
+    <rdfs:label>platform</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_image_scanning_enabled">
+    <rdfs:label>image_scanning_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_container_tags">
+    <rdfs:label>container_tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_repository_name">
+    <rdfs:label>repository_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_image_tests_enabled">
+    <rdfs:label>image_tests_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_timeout_minutes">
+    <rdfs:label>timeout_minutes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_pipeline_execution_start_condition">
+    <rdfs:label>pipeline_execution_start_condition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_schedule_expression">
+    <rdfs:label>schedule_expression</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_timezone">
+    <rdfs:label>timezone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_on_failure">
+    <rdfs:label>on_failure</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_parallel_group">
+    <rdfs:label>parallel_group</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_workflow_arn">
+    <rdfs:label>workflow_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_imagebuilder_image_pipeline_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_imagebuilder_image_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

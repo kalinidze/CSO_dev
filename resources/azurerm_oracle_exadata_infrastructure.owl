@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure">
+    <rdfs:label>azurerm_oracle_exadata_infrastructure</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_compute_count">
+    <rdfs:label>compute_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_customer_contacts">
+    <rdfs:label>customer_contacts</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_database_server_type">
+    <rdfs:label>database_server_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_display_name">
+    <rdfs:label>display_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_shape">
+    <rdfs:label>shape</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_storage_count">
+    <rdfs:label>storage_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_storage_server_type">
+    <rdfs:label>storage_server_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_zones">
+    <rdfs:label>zones</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_days_of_week">
+    <rdfs:label>days_of_week</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_hours_of_day">
+    <rdfs:label>hours_of_day</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_lead_time_in_weeks">
+    <rdfs:label>lead_time_in_weeks</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_months">
+    <rdfs:label>months</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_patching_mode">
+    <rdfs:label>patching_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_preference">
+    <rdfs:label>preference</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_weeks_of_month">
+    <rdfs:label>weeks_of_month</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_exadata_infrastructure_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_exadata_infrastructure"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

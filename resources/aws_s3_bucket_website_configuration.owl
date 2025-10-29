@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_s3_bucket_website_configuration">
+    <rdfs:label>aws_s3_bucket_website_configuration</rdfs:label>
+    <rdfs:comment>Provides an S3 bucket website configuration resource. For more information, see [Hosting Websites on S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_bucket">
+    <rdfs:label>bucket</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_expected_bucket_owner">
+    <rdfs:label>expected_bucket_owner</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_routing_rules">
+    <rdfs:label>routing_rules</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_website_domain">
+    <rdfs:label>website_domain</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_website_endpoint">
+    <rdfs:label>website_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_suffix">
+    <rdfs:label>suffix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_host_name">
+    <rdfs:label>host_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_protocol">
+    <rdfs:label>protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_http_error_code_returned_equals">
+    <rdfs:label>http_error_code_returned_equals</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_key_prefix_equals">
+    <rdfs:label>key_prefix_equals</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_host_name">
+    <rdfs:label>host_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_http_redirect_code">
+    <rdfs:label>http_redirect_code</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_protocol">
+    <rdfs:label>protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_replace_key_prefix_with">
+    <rdfs:label>replace_key_prefix_with</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_bucket_website_configuration_replace_key_with">
+    <rdfs:label>replace_key_with</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_bucket_website_configuration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

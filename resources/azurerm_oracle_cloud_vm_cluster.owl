@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster">
+    <rdfs:label>azurerm_oracle_cloud_vm_cluster</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_backup_subnet_cidr">
+    <rdfs:label>backup_subnet_cidr</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_cloud_exadata_infrastructure_id">
+    <rdfs:label>cloud_exadata_infrastructure_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_cluster_name">
+    <rdfs:label>cluster_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_cpu_core_count">
+    <rdfs:label>cpu_core_count</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_data_storage_percentage">
+    <rdfs:label>data_storage_percentage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_data_storage_size_in_tbs">
+    <rdfs:label>data_storage_size_in_tbs</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_db_node_storage_size_in_gbs">
+    <rdfs:label>db_node_storage_size_in_gbs</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_db_servers">
+    <rdfs:label>db_servers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_display_name">
+    <rdfs:label>display_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_domain">
+    <rdfs:label>domain</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_gi_version">
+    <rdfs:label>gi_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_hostname">
+    <rdfs:label>hostname</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_hostname_actual">
+    <rdfs:label>hostname_actual</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_license_model">
+    <rdfs:label>license_model</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_local_backup_enabled">
+    <rdfs:label>local_backup_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_memory_size_in_gbs">
+    <rdfs:label>memory_size_in_gbs</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_ocid">
+    <rdfs:label>ocid</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_scan_listener_port_tcp">
+    <rdfs:label>scan_listener_port_tcp</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_scan_listener_port_tcp_ssl">
+    <rdfs:label>scan_listener_port_tcp_ssl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_sparse_diskgroup_enabled">
+    <rdfs:label>sparse_diskgroup_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_ssh_public_keys">
+    <rdfs:label>ssh_public_keys</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_system_version">
+    <rdfs:label>system_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_time_zone">
+    <rdfs:label>time_zone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_virtual_network_id">
+    <rdfs:label>virtual_network_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_zone_id">
+    <rdfs:label>zone_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_diagnostics_events_enabled">
+    <rdfs:label>diagnostics_events_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_health_monitoring_enabled">
+    <rdfs:label>health_monitoring_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_incident_logs_enabled">
+    <rdfs:label>incident_logs_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_mount_point">
+    <rdfs:label>mount_point</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_size_in_gb">
+    <rdfs:label>size_in_gb</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_oracle_cloud_vm_cluster_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_oracle_cloud_vm_cluster"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

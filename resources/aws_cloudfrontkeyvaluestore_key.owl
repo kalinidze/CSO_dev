@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_cloudfrontkeyvaluestore_key">
+    <rdfs:label>aws_cloudfrontkeyvaluestore_key</rdfs:label>
+    <rdfs:comment>Terraform resource for managing an AWS CloudFront KeyValueStore Key.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudfrontkeyvaluestore_key_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudfrontkeyvaluestore_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudfrontkeyvaluestore_key_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:comment>The key to put.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudfrontkeyvaluestore_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudfrontkeyvaluestore_key_key_value_store_arn">
+    <rdfs:label>key_value_store_arn</rdfs:label>
+    <rdfs:comment>The Amazon Resource Name (ARN) of the Key Value Store.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudfrontkeyvaluestore_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudfrontkeyvaluestore_key_total_size_in_bytes">
+    <rdfs:label>total_size_in_bytes</rdfs:label>
+    <rdfs:comment>Total size of the Key Value Store in bytes.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudfrontkeyvaluestore_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_cloudfrontkeyvaluestore_key_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:comment>The value to put.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_cloudfrontkeyvaluestore_key"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

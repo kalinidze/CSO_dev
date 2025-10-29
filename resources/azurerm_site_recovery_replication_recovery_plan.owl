@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan">
+    <rdfs:label>azurerm_site_recovery_replication_recovery_plan</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_recovery_vault_id">
+    <rdfs:label>recovery_vault_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_source_recovery_fabric_id">
+    <rdfs:label>source_recovery_fabric_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_target_recovery_fabric_id">
+    <rdfs:label>target_recovery_fabric_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_primary_edge_zone">
+    <rdfs:label>primary_edge_zone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_primary_zone">
+    <rdfs:label>primary_zone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_recovery_edge_zone">
+    <rdfs:label>recovery_edge_zone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_recovery_zone">
+    <rdfs:label>recovery_zone</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_replicated_protected_items">
+    <rdfs:label>replicated_protected_items</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fabric_location">
+    <rdfs:label>fabric_location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fail_over_directions">
+    <rdfs:label>fail_over_directions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fail_over_types">
+    <rdfs:label>fail_over_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_manual_action_instruction">
+    <rdfs:label>manual_action_instruction</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_runbook_id">
+    <rdfs:label>runbook_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_script_path">
+    <rdfs:label>script_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fabric_location">
+    <rdfs:label>fabric_location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fail_over_directions">
+    <rdfs:label>fail_over_directions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fail_over_types">
+    <rdfs:label>fail_over_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_manual_action_instruction">
+    <rdfs:label>manual_action_instruction</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_runbook_id">
+    <rdfs:label>runbook_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_script_path">
+    <rdfs:label>script_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fabric_location">
+    <rdfs:label>fabric_location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fail_over_directions">
+    <rdfs:label>fail_over_directions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fail_over_types">
+    <rdfs:label>fail_over_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_manual_action_instruction">
+    <rdfs:label>manual_action_instruction</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_runbook_id">
+    <rdfs:label>runbook_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_script_path">
+    <rdfs:label>script_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fabric_location">
+    <rdfs:label>fabric_location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fail_over_directions">
+    <rdfs:label>fail_over_directions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fail_over_types">
+    <rdfs:label>fail_over_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_manual_action_instruction">
+    <rdfs:label>manual_action_instruction</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_runbook_id">
+    <rdfs:label>runbook_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_script_path">
+    <rdfs:label>script_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fabric_location">
+    <rdfs:label>fabric_location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fail_over_directions">
+    <rdfs:label>fail_over_directions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fail_over_types">
+    <rdfs:label>fail_over_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_manual_action_instruction">
+    <rdfs:label>manual_action_instruction</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_runbook_id">
+    <rdfs:label>runbook_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_script_path">
+    <rdfs:label>script_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fabric_location">
+    <rdfs:label>fabric_location</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fail_over_directions">
+    <rdfs:label>fail_over_directions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_fail_over_types">
+    <rdfs:label>fail_over_types</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_manual_action_instruction">
+    <rdfs:label>manual_action_instruction</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_runbook_id">
+    <rdfs:label>runbook_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_script_path">
+    <rdfs:label>script_path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_site_recovery_replication_recovery_plan_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_site_recovery_replication_recovery_plan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

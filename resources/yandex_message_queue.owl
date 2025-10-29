@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_message_queue">
+    <rdfs:label>yandex_message_queue</rdfs:label>
+    <rdfs:comment>Allows management of [Yandex Cloud Message Queue](https://yandex.cloud/docs/message-queue).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_access_key">
+    <rdfs:label>access_key</rdfs:label>
+    <rdfs:comment>The [access key](https://yandex.cloud/docs/iam/operations/sa/create-access-key) to use when applying changes. If omitted, `ymq_access_key` specified in provider config is used. For more information see [documentation](https://yandex.cloud/docs/message-queue/quickstart).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:comment>ARN of the Yandex Message Queue. It is used for setting up a [redrive policy](https://yandex.cloud/docs/message-queue/concepts/dlq). See [documentation](https://yandex.cloud/docs/message-queue/api-ref/queue/SetQueueAttributes).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_content_based_deduplication">
+    <rdfs:label>content_based_deduplication</rdfs:label>
+    <rdfs:comment>Enables [content-based deduplication](https://yandex.cloud/docs/message-queue/concepts/deduplication#content-based-deduplication). Can be used only if queue is [FIFO](https://yandex.cloud/docs/message-queue/concepts/queue#fifo-queues).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_delay_seconds">
+    <rdfs:label>delay_seconds</rdfs:label>
+    <rdfs:comment>Number of seconds to [delay the message from being available for processing](https://yandex.cloud/docs/message-queue/concepts/delay-queues#delay-queues). Valid values: from 0 to 900 seconds (15 minutes). Default: 0.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_fifo_queue">
+    <rdfs:label>fifo_queue</rdfs:label>
+    <rdfs:comment>Is this queue [FIFO](https://yandex.cloud/docs/message-queue/concepts/queue#fifo-queues). If this parameter is not used, a standard queue is created. You cannot change the parameter value for a created queue.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_max_message_size">
+    <rdfs:label>max_message_size</rdfs:label>
+    <rdfs:comment>Maximum message size in bytes. Valid values: from 1024 bytes (1 KB) to 262144 bytes (256 KB). Default: 262144 (256 KB). For more information see [documentation](https://yandex.cloud/docs/message-queue/api-ref/queue/CreateQueue).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_message_retention_seconds">
+    <rdfs:label>message_retention_seconds</rdfs:label>
+    <rdfs:comment>The length of time in seconds to retain a message. Valid values: from 60 seconds (1 minute) to 1209600 seconds (14 days). Default: 345600 (4 days). For more information see [documentation](https://yandex.cloud/docs/message-queue/api-ref/queue/CreateQueue).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Queue name. The maximum length is 80 characters. You can use numbers, letters, underscores, and hyphens in the name. The name of a FIFO queue must end with the `.fifo` suffix. If not specified, random name will be generated. Conflicts with `name_prefix`. For more information see [documentation](https://yandex.cloud/docs/message-queue/api-ref/queue/CreateQueue).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_name_prefix">
+    <rdfs:label>name_prefix</rdfs:label>
+    <rdfs:comment>Generates random name with the specified prefix. Conflicts with `name`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_receive_wait_time_seconds">
+    <rdfs:label>receive_wait_time_seconds</rdfs:label>
+    <rdfs:comment>Wait time for the [ReceiveMessage](https://yandex.cloud/docs/message-queue/api-ref/message/ReceiveMessage) method (for long polling), in seconds. Valid values: from 0 to 20 seconds. Default: 0. For more information about long polling see [documentation](https://yandex.cloud/docs/message-queue/concepts/long-polling).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_redrive_policy">
+    <rdfs:label>redrive_policy</rdfs:label>
+    <rdfs:comment>Message redrive policy in [Dead Letter Queue](https://yandex.cloud/docs/message-queue/concepts/dlq). The source queue and DLQ must be the same type: for FIFO queues, the DLQ must also be a FIFO queue. For more information about redrive policy see [documentation](https://yandex.cloud/docs/message-queue/api-ref/queue/CreateQueue). Also you can use example in this page.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_region_id">
+    <rdfs:label>region_id</rdfs:label>
+    <rdfs:comment>ID of the region where the message queue is located at. The default is 'ru-central1'.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_secret_key">
+    <rdfs:label>secret_key</rdfs:label>
+    <rdfs:comment>The [secret key](https://yandex.cloud/docs/iam/operations/sa/create-access-key) to use when applying changes. If omitted, `ymq_secret_key` specified in provider config is used. For more information see [documentation](https://yandex.cloud/docs/message-queue/quickstart).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:comment>SQS tags</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_message_queue_visibility_timeout_seconds">
+    <rdfs:label>visibility_timeout_seconds</rdfs:label>
+    <rdfs:comment>[Visibility timeout](https://yandex.cloud/docs/message-queue/concepts/visibility-timeout) for messages in a queue, specified in seconds. Valid values: from 0 to 43200 seconds (12 hours). Default: 30.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_message_queue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

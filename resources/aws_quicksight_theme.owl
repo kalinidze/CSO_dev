@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_quicksight_theme">
+    <rdfs:label>aws_quicksight_theme</rdfs:label>
+    <rdfs:comment>Resource for managing a QuickSight Theme.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_aws_account_id">
+    <rdfs:label>aws_account_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_base_theme_id">
+    <rdfs:label>base_theme_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_created_time">
+    <rdfs:label>created_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_last_updated_time">
+    <rdfs:label>last_updated_time</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_theme_id">
+    <rdfs:label>theme_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_version_description">
+    <rdfs:label>version_description</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_version_number">
+    <rdfs:label>version_number</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_colors">
+    <rdfs:label>colors</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_empty_fill_color">
+    <rdfs:label>empty_fill_color</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_min_max_gradient">
+    <rdfs:label>min_max_gradient</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_show">
+    <rdfs:label>show</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_show">
+    <rdfs:label>show</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_show">
+    <rdfs:label>show</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_font_family">
+    <rdfs:label>font_family</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_accent">
+    <rdfs:label>accent</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_accent_foreground">
+    <rdfs:label>accent_foreground</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_danger">
+    <rdfs:label>danger</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_danger_foreground">
+    <rdfs:label>danger_foreground</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_dimension">
+    <rdfs:label>dimension</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_dimension_foreground">
+    <rdfs:label>dimension_foreground</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_measure">
+    <rdfs:label>measure</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_measure_foreground">
+    <rdfs:label>measure_foreground</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_primary_background">
+    <rdfs:label>primary_background</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_primary_foreground">
+    <rdfs:label>primary_foreground</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_secondary_background">
+    <rdfs:label>secondary_background</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_secondary_foreground">
+    <rdfs:label>secondary_foreground</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_success">
+    <rdfs:label>success</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_success_foreground">
+    <rdfs:label>success_foreground</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_warning">
+    <rdfs:label>warning</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_warning_foreground">
+    <rdfs:label>warning_foreground</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_actions">
+    <rdfs:label>actions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_principal">
+    <rdfs:label>principal</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_quicksight_theme_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_quicksight_theme"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

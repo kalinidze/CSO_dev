@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_emr_managed_scaling_policy">
+    <rdfs:label>aws_emr_managed_scaling_policy</rdfs:label>
+    <rdfs:comment>Provides a Managed Scaling policy for EMR Cluster. With Amazon EMR versions 5.30.0 and later (except for Amazon EMR 6.0.0), you can enable EMR managed scaling to automatically increase or decrease the number of instances or units in your cluster based on workload. See [Using EMR Managed Scaling in Amazon EMR](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-scaling.html) for more information.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_emr_managed_scaling_policy_cluster_id">
+    <rdfs:label>cluster_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_emr_managed_scaling_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_emr_managed_scaling_policy_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_emr_managed_scaling_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_emr_managed_scaling_policy_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_emr_managed_scaling_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_emr_managed_scaling_policy_maximum_capacity_units">
+    <rdfs:label>maximum_capacity_units</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_emr_managed_scaling_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_emr_managed_scaling_policy_maximum_core_capacity_units">
+    <rdfs:label>maximum_core_capacity_units</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_emr_managed_scaling_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_emr_managed_scaling_policy_maximum_ondemand_capacity_units">
+    <rdfs:label>maximum_ondemand_capacity_units</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_emr_managed_scaling_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_emr_managed_scaling_policy_minimum_capacity_units">
+    <rdfs:label>minimum_capacity_units</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_emr_managed_scaling_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_emr_managed_scaling_policy_unit_type">
+    <rdfs:label>unit_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_emr_managed_scaling_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

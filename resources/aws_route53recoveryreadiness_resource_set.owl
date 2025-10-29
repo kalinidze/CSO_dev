@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set">
+    <rdfs:label>aws_route53recoveryreadiness_resource_set</rdfs:label>
+    <rdfs:comment>Provides an AWS Route 53 Recovery Readiness Resource Set.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_resource_set_name">
+    <rdfs:label>resource_set_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_resource_set_type">
+    <rdfs:label>resource_set_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_component_id">
+    <rdfs:label>component_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_readiness_scopes">
+    <rdfs:label>readiness_scopes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_resource_arn">
+    <rdfs:label>resource_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_domain_name">
+    <rdfs:label>domain_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_hosted_zone_arn">
+    <rdfs:label>hosted_zone_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_record_set_id">
+    <rdfs:label>record_set_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_record_type">
+    <rdfs:label>record_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_domain_name">
+    <rdfs:label>domain_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_record_set_id">
+    <rdfs:label>record_set_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_route53recoveryreadiness_resource_set_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_route53recoveryreadiness_resource_set"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

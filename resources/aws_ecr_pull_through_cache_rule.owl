@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_ecr_pull_through_cache_rule">
+    <rdfs:label>aws_ecr_pull_through_cache_rule</rdfs:label>
+    <rdfs:comment>Provides an Elastic Container Registry Pull Through Cache Rule.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecr_pull_through_cache_rule_credential_arn">
+    <rdfs:label>credential_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecr_pull_through_cache_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecr_pull_through_cache_rule_custom_role_arn">
+    <rdfs:label>custom_role_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecr_pull_through_cache_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecr_pull_through_cache_rule_ecr_repository_prefix">
+    <rdfs:label>ecr_repository_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecr_pull_through_cache_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecr_pull_through_cache_rule_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecr_pull_through_cache_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecr_pull_through_cache_rule_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecr_pull_through_cache_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecr_pull_through_cache_rule_registry_id">
+    <rdfs:label>registry_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecr_pull_through_cache_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecr_pull_through_cache_rule_upstream_registry_url">
+    <rdfs:label>upstream_registry_url</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecr_pull_through_cache_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_ecr_pull_through_cache_rule_upstream_repository_prefix">
+    <rdfs:label>upstream_repository_prefix</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_ecr_pull_through_cache_rule"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

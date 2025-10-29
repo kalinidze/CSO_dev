@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_costoptimizationhub_preferences">
+    <rdfs:label>aws_costoptimizationhub_preferences</rdfs:label>
+    <rdfs:comment>Terraform resource for managing AWS Cost Optimization Hub Preferences.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_costoptimizationhub_preferences_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_costoptimizationhub_preferences"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_costoptimizationhub_preferences_member_account_discount_visibility">
+    <rdfs:label>member_account_discount_visibility</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_costoptimizationhub_preferences"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_costoptimizationhub_preferences_savings_estimation_mode">
+    <rdfs:label>savings_estimation_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_costoptimizationhub_preferences"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

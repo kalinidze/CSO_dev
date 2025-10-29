@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/yandex_datatransfer_endpoint">
+    <rdfs:label>yandex_datatransfer_endpoint</rdfs:label>
+    <rdfs:comment>Manages a Data Transfer endpoint. For more information, see [the official documentation](https://yandex.cloud/docs/data-transfer/).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>The resource description.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_folder_id">
+    <rdfs:label>folder_id</rdfs:label>
+    <rdfs:comment>The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>A set of key/value label pairs which assigned to resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The resource name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_clickhouse_cluster_name">
+    <rdfs:label>clickhouse_cluster_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_exclude_tables">
+    <rdfs:label>exclude_tables</rdfs:label>
+    <rdfs:comment>The list of tables that should not be transferred.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_include_tables">
+    <rdfs:label>include_tables</rdfs:label>
+    <rdfs:comment>The list of tables that should be transferred. Leave empty if all tables should be transferred.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:comment>List of security groups that the transfer associated with this endpoint should use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_database">
+    <rdfs:label>database</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_mdb_cluster_id">
+    <rdfs:label>mdb_cluster_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_user">
+    <rdfs:label>user</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_http_port">
+    <rdfs:label>http_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_native_port">
+    <rdfs:label>native_port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_hosts">
+    <rdfs:label>hosts</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_ca_certificate">
+    <rdfs:label>ca_certificate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_raw">
+    <rdfs:label>raw</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_cleanup_policy">
+    <rdfs:label>cleanup_policy</rdfs:label>
+    <rdfs:comment>How to clean collections when activating the transfer. One of `CLICKHOUSE_CLEANUP_POLICY_DISABLED` or `CLICKHOUSE_CLEANUP_POLICY_DROP`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_clickhouse_cluster_name">
+    <rdfs:label>clickhouse_cluster_name</rdfs:label>
+    <rdfs:comment>Name of the ClickHouse cluster. For managed ClickHouse clusters defaults to managed cluster ID.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:comment>List of security groups that the transfer associated with this endpoint should use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_from_name">
+    <rdfs:label>from_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_to_name">
+    <rdfs:label>to_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_database">
+    <rdfs:label>database</rdfs:label>
+    <rdfs:comment>Database name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_mdb_cluster_id">
+    <rdfs:label>mdb_cluster_id</rdfs:label>
+    <rdfs:comment>Identifier of the Managed ClickHouse cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_user">
+    <rdfs:label>user</rdfs:label>
+    <rdfs:comment>User for database access.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_http_port">
+    <rdfs:label>http_port</rdfs:label>
+    <rdfs:comment>TCP port number for the HTTP interface of the ClickHouse server.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_native_port">
+    <rdfs:label>native_port</rdfs:label>
+    <rdfs:comment>TCP port number for the native interface of the ClickHouse server.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_hosts">
+    <rdfs:label>hosts</rdfs:label>
+    <rdfs:comment>List of ClickHouse server host names.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Arbitrary shard name. This name may be used in `sharding` block to specify custom sharding rules.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_ca_certificate">
+    <rdfs:label>ca_certificate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_raw">
+    <rdfs:label>raw</rdfs:label>
+    <rdfs:comment>Password for the database access.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_column_name">
+    <rdfs:label>column_name</rdfs:label>
+    <rdfs:comment>The name of the column to calculate hash from.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_column_name">
+    <rdfs:label>column_name</rdfs:label>
+    <rdfs:comment>The name of the column to inspect when deciding the shard to chose for an incoming row.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_shard_name">
+    <rdfs:label>shard_name</rdfs:label>
+    <rdfs:comment>The name of the shard into which all the rows with the specified `column_value` will be written.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_string_value">
+    <rdfs:label>string_value</rdfs:label>
+    <rdfs:comment>The string value of the column.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:comment>List of security groups that the transfer associated with this endpoint should use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_topic_name">
+    <rdfs:label>topic_name</rdfs:label>
+    <rdfs:comment>**Deprecated**. Please use `topic_names` instead.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_topic_names">
+    <rdfs:label>topic_names</rdfs:label>
+    <rdfs:comment>The list of full source topic names.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_mechanism">
+    <rdfs:label>mechanism</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_user">
+    <rdfs:label>user</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_raw">
+    <rdfs:label>raw</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_cluster_id">
+    <rdfs:label>cluster_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_broker_urls">
+    <rdfs:label>broker_urls</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_ca_certificate">
+    <rdfs:label>ca_certificate</rdfs:label>
+    <rdfs:comment>X.509 certificate of the certificate authority which issued the server's certificate, in PEM format. If empty, the server's certificate must be signed by a well-known CA.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_add_rest_column">
+    <rdfs:label>add_rest_column</rdfs:label>
+    <rdfs:comment>Add fields, that are not in the schema, into the _rest column.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_null_keys_allowed">
+    <rdfs:label>null_keys_allowed</rdfs:label>
+    <rdfs:comment>Allow null keys. If `false` - null keys will be putted to unparsed data.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_unescape_string_values">
+    <rdfs:label>unescape_string_values</rdfs:label>
+    <rdfs:comment>Allow unescape string values.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_json_fields">
+    <rdfs:label>json_fields</rdfs:label>
+    <rdfs:comment>Description of the data schema as JSON specification.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:comment>Mark field as Primary Key.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Field name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:comment>Path to the field.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_required">
+    <rdfs:label>required</rdfs:label>
+    <rdfs:comment>Mark field as required.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Field type, one of: `INT64`, `INT32`, `INT16`, `INT8`, `UINT64`, `UINT32`, `UINT16`, `UINT8`, `DOUBLE`, `BOOLEAN`, `STRING`, `UTF8`, `ANY`, `DATETIME`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_add_rest_column">
+    <rdfs:label>add_rest_column</rdfs:label>
+    <rdfs:comment>Add fields, that are not in the schema, into the _rest column.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_null_keys_allowed">
+    <rdfs:label>null_keys_allowed</rdfs:label>
+    <rdfs:comment>Allow null keys. If `false` - null keys will be putted to unparsed data.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_unescape_string_values">
+    <rdfs:label>unescape_string_values</rdfs:label>
+    <rdfs:comment>Allow unescape string values.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_json_fields">
+    <rdfs:label>json_fields</rdfs:label>
+    <rdfs:comment>Description of the data schema as JSON specification.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:comment>Mark field as Primary Key.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Field name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:comment>Path to the field.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_required">
+    <rdfs:label>required</rdfs:label>
+    <rdfs:comment>Mark field as required.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Field type, one of: `INT64`, `INT32`, `INT16`, `INT8`, `UINT64`, `UINT32`, `UINT16`, `UINT8`, `DOUBLE`, `BOOLEAN`, `STRING`, `UTF8`, `ANY`, `DATETIME`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_buffer_flush_interval">
+    <rdfs:label>buffer_flush_interval</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_buffer_size">
+    <rdfs:label>buffer_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_cloud_function">
+    <rdfs:label>cloud_function</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_invocation_timeout">
+    <rdfs:label>invocation_timeout</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_number_of_retries">
+    <rdfs:label>number_of_retries</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:comment>List of security groups that the transfer associated with this endpoint should use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_mechanism">
+    <rdfs:label>mechanism</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_user">
+    <rdfs:label>user</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_raw">
+    <rdfs:label>raw</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_cluster_id">
+    <rdfs:label>cluster_id</rdfs:label>
+    <rdfs:comment>Identifier of the Managed Kafka cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_broker_urls">
+    <rdfs:label>broker_urls</rdfs:label>
+    <rdfs:comment>List of Kafka broker URLs.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_ca_certificate">
+    <rdfs:label>ca_certificate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_topic_prefix">
+    <rdfs:label>topic_prefix</rdfs:label>
+    <rdfs:comment>Topic name prefix. Messages will be sent to topic with name <topic_prefix>.<schema>.<table_name>.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_save_tx_order">
+    <rdfs:label>save_tx_order</rdfs:label>
+    <rdfs:comment>Not to split events queue into separate per-table queues.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_topic_name">
+    <rdfs:label>topic_name</rdfs:label>
+    <rdfs:comment>Full topic name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_counter_ids">
+    <rdfs:label>counter_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_columns">
+    <rdfs:label>columns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_raw">
+    <rdfs:label>raw</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_secondary_preferred_mode">
+    <rdfs:label>secondary_preferred_mode</rdfs:label>
+    <rdfs:comment>Whether the secondary server should be preferred to the primary when copying data.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:comment>List of security groups that the transfer associated with this endpoint should use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_collection_name">
+    <rdfs:label>collection_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_database_name">
+    <rdfs:label>database_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_auth_source">
+    <rdfs:label>auth_source</rdfs:label>
+    <rdfs:comment>Name of the database associated with the credentials.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_mdb_cluster_id">
+    <rdfs:label>mdb_cluster_id</rdfs:label>
+    <rdfs:comment>Identifier of the Managed MongoDB cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_user">
+    <rdfs:label>user</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_hosts">
+    <rdfs:label>hosts</rdfs:label>
+    <rdfs:comment>Host names of the replica set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:comment>TCP Port number.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_replica_set">
+    <rdfs:label>replica_set</rdfs:label>
+    <rdfs:comment>Replica set name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_ca_certificate">
+    <rdfs:label>ca_certificate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_raw">
+    <rdfs:label>raw</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_collection_name">
+    <rdfs:label>collection_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_database_name">
+    <rdfs:label>database_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_cleanup_policy">
+    <rdfs:label>cleanup_policy</rdfs:label>
+    <rdfs:comment>How to clean collections when activating the transfer. One of `DISABLED`, `DROP` or `TRUNCATE`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_database">
+    <rdfs:label>database</rdfs:label>
+    <rdfs:comment>If not empty, then all the data will be written to the database with the specified name; otherwise the database name is the same as in the source endpoint.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:comment>List of security groups that the transfer associated with this endpoint should use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_auth_source">
+    <rdfs:label>auth_source</rdfs:label>
+    <rdfs:comment>Name of the database associated with the credentials.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_mdb_cluster_id">
+    <rdfs:label>mdb_cluster_id</rdfs:label>
+    <rdfs:comment>Identifier of the Managed MongoDB cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_user">
+    <rdfs:label>user</rdfs:label>
+    <rdfs:comment>User for database access.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_hosts">
+    <rdfs:label>hosts</rdfs:label>
+    <rdfs:comment>Host names of the replica set.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:comment>TCP Port number.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_replica_set">
+    <rdfs:label>replica_set</rdfs:label>
+    <rdfs:comment>Replica set name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_ca_certificate">
+    <rdfs:label>ca_certificate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_raw">
+    <rdfs:label>raw</rdfs:label>
+    <rdfs:comment>Password for the database access.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_database">
+    <rdfs:label>database</rdfs:label>
+    <rdfs:comment>Name of the database to transfer.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_exclude_tables_regex">
+    <rdfs:label>exclude_tables_regex</rdfs:label>
+    <rdfs:comment>Opposite of `include_table_regex`. The tables matching the specified regular expressions will not be transferred.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_include_tables_regex">
+    <rdfs:label>include_tables_regex</rdfs:label>
+    <rdfs:comment>List of regular expressions of table names which should be transferred. A table name is formatted as schemaname.tablename. For example, a single regular expression may look like `^mydb.employees$`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:comment>List of security groups that the transfer associated with this endpoint should use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_service_database">
+    <rdfs:label>service_database</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_timezone">
+    <rdfs:label>timezone</rdfs:label>
+    <rdfs:comment>Timezone to use for parsing timestamps for saving source timezones. Accepts values from IANA timezone database. Default: `local timezone`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_user">
+    <rdfs:label>user</rdfs:label>
+    <rdfs:comment>User for the database access.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_mdb_cluster_id">
+    <rdfs:label>mdb_cluster_id</rdfs:label>
+    <rdfs:comment>Identifier of the Managed MySQL cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_hosts">
+    <rdfs:label>hosts</rdfs:label>
+    <rdfs:comment>List of host names of the MySQL server. Exactly one host is expected currently.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:comment>Port for the database connection.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_ca_certificate">
+    <rdfs:label>ca_certificate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_routine">
+    <rdfs:label>routine</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_tables">
+    <rdfs:label>tables</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_trigger">
+    <rdfs:label>trigger</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_view">
+    <rdfs:label>view</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_raw">
+    <rdfs:label>raw</rdfs:label>
+    <rdfs:comment>Password for the database access.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_cleanup_policy">
+    <rdfs:label>cleanup_policy</rdfs:label>
+    <rdfs:comment>How to clean tables when activating the transfer. One of `DISABLED`, `DROP` or `TRUNCATE`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_database">
+    <rdfs:label>database</rdfs:label>
+    <rdfs:comment>Name of the database to transfer.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:comment>List of security groups that the transfer associated with this endpoint should use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_service_database">
+    <rdfs:label>service_database</rdfs:label>
+    <rdfs:comment>The name of the database where technical tables (`__tm_keeper`, `__tm_gtid_keeper`) will be created. Default is the value of the attribute `database`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_skip_constraint_checks">
+    <rdfs:label>skip_constraint_checks</rdfs:label>
+    <rdfs:comment>When `true`, disables foreign key checks. See [foreign_key_checks](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_foreign_key_checks). `False` by default.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_sql_mode">
+    <rdfs:label>sql_mode</rdfs:label>
+    <rdfs:comment>[sql_mode](https://dev.mysql.com/doc/refman/5.7/en/sql-mode.html) to use when interacting with the server. Defaults to `NO_AUTO_VALUE_ON_ZERO,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_timezone">
+    <rdfs:label>timezone</rdfs:label>
+    <rdfs:comment>Timezone to use for parsing timestamps for saving source timezones. Accepts values from IANA timezone database. Default: `local timezone`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_user">
+    <rdfs:label>user</rdfs:label>
+    <rdfs:comment>User for the database access.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_mdb_cluster_id">
+    <rdfs:label>mdb_cluster_id</rdfs:label>
+    <rdfs:comment>Identifier of the Managed MySQL cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_hosts">
+    <rdfs:label>hosts</rdfs:label>
+    <rdfs:comment>List of host names of the MySQL server. Exactly one host is expected currently.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:comment>Port for the database connection.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_ca_certificate">
+    <rdfs:label>ca_certificate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_raw">
+    <rdfs:label>raw</rdfs:label>
+    <rdfs:comment>Password for the database access.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_database">
+    <rdfs:label>database</rdfs:label>
+    <rdfs:comment>Name of the database to transfer.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_exclude_tables">
+    <rdfs:label>exclude_tables</rdfs:label>
+    <rdfs:comment>List of tables which will not be transfered, formatted as `schemaname.tablename`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_include_tables">
+    <rdfs:label>include_tables</rdfs:label>
+    <rdfs:comment>List of tables to transfer, formatted as `schemaname.tablename`. If omitted or an empty list is specified, all tables will be transferred.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:comment>List of security groups that the transfer associated with this endpoint should use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_service_schema">
+    <rdfs:label>service_schema</rdfs:label>
+    <rdfs:comment>Name of the database schema in which auxiliary tables needed for the transfer will be created. Empty `service_schema` implies schema `public`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_slot_gigabyte_lag_limit">
+    <rdfs:label>slot_gigabyte_lag_limit</rdfs:label>
+    <rdfs:comment>Maximum WAL size held by the replication slot, in gigabytes. Exceeding this limit will result in a replication failure and deletion of the replication slot. `Unlimited` by default.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_user">
+    <rdfs:label>user</rdfs:label>
+    <rdfs:comment>User for the database access.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_mdb_cluster_id">
+    <rdfs:label>mdb_cluster_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_hosts">
+    <rdfs:label>hosts</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_ca_certificate">
+    <rdfs:label>ca_certificate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_cast">
+    <rdfs:label>cast</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_collation">
+    <rdfs:label>collation</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_constraint">
+    <rdfs:label>constraint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_default_values">
+    <rdfs:label>default_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_fk_constraint">
+    <rdfs:label>fk_constraint</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_function">
+    <rdfs:label>function</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_index">
+    <rdfs:label>index</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_materialized_view">
+    <rdfs:label>materialized_view</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_policy">
+    <rdfs:label>policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_primary_key">
+    <rdfs:label>primary_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_rule">
+    <rdfs:label>rule</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_sequence">
+    <rdfs:label>sequence</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_sequence_owned_by">
+    <rdfs:label>sequence_owned_by</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_sequence_set">
+    <rdfs:label>sequence_set</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_table">
+    <rdfs:label>table</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_trigger">
+    <rdfs:label>trigger</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_view">
+    <rdfs:label>view</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_raw">
+    <rdfs:label>raw</rdfs:label>
+    <rdfs:comment>Password for the database access.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_cleanup_policy">
+    <rdfs:label>cleanup_policy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_database">
+    <rdfs:label>database</rdfs:label>
+    <rdfs:comment>Name of the database to transfer.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:comment>List of security groups that the transfer associated with this endpoint should use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_user">
+    <rdfs:label>user</rdfs:label>
+    <rdfs:comment>User for the database access.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_mdb_cluster_id">
+    <rdfs:label>mdb_cluster_id</rdfs:label>
+    <rdfs:comment>Identifier of the Managed PostgreSQL cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_hosts">
+    <rdfs:label>hosts</rdfs:label>
+    <rdfs:comment>List of host names of the PostgreSQL server. Exactly one host is expected currently.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:comment>Port for the database connection.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_ca_certificate">
+    <rdfs:label>ca_certificate</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_raw">
+    <rdfs:label>raw</rdfs:label>
+    <rdfs:comment>Password for the database access.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_changefeed_custom_name">
+    <rdfs:label>changefeed_custom_name</rdfs:label>
+    <rdfs:comment>Custom name for changefeed.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_database">
+    <rdfs:label>database</rdfs:label>
+    <rdfs:comment>Database path in YDB where tables are stored. Example: `/ru/transfer_manager/prod/data-transfer-yt`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_instance">
+    <rdfs:label>instance</rdfs:label>
+    <rdfs:comment>Instance of YDB. Example: `my-cute-ydb.yandex.cloud:2135`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_paths">
+    <rdfs:label>paths</rdfs:label>
+    <rdfs:comment>A list of paths which should be uploaded. When not specified, all available tables are uploaded.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_sa_key_content">
+    <rdfs:label>sa_key_content</rdfs:label>
+    <rdfs:comment>Authentication key.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:comment>List of security groups that the transfer associated with this endpoint should use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service account ID for interaction with database.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_cleanup_policy">
+    <rdfs:label>cleanup_policy</rdfs:label>
+    <rdfs:comment>How to clean collections when activating the transfer. One of `YDB_CLEANUP_POLICY_DISABLED` or `YDB_CLEANUP_POLICY_DROP`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_database">
+    <rdfs:label>database</rdfs:label>
+    <rdfs:comment>Database path in YDB where tables are stored. Example: `/ru/transfer_manager/prod/data-transfer-yt`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_default_compression">
+    <rdfs:label>default_compression</rdfs:label>
+    <rdfs:comment>Compression that will be used for default columns family on YDB table creation One of `YDB_DEFAULT_COMPRESSION_UNSPECIFIED`, `YDB_DEFAULT_COMPRESSION_DISABLED`, `YDB_DEFAULT_COMPRESSION_LZ4`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_instance">
+    <rdfs:label>instance</rdfs:label>
+    <rdfs:comment>Instance of YDB. Example: `my-cute-ydb.yandex.cloud:2135`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_is_table_column_oriented">
+    <rdfs:label>is_table_column_oriented</rdfs:label>
+    <rdfs:comment>Whether a column-oriented (i.e. OLAP) tables should be created. Default is `false` (create row-oriented OLTP tables).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:comment>A path where resulting tables are stored.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_sa_key_content">
+    <rdfs:label>sa_key_content</rdfs:label>
+    <rdfs:comment>Authentication key.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:comment>List of security groups that the transfer associated with this endpoint should use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service account ID for interaction with database.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_allow_ttl_rewind">
+    <rdfs:label>allow_ttl_rewind</rdfs:label>
+    <rdfs:comment>Should continue working, if consumer read lag exceed TTL of topic.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_consumer">
+    <rdfs:label>consumer</rdfs:label>
+    <rdfs:comment>Consumer.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_database">
+    <rdfs:label>database</rdfs:label>
+    <rdfs:comment>Database name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_endpoint">
+    <rdfs:label>endpoint</rdfs:label>
+    <rdfs:comment>YDS Endpoint.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:comment>List of security groups that the transfer associated with this endpoint should use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service account ID for interaction with database.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_stream">
+    <rdfs:label>stream</rdfs:label>
+    <rdfs:comment>Stream.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_supported_codecs">
+    <rdfs:label>supported_codecs</rdfs:label>
+    <rdfs:comment>List of supported compression codec.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_add_rest_column">
+    <rdfs:label>add_rest_column</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_null_keys_allowed">
+    <rdfs:label>null_keys_allowed</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_unescape_string_values">
+    <rdfs:label>unescape_string_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_json_fields">
+    <rdfs:label>json_fields</rdfs:label>
+    <rdfs:comment>Description of the data schema as JSON specification.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:comment>Mark field as Primary Key.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Field name.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:comment>Path to the field.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_required">
+    <rdfs:label>required</rdfs:label>
+    <rdfs:comment>Mark field as required.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Field type, one of: `INT64`, `INT32`, `INT16`, `INT8`, `UINT64`, `UINT32`, `UINT16`, `UINT8`, `DOUBLE`, `BOOLEAN`, `STRING`, `UTF8`, `ANY`, `DATETIME`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_add_rest_column">
+    <rdfs:label>add_rest_column</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_null_keys_allowed">
+    <rdfs:label>null_keys_allowed</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_unescape_string_values">
+    <rdfs:label>unescape_string_values</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_json_fields">
+    <rdfs:label>json_fields</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_required">
+    <rdfs:label>required</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_database">
+    <rdfs:label>database</rdfs:label>
+    <rdfs:comment>Database.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_endpoint">
+    <rdfs:label>endpoint</rdfs:label>
+    <rdfs:comment>YDS Endpoint.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_save_tx_order">
+    <rdfs:label>save_tx_order</rdfs:label>
+    <rdfs:comment>Save transaction order.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_security_groups">
+    <rdfs:label>security_groups</rdfs:label>
+    <rdfs:comment>List of security groups that the transfer associated with this endpoint should use.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_service_account_id">
+    <rdfs:label>service_account_id</rdfs:label>
+    <rdfs:comment>Service account ID for interaction with database.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_stream">
+    <rdfs:label>stream</rdfs:label>
+    <rdfs:comment>Stream.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_subnet_id">
+    <rdfs:label>subnet_id</rdfs:label>
+    <rdfs:comment>Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/yandex_datatransfer_endpoint_value">
+    <rdfs:label>value</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/yandex_datatransfer_endpoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/google_folder_organization_policy">
+    <rdfs:label>google_folder_organization_policy</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_constraint">
+    <rdfs:label>constraint</rdfs:label>
+    <rdfs:comment>The name of the Constraint the Policy is configuring, for example, serviceuser.services.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_etag">
+    <rdfs:label>etag</rdfs:label>
+    <rdfs:comment>The etag of the organization policy. etag is used for optimistic concurrency control as a way to help prevent simultaneous updates of a policy from overwriting each other.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_folder">
+    <rdfs:label>folder</rdfs:label>
+    <rdfs:comment>The resource name of the folder to set the policy for. Its format is folders/{folder_id}.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_update_time">
+    <rdfs:label>update_time</rdfs:label>
+    <rdfs:comment>The timestamp in RFC3339 UTC "Zulu" format, accurate to nanoseconds, representing when the variable was last updated. Example: "2016-10-09T12:33:37.578138407Z".</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_version">
+    <rdfs:label>version</rdfs:label>
+    <rdfs:comment>Version of the Policy. Default version is 0.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_enforced">
+    <rdfs:label>enforced</rdfs:label>
+    <rdfs:comment>If true, then the Policy is enforced. If false, then any configuration is acceptable.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_inherit_from_parent">
+    <rdfs:label>inherit_from_parent</rdfs:label>
+    <rdfs:comment>If set to true, the values from the effective Policy of the parent resource are inherited, meaning the values set in this Policy are added to the values inherited up the hierarchy.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_suggested_value">
+    <rdfs:label>suggested_value</rdfs:label>
+    <rdfs:comment>The Google Cloud Console will try to default to a configuration that matches the value specified in this field.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_all">
+    <rdfs:label>all</rdfs:label>
+    <rdfs:comment>The policy allows or denies all values.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_values">
+    <rdfs:label>values</rdfs:label>
+    <rdfs:comment>The policy can define specific values that are allowed or denied.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_all">
+    <rdfs:label>all</rdfs:label>
+    <rdfs:comment>The policy allows or denies all values.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_values">
+    <rdfs:label>values</rdfs:label>
+    <rdfs:comment>The policy can define specific values that are allowed or denied.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_default">
+    <rdfs:label>default</rdfs:label>
+    <rdfs:comment>May only be set to true. If set, then the default Policy is restored.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_folder_organization_policy_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_folder_organization_policy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

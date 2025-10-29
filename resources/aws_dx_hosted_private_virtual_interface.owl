@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface">
+    <rdfs:label>aws_dx_hosted_private_virtual_interface</rdfs:label>
+    <rdfs:comment>Provides a Direct Connect hosted private virtual interface resource. This resource represents the allocator's side of the hosted virtual interface.
+A hosted virtual interface is a virtual interface that is owned by another AWS account.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_address_family">
+    <rdfs:label>address_family</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_amazon_address">
+    <rdfs:label>amazon_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_amazon_side_asn">
+    <rdfs:label>amazon_side_asn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_aws_device">
+    <rdfs:label>aws_device</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_bgp_asn">
+    <rdfs:label>bgp_asn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_bgp_auth_key">
+    <rdfs:label>bgp_auth_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_connection_id">
+    <rdfs:label>connection_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_customer_address">
+    <rdfs:label>customer_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_jumbo_frame_capable">
+    <rdfs:label>jumbo_frame_capable</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_mtu">
+    <rdfs:label>mtu</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_owner_account_id">
+    <rdfs:label>owner_account_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_vlan">
+    <rdfs:label>vlan</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_dx_hosted_private_virtual_interface_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_dx_hosted_private_virtual_interface"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

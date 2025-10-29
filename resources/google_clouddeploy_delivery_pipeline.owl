@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/google_clouddeploy_delivery_pipeline">
+    <rdfs:label>google_clouddeploy_delivery_pipeline</rdfs:label>
+    <rdfs:comment>#
+#     ***     AUTO GENERATED CODE    ***    Type: DCL     ***
+#
+# ----------------------------------------------------------------------------
+#
+#     This file is managed by Magic Modules (https:#github.com/GoogleCloudPlatform/magic-modules)
+#     and is based on the DCL (https:#github.com/GoogleCloudPlatform/declarative-resource-client-library).
+#     Changes will need to be made to the DCL or Magic Modules instead of here.
+#
+#     We are not currently able to accept contributions to this file. If changes
+#     are required, please file an issue at https:#github.com/hashicorp/terraform-provider-google/issues/new/choose
+#
+# ----------------------------------------------------------------------------
+subcategory: "Cloud Deploy"
+description: |-
+  The Cloud Deploy `DeliveryPipeline` resource
+---</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_annotations">
+    <rdfs:label>annotations</rdfs:label>
+    <rdfs:comment>User annotations. These attributes can only be set and used by the user, and not by Google Cloud Deploy. See https://google.aip.dev/128#annotations for more details such as format and size limitations.
+
+**Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
+Please refer to the field `effective_annotations` for all of the annotations present on the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_condition">
+    <rdfs:label>condition</rdfs:label>
+    <rdfs:comment>Output only. Information around the state of the Delivery Pipeline.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_create_time">
+    <rdfs:label>create_time</rdfs:label>
+    <rdfs:comment>Output only. Time at which the pipeline was created.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_description">
+    <rdfs:label>description</rdfs:label>
+    <rdfs:comment>Description of the `DeliveryPipeline`. Max length is 255 characters.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_effective_annotations">
+    <rdfs:label>effective_annotations</rdfs:label>
+    <rdfs:comment>All of annotations (key/value pairs) present on the resource in GCP, including the annotations configured through Terraform, other clients and services.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_effective_labels">
+    <rdfs:label>effective_labels</rdfs:label>
+    <rdfs:comment>All of labels (key/value pairs) present on the resource in GCP, including the labels configured through Terraform, other clients and services.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_etag">
+    <rdfs:label>etag</rdfs:label>
+    <rdfs:comment>This checksum is computed by the server based on the value of other fields, and may be sent on update and delete requests to ensure the client has an up-to-date value before proceeding.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_labels">
+    <rdfs:label>labels</rdfs:label>
+    <rdfs:comment>Labels are attributes that can be set and used by both the user and by Google Cloud Deploy. Labels must meet the following constraints: * Keys and values can contain only lowercase letters, numeric characters, underscores, and dashes. * All characters must use UTF-8 encoding, and international characters are allowed. * Keys must start with a lowercase letter or international character. * Each resource is limited to a maximum of 64 labels. Both keys and values are additionally constrained to be <= 128 bytes.
+
+**Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
+Please refer to the field `effective_labels` for all of the labels present on the resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:comment>The location for the resource</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>Name of the `DeliveryPipeline`. Format is `[a-z]([a-z0-9-]{0,61}[a-z0-9])?`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_project">
+    <rdfs:label>project</rdfs:label>
+    <rdfs:comment>The project for the resource</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_suspended">
+    <rdfs:label>suspended</rdfs:label>
+    <rdfs:comment>When suspended, no new releases or rollouts can be created, but in-progress ones will complete.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_terraform_labels">
+    <rdfs:label>terraform_labels</rdfs:label>
+    <rdfs:comment>The combination of labels configured directly on the resource and default labels configured on the provider.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_uid">
+    <rdfs:label>uid</rdfs:label>
+    <rdfs:comment>Output only. Unique identifier of the `DeliveryPipeline`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_update_time">
+    <rdfs:label>update_time</rdfs:label>
+    <rdfs:comment>Output only. Most recent time at which the pipeline was updated.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_profiles">
+    <rdfs:label>profiles</rdfs:label>
+    <rdfs:comment>Skaffold profiles to use when rendering the manifest for this stage's `Target`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_target_id">
+    <rdfs:label>target_id</rdfs:label>
+    <rdfs:comment>The target_id to which this stage points. This field refers exclusively to the last segment of a target name. For example, this field would just be `my-target` (rather than `projects/project/locations/location/targets/my-target`). The location of the `Target` is inferred to be the same as the location of the `DeliveryPipeline` that contains this `Stage`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_match_target_labels">
+    <rdfs:label>match_target_labels</rdfs:label>
+    <rdfs:comment>Optional. Deploy parameters are applied to targets with match labels. If unspecified, deploy parameters are applied to all targets (including child targets of a multi-target).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_values">
+    <rdfs:label>values</rdfs:label>
+    <rdfs:comment>Required. Values are deploy parameters in key-value pairs.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_percentages">
+    <rdfs:label>percentages</rdfs:label>
+    <rdfs:comment>Required. The percentage based deployments that will occur as a part of a `Rollout`. List is expected in ascending order and each integer n is 0 <= n < 100.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_verify">
+    <rdfs:label>verify</rdfs:label>
+    <rdfs:comment>Whether to run verify tests after each percentage deployment.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_actions">
+    <rdfs:label>actions</rdfs:label>
+    <rdfs:comment>Optional. A sequence of skaffold custom actions to invoke during execution of the postdeploy job.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_actions">
+    <rdfs:label>actions</rdfs:label>
+    <rdfs:comment>Optional. A sequence of skaffold custom actions to invoke during execution of the predeploy job.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_percentage">
+    <rdfs:label>percentage</rdfs:label>
+    <rdfs:comment>Required. Percentage deployment for the phase.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_phase_id">
+    <rdfs:label>phase_id</rdfs:label>
+    <rdfs:comment>Required. The ID to assign to the `Rollout` phase. This value must consist of lower-case letters, numbers, and hyphens, start with a letter and end with a letter or a number, and have a max length of 63 characters. In other words, it must match the following regex: `^[a-z]([a-z0-9-]{0,61}[a-z0-9])?$`.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_profiles">
+    <rdfs:label>profiles</rdfs:label>
+    <rdfs:comment>Skaffold profiles to use when rendering the manifest for this phase. These are in addition to the profiles list specified in the `DeliveryPipeline` stage.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_verify">
+    <rdfs:label>verify</rdfs:label>
+    <rdfs:comment>Whether to run verify tests after the deployment.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_actions">
+    <rdfs:label>actions</rdfs:label>
+    <rdfs:comment>Optional. A sequence of skaffold custom actions to invoke during execution of the postdeploy job.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_actions">
+    <rdfs:label>actions</rdfs:label>
+    <rdfs:comment>Optional. A sequence of skaffold custom actions to invoke during execution of the predeploy job.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_automatic_traffic_control">
+    <rdfs:label>automatic_traffic_control</rdfs:label>
+    <rdfs:comment>Whether Cloud Deploy should update the traffic stanza in a Cloud Run Service on the user's behalf to facilitate traffic splitting. This is required to be true for CanaryDeployments, but optional for CustomCanaryDeployments.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_canary_revision_tags">
+    <rdfs:label>canary_revision_tags</rdfs:label>
+    <rdfs:comment>Optional. A list of tags that are added to the canary revision while the canary phase is in progress.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_prior_revision_tags">
+    <rdfs:label>prior_revision_tags</rdfs:label>
+    <rdfs:comment>Optional. A list of tags that are added to the prior revision while the canary phase is in progress.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_stable_revision_tags">
+    <rdfs:label>stable_revision_tags</rdfs:label>
+    <rdfs:comment>Optional. A list of tags that are added to the final stable revision when the stable phase is applied.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_deployment">
+    <rdfs:label>deployment</rdfs:label>
+    <rdfs:comment>Required. Name of the Kubernetes Deployment whose traffic is managed by the specified HTTPRoute and Service.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_http_route">
+    <rdfs:label>http_route</rdfs:label>
+    <rdfs:comment>Required. Name of the Gateway API HTTPRoute.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_pod_selector_label">
+    <rdfs:label>pod_selector_label</rdfs:label>
+    <rdfs:comment>Optional. The label to use when selecting Pods for the Deployment and Service resources. This label must already be present in both resources.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_route_update_wait_time">
+    <rdfs:label>route_update_wait_time</rdfs:label>
+    <rdfs:comment>Optional. The time to wait for route updates to propagate. The maximum configurable time is 3 hours, in seconds format. If unspecified, there is no wait time.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_service">
+    <rdfs:label>service</rdfs:label>
+    <rdfs:comment>Required. Name of the Kubernetes Service.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_stable_cutback_duration">
+    <rdfs:label>stable_cutback_duration</rdfs:label>
+    <rdfs:comment>Optional. The amount of time to migrate traffic back from the canary Service to the original Service during the stable phase deployment. If specified, must be between 15s and 3600s. If unspecified, there is no cutback time.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_destination_ids">
+    <rdfs:label>destination_ids</rdfs:label>
+    <rdfs:comment>Required. The clusters where the Gateway API HTTPRoute resource will be deployed to. Valid entries include the associated entities IDs configured in the Target resource and "@self" to include the Target cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_propagate_service">
+    <rdfs:label>propagate_service</rdfs:label>
+    <rdfs:comment>Optional. Whether to propagate the Kubernetes Service to the route destination clusters. The Service will always be deployed to the Target cluster even if the HTTPRoute is not. This option may be used to facilitiate successful DNS lookup in the route destination clusters. Can only be set to true if destinations are specified.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_deployment">
+    <rdfs:label>deployment</rdfs:label>
+    <rdfs:comment>Required. Name of the Kubernetes Deployment whose traffic is managed by the specified Service.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_disable_pod_overprovisioning">
+    <rdfs:label>disable_pod_overprovisioning</rdfs:label>
+    <rdfs:comment>Optional. Whether to disable Pod overprovisioning. If Pod overprovisioning is disabled then Cloud Deploy will limit the number of total Pods used for the deployment strategy to the number of Pods the Deployment has on the cluster.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_pod_selector_label">
+    <rdfs:label>pod_selector_label</rdfs:label>
+    <rdfs:comment>Optional. The label to use when selecting Pods for the Deployment resource. This label must already be present in the Deployment.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_service">
+    <rdfs:label>service</rdfs:label>
+    <rdfs:comment>Required. Name of the Kubernetes Service.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_verify">
+    <rdfs:label>verify</rdfs:label>
+    <rdfs:comment>Whether to verify a deployment.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_actions">
+    <rdfs:label>actions</rdfs:label>
+    <rdfs:comment>Optional. A sequence of skaffold custom actions to invoke during execution of the postdeploy job.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_actions">
+    <rdfs:label>actions</rdfs:label>
+    <rdfs:comment>Optional. A sequence of skaffold custom actions to invoke during execution of the predeploy job.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/google_clouddeploy_delivery_pipeline_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/google_clouddeploy_delivery_pipeline"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

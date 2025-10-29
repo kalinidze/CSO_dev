@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_s3_object_copy">
+    <rdfs:label>aws_s3_object_copy</rdfs:label>
+    <rdfs:comment>Provides a resource for copying an S3 object.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_acl">
+    <rdfs:label>acl</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_bucket">
+    <rdfs:label>bucket</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_bucket_key_enabled">
+    <rdfs:label>bucket_key_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_cache_control">
+    <rdfs:label>cache_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_checksum_algorithm">
+    <rdfs:label>checksum_algorithm</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_checksum_crc32">
+    <rdfs:label>checksum_crc32</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_checksum_crc32c">
+    <rdfs:label>checksum_crc32c</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_checksum_crc64nvme">
+    <rdfs:label>checksum_crc64nvme</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_checksum_sha1">
+    <rdfs:label>checksum_sha1</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_checksum_sha256">
+    <rdfs:label>checksum_sha256</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_content_disposition">
+    <rdfs:label>content_disposition</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_content_encoding">
+    <rdfs:label>content_encoding</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_content_language">
+    <rdfs:label>content_language</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_content_type">
+    <rdfs:label>content_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_copy_if_match">
+    <rdfs:label>copy_if_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_copy_if_modified_since">
+    <rdfs:label>copy_if_modified_since</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_copy_if_none_match">
+    <rdfs:label>copy_if_none_match</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_copy_if_unmodified_since">
+    <rdfs:label>copy_if_unmodified_since</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_customer_algorithm">
+    <rdfs:label>customer_algorithm</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_customer_key">
+    <rdfs:label>customer_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_customer_key_md5">
+    <rdfs:label>customer_key_md5</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_etag">
+    <rdfs:label>etag</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_expected_bucket_owner">
+    <rdfs:label>expected_bucket_owner</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_expected_source_bucket_owner">
+    <rdfs:label>expected_source_bucket_owner</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_expiration">
+    <rdfs:label>expiration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_expires">
+    <rdfs:label>expires</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_force_destroy">
+    <rdfs:label>force_destroy</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_key">
+    <rdfs:label>key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_kms_encryption_context">
+    <rdfs:label>kms_encryption_context</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_kms_key_id">
+    <rdfs:label>kms_key_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_last_modified">
+    <rdfs:label>last_modified</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_metadata">
+    <rdfs:label>metadata</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_metadata_directive">
+    <rdfs:label>metadata_directive</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_object_lock_legal_hold_status">
+    <rdfs:label>object_lock_legal_hold_status</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_object_lock_mode">
+    <rdfs:label>object_lock_mode</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_object_lock_retain_until_date">
+    <rdfs:label>object_lock_retain_until_date</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_request_charged">
+    <rdfs:label>request_charged</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_request_payer">
+    <rdfs:label>request_payer</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_server_side_encryption">
+    <rdfs:label>server_side_encryption</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_source">
+    <rdfs:label>source</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_source_customer_algorithm">
+    <rdfs:label>source_customer_algorithm</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_source_customer_key">
+    <rdfs:label>source_customer_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_source_customer_key_md5">
+    <rdfs:label>source_customer_key_md5</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_source_version_id">
+    <rdfs:label>source_version_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_storage_class">
+    <rdfs:label>storage_class</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_tagging_directive">
+    <rdfs:label>tagging_directive</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_version_id">
+    <rdfs:label>version_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_website_redirect">
+    <rdfs:label>website_redirect</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_email">
+    <rdfs:label>email</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_permissions">
+    <rdfs:label>permissions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_uri">
+    <rdfs:label>uri</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_s3_object_copy_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_s3_object_copy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

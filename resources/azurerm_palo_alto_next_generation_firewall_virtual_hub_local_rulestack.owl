@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack">
+    <rdfs:label>azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_marketplace_offer_id">
+    <rdfs:label>marketplace_offer_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_plan_id">
+    <rdfs:label>plan_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_resource_group_name">
+    <rdfs:label>resource_group_name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_rulestack_id">
+    <rdfs:label>rulestack_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_protocol">
+    <rdfs:label>protocol</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_public_ip_address">
+    <rdfs:label>public_ip_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_port">
+    <rdfs:label>port</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_public_ip_address_id">
+    <rdfs:label>public_ip_address_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_azure_dns_servers">
+    <rdfs:label>azure_dns_servers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_dns_servers">
+    <rdfs:label>dns_servers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_use_azure_dns">
+    <rdfs:label>use_azure_dns</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_egress_nat_ip_address_ids">
+    <rdfs:label>egress_nat_ip_address_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_egress_nat_ip_addresses">
+    <rdfs:label>egress_nat_ip_addresses</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_ip_of_trust_for_user_defined_routes">
+    <rdfs:label>ip_of_trust_for_user_defined_routes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_network_virtual_appliance_id">
+    <rdfs:label>network_virtual_appliance_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_public_ip_address_ids">
+    <rdfs:label>public_ip_address_ids</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_public_ip_addresses">
+    <rdfs:label>public_ip_addresses</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_trusted_address_ranges">
+    <rdfs:label>trusted_address_ranges</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_trusted_subnet_id">
+    <rdfs:label>trusted_subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_untrusted_subnet_id">
+    <rdfs:label>untrusted_subnet_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_virtual_hub_id">
+    <rdfs:label>virtual_hub_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_read">
+    <rdfs:label>read</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

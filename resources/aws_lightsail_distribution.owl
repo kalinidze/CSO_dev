@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_lightsail_distribution">
+    <rdfs:label>aws_lightsail_distribution</rdfs:label>
+    <rdfs:comment>Manages a Lightsail content delivery network (CDN) distribution. Use this resource to cache content at edge locations and reduce latency for users accessing your content.</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_alternative_domain_names">
+    <rdfs:label>alternative_domain_names</rdfs:label>
+    <rdfs:comment>The alternate domain names of the distribution.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:comment>The Amazon Resource Name (ARN) of the distribution.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_bundle_id">
+    <rdfs:label>bundle_id</rdfs:label>
+    <rdfs:comment>The bundle ID to use for the distribution.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_certificate_name">
+    <rdfs:label>certificate_name</rdfs:label>
+    <rdfs:comment>The name of the SSL/TLS certificate attached to the distribution, if any.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_created_at">
+    <rdfs:label>created_at</rdfs:label>
+    <rdfs:comment>The timestamp when the distribution was created.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_domain_name">
+    <rdfs:label>domain_name</rdfs:label>
+    <rdfs:comment>The domain name of the distribution.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_ip_address_type">
+    <rdfs:label>ip_address_type</rdfs:label>
+    <rdfs:comment>The IP address type of the distribution.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_is_enabled">
+    <rdfs:label>is_enabled</rdfs:label>
+    <rdfs:comment>Indicates whether the distribution is enabled.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_location">
+    <rdfs:label>location</rdfs:label>
+    <rdfs:comment>An object that describes the location of the distribution, such as the AWS Region and Availability Zone.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The name of the distribution.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_origin_public_dns">
+    <rdfs:label>origin_public_dns</rdfs:label>
+    <rdfs:comment>The public DNS of the origin.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_resource_type">
+    <rdfs:label>resource_type</rdfs:label>
+    <rdfs:comment>The Lightsail resource type (e.g., Distribution).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_status">
+    <rdfs:label>status</rdfs:label>
+    <rdfs:comment>The status of the distribution.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_support_code">
+    <rdfs:label>support_code</rdfs:label>
+    <rdfs:comment>The support code. Include this code in your email to support when you have questions about your Lightsail distribution. This code enables our support team to look up your Lightsail information more easily.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_behavior">
+    <rdfs:label>behavior</rdfs:label>
+    <rdfs:comment>The cache behavior for the specified path.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_path">
+    <rdfs:label>path</rdfs:label>
+    <rdfs:comment>The path to a directory or file to cached, or not cache. Use an asterisk symbol to specify wildcard directories (path/to/assets/*), and file types (*.html, *jpg, *js). Directories and file paths are case-sensitive.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_allowed_http_methods">
+    <rdfs:label>allowed_http_methods</rdfs:label>
+    <rdfs:comment>The HTTP methods that are processed and forwarded to the distribution's origin.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_cached_http_methods">
+    <rdfs:label>cached_http_methods</rdfs:label>
+    <rdfs:comment>The HTTP method responses that are cached by your distribution.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_default_ttl">
+    <rdfs:label>default_ttl</rdfs:label>
+    <rdfs:comment>The default amount of time that objects stay in the distribution's cache before the distribution forwards another request to the origin to determine whether the content has been updated.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_maximum_ttl">
+    <rdfs:label>maximum_ttl</rdfs:label>
+    <rdfs:comment>The maximum amount of time that objects stay in the distribution's cache before the distribution forwards another request to the origin to determine whether the object has been updated.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_minimum_ttl">
+    <rdfs:label>minimum_ttl</rdfs:label>
+    <rdfs:comment>The minimum amount of time that objects stay in the distribution's cache before the distribution forwards another request to the origin to determine whether the object has been updated.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_cookies_allow_list">
+    <rdfs:label>cookies_allow_list</rdfs:label>
+    <rdfs:comment>The specific cookies to forward to your distribution's origin.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_option">
+    <rdfs:label>option</rdfs:label>
+    <rdfs:comment>Specifies which cookies to forward to the distribution's origin for a cache behavior: all, none, or allow-list to forward only the cookies specified in the cookiesAllowList parameter.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_headers_allow_list">
+    <rdfs:label>headers_allow_list</rdfs:label>
+    <rdfs:comment>The specific headers to forward to your distribution's origin.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_option">
+    <rdfs:label>option</rdfs:label>
+    <rdfs:comment>The headers that you want your distribution to forward to your origin and base caching on.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_option">
+    <rdfs:label>option</rdfs:label>
+    <rdfs:comment>Indicates whether the distribution forwards and caches based on query strings.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_query_strings_allowed_list">
+    <rdfs:label>query_strings_allowed_list</rdfs:label>
+    <rdfs:comment>The specific query strings that the distribution forwards to the origin.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_behavior">
+    <rdfs:label>behavior</rdfs:label>
+    <rdfs:comment>The cache behavior of the distribution.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_name">
+    <rdfs:label>name</rdfs:label>
+    <rdfs:comment>The name of the origin resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_protocol_policy">
+    <rdfs:label>protocol_policy</rdfs:label>
+    <rdfs:comment>The protocol that your Amazon Lightsail distribution uses when establishing a connection with your origin to pull content.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_region_name">
+    <rdfs:label>region_name</rdfs:label>
+    <rdfs:comment>The AWS Region name of the origin resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_resource_type">
+    <rdfs:label>resource_type</rdfs:label>
+    <rdfs:comment>The resource type of the origin resource (e.g., Instance).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_create">
+    <rdfs:label>create</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_delete">
+    <rdfs:label>delete</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_lightsail_distribution_update">
+    <rdfs:label>update</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_lightsail_distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://example.org/onto/">
+  <owl:Class rdf:about="http://example.org/onto/class/aws_vpn_connection">
+    <rdfs:label>aws_vpn_connection</rdfs:label>
+    <rdfs:comment>Manages a Site-to-Site VPN connection. A Site-to-Site VPN connection is an Internet Protocol security (IPsec) VPN connection between a VPC and an on-premises network.
+Any new Site-to-Site VPN connection that you create is an [AWS VPN connection](https://docs.aws.amazon.com/vpn/latest/s2svpn/vpn-categories.html).</rdfs:comment>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_arn">
+    <rdfs:label>arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_core_network_arn">
+    <rdfs:label>core_network_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_core_network_attachment_arn">
+    <rdfs:label>core_network_attachment_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_customer_gateway_configuration">
+    <rdfs:label>customer_gateway_configuration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_customer_gateway_id">
+    <rdfs:label>customer_gateway_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_enable_acceleration">
+    <rdfs:label>enable_acceleration</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_id">
+    <rdfs:label>id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_local_ipv4_network_cidr">
+    <rdfs:label>local_ipv4_network_cidr</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_local_ipv6_network_cidr">
+    <rdfs:label>local_ipv6_network_cidr</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_outside_ip_address_type">
+    <rdfs:label>outside_ip_address_type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_preshared_key_arn">
+    <rdfs:label>preshared_key_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_preshared_key_storage">
+    <rdfs:label>preshared_key_storage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_region">
+    <rdfs:label>region</rdfs:label>
+    <rdfs:comment>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_remote_ipv4_network_cidr">
+    <rdfs:label>remote_ipv4_network_cidr</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_remote_ipv6_network_cidr">
+    <rdfs:label>remote_ipv6_network_cidr</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_routes">
+    <rdfs:label>routes</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_static_routes_only">
+    <rdfs:label>static_routes_only</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tags">
+    <rdfs:label>tags</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tags_all">
+    <rdfs:label>tags_all</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_transit_gateway_attachment_id">
+    <rdfs:label>transit_gateway_attachment_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_transit_gateway_id">
+    <rdfs:label>transit_gateway_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_transport_transit_gateway_attachment_id">
+    <rdfs:label>transport_transit_gateway_attachment_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_address">
+    <rdfs:label>tunnel1_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_bgp_asn">
+    <rdfs:label>tunnel1_bgp_asn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_bgp_holdtime">
+    <rdfs:label>tunnel1_bgp_holdtime</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_cgw_inside_address">
+    <rdfs:label>tunnel1_cgw_inside_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_dpd_timeout_action">
+    <rdfs:label>tunnel1_dpd_timeout_action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_dpd_timeout_seconds">
+    <rdfs:label>tunnel1_dpd_timeout_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_enable_tunnel_lifecycle_control">
+    <rdfs:label>tunnel1_enable_tunnel_lifecycle_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_ike_versions">
+    <rdfs:label>tunnel1_ike_versions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_inside_cidr">
+    <rdfs:label>tunnel1_inside_cidr</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_inside_ipv6_cidr">
+    <rdfs:label>tunnel1_inside_ipv6_cidr</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_phase1_dh_group_numbers">
+    <rdfs:label>tunnel1_phase1_dh_group_numbers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_phase1_encryption_algorithms">
+    <rdfs:label>tunnel1_phase1_encryption_algorithms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_phase1_integrity_algorithms">
+    <rdfs:label>tunnel1_phase1_integrity_algorithms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_phase1_lifetime_seconds">
+    <rdfs:label>tunnel1_phase1_lifetime_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_phase2_dh_group_numbers">
+    <rdfs:label>tunnel1_phase2_dh_group_numbers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_phase2_encryption_algorithms">
+    <rdfs:label>tunnel1_phase2_encryption_algorithms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_phase2_integrity_algorithms">
+    <rdfs:label>tunnel1_phase2_integrity_algorithms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_phase2_lifetime_seconds">
+    <rdfs:label>tunnel1_phase2_lifetime_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_preshared_key">
+    <rdfs:label>tunnel1_preshared_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_rekey_fuzz_percentage">
+    <rdfs:label>tunnel1_rekey_fuzz_percentage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_rekey_margin_time_seconds">
+    <rdfs:label>tunnel1_rekey_margin_time_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_replay_window_size">
+    <rdfs:label>tunnel1_replay_window_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_startup_action">
+    <rdfs:label>tunnel1_startup_action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel1_vgw_inside_address">
+    <rdfs:label>tunnel1_vgw_inside_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_address">
+    <rdfs:label>tunnel2_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_bgp_asn">
+    <rdfs:label>tunnel2_bgp_asn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_bgp_holdtime">
+    <rdfs:label>tunnel2_bgp_holdtime</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_cgw_inside_address">
+    <rdfs:label>tunnel2_cgw_inside_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_dpd_timeout_action">
+    <rdfs:label>tunnel2_dpd_timeout_action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_dpd_timeout_seconds">
+    <rdfs:label>tunnel2_dpd_timeout_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_enable_tunnel_lifecycle_control">
+    <rdfs:label>tunnel2_enable_tunnel_lifecycle_control</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_ike_versions">
+    <rdfs:label>tunnel2_ike_versions</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_inside_cidr">
+    <rdfs:label>tunnel2_inside_cidr</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_inside_ipv6_cidr">
+    <rdfs:label>tunnel2_inside_ipv6_cidr</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_phase1_dh_group_numbers">
+    <rdfs:label>tunnel2_phase1_dh_group_numbers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_phase1_encryption_algorithms">
+    <rdfs:label>tunnel2_phase1_encryption_algorithms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_phase1_integrity_algorithms">
+    <rdfs:label>tunnel2_phase1_integrity_algorithms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_phase1_lifetime_seconds">
+    <rdfs:label>tunnel2_phase1_lifetime_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_phase2_dh_group_numbers">
+    <rdfs:label>tunnel2_phase2_dh_group_numbers</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_phase2_encryption_algorithms">
+    <rdfs:label>tunnel2_phase2_encryption_algorithms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_phase2_integrity_algorithms">
+    <rdfs:label>tunnel2_phase2_integrity_algorithms</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_phase2_lifetime_seconds">
+    <rdfs:label>tunnel2_phase2_lifetime_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_preshared_key">
+    <rdfs:label>tunnel2_preshared_key</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_rekey_fuzz_percentage">
+    <rdfs:label>tunnel2_rekey_fuzz_percentage</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_rekey_margin_time_seconds">
+    <rdfs:label>tunnel2_rekey_margin_time_seconds</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_replay_window_size">
+    <rdfs:label>tunnel2_replay_window_size</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_startup_action">
+    <rdfs:label>tunnel2_startup_action</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel2_vgw_inside_address">
+    <rdfs:label>tunnel2_vgw_inside_address</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_tunnel_inside_ip_version">
+    <rdfs:label>tunnel_inside_ip_version</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_vgw_telemetry">
+    <rdfs:label>vgw_telemetry</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_vpn_gateway_id">
+    <rdfs:label>vpn_gateway_id</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_log_enabled">
+    <rdfs:label>log_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_log_group_arn">
+    <rdfs:label>log_group_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_log_output_format">
+    <rdfs:label>log_output_format</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_log_enabled">
+    <rdfs:label>log_enabled</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_log_group_arn">
+    <rdfs:label>log_group_arn</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/onto/prop/aws_vpn_connection_log_output_format">
+    <rdfs:label>log_output_format</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/onto/class/aws_vpn_connection"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>
