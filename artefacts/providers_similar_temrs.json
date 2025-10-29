@@ -1,0 +1,195 @@
+{
+    "compute_vm": {
+    "aws": "Amazon EC2",
+    "azure": "Azure Virtual Machines",
+    "gcp": "Compute Engine",
+    "yandex": "Compute Cloud"
+    },
+    "object_storage": {
+    "aws": "Amazon S3",
+    "azure": "Azure Blob Storage",
+    "gcp": "Cloud Storage",
+    "yandex": "Object Storage"
+    },
+    "serverless_functions": {
+    "aws": "AWS Lambda",
+    "azure": "Azure Functions",
+    "gcp": "Cloud Functions",
+    "yandex": "Cloud Functions"
+    },
+    "managed_kubernetes": {
+    "aws": "Amazon EKS",
+    "azure": "Azure Kubernetes Service (AKS)",
+    "gcp": "Google Kubernetes Engine (GKE)",
+    "yandex": "Managed Service for Kubernetes"
+    },
+    "container_registry": {
+    "aws": "Amazon ECR",
+    "azure": "Azure Container Registry (ACR)",
+    "gcp": "Artifact Registry",
+    "yandex": "Container Registry"
+    },
+    "serverless_containers": {
+    "aws": "AWS App Runner",
+    "azure": "Azure Container Apps",
+    "gcp": "Cloud Run",
+    "yandex": "Serverless Containers"
+    },
+    "api_gateway": {
+    "aws": "Amazon API Gateway",
+    "azure": "Azure API Management",
+    "gcp": "API Gateway",
+    "yandex": "API Gateway"
+    },
+    "load_balancer_http": {
+    "aws": "Application Load Balancer (ALB)",
+    "azure": "Azure Application Gateway",
+    "gcp": "HTTP(S) Load Balancing",
+    "yandex": "Application Load Balancer"
+    },
+    "vpc_networking": {
+    "aws": "Amazon VPC",
+    "azure": "Virtual Network (VNet)",
+    "gcp": "Virtual Private Cloud (VPC)",
+    "yandex": "Virtual Private Cloud (VPC)"
+    },
+    "nat_gateway": {
+    "aws": "NAT Gateway",
+    "azure": "Azure NAT Gateway",
+    "gcp": "Cloud NAT",
+    "yandex": "NAT Gateway"
+    },
+    "private_connectivity": {
+    "aws": "AWS Direct Connect",
+    "azure": "Azure ExpressRoute",
+    "gcp": "Cloud Interconnect",
+    "yandex": "Cloud Interconnect"
+    },
+    "vpn_gateway": {
+    "aws": "AWS Site-to-Site VPN",
+    "azure": "Azure VPN Gateway",
+    "gcp": "Cloud VPN",
+    "yandex": "VPN Gateway"
+    },
+    "dns": {
+    "aws": "Amazon Route 53",
+    "azure": "Azure DNS",
+    "gcp": "Cloud DNS",
+    "yandex": "DNS"
+    },
+    "cdn": {
+    "aws": "Amazon CloudFront",
+    "azure": "Azure CDN",
+    "gcp": "Cloud CDN",
+    "yandex": "Cloud CDN"
+    },
+    "iam": {
+    "aws": "AWS Identity and Access Management (IAM)",
+    "azure": "Microsoft Entra ID (Azure AD) + Azure RBAC",
+    "gcp": "Cloud IAM",
+    "yandex": "Identity and Access Management (IAM)"
+    },
+    "secrets_manager": {
+    "aws": "AWS Secrets Manager",
+    "azure": "Azure Key Vault (Secrets)",
+    "gcp": "Secret Manager",
+    "yandex": "Lockbox"
+    },
+    "kms": {
+    "aws": "AWS Key Management Service (KMS)",
+    "azure": "Azure Key Vault (Keys)",
+    "gcp": "Cloud Key Management Service (Cloud KMS)",
+    "yandex": "Key Management Service (KMS)"
+    },
+    "monitoring": {
+    "aws": "Amazon CloudWatch (Metrics)",
+    "azure": "Azure Monitor",
+    "gcp": "Cloud Monitoring",
+    "yandex": "Monitoring"
+    },
+    "logging": {
+    "aws": "CloudWatch Logs",
+    "azure": "Azure Monitor Logs (Log Analytics)",
+    "gcp": "Cloud Logging",
+    "yandex": "Logging"
+    },
+    "message_queue": {
+    "aws": "Amazon SQS",
+    "azure": "Azure Service Bus (Queues)",
+    "gcp": "Pub/Sub (pull subscriptions)",
+    "yandex": "Message Queue"
+    },
+    "streaming_pubsub": {
+    "aws": "Amazon Kinesis Data Streams",
+    "azure": "Azure Event Hubs",
+    "gcp": "Pub/Sub",
+    "yandex": "Data Streams"
+    },
+    "data_warehouse_analytics": {
+    "aws": "Amazon Redshift",
+    "azure": "Azure Synapse Analytics (SQL Data Warehouse)",
+    "gcp": "BigQuery",
+    "yandex": "Managed Service for Greenplum"
+    },
+    "managed_postgresql": {
+    "aws": "Amazon RDS for PostgreSQL",
+    "azure": "Azure Database for PostgreSQL",
+    "gcp": "Cloud SQL for PostgreSQL",
+    "yandex": "Managed Service for PostgreSQL"
+    },
+    "managed_mysql": {
+    "aws": "Amazon RDS for MySQL",
+    "azure": "Azure Database for MySQL",
+    "gcp": "Cloud SQL for MySQL",
+    "yandex": "Managed Service for MySQL"
+    },
+    "managed_redis": {
+    "aws": "Amazon ElastiCache for Redis",
+    "azure": "Azure Cache for Redis",
+    "gcp": "Memorystore for Redis",
+    "yandex": "Managed Service for Redis"
+    },
+    "managed_mongodb": {
+    "aws": "Amazon DocumentDB (MongoDB-compatible)",
+    "azure": "Azure Cosmos DB (MongoDB API)",
+    "gcp": "MongoDB Atlas (partner)",
+    "yandex": "Managed Service for MongoDB"
+    },
+    "hadoop_spark": {
+    "aws": "Amazon EMR",
+    "azure": "Azure HDInsight (Hadoop/Spark)",
+    "gcp": "Dataproc",
+    "yandex": "Data Proc"
+    },
+    "database_migration": {
+    "aws": "AWS Database Migration Service (DMS)",
+    "azure": "Azure Database Migration Service",
+    "gcp": "Database Migration Service",
+    "yandex": "Data Transfer"
+    },
+    "file_storage_nfs": {
+    "aws": "Amazon EFS",
+    "azure": "Azure Files (NFS/SMB)",
+    "gcp": "Filestore",
+    "yandex": "Network File System"
+    },
+    "backup": {
+    "aws": "AWS Backup",
+    "azure": "Azure Backup",
+    "gcp": "Backup and DR Service",
+    "yandex": "Cloud Backup"
+    },
+    "ml_platform": {
+    "aws": "Amazon SageMaker",
+    "azure": "Azure Machine Learning",
+    "gcp": "Vertex AI",
+    "yandex": "DataSphere"
+    },
+    "bi_analytics": {
+    "aws": "Amazon QuickSight",
+    "azure": "Power BI",
+    "gcp": "Looker (Looker Studio)",
+    "yandex": "DataLens"
+    }
+    }
+    
