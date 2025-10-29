@@ -1,6 +1,6 @@
 ## Cloud Resource Ontology (early stage)
 
-This repository hosts early-stage work toward a cross-cloud resource ontology derived from semi-automatic analysis of Terraform provider schemas and documentation. The focus of the repo today is the data extraction, normalization, and supporting artefacts that will inform the ontology. The ontology itself is not yet finalized and is intentionally not the emphasis of this README.
+This repository hosts early-stage work toward a cross-cloud resource ontology derived from semi-automatic analysis of Terraform provider schemas and documentation. The focus of the repo today is the data extraction, normalization, and supporting artefacts that will inform the ontology. The ontology itself is competed, but not yet finalized and is intentionally not the emphasis of this README.
 
 ### Project status
 - This project is in active, early development.
